@@ -18,14 +18,22 @@ cruza_respostas = function (bd,pergunta,pergunta2) {
 
   #acha a porcentagem correspondente a cada opção
   final = final*100/length(bd[[pergunta]])
-
   #retira candidatos com 0 de menção
   if ((pergunta == "intencao_espontanea") | (pergunta == "intencao_estimulada")) {
-    for (i in names(final)) {
+    if (pergunta2 == "total") {
+      nomes = rownames(final)
+      row_sub = apply(final, 1, function(row) all(row !=0 ))
+      nomes = nomes[row_sub]
+      final = final[row_sub,]
+      final = as.data.frame(final)
+      rownames(final) = nomes
+      names(final) = pergunta2
+    } else { 
+      for (i in names(final)) {
       final = final[final[[i]] != 0,]
-    }  
+      }  
+    }
   }
-
   return(final)
 }
 
@@ -51,8 +59,9 @@ uma_pergunta = function (bd, pergunta) {
 
 #função que calcula a variável para todos os dados e todos os recortes possíveis
 #ATENÇÃO: nome da variável deve ser a data da pesquisa
-calcula_tudo = function (final) {
-  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","raca","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo")
+calcula_tudo = function (final,data_pesquisa) {
+  final$total = "total"
+  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","raca","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo","total")
   perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos")
   saida = data.frame(data=character(0),cat_dado=character(0),dado=character(0),cat_recorte=character(0),recorte=character(0),variavel=numeric(0))
   for (r in recortes) {
@@ -61,8 +70,8 @@ calcula_tudo = function (final) {
         if (p %in% names(final)) {
           if (p != r) {
             if (p != "rejeicao") {
-              temp = round(normaliza(cruza_respostas(final,p,r)),1)
-              saida = rbind(saida,norm2(temp,p,r))  
+              temp = round(normaliza(cruza_respostas(final,p,r)),0)
+              saida = rbind(saida,norm2(temp,p,r))
             } else {
               if (final$rejeicao[1] == TRUE) {
                 temp = calcula_rejeicao(final,r)
@@ -74,7 +83,7 @@ calcula_tudo = function (final) {
       } 
     }
   }
-  saida$data = deparse(substitute(final))
+  saida$data = data_pesquisa
   return(saida)
 }
 
@@ -247,21 +256,24 @@ cria_rejeicao = function(arquivo) {
 
 #funcao para calcular a rejeicao para colocar no dataframe derretido final
 calcula_rejeicao = function (arquivo,recorte) {
-  temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoDilma",recorte)),1)
+  #calcula a rejeicao para cada um dos 4 candidatos
+  temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoDilma",recorte)),0)
   rownames(temp)[2] = "Dilma Rousseff"
-  temp = temp[-1,]
   saida = temp
-  temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoAecio",recorte)),1)
+  temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoAecio",recorte)),0)
   rownames(temp)[2] = "Aécio Neves"
-  temp = temp[-1,]
   saida = rbind(saida,temp)
-    temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoPastor",recorte)),1)
+  temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoPastor",recorte)),0)
   rownames(temp)[2] = "Pastor Everaldo"
-  temp = temp[-1,]
   saida = rbind(saida,temp)
-  temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoCampos",recorte)),1)
+  temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoCampos",recorte)),0)
   rownames(temp)[2] = "Eduardo Campos"
-  temp = temp[-1,]
   saida = rbind(saida,temp)
+  
+  #retira as linhas que não dizem nada
+  deixar = c("Dilma Rousseff","Aécio Neves","Pastor Everaldo","Eduardo Campos")
+  saida$fake = 1
+  saida = saida[rownames(saida) %in% deixar,]
+  saida$fake = NULL
   return(saida)
 }
