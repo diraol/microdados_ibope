@@ -237,6 +237,11 @@ reagrega_perguntas = function(arquivo) {
     arquivo$aprova_dilma <- as.character(arquivo$aprova_dilma)
     arquivo$aprova_dilma[arquivo$aprova_dilma =="Não sabe/ Não respondeu"]='NS/NR*'
   }
+  # Tira / do Norte/Centro-Oeste
+  if ("regiao" %in% names(arquivo)) {
+    arquivo$regiao <- as.character(arquivo$regiao)
+    arquivo$regiao[arquivo$regiao =="NORTE/ CENTRO OESTE"]='NORTE-CENTRO-OESTE*'
+  }
   return(arquivo)
 }
 
@@ -366,4 +371,9 @@ calcula_rejeicao = function (arquivo,recorte) {
   saida = saida[rownames(saida) %in% deixar,]
   saida$fake = NULL
   return(saida)
+}
+
+#cruza respostas e normaliza
+cruza <- function (arquivo,perg1,perg2) {
+  return(round(normaliza(cruza_respostas(arquivo,perg1,perg2)),0))
 }
