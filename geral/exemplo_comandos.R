@@ -27,3 +27,4 @@ resultado_nov = calcula_tudo(nov,"2013-11-11")
 
 ###############
 teste <- as.data.frame(as.data.set(spss.system.file("ibopenov2013.sav")))
+round(normaliza(cruza_respostas(data,"P1","reg")),1)

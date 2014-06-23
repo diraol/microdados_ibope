@@ -72,6 +72,7 @@ calcula_tudo = function (final,data_pesquisa) {
     }
   }
   saida$data = data_pesquisa
+  saida = na.omit(saida)
   return(saida)
 }
 
@@ -240,7 +241,7 @@ reagrega_perguntas = function(arquivo) {
   # Tira / do Norte/Centro-Oeste
   if ("regiao" %in% names(arquivo)) {
     arquivo$regiao <- as.character(arquivo$regiao)
-    arquivo$regiao[arquivo$regiao =="NORTE/ CENTRO OESTE"]='NORTE-CENTRO-OESTE*'
+    arquivo$regiao[arquivo$regiao =="NORTE/ CENTRO OESTE"]='NORTE-CENTRO-OESTE'
   }
   return(arquivo)
 }
@@ -264,6 +265,7 @@ norm2 = function (final,p,r) {
 cria_arquivo = function(arquivo,perg,trad,rejeicao) {
   library("memisc", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
   data <- as.data.frame(as.data.set(spss.system.file(arquivo)))
+  names(data) = tolower(names(data))
   data = reagrega_nomes(data)
   if (rejeicao) {
     data = cria_rejeicao(data)  
