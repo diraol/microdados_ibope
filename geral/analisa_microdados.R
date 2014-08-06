@@ -1,3 +1,5 @@
+options(stringsAsFactors = FALSE) 
+
 cruza_respostas = function (bd,pergunta,pergunta2) {
   #faz o cruzamento das colunas
   cruzamento = as.data.frame(table(bd[[pergunta]],bd[[pergunta2]]))
@@ -49,38 +51,57 @@ uma_pergunta = function (bd, pergunta) {
 #ATENÇÃO: nome da variável deve ser a data da pesquisa
 calcula_tudo = function (final,data_pesquisa) {
   final$total = "total"
-  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo","total")
-  perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos")
+  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo","total","intencao_estimulada","favorito")
+  perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota")
   saida = data.frame(data=character(0),cat_pergunta=character(0),dado=character(0),cat_recorte=character(0),recorte=character(0),valor=numeric(0))
   for (r in recortes) {
     if (r  %in% names(final)) {
       for (p in perguntas) {
         if (p %in% names(final)) {
           if (p != r) {
-            if (p != "rejeicao") {
+            if (!(p %in% c("rejeicao","nota"))) {
               temp = round(normaliza(cruza_respostas(final,p,r)),0)
               saida = rbind(saida,norm2(temp,p,r))
-            } else {
+            } else if (p == "rejeicao") {
               if (final$rejeicao[1] == TRUE) {
                 temp = calcula_rejeicao(final,r)
                 saida = rbind(saida,norm2(temp,"rejeicao",r))  
               }
+            } else if (p == "nota") {
+              p
+              temp = final[complete.cases(final$nota),]
+              eval(parse(text = paste0("temp2 = ddply(temp,~",r,",summarise,nota=mean(nota))")))
+              print(r)
+              print(temp2)
+              temp2 = na.omit(temp2)
+              names(temp2)[1] = r
+              row.names(temp2) = temp2[[r]]
+              temp2[[r]] = NULL
+              temp2 = round(temp2,1)
+              temp2 = as.data.frame(t(temp2))
+              saida = rbind(saida,norm2(temp2,"nota",r))
             }
           }
         }
       } 
     }
   }
+  
   saida$data = data_pesquisa
+  
+  #agora vamos consertar alguns campos que não precisamos ou que têm de ser mostrados de maneira diferente
+  saida[saida$cat_recorte == "intencao_estimulada" & saida$recorte == "Pastor Everaldo",] = NA
+  
   saida = na.omit(saida)
   return(saida)
 }
+
 
 #função que reagrega as variáveis de renda, escolaridade e idade de acordo com o padrão do Ibope
 reagrega_nomes = function(arquivo) {
   # Reagrega a variável escolaridade
   arquivo$escolaridade=factor(NA,levels=c('Fundamental 1','Fundamental 2','Medio','Superior'))
-  escolaridade=sort(unique(arquivo$inst))
+  escolaridade=c("ANALF.","SABE LER/ ESCR. MAS NÃO CURSOU ESCOLA","PRIM. INC.","PRIM. COMP.","GINÁS. INC.","GINÁS. COMP.","COLÉG. INC.","COLÉG. COMP.","SUP. INC.","SUP. COMP.")
   arquivo$escolaridade[arquivo$inst==escolaridade[1]]='Fundamental 1'
   arquivo$escolaridade[arquivo$inst==escolaridade[2]]='Fundamental 1'
   arquivo$escolaridade[arquivo$inst==escolaridade[3]]='Fundamental 1'
@@ -93,7 +114,7 @@ reagrega_nomes = function(arquivo) {
   arquivo$escolaridade[arquivo$inst==escolaridade[10]]='Superior'
   # Reagrega a variável de renda
   arquivo$renda=factor(NA,levels=c('Mais de 5','2 a 5','1 a 2','Ate 1'))
-  renda=sort(unique(arquivo$rend2))
+  renda=c("MAIS DE 20","MAIS DE 10 A 20","MAIS DE 5 A 10","MAIS DE 2 A 5","MAIS DE 1 A 2","ATÉ 1","NÃO TEM RENDIMENTO PESSOAL")
   arquivo$renda[arquivo$rend2==renda[1]]='Mais de 5'
   arquivo$renda[arquivo$rend2==renda[2]]='Mais de 5'
   arquivo$renda[arquivo$rend2==renda[3]]='Mais de 5'
@@ -103,7 +124,7 @@ reagrega_nomes = function(arquivo) {
   arquivo$renda[arquivo$rend2==renda[7]]='Ate 1'
   # Reagrega a variável idade
   arquivo$idad2=factor(NA,levels=c('16 a 24','25 a 34','35 a 44','45 a 54','55 ou mais'))
-  idad2=sort(unique(arquivo$idad))
+  idad2=c('16 E 17',"18 A 24",'25 A 34','35 A 44','45 A 54','55 A 64',"65 E MAIS")
   arquivo$idad2[arquivo$idad==idad2[1]]='16 a 24'
   arquivo$idad2[arquivo$idad==idad2[2]]='16 a 24'
   arquivo$idad2[arquivo$idad==idad2[3]]='25 a 34'
@@ -113,7 +134,7 @@ reagrega_nomes = function(arquivo) {
   arquivo$idad2[arquivo$idad==idad2[7]]='55 ou mais'
   # Reagrega a variável religiao
   arquivo$religiao=factor(NA,levels=c('Catolica','Evangelica','Outras'))
-  religiao=sort(unique(arquivo$reli))
+  religiao=c("Católica Apostólica Romana","Assembléia de Deus","Batista/ Metodista/ Presbiteriana","Universal do Reino de Deus","Deus é Amor","Evangelho Quadrangular","Igreja Internacional da Graça","Renascer em Cristo","Outras Evangélicas específicas","Evangélica - Não sabe especificar","Adventista","Testemunha de Jeová","Espírita/ Kardecista","Afro-Brasileiras (Umbanda, Candomblé, etc)","Orientais (Budismo, Islamismo, etc)","Outras religiões","É religioso mas não segue nenhuma/ Agnóstico","Ateu, não tem religião","Não respondeu")
   arquivo$religiao[arquivo$reli==religiao[1]]='Catolica'
   arquivo$religiao[arquivo$reli==religiao[2]]='Evangelica'
   arquivo$religiao[arquivo$reli==religiao[3]]='Evangelica'
@@ -137,7 +158,7 @@ reagrega_nomes = function(arquivo) {
   arquivo$religiao[arquivo$reli==religiao[21]]='Outras'
   # Reagrega a variável cor
   arquivo$cor=factor(NA,levels=c('Branca','Preta ou parda','Outras'))
-  cor=sort(unique(arquivo$raca))
+  cor=c("Branca","Preta","Parda","Amarela","Indígena")
   arquivo$cor[arquivo$raca==cor[1]]='Branca'
   arquivo$cor[arquivo$raca==cor[2]]='Preta ou parda'
   arquivo$cor[arquivo$raca==cor[3]]='Preta ou parda'
@@ -153,7 +174,10 @@ reagrega_perguntas = function(arquivo) {
   # Reagrega a variável satisfacao com a vida (satisf)
   if ("vida_hoje" %in% names(arquivo)) {
     arquivo$temp=factor(NA,levels=c('Satisfeito','Insatisfeito','NS/NR*'))
-    satisf=sort(unique(arquivo$vida_hoje))
+    satisf=c("Muito satisfeito",
+             "Satisfeito",
+             "Insatisfeito",
+             "Muito insatisfeito")
     arquivo$temp[arquivo$vida_hoje==satisf[1]]='Satisfeito'
     arquivo$temp[arquivo$vida_hoje==satisf[2]]='Satisfeito'
     arquivo$temp[arquivo$vida_hoje==satisf[3]]='Insatisfeito'
@@ -166,7 +190,11 @@ reagrega_perguntas = function(arquivo) {
   # Reagrega a variável avaliacao do governo (aval)
   if("avaliacao_governo" %in% names(arquivo)) {
   arquivo$temp=factor(NA,levels=c('Ótimo e bom','Regular','Ruim e péssimo','NS/NR*'))
-  aval=sort(unique(arquivo$avaliacao_governo))
+  aval=c("Ótima",
+         "Boa",
+         "Regular",
+         "Ruim",
+         "Péssima")
   arquivo$temp[arquivo$avaliacao_governo==aval[1]]='Ótimo e bom'
   arquivo$temp[arquivo$avaliacao_governo==aval[2]]='Ótimo e bom'
   arquivo$temp[arquivo$avaliacao_governo==aval[3]]='Regular'
@@ -180,7 +208,10 @@ reagrega_perguntas = function(arquivo) {
   # Reagrega a variável mudanca
   if ("desejo_mudanca" %in% names(arquivo)) {
     arquivo$temp=factor(NA,levels=c('Quer mudança','Quer continuidade','NS/NR*'))
-    mudanca=sort(unique(arquivo$desejo_mudanca))
+    mudanca=c("Mudasse totalmente o governo do país",
+              "Mantivesse só alguns programas, mas mudasse muita coisa",
+              "Fizesse poucas mudanças e desse continuidade para muita coisa",
+              "Desse total continuidade ao governo atual")
     arquivo$temp[arquivo$desejo_mudanca==mudanca[1]]='Quer mudança'
     arquivo$temp[arquivo$desejo_mudanca==mudanca[2]]='Quer mudança'
     arquivo$temp[arquivo$desejo_mudanca==mudanca[3]]='Quer continuidade'
@@ -193,7 +224,10 @@ reagrega_perguntas = function(arquivo) {
   # Reagrega a variável interesse
   if ("interesse" %in% names(arquivo)) {
     arquivo$temp=factor(NA,levels=c('Tem muito interesse','Tem médio interesse','Não tem interesse','NS/NR*'))
-    interesse=sort(unique(arquivo$interesse))
+    interesse=c("Muito interesse",
+                "Interesse médio",
+                "Pouco interesse",
+                "Nenhum interesse")
     arquivo$temp[arquivo$interesse==interesse[1]]='Tem muito interesse'
     arquivo$temp[arquivo$interesse==interesse[2]]='Tem médio interesse'
     arquivo$temp[arquivo$interesse==interesse[3]]='Não tem interesse'
@@ -220,6 +254,14 @@ reagrega_perguntas = function(arquivo) {
     arquivo$intencao_estimulada[!(arquivo$intencao_estimulada %in% candidatos)]='Outros'
   }
   
+  # Reagrega os nanicos no favoritismo
+  if ("favorito" %in% names(arquivo)) {
+    candidatos = c('Aécio Neves','Dilma Rousseff','Eduardo Campos','NS/NR*')
+    arquivo$favorito <- as.character(arquivo$favorito)
+    arquivo$favorito[arquivo$favorito =="Não sabe/ Não respondeu"]='NS/NR*'
+    arquivo$favorito[!(arquivo$favorito %in% candidatos)]='Outros'
+  }
+  
   # Muda o nome do 2turno_aecio
   if ("2turno_aecio" %in% names(arquivo)) {
     arquivo[["2turno_aecio"]] = as.character(arquivo[["2turno_aecio"]])
@@ -243,6 +285,11 @@ reagrega_perguntas = function(arquivo) {
     arquivo$regiao <- as.character(arquivo$regiao)
     arquivo$regiao[arquivo$regiao =="NORTE/ CENTRO OESTE"]='NORTE-CENTRO-OESTE'
   }
+  
+  #transforma as notas em inteiros
+  if ("nota" %in% names(arquivo)) {
+    arquivo$nota = as.integer(gsub("^Nota ","",arquivo$nota))
+  }
   return(arquivo)
 }
 
@@ -265,8 +312,18 @@ norm2 = function (final,p,r) {
 cria_arquivo = function(arquivo,perg,trad,rejeicao) {
   library("memisc", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
   data <- as.data.frame(as.data.set(spss.system.file(arquivo)))
+  
+  #retira fatores
+  data <- data.frame(lapply(data, as.character), stringsAsFactors=FALSE)
+  
+  #arruma nome da Dilma se for o caso
+  data[data == "Dilma"] = "Dilma Rousseff"
+
+  #arruma nome das colunas
   names(data) = tolower(names(data))
   data = reagrega_nomes(data)
+  
+  #cria rejeicao
   if (rejeicao) {
     data = cria_rejeicao(data)  
     pergs = append(c("sexo", "escolaridade","renda","idad2","cor","religiao","cond","reg","rejeicaoDilma","rejeicaoAecio","rejeicaoPastor","rejeicaoCampos"),perg)
@@ -275,10 +332,13 @@ cria_arquivo = function(arquivo,perg,trad,rejeicao) {
     pergs = append(c("sexo", "escolaridade","cor","renda","idad2","religiao","cond","reg"),perg)
     trads = append(c("sexo","escolaridade","cor","renda_familiar","idade","religiao","condicao_municipio","regiao"),trad)
   }
+  
+  #retira as perguntas desnecessárias e coloca o nome certo
   saida = data[,pergs]
   names(saida) = trads
   saida = reagrega_perguntas(saida)
   saida$rejeicao = rejeicao
+  
   return(saida)
 }
 
@@ -302,6 +362,7 @@ cria_rejeicao = function(arquivo) {
             perg_rejeicao = comeco
       }
   }
+
   arquivo = within(arquivo, {
     rejeicaoDilma = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Dilma Rousseff" |
                              eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Dilma Rousseff" |
@@ -313,7 +374,7 @@ cria_rejeicao = function(arquivo) {
                              eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Dilma Rousseff" |
                              eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Dilma Rousseff" |
                              eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Dilma Rousseff" |
-                             eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Dilma Rousseff", "Sim", "Não")
+                             eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Dilma", "Sim", "Não")
     rejeicaoAecio = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Aécio Neves" |
                              eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Aécio Neves" |
                              eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Aécio Neves" |

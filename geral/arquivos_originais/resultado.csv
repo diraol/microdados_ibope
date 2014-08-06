@@ -1,0 +1,2422 @@
+"","data","cat_pergunta","dado","cat_recorte","recorte","valor"
+"1","2014-07-21","vida_hoje","Satisfeito","sexo","FEM",77
+"2","2014-07-21","vida_hoje","Insatisfeito","sexo","FEM",23
+"3","2014-07-21","vida_hoje","NS/NR*","sexo","FEM",0
+"4","2014-07-21","vida_hoje","Satisfeito","sexo","MAS",80
+"5","2014-07-21","vida_hoje","Insatisfeito","sexo","MAS",19
+"6","2014-07-21","vida_hoje","NS/NR*","sexo","MAS",0
+"7","2014-07-21","interesse","Tem muito interesse","sexo","FEM",16
+"8","2014-07-21","interesse","Tem médio interesse","sexo","FEM",25
+"9","2014-07-21","interesse","Não tem interesse","sexo","FEM",59
+"10","2014-07-21","interesse","NS/NR*","sexo","FEM",1
+"11","2014-07-21","interesse","Tem muito interesse","sexo","MAS",19
+"12","2014-07-21","interesse","Tem médio interesse","sexo","MAS",29
+"13","2014-07-21","interesse","Não tem interesse","sexo","MAS",52
+"14","2014-07-21","interesse","NS/NR*","sexo","MAS",0
+"15","2014-07-21","intencao_espontanea","Aécio Neves","sexo","FEM",10
+"16","2014-07-21","intencao_espontanea","Branco e Nulo","sexo","FEM",17
+"17","2014-07-21","intencao_espontanea","Dilma Rousseff","sexo","FEM",23
+"18","2014-07-21","intencao_espontanea","Eduardo Campos","sexo","FEM",4
+"19","2014-07-21","intencao_espontanea","NS/NR*","sexo","FEM",45
+"20","2014-07-21","intencao_espontanea","Outros","sexo","FEM",2
+"21","2014-07-21","intencao_espontanea","Aécio Neves","sexo","MAS",15
+"22","2014-07-21","intencao_espontanea","Branco e Nulo","sexo","MAS",17
+"23","2014-07-21","intencao_espontanea","Dilma Rousseff","sexo","MAS",28
+"24","2014-07-21","intencao_espontanea","Eduardo Campos","sexo","MAS",5
+"25","2014-07-21","intencao_espontanea","NS/NR*","sexo","MAS",33
+"26","2014-07-21","intencao_espontanea","Outros","sexo","MAS",2
+"27","2014-07-21","intencao_estimulada","Aécio Neves","sexo","FEM",20
+"28","2014-07-21","intencao_estimulada","Branco e Nulo","sexo","FEM",16
+"29","2014-07-21","intencao_estimulada","Dilma Rousseff","sexo","FEM",37
+"30","2014-07-21","intencao_estimulada","Eduardo Campos","sexo","FEM",8
+"31","2014-07-21","intencao_estimulada","NS/NR*","sexo","FEM",11
+"32","2014-07-21","intencao_estimulada","Outros","sexo","FEM",5
+"33","2014-07-21","intencao_estimulada","Pastor Everaldo","sexo","FEM",3
+"34","2014-07-21","intencao_estimulada","Aécio Neves","sexo","MAS",24
+"35","2014-07-21","intencao_estimulada","Branco e Nulo","sexo","MAS",15
+"36","2014-07-21","intencao_estimulada","Dilma Rousseff","sexo","MAS",39
+"37","2014-07-21","intencao_estimulada","Eduardo Campos","sexo","MAS",8
+"38","2014-07-21","intencao_estimulada","NS/NR*","sexo","MAS",7
+"39","2014-07-21","intencao_estimulada","Outros","sexo","MAS",4
+"40","2014-07-21","intencao_estimulada","Pastor Everaldo","sexo","MAS",2
+"41","2014-07-21","avaliacao_governo","Ótimo e bom","sexo","FEM",31
+"42","2014-07-21","avaliacao_governo","Regular","sexo","FEM",35
+"43","2014-07-21","avaliacao_governo","Ruim e péssimo","sexo","FEM",34
+"44","2014-07-21","avaliacao_governo","NS/NR*","sexo","FEM",1
+"45","2014-07-21","avaliacao_governo","Ótimo e bom","sexo","MAS",30
+"46","2014-07-21","avaliacao_governo","Regular","sexo","MAS",37
+"47","2014-07-21","avaliacao_governo","Ruim e péssimo","sexo","MAS",32
+"48","2014-07-21","avaliacao_governo","NS/NR*","sexo","MAS",1
+"49","2014-07-21","aprova_dilma","Aprova","sexo","FEM",43
+"50","2014-07-21","aprova_dilma","Desaprova","sexo","FEM",51
+"51","2014-07-21","aprova_dilma","NS/NR*","sexo","FEM",6
+"52","2014-07-21","aprova_dilma","Aprova","sexo","MAS",45
+"53","2014-07-21","aprova_dilma","Desaprova","sexo","MAS",49
+"54","2014-07-21","aprova_dilma","NS/NR*","sexo","MAS",6
+"55","2014-07-21","desejo_mudanca","Quer mudança","sexo","FEM",71
+"56","2014-07-21","desejo_mudanca","Quer continuidade","sexo","FEM",27
+"57","2014-07-21","desejo_mudanca","NS/NR*","sexo","FEM",2
+"58","2014-07-21","desejo_mudanca","Quer mudança","sexo","MAS",70
+"59","2014-07-21","desejo_mudanca","Quer continuidade","sexo","MAS",28
+"60","2014-07-21","desejo_mudanca","NS/NR*","sexo","MAS",1
+"61","2014-07-21","rejeicao","Dilma Rousseff","sexo","FEM",36
+"62","2014-07-21","rejeicao","Aécio Neves","sexo","FEM",15
+"63","2014-07-21","rejeicao","Pastor Everaldo","sexo","FEM",10
+"64","2014-07-21","rejeicao","Eduardo Campos","sexo","FEM",7
+"65","2014-07-21","rejeicao","Dilma Rousseff","sexo","MAS",37
+"66","2014-07-21","rejeicao","Aécio Neves","sexo","MAS",17
+"67","2014-07-21","rejeicao","Pastor Everaldo","sexo","MAS",12
+"68","2014-07-21","rejeicao","Eduardo Campos","sexo","MAS",10
+"69","2014-07-21","2turno_aecio","Aécio Neves","sexo","FEM",33
+"70","2014-07-21","2turno_aecio","Branco e Nulo","sexo","FEM",18
+"71","2014-07-21","2turno_aecio","Dilma Rousseff","sexo","FEM",39
+"72","2014-07-21","2turno_aecio","NS/NR*","sexo","FEM",10
+"73","2014-07-21","2turno_aecio","Aécio Neves","sexo","MAS",34
+"74","2014-07-21","2turno_aecio","Branco e Nulo","sexo","MAS",17
+"75","2014-07-21","2turno_aecio","Dilma Rousseff","sexo","MAS",42
+"76","2014-07-21","2turno_aecio","NS/NR*","sexo","MAS",7
+"77","2014-07-21","2turno_campos","Branco e Nulo","sexo","FEM",19
+"78","2014-07-21","2turno_campos","Dilma Rousseff","sexo","FEM",40
+"79","2014-07-21","2turno_campos","Eduardo Campos","sexo","FEM",29
+"80","2014-07-21","2turno_campos","NS/NR*","sexo","FEM",12
+"81","2014-07-21","2turno_campos","Branco e Nulo","sexo","MAS",21
+"82","2014-07-21","2turno_campos","Dilma Rousseff","sexo","MAS",43
+"83","2014-07-21","2turno_campos","Eduardo Campos","sexo","MAS",29
+"84","2014-07-21","2turno_campos","NS/NR*","sexo","MAS",8
+"85","2014-07-21","favorito","Aécio Neves","sexo","FEM",14
+"86","2014-07-21","favorito","Dilma Rousseff","sexo","FEM",53
+"87","2014-07-21","favorito","Eduardo Campos","sexo","FEM",4
+"88","2014-07-21","favorito","NS/NR*","sexo","FEM",27
+"89","2014-07-21","favorito","Outros","sexo","FEM",2
+"90","2014-07-21","favorito","Aécio Neves","sexo","MAS",19
+"91","2014-07-21","favorito","Dilma Rousseff","sexo","MAS",55
+"92","2014-07-21","favorito","Eduardo Campos","sexo","MAS",5
+"93","2014-07-21","favorito","NS/NR*","sexo","MAS",20
+"94","2014-07-21","favorito","Outros","sexo","MAS",2
+"95","2014-07-21","vida_hoje","Satisfeito","idade","16 a 24",84
+"96","2014-07-21","vida_hoje","Insatisfeito","idade","16 a 24",16
+"97","2014-07-21","vida_hoje","NS/NR*","idade","16 a 24",1
+"98","2014-07-21","vida_hoje","Satisfeito","idade","25 a 34",81
+"99","2014-07-21","vida_hoje","Insatisfeito","idade","25 a 34",19
+"100","2014-07-21","vida_hoje","NS/NR*","idade","25 a 34",0
+"101","2014-07-21","vida_hoje","Satisfeito","idade","35 a 44",78
+"102","2014-07-21","vida_hoje","Insatisfeito","idade","35 a 44",22
+"103","2014-07-21","vida_hoje","NS/NR*","idade","35 a 44",0
+"104","2014-07-21","vida_hoje","Satisfeito","idade","45 a 54",75
+"105","2014-07-21","vida_hoje","Insatisfeito","idade","45 a 54",24
+"106","2014-07-21","vida_hoje","NS/NR*","idade","45 a 54",0
+"107","2014-07-21","vida_hoje","Satisfeito","idade","55 ou mais",73
+"108","2014-07-21","vida_hoje","Insatisfeito","idade","55 ou mais",26
+"109","2014-07-21","vida_hoje","NS/NR*","idade","55 ou mais",0
+"110","2014-07-21","interesse","Tem muito interesse","idade","16 a 24",12
+"111","2014-07-21","interesse","Tem médio interesse","idade","16 a 24",33
+"112","2014-07-21","interesse","Não tem interesse","idade","16 a 24",55
+"113","2014-07-21","interesse","NS/NR*","idade","16 a 24",0
+"114","2014-07-21","interesse","Tem muito interesse","idade","25 a 34",17
+"115","2014-07-21","interesse","Tem médio interesse","idade","25 a 34",24
+"116","2014-07-21","interesse","Não tem interesse","idade","25 a 34",59
+"117","2014-07-21","interesse","NS/NR*","idade","25 a 34",0
+"118","2014-07-21","interesse","Tem muito interesse","idade","35 a 44",17
+"119","2014-07-21","interesse","Tem médio interesse","idade","35 a 44",28
+"120","2014-07-21","interesse","Não tem interesse","idade","35 a 44",54
+"121","2014-07-21","interesse","NS/NR*","idade","35 a 44",1
+"122","2014-07-21","interesse","Tem muito interesse","idade","45 a 54",19
+"123","2014-07-21","interesse","Tem médio interesse","idade","45 a 54",26
+"124","2014-07-21","interesse","Não tem interesse","idade","45 a 54",54
+"125","2014-07-21","interesse","NS/NR*","idade","45 a 54",0
+"126","2014-07-21","interesse","Tem muito interesse","idade","55 ou mais",21
+"127","2014-07-21","interesse","Tem médio interesse","idade","55 ou mais",23
+"128","2014-07-21","interesse","Não tem interesse","idade","55 ou mais",55
+"129","2014-07-21","interesse","NS/NR*","idade","55 ou mais",1
+"130","2014-07-21","intencao_espontanea","Aécio Neves","idade","16 a 24",10
+"131","2014-07-21","intencao_espontanea","Branco e Nulo","idade","16 a 24",16
+"132","2014-07-21","intencao_espontanea","Dilma Rousseff","idade","16 a 24",24
+"133","2014-07-21","intencao_espontanea","Eduardo Campos","idade","16 a 24",3
+"134","2014-07-21","intencao_espontanea","NS/NR*","idade","16 a 24",43
+"135","2014-07-21","intencao_espontanea","Outros","idade","16 a 24",3
+"136","2014-07-21","intencao_espontanea","Aécio Neves","idade","25 a 34",13
+"137","2014-07-21","intencao_espontanea","Branco e Nulo","idade","25 a 34",17
+"138","2014-07-21","intencao_espontanea","Dilma Rousseff","idade","25 a 34",23
+"139","2014-07-21","intencao_espontanea","Eduardo Campos","idade","25 a 34",6
+"140","2014-07-21","intencao_espontanea","NS/NR*","idade","25 a 34",40
+"141","2014-07-21","intencao_espontanea","Outros","idade","25 a 34",2
+"142","2014-07-21","intencao_espontanea","Aécio Neves","idade","35 a 44",10
+"143","2014-07-21","intencao_espontanea","Branco e Nulo","idade","35 a 44",16
+"144","2014-07-21","intencao_espontanea","Dilma Rousseff","idade","35 a 44",29
+"145","2014-07-21","intencao_espontanea","Eduardo Campos","idade","35 a 44",4
+"146","2014-07-21","intencao_espontanea","NS/NR*","idade","35 a 44",38
+"147","2014-07-21","intencao_espontanea","Outros","idade","35 a 44",3
+"148","2014-07-21","intencao_espontanea","Aécio Neves","idade","45 a 54",15
+"149","2014-07-21","intencao_espontanea","Branco e Nulo","idade","45 a 54",18
+"150","2014-07-21","intencao_espontanea","Dilma Rousseff","idade","45 a 54",21
+"151","2014-07-21","intencao_espontanea","Eduardo Campos","idade","45 a 54",2
+"152","2014-07-21","intencao_espontanea","NS/NR*","idade","45 a 54",40
+"153","2014-07-21","intencao_espontanea","Outros","idade","45 a 54",3
+"154","2014-07-21","intencao_espontanea","Aécio Neves","idade","55 ou mais",14
+"155","2014-07-21","intencao_espontanea","Branco e Nulo","idade","55 ou mais",17
+"156","2014-07-21","intencao_espontanea","Dilma Rousseff","idade","55 ou mais",31
+"157","2014-07-21","intencao_espontanea","Eduardo Campos","idade","55 ou mais",4
+"158","2014-07-21","intencao_espontanea","NS/NR*","idade","55 ou mais",33
+"159","2014-07-21","intencao_espontanea","Outros","idade","55 ou mais",1
+"160","2014-07-21","intencao_estimulada","Aécio Neves","idade","16 a 24",19
+"161","2014-07-21","intencao_estimulada","Branco e Nulo","idade","16 a 24",17
+"162","2014-07-21","intencao_estimulada","Dilma Rousseff","idade","16 a 24",37
+"163","2014-07-21","intencao_estimulada","Eduardo Campos","idade","16 a 24",10
+"164","2014-07-21","intencao_estimulada","NS/NR*","idade","16 a 24",8
+"165","2014-07-21","intencao_estimulada","Outros","idade","16 a 24",6
+"166","2014-07-21","intencao_estimulada","Pastor Everaldo","idade","16 a 24",3
+"167","2014-07-21","intencao_estimulada","Aécio Neves","idade","25 a 34",21
+"168","2014-07-21","intencao_estimulada","Branco e Nulo","idade","25 a 34",16
+"169","2014-07-21","intencao_estimulada","Dilma Rousseff","idade","25 a 34",37
+"170","2014-07-21","intencao_estimulada","Eduardo Campos","idade","25 a 34",11
+"171","2014-07-21","intencao_estimulada","NS/NR*","idade","25 a 34",8
+"172","2014-07-21","intencao_estimulada","Outros","idade","25 a 34",4
+"173","2014-07-21","intencao_estimulada","Pastor Everaldo","idade","25 a 34",4
+"174","2014-07-21","intencao_estimulada","Aécio Neves","idade","35 a 44",20
+"175","2014-07-21","intencao_estimulada","Branco e Nulo","idade","35 a 44",15
+"176","2014-07-21","intencao_estimulada","Dilma Rousseff","idade","35 a 44",45
+"177","2014-07-21","intencao_estimulada","Eduardo Campos","idade","35 a 44",6
+"178","2014-07-21","intencao_estimulada","NS/NR*","idade","35 a 44",7
+"179","2014-07-21","intencao_estimulada","Outros","idade","35 a 44",5
+"180","2014-07-21","intencao_estimulada","Pastor Everaldo","idade","35 a 44",3
+"181","2014-07-21","intencao_estimulada","Aécio Neves","idade","45 a 54",27
+"182","2014-07-21","intencao_estimulada","Branco e Nulo","idade","45 a 54",17
+"183","2014-07-21","intencao_estimulada","Dilma Rousseff","idade","45 a 54",31
+"184","2014-07-21","intencao_estimulada","Eduardo Campos","idade","45 a 54",7
+"185","2014-07-21","intencao_estimulada","NS/NR*","idade","45 a 54",11
+"186","2014-07-21","intencao_estimulada","Outros","idade","45 a 54",4
+"187","2014-07-21","intencao_estimulada","Pastor Everaldo","idade","45 a 54",3
+"188","2014-07-21","intencao_estimulada","Aécio Neves","idade","55 ou mais",23
+"189","2014-07-21","intencao_estimulada","Branco e Nulo","idade","55 ou mais",15
+"190","2014-07-21","intencao_estimulada","Dilma Rousseff","idade","55 ou mais",41
+"191","2014-07-21","intencao_estimulada","Eduardo Campos","idade","55 ou mais",8
+"192","2014-07-21","intencao_estimulada","NS/NR*","idade","55 ou mais",9
+"193","2014-07-21","intencao_estimulada","Outros","idade","55 ou mais",3
+"194","2014-07-21","intencao_estimulada","Pastor Everaldo","idade","55 ou mais",1
+"195","2014-07-21","avaliacao_governo","Ótimo e bom","idade","16 a 24",24
+"196","2014-07-21","avaliacao_governo","Regular","idade","16 a 24",38
+"197","2014-07-21","avaliacao_governo","Ruim e péssimo","idade","16 a 24",37
+"198","2014-07-21","avaliacao_governo","NS/NR*","idade","16 a 24",1
+"199","2014-07-21","avaliacao_governo","Ótimo e bom","idade","25 a 34",28
+"200","2014-07-21","avaliacao_governo","Regular","idade","25 a 34",36
+"201","2014-07-21","avaliacao_governo","Ruim e péssimo","idade","25 a 34",37
+"202","2014-07-21","avaliacao_governo","NS/NR*","idade","25 a 34",0
+"203","2014-07-21","avaliacao_governo","Ótimo e bom","idade","35 a 44",36
+"204","2014-07-21","avaliacao_governo","Regular","idade","35 a 44",31
+"205","2014-07-21","avaliacao_governo","Ruim e péssimo","idade","35 a 44",32
+"206","2014-07-21","avaliacao_governo","NS/NR*","idade","35 a 44",1
+"207","2014-07-21","avaliacao_governo","Ótimo e bom","idade","45 a 54",28
+"208","2014-07-21","avaliacao_governo","Regular","idade","45 a 54",36
+"209","2014-07-21","avaliacao_governo","Ruim e péssimo","idade","45 a 54",35
+"210","2014-07-21","avaliacao_governo","NS/NR*","idade","45 a 54",1
+"211","2014-07-21","avaliacao_governo","Ótimo e bom","idade","55 ou mais",37
+"212","2014-07-21","avaliacao_governo","Regular","idade","55 ou mais",37
+"213","2014-07-21","avaliacao_governo","Ruim e péssimo","idade","55 ou mais",25
+"214","2014-07-21","avaliacao_governo","NS/NR*","idade","55 ou mais",1
+"215","2014-07-21","aprova_dilma","Aprova","idade","16 a 24",41
+"216","2014-07-21","aprova_dilma","Desaprova","idade","16 a 24",53
+"217","2014-07-21","aprova_dilma","NS/NR*","idade","16 a 24",6
+"218","2014-07-21","aprova_dilma","Aprova","idade","25 a 34",42
+"219","2014-07-21","aprova_dilma","Desaprova","idade","25 a 34",53
+"220","2014-07-21","aprova_dilma","NS/NR*","idade","25 a 34",5
+"221","2014-07-21","aprova_dilma","Aprova","idade","35 a 44",46
+"222","2014-07-21","aprova_dilma","Desaprova","idade","35 a 44",48
+"223","2014-07-21","aprova_dilma","NS/NR*","idade","35 a 44",6
+"224","2014-07-21","aprova_dilma","Aprova","idade","45 a 54",37
+"225","2014-07-21","aprova_dilma","Desaprova","idade","45 a 54",57
+"226","2014-07-21","aprova_dilma","NS/NR*","idade","45 a 54",6
+"227","2014-07-21","aprova_dilma","Aprova","idade","55 ou mais",53
+"228","2014-07-21","aprova_dilma","Desaprova","idade","55 ou mais",41
+"229","2014-07-21","aprova_dilma","NS/NR*","idade","55 ou mais",6
+"230","2014-07-21","desejo_mudanca","Quer mudança","idade","16 a 24",74
+"231","2014-07-21","desejo_mudanca","Quer continuidade","idade","16 a 24",25
+"232","2014-07-21","desejo_mudanca","NS/NR*","idade","16 a 24",1
+"233","2014-07-21","desejo_mudanca","Quer mudança","idade","25 a 34",70
+"234","2014-07-21","desejo_mudanca","Quer continuidade","idade","25 a 34",28
+"235","2014-07-21","desejo_mudanca","NS/NR*","idade","25 a 34",2
+"236","2014-07-21","desejo_mudanca","Quer mudança","idade","35 a 44",71
+"237","2014-07-21","desejo_mudanca","Quer continuidade","idade","35 a 44",28
+"238","2014-07-21","desejo_mudanca","NS/NR*","idade","35 a 44",1
+"239","2014-07-21","desejo_mudanca","Quer mudança","idade","45 a 54",78
+"240","2014-07-21","desejo_mudanca","Quer continuidade","idade","45 a 54",21
+"241","2014-07-21","desejo_mudanca","NS/NR*","idade","45 a 54",1
+"242","2014-07-21","desejo_mudanca","Quer mudança","idade","55 ou mais",62
+"243","2014-07-21","desejo_mudanca","Quer continuidade","idade","55 ou mais",33
+"244","2014-07-21","desejo_mudanca","NS/NR*","idade","55 ou mais",5
+"245","2014-07-21","rejeicao","Dilma Rousseff","idade","16 a 24",39
+"246","2014-07-21","rejeicao","Aécio Neves","idade","16 a 24",17
+"247","2014-07-21","rejeicao","Pastor Everaldo","idade","16 a 24",9
+"248","2014-07-21","rejeicao","Eduardo Campos","idade","16 a 24",7
+"249","2014-07-21","rejeicao","Dilma Rousseff","idade","25 a 34",42
+"250","2014-07-21","rejeicao","Aécio Neves","idade","25 a 34",16
+"251","2014-07-21","rejeicao","Pastor Everaldo","idade","25 a 34",9
+"252","2014-07-21","rejeicao","Eduardo Campos","idade","25 a 34",7
+"253","2014-07-21","rejeicao","Dilma Rousseff","idade","35 a 44",35
+"254","2014-07-21","rejeicao","Aécio Neves","idade","35 a 44",17
+"255","2014-07-21","rejeicao","Pastor Everaldo","idade","35 a 44",11
+"256","2014-07-21","rejeicao","Eduardo Campos","idade","35 a 44",8
+"257","2014-07-21","rejeicao","Dilma Rousseff","idade","45 a 54",35
+"258","2014-07-21","rejeicao","Aécio Neves","idade","45 a 54",12
+"259","2014-07-21","rejeicao","Pastor Everaldo","idade","45 a 54",13
+"260","2014-07-21","rejeicao","Eduardo Campos","idade","45 a 54",8
+"261","2014-07-21","rejeicao","Dilma Rousseff","idade","55 ou mais",29
+"262","2014-07-21","rejeicao","Aécio Neves","idade","55 ou mais",16
+"263","2014-07-21","rejeicao","Pastor Everaldo","idade","55 ou mais",13
+"264","2014-07-21","rejeicao","Eduardo Campos","idade","55 ou mais",12
+"265","2014-07-21","2turno_aecio","Aécio Neves","idade","16 a 24",34
+"266","2014-07-21","2turno_aecio","Branco e Nulo","idade","16 a 24",19
+"267","2014-07-21","2turno_aecio","Dilma Rousseff","idade","16 a 24",39
+"268","2014-07-21","2turno_aecio","NS/NR*","idade","16 a 24",7
+"269","2014-07-21","2turno_aecio","Aécio Neves","idade","25 a 34",37
+"270","2014-07-21","2turno_aecio","Branco e Nulo","idade","25 a 34",17
+"271","2014-07-21","2turno_aecio","Dilma Rousseff","idade","25 a 34",39
+"272","2014-07-21","2turno_aecio","NS/NR*","idade","25 a 34",7
+"273","2014-07-21","2turno_aecio","Aécio Neves","idade","35 a 44",30
+"274","2014-07-21","2turno_aecio","Branco e Nulo","idade","35 a 44",18
+"275","2014-07-21","2turno_aecio","Dilma Rousseff","idade","35 a 44",45
+"276","2014-07-21","2turno_aecio","NS/NR*","idade","35 a 44",8
+"277","2014-07-21","2turno_aecio","Aécio Neves","idade","45 a 54",37
+"278","2014-07-21","2turno_aecio","Branco e Nulo","idade","45 a 54",18
+"279","2014-07-21","2turno_aecio","Dilma Rousseff","idade","45 a 54",34
+"280","2014-07-21","2turno_aecio","NS/NR*","idade","45 a 54",11
+"281","2014-07-21","2turno_aecio","Aécio Neves","idade","55 ou mais",29
+"282","2014-07-21","2turno_aecio","Branco e Nulo","idade","55 ou mais",16
+"283","2014-07-21","2turno_aecio","Dilma Rousseff","idade","55 ou mais",45
+"284","2014-07-21","2turno_aecio","NS/NR*","idade","55 ou mais",9
+"285","2014-07-21","2turno_campos","Branco e Nulo","idade","16 a 24",18
+"286","2014-07-21","2turno_campos","Dilma Rousseff","idade","16 a 24",38
+"287","2014-07-21","2turno_campos","Eduardo Campos","idade","16 a 24",34
+"288","2014-07-21","2turno_campos","NS/NR*","idade","16 a 24",10
+"289","2014-07-21","2turno_campos","Branco e Nulo","idade","25 a 34",20
+"290","2014-07-21","2turno_campos","Dilma Rousseff","idade","25 a 34",41
+"291","2014-07-21","2turno_campos","Eduardo Campos","idade","25 a 34",31
+"292","2014-07-21","2turno_campos","NS/NR*","idade","25 a 34",9
+"293","2014-07-21","2turno_campos","Branco e Nulo","idade","35 a 44",20
+"294","2014-07-21","2turno_campos","Dilma Rousseff","idade","35 a 44",45
+"295","2014-07-21","2turno_campos","Eduardo Campos","idade","35 a 44",27
+"296","2014-07-21","2turno_campos","NS/NR*","idade","35 a 44",8
+"297","2014-07-21","2turno_campos","Branco e Nulo","idade","45 a 54",23
+"298","2014-07-21","2turno_campos","Dilma Rousseff","idade","45 a 54",35
+"299","2014-07-21","2turno_campos","Eduardo Campos","idade","45 a 54",31
+"300","2014-07-21","2turno_campos","NS/NR*","idade","45 a 54",12
+"301","2014-07-21","2turno_campos","Branco e Nulo","idade","55 ou mais",19
+"302","2014-07-21","2turno_campos","Dilma Rousseff","idade","55 ou mais",45
+"303","2014-07-21","2turno_campos","Eduardo Campos","idade","55 ou mais",24
+"304","2014-07-21","2turno_campos","NS/NR*","idade","55 ou mais",11
+"305","2014-07-21","favorito","Aécio Neves","idade","16 a 24",14
+"306","2014-07-21","favorito","Dilma Rousseff","idade","16 a 24",53
+"307","2014-07-21","favorito","Eduardo Campos","idade","16 a 24",8
+"308","2014-07-21","favorito","NS/NR*","idade","16 a 24",23
+"309","2014-07-21","favorito","Outros","idade","16 a 24",2
+"310","2014-07-21","favorito","Aécio Neves","idade","25 a 34",16
+"311","2014-07-21","favorito","Dilma Rousseff","idade","25 a 34",53
+"312","2014-07-21","favorito","Eduardo Campos","idade","25 a 34",6
+"313","2014-07-21","favorito","NS/NR*","idade","25 a 34",23
+"314","2014-07-21","favorito","Outros","idade","25 a 34",2
+"315","2014-07-21","favorito","Aécio Neves","idade","35 a 44",14
+"316","2014-07-21","favorito","Dilma Rousseff","idade","35 a 44",59
+"317","2014-07-21","favorito","Eduardo Campos","idade","35 a 44",2
+"318","2014-07-21","favorito","NS/NR*","idade","35 a 44",24
+"319","2014-07-21","favorito","Outros","idade","35 a 44",1
+"320","2014-07-21","favorito","Aécio Neves","idade","45 a 54",18
+"321","2014-07-21","favorito","Dilma Rousseff","idade","45 a 54",50
+"322","2014-07-21","favorito","Eduardo Campos","idade","45 a 54",4
+"323","2014-07-21","favorito","NS/NR*","idade","45 a 54",26
+"324","2014-07-21","favorito","Outros","idade","45 a 54",2
+"325","2014-07-21","favorito","Aécio Neves","idade","55 ou mais",18
+"326","2014-07-21","favorito","Dilma Rousseff","idade","55 ou mais",53
+"327","2014-07-21","favorito","Eduardo Campos","idade","55 ou mais",3
+"328","2014-07-21","favorito","NS/NR*","idade","55 ou mais",24
+"329","2014-07-21","favorito","Outros","idade","55 ou mais",1
+"330","2014-07-21","vida_hoje","Satisfeito","escolaridade","Fundamental 1",74
+"331","2014-07-21","vida_hoje","Insatisfeito","escolaridade","Fundamental 1",25
+"332","2014-07-21","vida_hoje","NS/NR*","escolaridade","Fundamental 1",1
+"333","2014-07-21","vida_hoje","Satisfeito","escolaridade","Fundamental 2",77
+"334","2014-07-21","vida_hoje","Insatisfeito","escolaridade","Fundamental 2",23
+"335","2014-07-21","vida_hoje","NS/NR*","escolaridade","Fundamental 2",0
+"336","2014-07-21","vida_hoje","Satisfeito","escolaridade","Medio",80
+"337","2014-07-21","vida_hoje","Insatisfeito","escolaridade","Medio",20
+"338","2014-07-21","vida_hoje","NS/NR*","escolaridade","Medio",0
+"339","2014-07-21","vida_hoje","Satisfeito","escolaridade","Superior",82
+"340","2014-07-21","vida_hoje","Insatisfeito","escolaridade","Superior",18
+"341","2014-07-21","vida_hoje","NS/NR*","escolaridade","Superior",0
+"342","2014-07-21","interesse","Tem muito interesse","escolaridade","Fundamental 1",18
+"343","2014-07-21","interesse","Tem médio interesse","escolaridade","Fundamental 1",24
+"344","2014-07-21","interesse","Não tem interesse","escolaridade","Fundamental 1",56
+"345","2014-07-21","interesse","NS/NR*","escolaridade","Fundamental 1",1
+"346","2014-07-21","interesse","Tem muito interesse","escolaridade","Fundamental 2",13
+"347","2014-07-21","interesse","Tem médio interesse","escolaridade","Fundamental 2",25
+"348","2014-07-21","interesse","Não tem interesse","escolaridade","Fundamental 2",61
+"349","2014-07-21","interesse","NS/NR*","escolaridade","Fundamental 2",0
+"350","2014-07-21","interesse","Tem muito interesse","escolaridade","Medio",14
+"351","2014-07-21","interesse","Tem médio interesse","escolaridade","Medio",29
+"352","2014-07-21","interesse","Não tem interesse","escolaridade","Medio",57
+"353","2014-07-21","interesse","NS/NR*","escolaridade","Medio",0
+"354","2014-07-21","interesse","Tem muito interesse","escolaridade","Superior",29
+"355","2014-07-21","interesse","Tem médio interesse","escolaridade","Superior",28
+"356","2014-07-21","interesse","Não tem interesse","escolaridade","Superior",43
+"357","2014-07-21","interesse","NS/NR*","escolaridade","Superior",0
+"358","2014-07-21","intencao_espontanea","Aécio Neves","escolaridade","Fundamental 1",11
+"359","2014-07-21","intencao_espontanea","Branco e Nulo","escolaridade","Fundamental 1",16
+"360","2014-07-21","intencao_espontanea","Dilma Rousseff","escolaridade","Fundamental 1",32
+"361","2014-07-21","intencao_espontanea","Eduardo Campos","escolaridade","Fundamental 1",3
+"362","2014-07-21","intencao_espontanea","NS/NR*","escolaridade","Fundamental 1",37
+"363","2014-07-21","intencao_espontanea","Outros","escolaridade","Fundamental 1",1
+"364","2014-07-21","intencao_espontanea","Aécio Neves","escolaridade","Fundamental 2",9
+"365","2014-07-21","intencao_espontanea","Branco e Nulo","escolaridade","Fundamental 2",17
+"366","2014-07-21","intencao_espontanea","Dilma Rousseff","escolaridade","Fundamental 2",32
+"367","2014-07-21","intencao_espontanea","Eduardo Campos","escolaridade","Fundamental 2",4
+"368","2014-07-21","intencao_espontanea","NS/NR*","escolaridade","Fundamental 2",36
+"369","2014-07-21","intencao_espontanea","Outros","escolaridade","Fundamental 2",2
+"370","2014-07-21","intencao_espontanea","Aécio Neves","escolaridade","Medio",11
+"371","2014-07-21","intencao_espontanea","Branco e Nulo","escolaridade","Medio",18
+"372","2014-07-21","intencao_espontanea","Dilma Rousseff","escolaridade","Medio",22
+"373","2014-07-21","intencao_espontanea","Eduardo Campos","escolaridade","Medio",4
+"374","2014-07-21","intencao_espontanea","NS/NR*","escolaridade","Medio",42
+"375","2014-07-21","intencao_espontanea","Outros","escolaridade","Medio",2
+"376","2014-07-21","intencao_espontanea","Aécio Neves","escolaridade","Superior",21
+"377","2014-07-21","intencao_espontanea","Branco e Nulo","escolaridade","Superior",15
+"378","2014-07-21","intencao_espontanea","Dilma Rousseff","escolaridade","Superior",19
+"379","2014-07-21","intencao_espontanea","Eduardo Campos","escolaridade","Superior",5
+"380","2014-07-21","intencao_espontanea","NS/NR*","escolaridade","Superior",38
+"381","2014-07-21","intencao_espontanea","Outros","escolaridade","Superior",3
+"382","2014-07-21","intencao_estimulada","Aécio Neves","escolaridade","Fundamental 1",17
+"383","2014-07-21","intencao_estimulada","Branco e Nulo","escolaridade","Fundamental 1",11
+"384","2014-07-21","intencao_estimulada","Dilma Rousseff","escolaridade","Fundamental 1",45
+"385","2014-07-21","intencao_estimulada","Eduardo Campos","escolaridade","Fundamental 1",6
+"386","2014-07-21","intencao_estimulada","NS/NR*","escolaridade","Fundamental 1",13
+"387","2014-07-21","intencao_estimulada","Outros","escolaridade","Fundamental 1",4
+"388","2014-07-21","intencao_estimulada","Pastor Everaldo","escolaridade","Fundamental 1",3
+"389","2014-07-21","intencao_estimulada","Aécio Neves","escolaridade","Fundamental 2",17
+"390","2014-07-21","intencao_estimulada","Branco e Nulo","escolaridade","Fundamental 2",15
+"391","2014-07-21","intencao_estimulada","Dilma Rousseff","escolaridade","Fundamental 2",44
+"392","2014-07-21","intencao_estimulada","Eduardo Campos","escolaridade","Fundamental 2",7
+"393","2014-07-21","intencao_estimulada","NS/NR*","escolaridade","Fundamental 2",8
+"394","2014-07-21","intencao_estimulada","Outros","escolaridade","Fundamental 2",6
+"395","2014-07-21","intencao_estimulada","Pastor Everaldo","escolaridade","Fundamental 2",3
+"396","2014-07-21","intencao_estimulada","Aécio Neves","escolaridade","Medio",22
+"397","2014-07-21","intencao_estimulada","Branco e Nulo","escolaridade","Medio",18
+"398","2014-07-21","intencao_estimulada","Dilma Rousseff","escolaridade","Medio",36
+"399","2014-07-21","intencao_estimulada","Eduardo Campos","escolaridade","Medio",9
+"400","2014-07-21","intencao_estimulada","NS/NR*","escolaridade","Medio",7
+"401","2014-07-21","intencao_estimulada","Outros","escolaridade","Medio",4
+"402","2014-07-21","intencao_estimulada","Pastor Everaldo","escolaridade","Medio",3
+"403","2014-07-21","intencao_estimulada","Aécio Neves","escolaridade","Superior",33
+"404","2014-07-21","intencao_estimulada","Branco e Nulo","escolaridade","Superior",16
+"405","2014-07-21","intencao_estimulada","Dilma Rousseff","escolaridade","Superior",27
+"406","2014-07-21","intencao_estimulada","Eduardo Campos","escolaridade","Superior",11
+"407","2014-07-21","intencao_estimulada","NS/NR*","escolaridade","Superior",8
+"408","2014-07-21","intencao_estimulada","Outros","escolaridade","Superior",4
+"409","2014-07-21","intencao_estimulada","Pastor Everaldo","escolaridade","Superior",1
+"410","2014-07-21","avaliacao_governo","Ótimo e bom","escolaridade","Fundamental 1",42
+"411","2014-07-21","avaliacao_governo","Regular","escolaridade","Fundamental 1",33
+"412","2014-07-21","avaliacao_governo","Ruim e péssimo","escolaridade","Fundamental 1",24
+"413","2014-07-21","avaliacao_governo","NS/NR*","escolaridade","Fundamental 1",1
+"414","2014-07-21","avaliacao_governo","Ótimo e bom","escolaridade","Fundamental 2",35
+"415","2014-07-21","avaliacao_governo","Regular","escolaridade","Fundamental 2",37
+"416","2014-07-21","avaliacao_governo","Ruim e péssimo","escolaridade","Fundamental 2",27
+"417","2014-07-21","avaliacao_governo","NS/NR*","escolaridade","Fundamental 2",1
+"418","2014-07-21","avaliacao_governo","Ótimo e bom","escolaridade","Medio",25
+"419","2014-07-21","avaliacao_governo","Regular","escolaridade","Medio",38
+"420","2014-07-21","avaliacao_governo","Ruim e péssimo","escolaridade","Medio",36
+"421","2014-07-21","avaliacao_governo","NS/NR*","escolaridade","Medio",1
+"422","2014-07-21","avaliacao_governo","Ótimo e bom","escolaridade","Superior",24
+"423","2014-07-21","avaliacao_governo","Regular","escolaridade","Superior",32
+"424","2014-07-21","avaliacao_governo","Ruim e péssimo","escolaridade","Superior",44
+"425","2014-07-21","avaliacao_governo","NS/NR*","escolaridade","Superior",1
+"426","2014-07-21","aprova_dilma","Aprova","escolaridade","Fundamental 1",57
+"427","2014-07-21","aprova_dilma","Desaprova","escolaridade","Fundamental 1",37
+"428","2014-07-21","aprova_dilma","NS/NR*","escolaridade","Fundamental 1",6
+"429","2014-07-21","aprova_dilma","Aprova","escolaridade","Fundamental 2",50
+"430","2014-07-21","aprova_dilma","Desaprova","escolaridade","Fundamental 2",44
+"431","2014-07-21","aprova_dilma","NS/NR*","escolaridade","Fundamental 2",6
+"432","2014-07-21","aprova_dilma","Aprova","escolaridade","Medio",40
+"433","2014-07-21","aprova_dilma","Desaprova","escolaridade","Medio",55
+"434","2014-07-21","aprova_dilma","NS/NR*","escolaridade","Medio",6
+"435","2014-07-21","aprova_dilma","Aprova","escolaridade","Superior",31
+"436","2014-07-21","aprova_dilma","Desaprova","escolaridade","Superior",64
+"437","2014-07-21","aprova_dilma","NS/NR*","escolaridade","Superior",4
+"438","2014-07-21","desejo_mudanca","Quer mudança","escolaridade","Fundamental 1",62
+"439","2014-07-21","desejo_mudanca","Quer continuidade","escolaridade","Fundamental 1",35
+"440","2014-07-21","desejo_mudanca","NS/NR*","escolaridade","Fundamental 1",4
+"441","2014-07-21","desejo_mudanca","Quer mudança","escolaridade","Fundamental 2",71
+"442","2014-07-21","desejo_mudanca","Quer continuidade","escolaridade","Fundamental 2",28
+"443","2014-07-21","desejo_mudanca","NS/NR*","escolaridade","Fundamental 2",1
+"444","2014-07-21","desejo_mudanca","Quer mudança","escolaridade","Medio",72
+"445","2014-07-21","desejo_mudanca","Quer continuidade","escolaridade","Medio",26
+"446","2014-07-21","desejo_mudanca","NS/NR*","escolaridade","Medio",2
+"447","2014-07-21","desejo_mudanca","Quer mudança","escolaridade","Superior",76
+"448","2014-07-21","desejo_mudanca","Quer continuidade","escolaridade","Superior",23
+"449","2014-07-21","desejo_mudanca","NS/NR*","escolaridade","Superior",1
+"450","2014-07-21","rejeicao","Dilma Rousseff","escolaridade","Fundamental 1",24
+"451","2014-07-21","rejeicao","Aécio Neves","escolaridade","Fundamental 1",16
+"452","2014-07-21","rejeicao","Pastor Everaldo","escolaridade","Fundamental 1",11
+"453","2014-07-21","rejeicao","Eduardo Campos","escolaridade","Fundamental 1",10
+"454","2014-07-21","rejeicao","Dilma Rousseff","escolaridade","Fundamental 2",30
+"455","2014-07-21","rejeicao","Aécio Neves","escolaridade","Fundamental 2",18
+"456","2014-07-21","rejeicao","Pastor Everaldo","escolaridade","Fundamental 2",13
+"457","2014-07-21","rejeicao","Eduardo Campos","escolaridade","Fundamental 2",8
+"458","2014-07-21","rejeicao","Dilma Rousseff","escolaridade","Medio",38
+"459","2014-07-21","rejeicao","Aécio Neves","escolaridade","Medio",15
+"460","2014-07-21","rejeicao","Pastor Everaldo","escolaridade","Medio",10
+"461","2014-07-21","rejeicao","Eduardo Campos","escolaridade","Medio",7
+"462","2014-07-21","rejeicao","Dilma Rousseff","escolaridade","Superior",54
+"463","2014-07-21","rejeicao","Aécio Neves","escolaridade","Superior",17
+"464","2014-07-21","rejeicao","Pastor Everaldo","escolaridade","Superior",8
+"465","2014-07-21","rejeicao","Eduardo Campos","escolaridade","Superior",8
+"466","2014-07-21","2turno_aecio","Aécio Neves","escolaridade","Fundamental 1",25
+"467","2014-07-21","2turno_aecio","Branco e Nulo","escolaridade","Fundamental 1",13
+"468","2014-07-21","2turno_aecio","Dilma Rousseff","escolaridade","Fundamental 1",50
+"469","2014-07-21","2turno_aecio","NS/NR*","escolaridade","Fundamental 1",12
+"470","2014-07-21","2turno_aecio","Aécio Neves","escolaridade","Fundamental 2",27
+"471","2014-07-21","2turno_aecio","Branco e Nulo","escolaridade","Fundamental 2",19
+"472","2014-07-21","2turno_aecio","Dilma Rousseff","escolaridade","Fundamental 2",46
+"473","2014-07-21","2turno_aecio","NS/NR*","escolaridade","Fundamental 2",7
+"474","2014-07-21","2turno_aecio","Aécio Neves","escolaridade","Medio",34
+"475","2014-07-21","2turno_aecio","Branco e Nulo","escolaridade","Medio",19
+"476","2014-07-21","2turno_aecio","Dilma Rousseff","escolaridade","Medio",39
+"477","2014-07-21","2turno_aecio","NS/NR*","escolaridade","Medio",7
+"478","2014-07-21","2turno_aecio","Aécio Neves","escolaridade","Superior",48
+"479","2014-07-21","2turno_aecio","Branco e Nulo","escolaridade","Superior",17
+"480","2014-07-21","2turno_aecio","Dilma Rousseff","escolaridade","Superior",28
+"481","2014-07-21","2turno_aecio","NS/NR*","escolaridade","Superior",7
+"482","2014-07-21","2turno_campos","Branco e Nulo","escolaridade","Fundamental 1",15
+"483","2014-07-21","2turno_campos","Dilma Rousseff","escolaridade","Fundamental 1",49
+"484","2014-07-21","2turno_campos","Eduardo Campos","escolaridade","Fundamental 1",22
+"485","2014-07-21","2turno_campos","NS/NR*","escolaridade","Fundamental 1",13
+"486","2014-07-21","2turno_campos","Branco e Nulo","escolaridade","Fundamental 2",20
+"487","2014-07-21","2turno_campos","Dilma Rousseff","escolaridade","Fundamental 2",45
+"488","2014-07-21","2turno_campos","Eduardo Campos","escolaridade","Fundamental 2",25
+"489","2014-07-21","2turno_campos","NS/NR*","escolaridade","Fundamental 2",10
+"490","2014-07-21","2turno_campos","Branco e Nulo","escolaridade","Medio",22
+"491","2014-07-21","2turno_campos","Dilma Rousseff","escolaridade","Medio",40
+"492","2014-07-21","2turno_campos","Eduardo Campos","escolaridade","Medio",30
+"493","2014-07-21","2turno_campos","NS/NR*","escolaridade","Medio",8
+"494","2014-07-21","2turno_campos","Branco e Nulo","escolaridade","Superior",22
+"495","2014-07-21","2turno_campos","Dilma Rousseff","escolaridade","Superior",29
+"496","2014-07-21","2turno_campos","Eduardo Campos","escolaridade","Superior",40
+"497","2014-07-21","2turno_campos","NS/NR*","escolaridade","Superior",9
+"498","2014-07-21","favorito","Aécio Neves","escolaridade","Fundamental 1",12
+"499","2014-07-21","favorito","Dilma Rousseff","escolaridade","Fundamental 1",59
+"500","2014-07-21","favorito","Eduardo Campos","escolaridade","Fundamental 1",2
+"501","2014-07-21","favorito","NS/NR*","escolaridade","Fundamental 1",24
+"502","2014-07-21","favorito","Outros","escolaridade","Fundamental 1",2
+"503","2014-07-21","favorito","Aécio Neves","escolaridade","Fundamental 2",14
+"504","2014-07-21","favorito","Dilma Rousseff","escolaridade","Fundamental 2",57
+"505","2014-07-21","favorito","Eduardo Campos","escolaridade","Fundamental 2",5
+"506","2014-07-21","favorito","NS/NR*","escolaridade","Fundamental 2",23
+"507","2014-07-21","favorito","Outros","escolaridade","Fundamental 2",2
+"508","2014-07-21","favorito","Aécio Neves","escolaridade","Medio",17
+"509","2014-07-21","favorito","Dilma Rousseff","escolaridade","Medio",51
+"510","2014-07-21","favorito","Eduardo Campos","escolaridade","Medio",5
+"511","2014-07-21","favorito","NS/NR*","escolaridade","Medio",25
+"512","2014-07-21","favorito","Outros","escolaridade","Medio",2
+"513","2014-07-21","favorito","Aécio Neves","escolaridade","Superior",22
+"514","2014-07-21","favorito","Dilma Rousseff","escolaridade","Superior",50
+"515","2014-07-21","favorito","Eduardo Campos","escolaridade","Superior",7
+"516","2014-07-21","favorito","NS/NR*","escolaridade","Superior",22
+"517","2014-07-21","favorito","Outros","escolaridade","Superior",0
+"518","2014-07-21","vida_hoje","Satisfeito","renda_familiar","Mais de 5",87
+"519","2014-07-21","vida_hoje","Insatisfeito","renda_familiar","Mais de 5",12
+"520","2014-07-21","vida_hoje","NS/NR*","renda_familiar","Mais de 5",0
+"521","2014-07-21","vida_hoje","Satisfeito","renda_familiar","2 a 5",82
+"522","2014-07-21","vida_hoje","Insatisfeito","renda_familiar","2 a 5",17
+"523","2014-07-21","vida_hoje","NS/NR*","renda_familiar","2 a 5",0
+"524","2014-07-21","vida_hoje","Satisfeito","renda_familiar","1 a 2",74
+"525","2014-07-21","vida_hoje","Insatisfeito","renda_familiar","1 a 2",26
+"526","2014-07-21","vida_hoje","NS/NR*","renda_familiar","1 a 2",0
+"527","2014-07-21","vida_hoje","Satisfeito","renda_familiar","Ate 1",73
+"528","2014-07-21","vida_hoje","Insatisfeito","renda_familiar","Ate 1",26
+"529","2014-07-21","vida_hoje","NS/NR*","renda_familiar","Ate 1",1
+"530","2014-07-21","interesse","Tem muito interesse","renda_familiar","Mais de 5",26
+"531","2014-07-21","interesse","Tem médio interesse","renda_familiar","Mais de 5",28
+"532","2014-07-21","interesse","Não tem interesse","renda_familiar","Mais de 5",47
+"533","2014-07-21","interesse","NS/NR*","renda_familiar","Mais de 5",0
+"534","2014-07-21","interesse","Tem muito interesse","renda_familiar","2 a 5",16
+"535","2014-07-21","interesse","Tem médio interesse","renda_familiar","2 a 5",29
+"536","2014-07-21","interesse","Não tem interesse","renda_familiar","2 a 5",54
+"537","2014-07-21","interesse","NS/NR*","renda_familiar","2 a 5",1
+"538","2014-07-21","interesse","Tem muito interesse","renda_familiar","1 a 2",14
+"539","2014-07-21","interesse","Tem médio interesse","renda_familiar","1 a 2",26
+"540","2014-07-21","interesse","Não tem interesse","renda_familiar","1 a 2",59
+"541","2014-07-21","interesse","NS/NR*","renda_familiar","1 a 2",0
+"542","2014-07-21","interesse","Tem muito interesse","renda_familiar","Ate 1",15
+"543","2014-07-21","interesse","Tem médio interesse","renda_familiar","Ate 1",25
+"544","2014-07-21","interesse","Não tem interesse","renda_familiar","Ate 1",59
+"545","2014-07-21","interesse","NS/NR*","renda_familiar","Ate 1",1
+"546","2014-07-21","intencao_espontanea","Aécio Neves","renda_familiar","Mais de 5",23
+"547","2014-07-21","intencao_espontanea","Branco e Nulo","renda_familiar","Mais de 5",13
+"548","2014-07-21","intencao_espontanea","Dilma Rousseff","renda_familiar","Mais de 5",22
+"549","2014-07-21","intencao_espontanea","Eduardo Campos","renda_familiar","Mais de 5",7
+"550","2014-07-21","intencao_espontanea","NS/NR*","renda_familiar","Mais de 5",33
+"551","2014-07-21","intencao_espontanea","Outros","renda_familiar","Mais de 5",1
+"552","2014-07-21","intencao_espontanea","Aécio Neves","renda_familiar","2 a 5",13
+"553","2014-07-21","intencao_espontanea","Branco e Nulo","renda_familiar","2 a 5",17
+"554","2014-07-21","intencao_espontanea","Dilma Rousseff","renda_familiar","2 a 5",24
+"555","2014-07-21","intencao_espontanea","Eduardo Campos","renda_familiar","2 a 5",3
+"556","2014-07-21","intencao_espontanea","NS/NR*","renda_familiar","2 a 5",40
+"557","2014-07-21","intencao_espontanea","Outros","renda_familiar","2 a 5",2
+"558","2014-07-21","intencao_espontanea","Aécio Neves","renda_familiar","1 a 2",9
+"559","2014-07-21","intencao_espontanea","Branco e Nulo","renda_familiar","1 a 2",18
+"560","2014-07-21","intencao_espontanea","Dilma Rousseff","renda_familiar","1 a 2",27
+"561","2014-07-21","intencao_espontanea","Eduardo Campos","renda_familiar","1 a 2",5
+"562","2014-07-21","intencao_espontanea","NS/NR*","renda_familiar","1 a 2",40
+"563","2014-07-21","intencao_espontanea","Outros","renda_familiar","1 a 2",2
+"564","2014-07-21","intencao_espontanea","Aécio Neves","renda_familiar","Ate 1",7
+"565","2014-07-21","intencao_espontanea","Branco e Nulo","renda_familiar","Ate 1",15
+"566","2014-07-21","intencao_espontanea","Dilma Rousseff","renda_familiar","Ate 1",33
+"567","2014-07-21","intencao_espontanea","Eduardo Campos","renda_familiar","Ate 1",3
+"568","2014-07-21","intencao_espontanea","NS/NR*","renda_familiar","Ate 1",37
+"569","2014-07-21","intencao_espontanea","Outros","renda_familiar","Ate 1",5
+"570","2014-07-21","intencao_estimulada","Aécio Neves","renda_familiar","Mais de 5",37
+"571","2014-07-21","intencao_estimulada","Branco e Nulo","renda_familiar","Mais de 5",10
+"572","2014-07-21","intencao_estimulada","Dilma Rousseff","renda_familiar","Mais de 5",29
+"573","2014-07-21","intencao_estimulada","Eduardo Campos","renda_familiar","Mais de 5",11
+"574","2014-07-21","intencao_estimulada","NS/NR*","renda_familiar","Mais de 5",8
+"575","2014-07-21","intencao_estimulada","Outros","renda_familiar","Mais de 5",4
+"576","2014-07-21","intencao_estimulada","Pastor Everaldo","renda_familiar","Mais de 5",1
+"577","2014-07-21","intencao_estimulada","Aécio Neves","renda_familiar","2 a 5",24
+"578","2014-07-21","intencao_estimulada","Branco e Nulo","renda_familiar","2 a 5",19
+"579","2014-07-21","intencao_estimulada","Dilma Rousseff","renda_familiar","2 a 5",35
+"580","2014-07-21","intencao_estimulada","Eduardo Campos","renda_familiar","2 a 5",7
+"581","2014-07-21","intencao_estimulada","NS/NR*","renda_familiar","2 a 5",9
+"582","2014-07-21","intencao_estimulada","Outros","renda_familiar","2 a 5",4
+"583","2014-07-21","intencao_estimulada","Pastor Everaldo","renda_familiar","2 a 5",2
+"584","2014-07-21","intencao_estimulada","Aécio Neves","renda_familiar","1 a 2",17
+"585","2014-07-21","intencao_estimulada","Branco e Nulo","renda_familiar","1 a 2",16
+"586","2014-07-21","intencao_estimulada","Dilma Rousseff","renda_familiar","1 a 2",40
+"587","2014-07-21","intencao_estimulada","Eduardo Campos","renda_familiar","1 a 2",9
+"588","2014-07-21","intencao_estimulada","NS/NR*","renda_familiar","1 a 2",9
+"589","2014-07-21","intencao_estimulada","Outros","renda_familiar","1 a 2",4
+"590","2014-07-21","intencao_estimulada","Pastor Everaldo","renda_familiar","1 a 2",4
+"591","2014-07-21","intencao_estimulada","Aécio Neves","renda_familiar","Ate 1",11
+"592","2014-07-21","intencao_estimulada","Branco e Nulo","renda_familiar","Ate 1",9
+"593","2014-07-21","intencao_estimulada","Dilma Rousseff","renda_familiar","Ate 1",56
+"594","2014-07-21","intencao_estimulada","Eduardo Campos","renda_familiar","Ate 1",7
+"595","2014-07-21","intencao_estimulada","NS/NR*","renda_familiar","Ate 1",6
+"596","2014-07-21","intencao_estimulada","Outros","renda_familiar","Ate 1",6
+"597","2014-07-21","intencao_estimulada","Pastor Everaldo","renda_familiar","Ate 1",5
+"598","2014-07-21","avaliacao_governo","Ótimo e bom","renda_familiar","Mais de 5",26
+"599","2014-07-21","avaliacao_governo","Regular","renda_familiar","Mais de 5",32
+"600","2014-07-21","avaliacao_governo","Ruim e péssimo","renda_familiar","Mais de 5",41
+"601","2014-07-21","avaliacao_governo","NS/NR*","renda_familiar","Mais de 5",1
+"602","2014-07-21","avaliacao_governo","Ótimo e bom","renda_familiar","2 a 5",27
+"603","2014-07-21","avaliacao_governo","Regular","renda_familiar","2 a 5",39
+"604","2014-07-21","avaliacao_governo","Ruim e péssimo","renda_familiar","2 a 5",34
+"605","2014-07-21","avaliacao_governo","NS/NR*","renda_familiar","2 a 5",0
+"606","2014-07-21","avaliacao_governo","Ótimo e bom","renda_familiar","1 a 2",32
+"607","2014-07-21","avaliacao_governo","Regular","renda_familiar","1 a 2",35
+"608","2014-07-21","avaliacao_governo","Ruim e péssimo","renda_familiar","1 a 2",32
+"609","2014-07-21","avaliacao_governo","NS/NR*","renda_familiar","1 a 2",1
+"610","2014-07-21","avaliacao_governo","Ótimo e bom","renda_familiar","Ate 1",45
+"611","2014-07-21","avaliacao_governo","Regular","renda_familiar","Ate 1",32
+"612","2014-07-21","avaliacao_governo","Ruim e péssimo","renda_familiar","Ate 1",23
+"613","2014-07-21","avaliacao_governo","NS/NR*","renda_familiar","Ate 1",1
+"614","2014-07-21","aprova_dilma","Aprova","renda_familiar","Mais de 5",34
+"615","2014-07-21","aprova_dilma","Desaprova","renda_familiar","Mais de 5",62
+"616","2014-07-21","aprova_dilma","NS/NR*","renda_familiar","Mais de 5",3
+"617","2014-07-21","aprova_dilma","Aprova","renda_familiar","2 a 5",41
+"618","2014-07-21","aprova_dilma","Desaprova","renda_familiar","2 a 5",53
+"619","2014-07-21","aprova_dilma","NS/NR*","renda_familiar","2 a 5",6
+"620","2014-07-21","aprova_dilma","Aprova","renda_familiar","1 a 2",46
+"621","2014-07-21","aprova_dilma","Desaprova","renda_familiar","1 a 2",48
+"622","2014-07-21","aprova_dilma","NS/NR*","renda_familiar","1 a 2",6
+"623","2014-07-21","aprova_dilma","Aprova","renda_familiar","Ate 1",60
+"624","2014-07-21","aprova_dilma","Desaprova","renda_familiar","Ate 1",34
+"625","2014-07-21","aprova_dilma","NS/NR*","renda_familiar","Ate 1",6
+"626","2014-07-21","desejo_mudanca","Quer mudança","renda_familiar","Mais de 5",73
+"627","2014-07-21","desejo_mudanca","Quer continuidade","renda_familiar","Mais de 5",25
+"628","2014-07-21","desejo_mudanca","NS/NR*","renda_familiar","Mais de 5",2
+"629","2014-07-21","desejo_mudanca","Quer mudança","renda_familiar","2 a 5",72
+"630","2014-07-21","desejo_mudanca","Quer continuidade","renda_familiar","2 a 5",27
+"631","2014-07-21","desejo_mudanca","NS/NR*","renda_familiar","2 a 5",1
+"632","2014-07-21","desejo_mudanca","Quer mudança","renda_familiar","1 a 2",69
+"633","2014-07-21","desejo_mudanca","Quer continuidade","renda_familiar","1 a 2",29
+"634","2014-07-21","desejo_mudanca","NS/NR*","renda_familiar","1 a 2",2
+"635","2014-07-21","desejo_mudanca","Quer mudança","renda_familiar","Ate 1",66
+"636","2014-07-21","desejo_mudanca","Quer continuidade","renda_familiar","Ate 1",31
+"637","2014-07-21","desejo_mudanca","NS/NR*","renda_familiar","Ate 1",3
+"638","2014-07-21","rejeicao","Dilma Rousseff","renda_familiar","Mais de 5",48
+"639","2014-07-21","rejeicao","Aécio Neves","renda_familiar","Mais de 5",16
+"640","2014-07-21","rejeicao","Pastor Everaldo","renda_familiar","Mais de 5",9
+"641","2014-07-21","rejeicao","Eduardo Campos","renda_familiar","Mais de 5",7
+"642","2014-07-21","rejeicao","Dilma Rousseff","renda_familiar","2 a 5",38
+"643","2014-07-21","rejeicao","Aécio Neves","renda_familiar","2 a 5",16
+"644","2014-07-21","rejeicao","Pastor Everaldo","renda_familiar","2 a 5",11
+"645","2014-07-21","rejeicao","Eduardo Campos","renda_familiar","2 a 5",7
+"646","2014-07-21","rejeicao","Dilma Rousseff","renda_familiar","1 a 2",33
+"647","2014-07-21","rejeicao","Aécio Neves","renda_familiar","1 a 2",16
+"648","2014-07-21","rejeicao","Pastor Everaldo","renda_familiar","1 a 2",11
+"649","2014-07-21","rejeicao","Eduardo Campos","renda_familiar","1 a 2",10
+"650","2014-07-21","rejeicao","Dilma Rousseff","renda_familiar","Ate 1",23
+"651","2014-07-21","rejeicao","Aécio Neves","renda_familiar","Ate 1",15
+"652","2014-07-21","rejeicao","Pastor Everaldo","renda_familiar","Ate 1",10
+"653","2014-07-21","rejeicao","Eduardo Campos","renda_familiar","Ate 1",7
+"654","2014-07-21","2turno_aecio","Aécio Neves","renda_familiar","Mais de 5",48
+"655","2014-07-21","2turno_aecio","Branco e Nulo","renda_familiar","Mais de 5",13
+"656","2014-07-21","2turno_aecio","Dilma Rousseff","renda_familiar","Mais de 5",31
+"657","2014-07-21","2turno_aecio","NS/NR*","renda_familiar","Mais de 5",9
+"658","2014-07-21","2turno_aecio","Aécio Neves","renda_familiar","2 a 5",36
+"659","2014-07-21","2turno_aecio","Branco e Nulo","renda_familiar","2 a 5",20
+"660","2014-07-21","2turno_aecio","Dilma Rousseff","renda_familiar","2 a 5",36
+"661","2014-07-21","2turno_aecio","NS/NR*","renda_familiar","2 a 5",7
+"662","2014-07-21","2turno_aecio","Aécio Neves","renda_familiar","1 a 2",28
+"663","2014-07-21","2turno_aecio","Branco e Nulo","renda_familiar","1 a 2",19
+"664","2014-07-21","2turno_aecio","Dilma Rousseff","renda_familiar","1 a 2",44
+"665","2014-07-21","2turno_aecio","NS/NR*","renda_familiar","1 a 2",9
+"666","2014-07-21","2turno_aecio","Aécio Neves","renda_familiar","Ate 1",22
+"667","2014-07-21","2turno_aecio","Branco e Nulo","renda_familiar","Ate 1",12
+"668","2014-07-21","2turno_aecio","Dilma Rousseff","renda_familiar","Ate 1",59
+"669","2014-07-21","2turno_aecio","NS/NR*","renda_familiar","Ate 1",8
+"670","2014-07-21","2turno_campos","Branco e Nulo","renda_familiar","Mais de 5",17
+"671","2014-07-21","2turno_campos","Dilma Rousseff","renda_familiar","Mais de 5",32
+"672","2014-07-21","2turno_campos","Eduardo Campos","renda_familiar","Mais de 5",41
+"673","2014-07-21","2turno_campos","NS/NR*","renda_familiar","Mais de 5",10
+"674","2014-07-21","2turno_campos","Branco e Nulo","renda_familiar","2 a 5",24
+"675","2014-07-21","2turno_campos","Dilma Rousseff","renda_familiar","2 a 5",38
+"676","2014-07-21","2turno_campos","Eduardo Campos","renda_familiar","2 a 5",29
+"677","2014-07-21","2turno_campos","NS/NR*","renda_familiar","2 a 5",10
+"678","2014-07-21","2turno_campos","Branco e Nulo","renda_familiar","1 a 2",20
+"679","2014-07-21","2turno_campos","Dilma Rousseff","renda_familiar","1 a 2",43
+"680","2014-07-21","2turno_campos","Eduardo Campos","renda_familiar","1 a 2",27
+"681","2014-07-21","2turno_campos","NS/NR*","renda_familiar","1 a 2",10
+"682","2014-07-21","2turno_campos","Branco e Nulo","renda_familiar","Ate 1",13
+"683","2014-07-21","2turno_campos","Dilma Rousseff","renda_familiar","Ate 1",57
+"684","2014-07-21","2turno_campos","Eduardo Campos","renda_familiar","Ate 1",22
+"685","2014-07-21","2turno_campos","NS/NR*","renda_familiar","Ate 1",8
+"686","2014-07-21","favorito","Aécio Neves","renda_familiar","Mais de 5",22
+"687","2014-07-21","favorito","Dilma Rousseff","renda_familiar","Mais de 5",51
+"688","2014-07-21","favorito","Eduardo Campos","renda_familiar","Mais de 5",3
+"689","2014-07-21","favorito","NS/NR*","renda_familiar","Mais de 5",23
+"690","2014-07-21","favorito","Outros","renda_familiar","Mais de 5",1
+"691","2014-07-21","favorito","Aécio Neves","renda_familiar","2 a 5",20
+"692","2014-07-21","favorito","Dilma Rousseff","renda_familiar","2 a 5",52
+"693","2014-07-21","favorito","Eduardo Campos","renda_familiar","2 a 5",5
+"694","2014-07-21","favorito","NS/NR*","renda_familiar","2 a 5",22
+"695","2014-07-21","favorito","Outros","renda_familiar","2 a 5",1
+"696","2014-07-21","favorito","Aécio Neves","renda_familiar","1 a 2",12
+"697","2014-07-21","favorito","Dilma Rousseff","renda_familiar","1 a 2",54
+"698","2014-07-21","favorito","Eduardo Campos","renda_familiar","1 a 2",6
+"699","2014-07-21","favorito","NS/NR*","renda_familiar","1 a 2",25
+"700","2014-07-21","favorito","Outros","renda_familiar","1 a 2",2
+"701","2014-07-21","favorito","Aécio Neves","renda_familiar","Ate 1",8
+"702","2014-07-21","favorito","Dilma Rousseff","renda_familiar","Ate 1",64
+"703","2014-07-21","favorito","Eduardo Campos","renda_familiar","Ate 1",4
+"704","2014-07-21","favorito","NS/NR*","renda_familiar","Ate 1",21
+"705","2014-07-21","favorito","Outros","renda_familiar","Ate 1",3
+"706","2014-07-21","vida_hoje","Satisfeito","condicao_municipio","CAPITAL",78
+"707","2014-07-21","vida_hoje","Insatisfeito","condicao_municipio","CAPITAL",22
+"708","2014-07-21","vida_hoje","NS/NR*","condicao_municipio","CAPITAL",0
+"709","2014-07-21","vida_hoje","Satisfeito","condicao_municipio","INTERIOR",78
+"710","2014-07-21","vida_hoje","Insatisfeito","condicao_municipio","INTERIOR",21
+"711","2014-07-21","vida_hoje","NS/NR*","condicao_municipio","INTERIOR",0
+"712","2014-07-21","vida_hoje","Satisfeito","condicao_municipio","PERIFERIA",81
+"713","2014-07-21","vida_hoje","Insatisfeito","condicao_municipio","PERIFERIA",19
+"714","2014-07-21","vida_hoje","NS/NR*","condicao_municipio","PERIFERIA",0
+"715","2014-07-21","interesse","Tem muito interesse","condicao_municipio","CAPITAL",21
+"716","2014-07-21","interesse","Tem médio interesse","condicao_municipio","CAPITAL",24
+"717","2014-07-21","interesse","Não tem interesse","condicao_municipio","CAPITAL",55
+"718","2014-07-21","interesse","NS/NR*","condicao_municipio","CAPITAL",0
+"719","2014-07-21","interesse","Tem muito interesse","condicao_municipio","INTERIOR",16
+"720","2014-07-21","interesse","Tem médio interesse","condicao_municipio","INTERIOR",28
+"721","2014-07-21","interesse","Não tem interesse","condicao_municipio","INTERIOR",55
+"722","2014-07-21","interesse","NS/NR*","condicao_municipio","INTERIOR",1
+"723","2014-07-21","interesse","Tem muito interesse","condicao_municipio","PERIFERIA",14
+"724","2014-07-21","interesse","Tem médio interesse","condicao_municipio","PERIFERIA",28
+"725","2014-07-21","interesse","Não tem interesse","condicao_municipio","PERIFERIA",58
+"726","2014-07-21","interesse","NS/NR*","condicao_municipio","PERIFERIA",0
+"727","2014-07-21","intencao_espontanea","Aécio Neves","condicao_municipio","CAPITAL",12
+"728","2014-07-21","intencao_espontanea","Branco e Nulo","condicao_municipio","CAPITAL",19
+"729","2014-07-21","intencao_espontanea","Dilma Rousseff","condicao_municipio","CAPITAL",25
+"730","2014-07-21","intencao_espontanea","Eduardo Campos","condicao_municipio","CAPITAL",5
+"731","2014-07-21","intencao_espontanea","NS/NR*","condicao_municipio","CAPITAL",36
+"732","2014-07-21","intencao_espontanea","Outros","condicao_municipio","CAPITAL",3
+"733","2014-07-21","intencao_espontanea","Aécio Neves","condicao_municipio","INTERIOR",13
+"734","2014-07-21","intencao_espontanea","Branco e Nulo","condicao_municipio","INTERIOR",14
+"735","2014-07-21","intencao_espontanea","Dilma Rousseff","condicao_municipio","INTERIOR",27
+"736","2014-07-21","intencao_espontanea","Eduardo Campos","condicao_municipio","INTERIOR",4
+"737","2014-07-21","intencao_espontanea","NS/NR*","condicao_municipio","INTERIOR",41
+"738","2014-07-21","intencao_espontanea","Outros","condicao_municipio","INTERIOR",2
+"739","2014-07-21","intencao_espontanea","Aécio Neves","condicao_municipio","PERIFERIA",12
+"740","2014-07-21","intencao_espontanea","Branco e Nulo","condicao_municipio","PERIFERIA",25
+"741","2014-07-21","intencao_espontanea","Dilma Rousseff","condicao_municipio","PERIFERIA",20
+"742","2014-07-21","intencao_espontanea","Eduardo Campos","condicao_municipio","PERIFERIA",5
+"743","2014-07-21","intencao_espontanea","NS/NR*","condicao_municipio","PERIFERIA",36
+"744","2014-07-21","intencao_espontanea","Outros","condicao_municipio","PERIFERIA",2
+"745","2014-07-21","intencao_estimulada","Aécio Neves","condicao_municipio","CAPITAL",23
+"746","2014-07-21","intencao_estimulada","Branco e Nulo","condicao_municipio","CAPITAL",18
+"747","2014-07-21","intencao_estimulada","Dilma Rousseff","condicao_municipio","CAPITAL",34
+"748","2014-07-21","intencao_estimulada","Eduardo Campos","condicao_municipio","CAPITAL",9
+"749","2014-07-21","intencao_estimulada","NS/NR*","condicao_municipio","CAPITAL",8
+"750","2014-07-21","intencao_estimulada","Outros","condicao_municipio","CAPITAL",5
+"751","2014-07-21","intencao_estimulada","Pastor Everaldo","condicao_municipio","CAPITAL",4
+"752","2014-07-21","intencao_estimulada","Aécio Neves","condicao_municipio","INTERIOR",22
+"753","2014-07-21","intencao_estimulada","Branco e Nulo","condicao_municipio","INTERIOR",13
+"754","2014-07-21","intencao_estimulada","Dilma Rousseff","condicao_municipio","INTERIOR",41
+"755","2014-07-21","intencao_estimulada","Eduardo Campos","condicao_municipio","INTERIOR",8
+"756","2014-07-21","intencao_estimulada","NS/NR*","condicao_municipio","INTERIOR",10
+"757","2014-07-21","intencao_estimulada","Outros","condicao_municipio","INTERIOR",4
+"758","2014-07-21","intencao_estimulada","Pastor Everaldo","condicao_municipio","INTERIOR",2
+"759","2014-07-21","intencao_estimulada","Aécio Neves","condicao_municipio","PERIFERIA",20
+"760","2014-07-21","intencao_estimulada","Branco e Nulo","condicao_municipio","PERIFERIA",22
+"761","2014-07-21","intencao_estimulada","Dilma Rousseff","condicao_municipio","PERIFERIA",32
+"762","2014-07-21","intencao_estimulada","Eduardo Campos","condicao_municipio","PERIFERIA",10
+"763","2014-07-21","intencao_estimulada","NS/NR*","condicao_municipio","PERIFERIA",7
+"764","2014-07-21","intencao_estimulada","Outros","condicao_municipio","PERIFERIA",4
+"765","2014-07-21","intencao_estimulada","Pastor Everaldo","condicao_municipio","PERIFERIA",5
+"766","2014-07-21","avaliacao_governo","Ótimo e bom","condicao_municipio","CAPITAL",25
+"767","2014-07-21","avaliacao_governo","Regular","condicao_municipio","CAPITAL",36
+"768","2014-07-21","avaliacao_governo","Ruim e péssimo","condicao_municipio","CAPITAL",39
+"769","2014-07-21","avaliacao_governo","NS/NR*","condicao_municipio","CAPITAL",1
+"770","2014-07-21","avaliacao_governo","Ótimo e bom","condicao_municipio","INTERIOR",34
+"771","2014-07-21","avaliacao_governo","Regular","condicao_municipio","INTERIOR",36
+"772","2014-07-21","avaliacao_governo","Ruim e péssimo","condicao_municipio","INTERIOR",29
+"773","2014-07-21","avaliacao_governo","NS/NR*","condicao_municipio","INTERIOR",1
+"774","2014-07-21","avaliacao_governo","Ótimo e bom","condicao_municipio","PERIFERIA",26
+"775","2014-07-21","avaliacao_governo","Regular","condicao_municipio","PERIFERIA",34
+"776","2014-07-21","avaliacao_governo","Ruim e péssimo","condicao_municipio","PERIFERIA",39
+"777","2014-07-21","avaliacao_governo","NS/NR*","condicao_municipio","PERIFERIA",2
+"778","2014-07-21","aprova_dilma","Aprova","condicao_municipio","CAPITAL",37
+"779","2014-07-21","aprova_dilma","Desaprova","condicao_municipio","CAPITAL",57
+"780","2014-07-21","aprova_dilma","NS/NR*","condicao_municipio","CAPITAL",6
+"781","2014-07-21","aprova_dilma","Aprova","condicao_municipio","INTERIOR",49
+"782","2014-07-21","aprova_dilma","Desaprova","condicao_municipio","INTERIOR",46
+"783","2014-07-21","aprova_dilma","NS/NR*","condicao_municipio","INTERIOR",5
+"784","2014-07-21","aprova_dilma","Aprova","condicao_municipio","PERIFERIA",37
+"785","2014-07-21","aprova_dilma","Desaprova","condicao_municipio","PERIFERIA",56
+"786","2014-07-21","aprova_dilma","NS/NR*","condicao_municipio","PERIFERIA",7
+"787","2014-07-21","desejo_mudanca","Quer mudança","condicao_municipio","CAPITAL",77
+"788","2014-07-21","desejo_mudanca","Quer continuidade","condicao_municipio","CAPITAL",21
+"789","2014-07-21","desejo_mudanca","NS/NR*","condicao_municipio","CAPITAL",2
+"790","2014-07-21","desejo_mudanca","Quer mudança","condicao_municipio","INTERIOR",66
+"791","2014-07-21","desejo_mudanca","Quer continuidade","condicao_municipio","INTERIOR",32
+"792","2014-07-21","desejo_mudanca","NS/NR*","condicao_municipio","INTERIOR",2
+"793","2014-07-21","desejo_mudanca","Quer mudança","condicao_municipio","PERIFERIA",76
+"794","2014-07-21","desejo_mudanca","Quer continuidade","condicao_municipio","PERIFERIA",21
+"795","2014-07-21","desejo_mudanca","NS/NR*","condicao_municipio","PERIFERIA",3
+"796","2014-07-21","rejeicao","Dilma Rousseff","condicao_municipio","CAPITAL",41
+"797","2014-07-21","rejeicao","Aécio Neves","condicao_municipio","CAPITAL",15
+"798","2014-07-21","rejeicao","Pastor Everaldo","condicao_municipio","CAPITAL",12
+"799","2014-07-21","rejeicao","Eduardo Campos","condicao_municipio","CAPITAL",9
+"800","2014-07-21","rejeicao","Dilma Rousseff","condicao_municipio","INTERIOR",34
+"801","2014-07-21","rejeicao","Aécio Neves","condicao_municipio","INTERIOR",17
+"802","2014-07-21","rejeicao","Pastor Everaldo","condicao_municipio","INTERIOR",11
+"803","2014-07-21","rejeicao","Eduardo Campos","condicao_municipio","INTERIOR",9
+"804","2014-07-21","rejeicao","Dilma Rousseff","condicao_municipio","PERIFERIA",35
+"805","2014-07-21","rejeicao","Aécio Neves","condicao_municipio","PERIFERIA",16
+"806","2014-07-21","rejeicao","Pastor Everaldo","condicao_municipio","PERIFERIA",8
+"807","2014-07-21","rejeicao","Eduardo Campos","condicao_municipio","PERIFERIA",2
+"808","2014-07-21","2turno_aecio","Aécio Neves","condicao_municipio","CAPITAL",35
+"809","2014-07-21","2turno_aecio","Branco e Nulo","condicao_municipio","CAPITAL",21
+"810","2014-07-21","2turno_aecio","Dilma Rousseff","condicao_municipio","CAPITAL",37
+"811","2014-07-21","2turno_aecio","NS/NR*","condicao_municipio","CAPITAL",8
+"812","2014-07-21","2turno_aecio","Aécio Neves","condicao_municipio","INTERIOR",32
+"813","2014-07-21","2turno_aecio","Branco e Nulo","condicao_municipio","INTERIOR",15
+"814","2014-07-21","2turno_aecio","Dilma Rousseff","condicao_municipio","INTERIOR",44
+"815","2014-07-21","2turno_aecio","NS/NR*","condicao_municipio","INTERIOR",8
+"816","2014-07-21","2turno_aecio","Aécio Neves","condicao_municipio","PERIFERIA",37
+"817","2014-07-21","2turno_aecio","Branco e Nulo","condicao_municipio","PERIFERIA",21
+"818","2014-07-21","2turno_aecio","Dilma Rousseff","condicao_municipio","PERIFERIA",33
+"819","2014-07-21","2turno_aecio","NS/NR*","condicao_municipio","PERIFERIA",9
+"820","2014-07-21","2turno_campos","Branco e Nulo","condicao_municipio","CAPITAL",22
+"821","2014-07-21","2turno_campos","Dilma Rousseff","condicao_municipio","CAPITAL",39
+"822","2014-07-21","2turno_campos","Eduardo Campos","condicao_municipio","CAPITAL",29
+"823","2014-07-21","2turno_campos","NS/NR*","condicao_municipio","CAPITAL",10
+"824","2014-07-21","2turno_campos","Branco e Nulo","condicao_municipio","INTERIOR",17
+"825","2014-07-21","2turno_campos","Dilma Rousseff","condicao_municipio","INTERIOR",43
+"826","2014-07-21","2turno_campos","Eduardo Campos","condicao_municipio","INTERIOR",29
+"827","2014-07-21","2turno_campos","NS/NR*","condicao_municipio","INTERIOR",10
+"828","2014-07-21","2turno_campos","Branco e Nulo","condicao_municipio","PERIFERIA",28
+"829","2014-07-21","2turno_campos","Dilma Rousseff","condicao_municipio","PERIFERIA",35
+"830","2014-07-21","2turno_campos","Eduardo Campos","condicao_municipio","PERIFERIA",28
+"831","2014-07-21","2turno_campos","NS/NR*","condicao_municipio","PERIFERIA",9
+"832","2014-07-21","favorito","Aécio Neves","condicao_municipio","CAPITAL",17
+"833","2014-07-21","favorito","Dilma Rousseff","condicao_municipio","CAPITAL",50
+"834","2014-07-21","favorito","Eduardo Campos","condicao_municipio","CAPITAL",5
+"835","2014-07-21","favorito","NS/NR*","condicao_municipio","CAPITAL",25
+"836","2014-07-21","favorito","Outros","condicao_municipio","CAPITAL",2
+"837","2014-07-21","favorito","Aécio Neves","condicao_municipio","INTERIOR",16
+"838","2014-07-21","favorito","Dilma Rousseff","condicao_municipio","INTERIOR",56
+"839","2014-07-21","favorito","Eduardo Campos","condicao_municipio","INTERIOR",4
+"840","2014-07-21","favorito","NS/NR*","condicao_municipio","INTERIOR",22
+"841","2014-07-21","favorito","Outros","condicao_municipio","INTERIOR",1
+"842","2014-07-21","favorito","Aécio Neves","condicao_municipio","PERIFERIA",14
+"843","2014-07-21","favorito","Dilma Rousseff","condicao_municipio","PERIFERIA",50
+"844","2014-07-21","favorito","Eduardo Campos","condicao_municipio","PERIFERIA",5
+"845","2014-07-21","favorito","NS/NR*","condicao_municipio","PERIFERIA",28
+"846","2014-07-21","favorito","Outros","condicao_municipio","PERIFERIA",2
+"847","2014-07-21","vida_hoje","Satisfeito","regiao","NORDESTE",84
+"848","2014-07-21","vida_hoje","Insatisfeito","regiao","NORDESTE",16
+"849","2014-07-21","vida_hoje","NS/NR*","regiao","NORDESTE",0
+"850","2014-07-21","vida_hoje","Satisfeito","regiao","NORTE-CENTRO-OESTE",78
+"851","2014-07-21","vida_hoje","Insatisfeito","regiao","NORTE-CENTRO-OESTE",22
+"852","2014-07-21","vida_hoje","NS/NR*","regiao","NORTE-CENTRO-OESTE",1
+"853","2014-07-21","vida_hoje","Satisfeito","regiao","SUDESTE",77
+"854","2014-07-21","vida_hoje","Insatisfeito","regiao","SUDESTE",22
+"855","2014-07-21","vida_hoje","NS/NR*","regiao","SUDESTE",0
+"856","2014-07-21","vida_hoje","Satisfeito","regiao","SUL",74
+"857","2014-07-21","vida_hoje","Insatisfeito","regiao","SUL",26
+"858","2014-07-21","vida_hoje","NS/NR*","regiao","SUL",0
+"859","2014-07-21","interesse","Tem muito interesse","regiao","NORDESTE",18
+"860","2014-07-21","interesse","Tem médio interesse","regiao","NORDESTE",26
+"861","2014-07-21","interesse","Não tem interesse","regiao","NORDESTE",55
+"862","2014-07-21","interesse","NS/NR*","regiao","NORDESTE",1
+"863","2014-07-21","interesse","Tem muito interesse","regiao","NORTE-CENTRO-OESTE",18
+"864","2014-07-21","interesse","Tem médio interesse","regiao","NORTE-CENTRO-OESTE",29
+"865","2014-07-21","interesse","Não tem interesse","regiao","NORTE-CENTRO-OESTE",54
+"866","2014-07-21","interesse","NS/NR*","regiao","NORTE-CENTRO-OESTE",0
+"867","2014-07-21","interesse","Tem muito interesse","regiao","SUDESTE",18
+"868","2014-07-21","interesse","Tem médio interesse","regiao","SUDESTE",27
+"869","2014-07-21","interesse","Não tem interesse","regiao","SUDESTE",56
+"870","2014-07-21","interesse","NS/NR*","regiao","SUDESTE",0
+"871","2014-07-21","interesse","Tem muito interesse","regiao","SUL",14
+"872","2014-07-21","interesse","Tem médio interesse","regiao","SUL",28
+"873","2014-07-21","interesse","Não tem interesse","regiao","SUL",57
+"874","2014-07-21","interesse","NS/NR*","regiao","SUL",1
+"875","2014-07-21","intencao_espontanea","Aécio Neves","regiao","NORDESTE",5
+"876","2014-07-21","intencao_espontanea","Branco e Nulo","regiao","NORDESTE",13
+"877","2014-07-21","intencao_espontanea","Dilma Rousseff","regiao","NORDESTE",39
+"878","2014-07-21","intencao_espontanea","Eduardo Campos","regiao","NORDESTE",6
+"879","2014-07-21","intencao_espontanea","NS/NR*","regiao","NORDESTE",35
+"880","2014-07-21","intencao_espontanea","Outros","regiao","NORDESTE",2
+"881","2014-07-21","intencao_espontanea","Aécio Neves","regiao","NORTE-CENTRO-OESTE",15
+"882","2014-07-21","intencao_espontanea","Branco e Nulo","regiao","NORTE-CENTRO-OESTE",14
+"883","2014-07-21","intencao_espontanea","Dilma Rousseff","regiao","NORTE-CENTRO-OESTE",23
+"884","2014-07-21","intencao_espontanea","Eduardo Campos","regiao","NORTE-CENTRO-OESTE",5
+"885","2014-07-21","intencao_espontanea","NS/NR*","regiao","NORTE-CENTRO-OESTE",41
+"886","2014-07-21","intencao_espontanea","Outros","regiao","NORTE-CENTRO-OESTE",1
+"887","2014-07-21","intencao_espontanea","Aécio Neves","regiao","SUDESTE",16
+"888","2014-07-21","intencao_espontanea","Branco e Nulo","regiao","SUDESTE",20
+"889","2014-07-21","intencao_espontanea","Dilma Rousseff","regiao","SUDESTE",21
+"890","2014-07-21","intencao_espontanea","Eduardo Campos","regiao","SUDESTE",4
+"891","2014-07-21","intencao_espontanea","NS/NR*","regiao","SUDESTE",37
+"892","2014-07-21","intencao_espontanea","Outros","regiao","SUDESTE",3
+"893","2014-07-21","intencao_espontanea","Aécio Neves","regiao","SUL",12
+"894","2014-07-21","intencao_espontanea","Branco e Nulo","regiao","SUL",18
+"895","2014-07-21","intencao_espontanea","Dilma Rousseff","regiao","SUL",18
+"896","2014-07-21","intencao_espontanea","Eduardo Campos","regiao","SUL",2
+"897","2014-07-21","intencao_espontanea","NS/NR*","regiao","SUL",50
+"898","2014-07-21","intencao_espontanea","Outros","regiao","SUL",1
+"899","2014-07-21","intencao_estimulada","Aécio Neves","regiao","NORDESTE",9
+"900","2014-07-21","intencao_estimulada","Branco e Nulo","regiao","NORDESTE",11
+"901","2014-07-21","intencao_estimulada","Dilma Rousseff","regiao","NORDESTE",55
+"902","2014-07-21","intencao_estimulada","Eduardo Campos","regiao","NORDESTE",11
+"903","2014-07-21","intencao_estimulada","NS/NR*","regiao","NORDESTE",8
+"904","2014-07-21","intencao_estimulada","Outros","regiao","NORDESTE",5
+"905","2014-07-21","intencao_estimulada","Pastor Everaldo","regiao","NORDESTE",2
+"906","2014-07-21","intencao_estimulada","Aécio Neves","regiao","NORTE-CENTRO-OESTE",25
+"907","2014-07-21","intencao_estimulada","Branco e Nulo","regiao","NORTE-CENTRO-OESTE",13
+"908","2014-07-21","intencao_estimulada","Dilma Rousseff","regiao","NORTE-CENTRO-OESTE",34
+"909","2014-07-21","intencao_estimulada","Eduardo Campos","regiao","NORTE-CENTRO-OESTE",9
+"910","2014-07-21","intencao_estimulada","NS/NR*","regiao","NORTE-CENTRO-OESTE",12
+"911","2014-07-21","intencao_estimulada","Outros","regiao","NORTE-CENTRO-OESTE",4
+"912","2014-07-21","intencao_estimulada","Pastor Everaldo","regiao","NORTE-CENTRO-OESTE",2
+"913","2014-07-21","intencao_estimulada","Aécio Neves","regiao","SUDESTE",28
+"914","2014-07-21","intencao_estimulada","Branco e Nulo","regiao","SUDESTE",19
+"915","2014-07-21","intencao_estimulada","Dilma Rousseff","regiao","SUDESTE",32
+"916","2014-07-21","intencao_estimulada","Eduardo Campos","regiao","SUDESTE",6
+"917","2014-07-21","intencao_estimulada","NS/NR*","regiao","SUDESTE",8
+"918","2014-07-21","intencao_estimulada","Outros","regiao","SUDESTE",4
+"919","2014-07-21","intencao_estimulada","Pastor Everaldo","regiao","SUDESTE",3
+"920","2014-07-21","intencao_estimulada","Aécio Neves","regiao","SUL",26
+"921","2014-07-21","intencao_estimulada","Branco e Nulo","regiao","SUL",16
+"922","2014-07-21","intencao_estimulada","Dilma Rousseff","regiao","SUL",30
+"923","2014-07-21","intencao_estimulada","Eduardo Campos","regiao","SUL",9
+"924","2014-07-21","intencao_estimulada","NS/NR*","regiao","SUL",10
+"925","2014-07-21","intencao_estimulada","Outros","regiao","SUL",5
+"926","2014-07-21","intencao_estimulada","Pastor Everaldo","regiao","SUL",4
+"927","2014-07-21","avaliacao_governo","Ótimo e bom","regiao","NORDESTE",43
+"928","2014-07-21","avaliacao_governo","Regular","regiao","NORDESTE",36
+"929","2014-07-21","avaliacao_governo","Ruim e péssimo","regiao","NORDESTE",20
+"930","2014-07-21","avaliacao_governo","NS/NR*","regiao","NORDESTE",1
+"931","2014-07-21","avaliacao_governo","Ótimo e bom","regiao","NORTE-CENTRO-OESTE",25
+"932","2014-07-21","avaliacao_governo","Regular","regiao","NORTE-CENTRO-OESTE",33
+"933","2014-07-21","avaliacao_governo","Ruim e péssimo","regiao","NORTE-CENTRO-OESTE",41
+"934","2014-07-21","avaliacao_governo","NS/NR*","regiao","NORTE-CENTRO-OESTE",1
+"935","2014-07-21","avaliacao_governo","Ótimo e bom","regiao","SUDESTE",26
+"936","2014-07-21","avaliacao_governo","Regular","regiao","SUDESTE",35
+"937","2014-07-21","avaliacao_governo","Ruim e péssimo","regiao","SUDESTE",38
+"938","2014-07-21","avaliacao_governo","NS/NR*","regiao","SUDESTE",1
+"939","2014-07-21","avaliacao_governo","Ótimo e bom","regiao","SUL",28
+"940","2014-07-21","avaliacao_governo","Regular","regiao","SUL",39
+"941","2014-07-21","avaliacao_governo","Ruim e péssimo","regiao","SUL",32
+"942","2014-07-21","avaliacao_governo","NS/NR*","regiao","SUL",0
+"943","2014-07-21","aprova_dilma","Aprova","regiao","NORDESTE",61
+"944","2014-07-21","aprova_dilma","Desaprova","regiao","NORDESTE",35
+"945","2014-07-21","aprova_dilma","NS/NR*","regiao","NORDESTE",5
+"946","2014-07-21","aprova_dilma","Aprova","regiao","NORTE-CENTRO-OESTE",37
+"947","2014-07-21","aprova_dilma","Desaprova","regiao","NORTE-CENTRO-OESTE",54
+"948","2014-07-21","aprova_dilma","NS/NR*","regiao","NORTE-CENTRO-OESTE",9
+"949","2014-07-21","aprova_dilma","Aprova","regiao","SUDESTE",35
+"950","2014-07-21","aprova_dilma","Desaprova","regiao","SUDESTE",59
+"951","2014-07-21","aprova_dilma","NS/NR*","regiao","SUDESTE",6
+"952","2014-07-21","aprova_dilma","Aprova","regiao","SUL",45
+"953","2014-07-21","aprova_dilma","Desaprova","regiao","SUL",51
+"954","2014-07-21","aprova_dilma","NS/NR*","regiao","SUL",4
+"955","2014-07-21","desejo_mudanca","Quer mudança","regiao","NORDESTE",65
+"956","2014-07-21","desejo_mudanca","Quer continuidade","regiao","NORDESTE",32
+"957","2014-07-21","desejo_mudanca","NS/NR*","regiao","NORDESTE",3
+"958","2014-07-21","desejo_mudanca","Quer mudança","regiao","NORTE-CENTRO-OESTE",70
+"959","2014-07-21","desejo_mudanca","Quer continuidade","regiao","NORTE-CENTRO-OESTE",26
+"960","2014-07-21","desejo_mudanca","NS/NR*","regiao","NORTE-CENTRO-OESTE",4
+"961","2014-07-21","desejo_mudanca","Quer mudança","regiao","SUDESTE",74
+"962","2014-07-21","desejo_mudanca","Quer continuidade","regiao","SUDESTE",25
+"963","2014-07-21","desejo_mudanca","NS/NR*","regiao","SUDESTE",1
+"964","2014-07-21","desejo_mudanca","Quer mudança","regiao","SUL",71
+"965","2014-07-21","desejo_mudanca","Quer continuidade","regiao","SUL",28
+"966","2014-07-21","desejo_mudanca","NS/NR*","regiao","SUL",1
+"967","2014-07-21","rejeicao","Dilma Rousseff","regiao","NORDESTE",21
+"968","2014-07-21","rejeicao","Aécio Neves","regiao","NORDESTE",20
+"969","2014-07-21","rejeicao","Pastor Everaldo","regiao","NORDESTE",14
+"970","2014-07-21","rejeicao","Eduardo Campos","regiao","NORDESTE",14
+"971","2014-07-21","rejeicao","Dilma Rousseff","regiao","NORTE-CENTRO-OESTE",44
+"972","2014-07-21","rejeicao","Aécio Neves","regiao","NORTE-CENTRO-OESTE",16
+"973","2014-07-21","rejeicao","Pastor Everaldo","regiao","NORTE-CENTRO-OESTE",9
+"974","2014-07-21","rejeicao","Eduardo Campos","regiao","NORTE-CENTRO-OESTE",8
+"975","2014-07-21","rejeicao","Dilma Rousseff","regiao","SUDESTE",42
+"976","2014-07-21","rejeicao","Aécio Neves","regiao","SUDESTE",16
+"977","2014-07-21","rejeicao","Pastor Everaldo","regiao","SUDESTE",10
+"978","2014-07-21","rejeicao","Eduardo Campos","regiao","SUDESTE",5
+"979","2014-07-21","rejeicao","Dilma Rousseff","regiao","SUL",38
+"980","2014-07-21","rejeicao","Aécio Neves","regiao","SUL",9
+"981","2014-07-21","rejeicao","Pastor Everaldo","regiao","SUL",9
+"982","2014-07-21","rejeicao","Eduardo Campos","regiao","SUL",7
+"983","2014-07-21","2turno_aecio","Aécio Neves","regiao","NORDESTE",18
+"984","2014-07-21","2turno_aecio","Branco e Nulo","regiao","NORDESTE",14
+"985","2014-07-21","2turno_aecio","Dilma Rousseff","regiao","NORDESTE",59
+"986","2014-07-21","2turno_aecio","NS/NR*","regiao","NORDESTE",9
+"987","2014-07-21","2turno_aecio","Aécio Neves","regiao","NORTE-CENTRO-OESTE",38
+"988","2014-07-21","2turno_aecio","Branco e Nulo","regiao","NORTE-CENTRO-OESTE",17
+"989","2014-07-21","2turno_aecio","Dilma Rousseff","regiao","NORTE-CENTRO-OESTE",35
+"990","2014-07-21","2turno_aecio","NS/NR*","regiao","NORTE-CENTRO-OESTE",10
+"991","2014-07-21","2turno_aecio","Aécio Neves","regiao","SUDESTE",39
+"992","2014-07-21","2turno_aecio","Branco e Nulo","regiao","SUDESTE",20
+"993","2014-07-21","2turno_aecio","Dilma Rousseff","regiao","SUDESTE",34
+"994","2014-07-21","2turno_aecio","NS/NR*","regiao","SUDESTE",7
+"995","2014-07-21","2turno_aecio","Aécio Neves","regiao","SUL",39
+"996","2014-07-21","2turno_aecio","Branco e Nulo","regiao","SUL",19
+"997","2014-07-21","2turno_aecio","Dilma Rousseff","regiao","SUL",33
+"998","2014-07-21","2turno_aecio","NS/NR*","regiao","SUL",9
+"999","2014-07-21","2turno_campos","Branco e Nulo","regiao","NORDESTE",11
+"1000","2014-07-21","2turno_campos","Dilma Rousseff","regiao","NORDESTE",56
+"1001","2014-07-21","2turno_campos","Eduardo Campos","regiao","NORDESTE",24
+"1002","2014-07-21","2turno_campos","NS/NR*","regiao","NORDESTE",9
+"1003","2014-07-21","2turno_campos","Branco e Nulo","regiao","NORTE-CENTRO-OESTE",18
+"1004","2014-07-21","2turno_campos","Dilma Rousseff","regiao","NORTE-CENTRO-OESTE",37
+"1005","2014-07-21","2turno_campos","Eduardo Campos","regiao","NORTE-CENTRO-OESTE",34
+"1006","2014-07-21","2turno_campos","NS/NR*","regiao","NORTE-CENTRO-OESTE",11
+"1007","2014-07-21","2turno_campos","Branco e Nulo","regiao","SUDESTE",25
+"1008","2014-07-21","2turno_campos","Dilma Rousseff","regiao","SUDESTE",35
+"1009","2014-07-21","2turno_campos","Eduardo Campos","regiao","SUDESTE",29
+"1010","2014-07-21","2turno_campos","NS/NR*","regiao","SUDESTE",10
+"1011","2014-07-21","2turno_campos","Branco e Nulo","regiao","SUL",22
+"1012","2014-07-21","2turno_campos","Dilma Rousseff","regiao","SUL",34
+"1013","2014-07-21","2turno_campos","Eduardo Campos","regiao","SUL",33
+"1014","2014-07-21","2turno_campos","NS/NR*","regiao","SUL",10
+"1015","2014-07-21","favorito","Aécio Neves","regiao","NORDESTE",6
+"1016","2014-07-21","favorito","Dilma Rousseff","regiao","NORDESTE",64
+"1017","2014-07-21","favorito","Eduardo Campos","regiao","NORDESTE",8
+"1018","2014-07-21","favorito","NS/NR*","regiao","NORDESTE",21
+"1019","2014-07-21","favorito","Outros","regiao","NORDESTE",2
+"1020","2014-07-21","favorito","Aécio Neves","regiao","NORTE-CENTRO-OESTE",20
+"1021","2014-07-21","favorito","Dilma Rousseff","regiao","NORTE-CENTRO-OESTE",48
+"1022","2014-07-21","favorito","Eduardo Campos","regiao","NORTE-CENTRO-OESTE",5
+"1023","2014-07-21","favorito","NS/NR*","regiao","NORTE-CENTRO-OESTE",26
+"1024","2014-07-21","favorito","Outros","regiao","NORTE-CENTRO-OESTE",1
+"1025","2014-07-21","favorito","Aécio Neves","regiao","SUDESTE",20
+"1026","2014-07-21","favorito","Dilma Rousseff","regiao","SUDESTE",50
+"1027","2014-07-21","favorito","Eduardo Campos","regiao","SUDESTE",3
+"1028","2014-07-21","favorito","NS/NR*","regiao","SUDESTE",25
+"1029","2014-07-21","favorito","Outros","regiao","SUDESTE",2
+"1030","2014-07-21","favorito","Aécio Neves","regiao","SUL",18
+"1031","2014-07-21","favorito","Dilma Rousseff","regiao","SUL",52
+"1032","2014-07-21","favorito","Eduardo Campos","regiao","SUL",5
+"1033","2014-07-21","favorito","NS/NR*","regiao","SUL",24
+"1034","2014-07-21","favorito","Outros","regiao","SUL",2
+"1035","2014-07-21","vida_hoje","Satisfeito","cor","Branca",79
+"1036","2014-07-21","vida_hoje","Insatisfeito","cor","Branca",21
+"1037","2014-07-21","vida_hoje","NS/NR*","cor","Branca",0
+"1038","2014-07-21","vida_hoje","Satisfeito","cor","Preta ou parda",78
+"1039","2014-07-21","vida_hoje","Insatisfeito","cor","Preta ou parda",21
+"1040","2014-07-21","vida_hoje","NS/NR*","cor","Preta ou parda",0
+"1041","2014-07-21","vida_hoje","Satisfeito","cor","Outras",74
+"1042","2014-07-21","vida_hoje","Insatisfeito","cor","Outras",26
+"1043","2014-07-21","vida_hoje","NS/NR*","cor","Outras",0
+"1044","2014-07-21","interesse","Tem muito interesse","cor","Branca",18
+"1045","2014-07-21","interesse","Tem médio interesse","cor","Branca",26
+"1046","2014-07-21","interesse","Não tem interesse","cor","Branca",56
+"1047","2014-07-21","interesse","NS/NR*","cor","Branca",0
+"1048","2014-07-21","interesse","Tem muito interesse","cor","Preta ou parda",16
+"1049","2014-07-21","interesse","Tem médio interesse","cor","Preta ou parda",28
+"1050","2014-07-21","interesse","Não tem interesse","cor","Preta ou parda",56
+"1051","2014-07-21","interesse","NS/NR*","cor","Preta ou parda",0
+"1052","2014-07-21","interesse","Tem muito interesse","cor","Outras",19
+"1053","2014-07-21","interesse","Tem médio interesse","cor","Outras",30
+"1054","2014-07-21","interesse","Não tem interesse","cor","Outras",50
+"1055","2014-07-21","interesse","NS/NR*","cor","Outras",2
+"1056","2014-07-21","intencao_espontanea","Aécio Neves","cor","Branca",15
+"1057","2014-07-21","intencao_espontanea","Branco e Nulo","cor","Branca",18
+"1058","2014-07-21","intencao_espontanea","Dilma Rousseff","cor","Branca",22
+"1059","2014-07-21","intencao_espontanea","Eduardo Campos","cor","Branca",5
+"1060","2014-07-21","intencao_espontanea","NS/NR*","cor","Branca",39
+"1061","2014-07-21","intencao_espontanea","Outros","cor","Branca",2
+"1062","2014-07-21","intencao_espontanea","Aécio Neves","cor","Preta ou parda",10
+"1063","2014-07-21","intencao_espontanea","Branco e Nulo","cor","Preta ou parda",16
+"1064","2014-07-21","intencao_espontanea","Dilma Rousseff","cor","Preta ou parda",29
+"1065","2014-07-21","intencao_espontanea","Eduardo Campos","cor","Preta ou parda",4
+"1066","2014-07-21","intencao_espontanea","NS/NR*","cor","Preta ou parda",39
+"1067","2014-07-21","intencao_espontanea","Outros","cor","Preta ou parda",2
+"1068","2014-07-21","intencao_espontanea","Aécio Neves","cor","Outras",9
+"1069","2014-07-21","intencao_espontanea","Branco e Nulo","cor","Outras",17
+"1070","2014-07-21","intencao_espontanea","Dilma Rousseff","cor","Outras",24
+"1071","2014-07-21","intencao_espontanea","Eduardo Campos","cor","Outras",4
+"1072","2014-07-21","intencao_espontanea","NS/NR*","cor","Outras",43
+"1073","2014-07-21","intencao_espontanea","Outros","cor","Outras",4
+"1074","2014-07-21","intencao_estimulada","Aécio Neves","cor","Branca",26
+"1075","2014-07-21","intencao_estimulada","Branco e Nulo","cor","Branca",16
+"1076","2014-07-21","intencao_estimulada","Dilma Rousseff","cor","Branca",33
+"1077","2014-07-21","intencao_estimulada","Eduardo Campos","cor","Branca",9
+"1078","2014-07-21","intencao_estimulada","NS/NR*","cor","Branca",9
+"1079","2014-07-21","intencao_estimulada","Outros","cor","Branca",5
+"1080","2014-07-21","intencao_estimulada","Pastor Everaldo","cor","Branca",2
+"1081","2014-07-21","intencao_estimulada","Aécio Neves","cor","Preta ou parda",19
+"1082","2014-07-21","intencao_estimulada","Branco e Nulo","cor","Preta ou parda",15
+"1083","2014-07-21","intencao_estimulada","Dilma Rousseff","cor","Preta ou parda",42
+"1084","2014-07-21","intencao_estimulada","Eduardo Campos","cor","Preta ou parda",8
+"1085","2014-07-21","intencao_estimulada","NS/NR*","cor","Preta ou parda",9
+"1086","2014-07-21","intencao_estimulada","Outros","cor","Preta ou parda",4
+"1087","2014-07-21","intencao_estimulada","Pastor Everaldo","cor","Preta ou parda",3
+"1088","2014-07-21","intencao_estimulada","Aécio Neves","cor","Outras",13
+"1089","2014-07-21","intencao_estimulada","Branco e Nulo","cor","Outras",24
+"1090","2014-07-21","intencao_estimulada","Dilma Rousseff","cor","Outras",39
+"1091","2014-07-21","intencao_estimulada","Eduardo Campos","cor","Outras",4
+"1092","2014-07-21","intencao_estimulada","NS/NR*","cor","Outras",6
+"1093","2014-07-21","intencao_estimulada","Outros","cor","Outras",6
+"1094","2014-07-21","intencao_estimulada","Pastor Everaldo","cor","Outras",9
+"1095","2014-07-21","avaliacao_governo","Ótimo e bom","cor","Branca",29
+"1096","2014-07-21","avaliacao_governo","Regular","cor","Branca",34
+"1097","2014-07-21","avaliacao_governo","Ruim e péssimo","cor","Branca",36
+"1098","2014-07-21","avaliacao_governo","NS/NR*","cor","Branca",1
+"1099","2014-07-21","avaliacao_governo","Ótimo e bom","cor","Preta ou parda",32
+"1100","2014-07-21","avaliacao_governo","Regular","cor","Preta ou parda",37
+"1101","2014-07-21","avaliacao_governo","Ruim e péssimo","cor","Preta ou parda",30
+"1102","2014-07-21","avaliacao_governo","NS/NR*","cor","Preta ou parda",1
+"1103","2014-07-21","avaliacao_governo","Ótimo e bom","cor","Outras",24
+"1104","2014-07-21","avaliacao_governo","Regular","cor","Outras",37
+"1105","2014-07-21","avaliacao_governo","Ruim e péssimo","cor","Outras",39
+"1106","2014-07-21","avaliacao_governo","NS/NR*","cor","Outras",0
+"1107","2014-07-21","aprova_dilma","Aprova","cor","Branca",40
+"1108","2014-07-21","aprova_dilma","Desaprova","cor","Branca",55
+"1109","2014-07-21","aprova_dilma","NS/NR*","cor","Branca",5
+"1110","2014-07-21","aprova_dilma","Aprova","cor","Preta ou parda",47
+"1111","2014-07-21","aprova_dilma","Desaprova","cor","Preta ou parda",47
+"1112","2014-07-21","aprova_dilma","NS/NR*","cor","Preta ou parda",6
+"1113","2014-07-21","aprova_dilma","Aprova","cor","Outras",39
+"1114","2014-07-21","aprova_dilma","Desaprova","cor","Outras",54
+"1115","2014-07-21","aprova_dilma","NS/NR*","cor","Outras",7
+"1116","2014-07-21","desejo_mudanca","Quer mudança","cor","Branca",71
+"1117","2014-07-21","desejo_mudanca","Quer continuidade","cor","Branca",27
+"1118","2014-07-21","desejo_mudanca","NS/NR*","cor","Branca",2
+"1119","2014-07-21","desejo_mudanca","Quer mudança","cor","Preta ou parda",70
+"1120","2014-07-21","desejo_mudanca","Quer continuidade","cor","Preta ou parda",28
+"1121","2014-07-21","desejo_mudanca","NS/NR*","cor","Preta ou parda",2
+"1122","2014-07-21","desejo_mudanca","Quer mudança","cor","Outras",70
+"1123","2014-07-21","desejo_mudanca","Quer continuidade","cor","Outras",30
+"1124","2014-07-21","desejo_mudanca","NS/NR*","cor","Outras",0
+"1125","2014-07-21","rejeicao","Dilma Rousseff","cor","Branca",40
+"1126","2014-07-21","rejeicao","Aécio Neves","cor","Branca",15
+"1127","2014-07-21","rejeicao","Pastor Everaldo","cor","Branca",10
+"1128","2014-07-21","rejeicao","Eduardo Campos","cor","Branca",6
+"1129","2014-07-21","rejeicao","Dilma Rousseff","cor","Preta ou parda",32
+"1130","2014-07-21","rejeicao","Aécio Neves","cor","Preta ou parda",17
+"1131","2014-07-21","rejeicao","Pastor Everaldo","cor","Preta ou parda",11
+"1132","2014-07-21","rejeicao","Eduardo Campos","cor","Preta ou parda",9
+"1133","2014-07-21","rejeicao","Dilma Rousseff","cor","Outras",48
+"1134","2014-07-21","rejeicao","Aécio Neves","cor","Outras",17
+"1135","2014-07-21","rejeicao","Pastor Everaldo","cor","Outras",11
+"1136","2014-07-21","rejeicao","Eduardo Campos","cor","Outras",15
+"1137","2014-07-21","2turno_aecio","Aécio Neves","cor","Branca",39
+"1138","2014-07-21","2turno_aecio","Branco e Nulo","cor","Branca",17
+"1139","2014-07-21","2turno_aecio","Dilma Rousseff","cor","Branca",35
+"1140","2014-07-21","2turno_aecio","NS/NR*","cor","Branca",9
+"1141","2014-07-21","2turno_aecio","Aécio Neves","cor","Preta ou parda",30
+"1142","2014-07-21","2turno_aecio","Branco e Nulo","cor","Preta ou parda",17
+"1143","2014-07-21","2turno_aecio","Dilma Rousseff","cor","Preta ou parda",45
+"1144","2014-07-21","2turno_aecio","NS/NR*","cor","Preta ou parda",8
+"1145","2014-07-21","2turno_aecio","Aécio Neves","cor","Outras",28
+"1146","2014-07-21","2turno_aecio","Branco e Nulo","cor","Outras",28
+"1147","2014-07-21","2turno_aecio","Dilma Rousseff","cor","Outras",44
+"1148","2014-07-21","2turno_aecio","NS/NR*","cor","Outras",0
+"1149","2014-07-21","2turno_campos","Branco e Nulo","cor","Branca",21
+"1150","2014-07-21","2turno_campos","Dilma Rousseff","cor","Branca",36
+"1151","2014-07-21","2turno_campos","Eduardo Campos","cor","Branca",33
+"1152","2014-07-21","2turno_campos","NS/NR*","cor","Branca",11
+"1153","2014-07-21","2turno_campos","Branco e Nulo","cor","Preta ou parda",19
+"1154","2014-07-21","2turno_campos","Dilma Rousseff","cor","Preta ou parda",45
+"1155","2014-07-21","2turno_campos","Eduardo Campos","cor","Preta ou parda",26
+"1156","2014-07-21","2turno_campos","NS/NR*","cor","Preta ou parda",10
+"1157","2014-07-21","2turno_campos","Branco e Nulo","cor","Outras",24
+"1158","2014-07-21","2turno_campos","Dilma Rousseff","cor","Outras",46
+"1159","2014-07-21","2turno_campos","Eduardo Campos","cor","Outras",30
+"1160","2014-07-21","2turno_campos","NS/NR*","cor","Outras",0
+"1161","2014-07-21","favorito","Aécio Neves","cor","Branca",19
+"1162","2014-07-21","favorito","Dilma Rousseff","cor","Branca",52
+"1163","2014-07-21","favorito","Eduardo Campos","cor","Branca",4
+"1164","2014-07-21","favorito","NS/NR*","cor","Branca",23
+"1165","2014-07-21","favorito","Outros","cor","Branca",1
+"1166","2014-07-21","favorito","Aécio Neves","cor","Preta ou parda",14
+"1167","2014-07-21","favorito","Dilma Rousseff","cor","Preta ou parda",55
+"1168","2014-07-21","favorito","Eduardo Campos","cor","Preta ou parda",5
+"1169","2014-07-21","favorito","NS/NR*","cor","Preta ou parda",24
+"1170","2014-07-21","favorito","Outros","cor","Preta ou parda",2
+"1171","2014-07-21","favorito","Aécio Neves","cor","Outras",9
+"1172","2014-07-21","favorito","Dilma Rousseff","cor","Outras",57
+"1173","2014-07-21","favorito","Eduardo Campos","cor","Outras",7
+"1174","2014-07-21","favorito","NS/NR*","cor","Outras",26
+"1175","2014-07-21","favorito","Outros","cor","Outras",0
+"1176","2014-07-21","vida_hoje","Satisfeito","religiao","Catolica",81
+"1177","2014-07-21","vida_hoje","Insatisfeito","religiao","Catolica",19
+"1178","2014-07-21","vida_hoje","NS/NR*","religiao","Catolica",0
+"1179","2014-07-21","vida_hoje","Satisfeito","religiao","Evangelica",76
+"1180","2014-07-21","vida_hoje","Insatisfeito","religiao","Evangelica",23
+"1181","2014-07-21","vida_hoje","NS/NR*","religiao","Evangelica",0
+"1182","2014-07-21","vida_hoje","Satisfeito","religiao","Outras",71
+"1183","2014-07-21","vida_hoje","Insatisfeito","religiao","Outras",28
+"1184","2014-07-21","vida_hoje","NS/NR*","religiao","Outras",1
+"1185","2014-07-21","interesse","Tem muito interesse","religiao","Catolica",18
+"1186","2014-07-21","interesse","Tem médio interesse","religiao","Catolica",27
+"1187","2014-07-21","interesse","Não tem interesse","religiao","Catolica",55
+"1188","2014-07-21","interesse","NS/NR*","religiao","Catolica",0
+"1189","2014-07-21","interesse","Tem muito interesse","religiao","Evangelica",17
+"1190","2014-07-21","interesse","Tem médio interesse","religiao","Evangelica",27
+"1191","2014-07-21","interesse","Não tem interesse","religiao","Evangelica",55
+"1192","2014-07-21","interesse","NS/NR*","religiao","Evangelica",1
+"1193","2014-07-21","interesse","Tem muito interesse","religiao","Outras",16
+"1194","2014-07-21","interesse","Tem médio interesse","religiao","Outras",24
+"1195","2014-07-21","interesse","Não tem interesse","religiao","Outras",60
+"1196","2014-07-21","interesse","NS/NR*","religiao","Outras",0
+"1197","2014-07-21","intencao_espontanea","Aécio Neves","religiao","Catolica",13
+"1198","2014-07-21","intencao_espontanea","Branco e Nulo","religiao","Catolica",14
+"1199","2014-07-21","intencao_espontanea","Dilma Rousseff","religiao","Catolica",30
+"1200","2014-07-21","intencao_espontanea","Eduardo Campos","religiao","Catolica",4
+"1201","2014-07-21","intencao_espontanea","NS/NR*","religiao","Catolica",38
+"1202","2014-07-21","intencao_espontanea","Outros","religiao","Catolica",1
+"1203","2014-07-21","intencao_espontanea","Aécio Neves","religiao","Evangelica",11
+"1204","2014-07-21","intencao_espontanea","Branco e Nulo","religiao","Evangelica",18
+"1205","2014-07-21","intencao_espontanea","Dilma Rousseff","religiao","Evangelica",21
+"1206","2014-07-21","intencao_espontanea","Eduardo Campos","religiao","Evangelica",5
+"1207","2014-07-21","intencao_espontanea","NS/NR*","religiao","Evangelica",42
+"1208","2014-07-21","intencao_espontanea","Outros","religiao","Evangelica",4
+"1209","2014-07-21","intencao_espontanea","Aécio Neves","religiao","Outras",13
+"1210","2014-07-21","intencao_espontanea","Branco e Nulo","religiao","Outras",26
+"1211","2014-07-21","intencao_espontanea","Dilma Rousseff","religiao","Outras",17
+"1212","2014-07-21","intencao_espontanea","Eduardo Campos","religiao","Outras",4
+"1213","2014-07-21","intencao_espontanea","NS/NR*","religiao","Outras",38
+"1214","2014-07-21","intencao_espontanea","Outros","religiao","Outras",2
+"1215","2014-07-21","intencao_estimulada","Aécio Neves","religiao","Catolica",22
+"1216","2014-07-21","intencao_estimulada","Branco e Nulo","religiao","Catolica",13
+"1217","2014-07-21","intencao_estimulada","Dilma Rousseff","religiao","Catolica",43
+"1218","2014-07-21","intencao_estimulada","Eduardo Campos","religiao","Catolica",9
+"1219","2014-07-21","intencao_estimulada","NS/NR*","religiao","Catolica",8
+"1220","2014-07-21","intencao_estimulada","Outros","religiao","Catolica",4
+"1221","2014-07-21","intencao_estimulada","Pastor Everaldo","religiao","Catolica",1
+"1222","2014-07-21","intencao_estimulada","Aécio Neves","religiao","Evangelica",21
+"1223","2014-07-21","intencao_estimulada","Branco e Nulo","religiao","Evangelica",18
+"1224","2014-07-21","intencao_estimulada","Dilma Rousseff","religiao","Evangelica",29
+"1225","2014-07-21","intencao_estimulada","Eduardo Campos","religiao","Evangelica",10
+"1226","2014-07-21","intencao_estimulada","NS/NR*","religiao","Evangelica",11
+"1227","2014-07-21","intencao_estimulada","Outros","religiao","Evangelica",4
+"1228","2014-07-21","intencao_estimulada","Pastor Everaldo","religiao","Evangelica",7
+"1229","2014-07-21","intencao_estimulada","Aécio Neves","religiao","Outras",24
+"1230","2014-07-21","intencao_estimulada","Branco e Nulo","religiao","Outras",23
+"1231","2014-07-21","intencao_estimulada","Dilma Rousseff","religiao","Outras",30
+"1232","2014-07-21","intencao_estimulada","Eduardo Campos","religiao","Outras",5
+"1233","2014-07-21","intencao_estimulada","NS/NR*","religiao","Outras",7
+"1234","2014-07-21","intencao_estimulada","Outros","religiao","Outras",8
+"1235","2014-07-21","intencao_estimulada","Pastor Everaldo","religiao","Outras",3
+"1236","2014-07-21","avaliacao_governo","Ótimo e bom","religiao","Catolica",34
+"1237","2014-07-21","avaliacao_governo","Regular","religiao","Catolica",35
+"1238","2014-07-21","avaliacao_governo","Ruim e péssimo","religiao","Catolica",30
+"1239","2014-07-21","avaliacao_governo","NS/NR*","religiao","Catolica",0
+"1240","2014-07-21","avaliacao_governo","Ótimo e bom","religiao","Evangelica",26
+"1241","2014-07-21","avaliacao_governo","Regular","religiao","Evangelica",37
+"1242","2014-07-21","avaliacao_governo","Ruim e péssimo","religiao","Evangelica",36
+"1243","2014-07-21","avaliacao_governo","NS/NR*","religiao","Evangelica",1
+"1244","2014-07-21","avaliacao_governo","Ótimo e bom","religiao","Outras",22
+"1245","2014-07-21","avaliacao_governo","Regular","religiao","Outras",36
+"1246","2014-07-21","avaliacao_governo","Ruim e péssimo","religiao","Outras",41
+"1247","2014-07-21","avaliacao_governo","NS/NR*","religiao","Outras",1
+"1248","2014-07-21","aprova_dilma","Aprova","religiao","Catolica",49
+"1249","2014-07-21","aprova_dilma","Desaprova","religiao","Catolica",46
+"1250","2014-07-21","aprova_dilma","NS/NR*","religiao","Catolica",5
+"1251","2014-07-21","aprova_dilma","Aprova","religiao","Evangelica",37
+"1252","2014-07-21","aprova_dilma","Desaprova","religiao","Evangelica",55
+"1253","2014-07-21","aprova_dilma","NS/NR*","religiao","Evangelica",8
+"1254","2014-07-21","aprova_dilma","Aprova","religiao","Outras",35
+"1255","2014-07-21","aprova_dilma","Desaprova","religiao","Outras",59
+"1256","2014-07-21","aprova_dilma","NS/NR*","religiao","Outras",6
+"1257","2014-07-21","desejo_mudanca","Quer mudança","religiao","Catolica",69
+"1258","2014-07-21","desejo_mudanca","Quer continuidade","religiao","Catolica",30
+"1259","2014-07-21","desejo_mudanca","NS/NR*","religiao","Catolica",1
+"1260","2014-07-21","desejo_mudanca","Quer mudança","religiao","Evangelica",73
+"1261","2014-07-21","desejo_mudanca","Quer continuidade","religiao","Evangelica",25
+"1262","2014-07-21","desejo_mudanca","NS/NR*","religiao","Evangelica",2
+"1263","2014-07-21","desejo_mudanca","Quer mudança","religiao","Outras",75
+"1264","2014-07-21","desejo_mudanca","Quer continuidade","religiao","Outras",22
+"1265","2014-07-21","desejo_mudanca","NS/NR*","religiao","Outras",3
+"1266","2014-07-21","rejeicao","Dilma Rousseff","religiao","Catolica",33
+"1267","2014-07-21","rejeicao","Aécio Neves","religiao","Catolica",17
+"1268","2014-07-21","rejeicao","Pastor Everaldo","religiao","Catolica",12
+"1269","2014-07-21","rejeicao","Eduardo Campos","religiao","Catolica",9
+"1270","2014-07-21","rejeicao","Dilma Rousseff","religiao","Evangelica",41
+"1271","2014-07-21","rejeicao","Aécio Neves","religiao","Evangelica",15
+"1272","2014-07-21","rejeicao","Pastor Everaldo","religiao","Evangelica",7
+"1273","2014-07-21","rejeicao","Eduardo Campos","religiao","Evangelica",7
+"1274","2014-07-21","rejeicao","Dilma Rousseff","religiao","Outras",40
+"1275","2014-07-21","rejeicao","Aécio Neves","religiao","Outras",14
+"1276","2014-07-21","rejeicao","Pastor Everaldo","religiao","Outras",10
+"1277","2014-07-21","rejeicao","Eduardo Campos","religiao","Outras",6
+"1278","2014-07-21","2turno_aecio","Aécio Neves","religiao","Catolica",32
+"1279","2014-07-21","2turno_aecio","Branco e Nulo","religiao","Catolica",15
+"1280","2014-07-21","2turno_aecio","Dilma Rousseff","religiao","Catolica",45
+"1281","2014-07-21","2turno_aecio","NS/NR*","religiao","Catolica",8
+"1282","2014-07-21","2turno_aecio","Aécio Neves","religiao","Evangelica",35
+"1283","2014-07-21","2turno_aecio","Branco e Nulo","religiao","Evangelica",21
+"1284","2014-07-21","2turno_aecio","Dilma Rousseff","religiao","Evangelica",33
+"1285","2014-07-21","2turno_aecio","NS/NR*","religiao","Evangelica",10
+"1286","2014-07-21","2turno_aecio","Aécio Neves","religiao","Outras",36
+"1287","2014-07-21","2turno_aecio","Branco e Nulo","religiao","Outras",23
+"1288","2014-07-21","2turno_aecio","Dilma Rousseff","religiao","Outras",35
+"1289","2014-07-21","2turno_aecio","NS/NR*","religiao","Outras",6
+"1290","2014-07-21","2turno_campos","Branco e Nulo","religiao","Catolica",18
+"1291","2014-07-21","2turno_campos","Dilma Rousseff","religiao","Catolica",44
+"1292","2014-07-21","2turno_campos","Eduardo Campos","religiao","Catolica",28
+"1293","2014-07-21","2turno_campos","NS/NR*","religiao","Catolica",10
+"1294","2014-07-21","2turno_campos","Branco e Nulo","religiao","Evangelica",23
+"1295","2014-07-21","2turno_campos","Dilma Rousseff","religiao","Evangelica",35
+"1296","2014-07-21","2turno_campos","Eduardo Campos","religiao","Evangelica",30
+"1297","2014-07-21","2turno_campos","NS/NR*","religiao","Evangelica",11
+"1298","2014-07-21","2turno_campos","Branco e Nulo","religiao","Outras",25
+"1299","2014-07-21","2turno_campos","Dilma Rousseff","religiao","Outras",37
+"1300","2014-07-21","2turno_campos","Eduardo Campos","religiao","Outras",31
+"1301","2014-07-21","2turno_campos","NS/NR*","religiao","Outras",8
+"1302","2014-07-21","favorito","Aécio Neves","religiao","Catolica",16
+"1303","2014-07-21","favorito","Dilma Rousseff","religiao","Catolica",56
+"1304","2014-07-21","favorito","Eduardo Campos","religiao","Catolica",5
+"1305","2014-07-21","favorito","NS/NR*","religiao","Catolica",22
+"1306","2014-07-21","favorito","Outros","religiao","Catolica",1
+"1307","2014-07-21","favorito","Aécio Neves","religiao","Evangelica",16
+"1308","2014-07-21","favorito","Dilma Rousseff","religiao","Evangelica",50
+"1309","2014-07-21","favorito","Eduardo Campos","religiao","Evangelica",5
+"1310","2014-07-21","favorito","NS/NR*","religiao","Evangelica",27
+"1311","2014-07-21","favorito","Outros","religiao","Evangelica",2
+"1312","2014-07-21","favorito","Aécio Neves","religiao","Outras",15
+"1313","2014-07-21","favorito","Dilma Rousseff","religiao","Outras",51
+"1314","2014-07-21","favorito","Eduardo Campos","religiao","Outras",4
+"1315","2014-07-21","favorito","NS/NR*","religiao","Outras",27
+"1316","2014-07-21","favorito","Outros","religiao","Outras",2
+"1317","2014-07-21","interesse","Tem muito interesse","vida_hoje","Satisfeito",18
+"1318","2014-07-21","interesse","Tem médio interesse","vida_hoje","Satisfeito",30
+"1319","2014-07-21","interesse","Não tem interesse","vida_hoje","Satisfeito",52
+"1320","2014-07-21","interesse","NS/NR*","vida_hoje","Satisfeito",0
+"1321","2014-07-21","interesse","Tem muito interesse","vida_hoje","Insatisfeito",16
+"1322","2014-07-21","interesse","Tem médio interesse","vida_hoje","Insatisfeito",16
+"1323","2014-07-21","interesse","Não tem interesse","vida_hoje","Insatisfeito",67
+"1324","2014-07-21","interesse","NS/NR*","vida_hoje","Insatisfeito",1
+"1325","2014-07-21","interesse","Tem muito interesse","vida_hoje","NS/NR*",17
+"1326","2014-07-21","interesse","Tem médio interesse","vida_hoje","NS/NR*",0
+"1327","2014-07-21","interesse","Não tem interesse","vida_hoje","NS/NR*",83
+"1328","2014-07-21","interesse","NS/NR*","vida_hoje","NS/NR*",0
+"1329","2014-07-21","intencao_espontanea","Aécio Neves","vida_hoje","Satisfeito",12
+"1330","2014-07-21","intencao_espontanea","Branco e Nulo","vida_hoje","Satisfeito",14
+"1331","2014-07-21","intencao_espontanea","Dilma Rousseff","vida_hoje","Satisfeito",29
+"1332","2014-07-21","intencao_espontanea","Eduardo Campos","vida_hoje","Satisfeito",4
+"1333","2014-07-21","intencao_espontanea","NS/NR*","vida_hoje","Satisfeito",38
+"1334","2014-07-21","intencao_espontanea","Outros","vida_hoje","Satisfeito",2
+"1335","2014-07-21","intencao_espontanea","Aécio Neves","vida_hoje","Insatisfeito",13
+"1336","2014-07-21","intencao_espontanea","Branco e Nulo","vida_hoje","Insatisfeito",26
+"1337","2014-07-21","intencao_espontanea","Dilma Rousseff","vida_hoje","Insatisfeito",13
+"1338","2014-07-21","intencao_espontanea","Eduardo Campos","vida_hoje","Insatisfeito",4
+"1339","2014-07-21","intencao_espontanea","NS/NR*","vida_hoje","Insatisfeito",41
+"1340","2014-07-21","intencao_espontanea","Outros","vida_hoje","Insatisfeito",3
+"1341","2014-07-21","intencao_espontanea","Aécio Neves","vida_hoje","NS/NR*",17
+"1342","2014-07-21","intencao_espontanea","Branco e Nulo","vida_hoje","NS/NR*",17
+"1343","2014-07-21","intencao_espontanea","Dilma Rousseff","vida_hoje","NS/NR*",0
+"1344","2014-07-21","intencao_espontanea","Eduardo Campos","vida_hoje","NS/NR*",0
+"1345","2014-07-21","intencao_espontanea","NS/NR*","vida_hoje","NS/NR*",67
+"1346","2014-07-21","intencao_espontanea","Outros","vida_hoje","NS/NR*",0
+"1347","2014-07-21","intencao_estimulada","Aécio Neves","vida_hoje","Satisfeito",21
+"1348","2014-07-21","intencao_estimulada","Branco e Nulo","vida_hoje","Satisfeito",14
+"1349","2014-07-21","intencao_estimulada","Dilma Rousseff","vida_hoje","Satisfeito",42
+"1350","2014-07-21","intencao_estimulada","Eduardo Campos","vida_hoje","Satisfeito",9
+"1351","2014-07-21","intencao_estimulada","NS/NR*","vida_hoje","Satisfeito",8
+"1352","2014-07-21","intencao_estimulada","Outros","vida_hoje","Satisfeito",4
+"1353","2014-07-21","intencao_estimulada","Pastor Everaldo","vida_hoje","Satisfeito",2
+"1354","2014-07-21","intencao_estimulada","Aécio Neves","vida_hoje","Insatisfeito",25
+"1355","2014-07-21","intencao_estimulada","Branco e Nulo","vida_hoje","Insatisfeito",24
+"1356","2014-07-21","intencao_estimulada","Dilma Rousseff","vida_hoje","Insatisfeito",25
+"1357","2014-07-21","intencao_estimulada","Eduardo Campos","vida_hoje","Insatisfeito",7
+"1358","2014-07-21","intencao_estimulada","NS/NR*","vida_hoje","Insatisfeito",10
+"1359","2014-07-21","intencao_estimulada","Outros","vida_hoje","Insatisfeito",4
+"1360","2014-07-21","intencao_estimulada","Pastor Everaldo","vida_hoje","Insatisfeito",4
+"1361","2014-07-21","intencao_estimulada","Aécio Neves","vida_hoje","NS/NR*",17
+"1362","2014-07-21","intencao_estimulada","Branco e Nulo","vida_hoje","NS/NR*",17
+"1363","2014-07-21","intencao_estimulada","Dilma Rousseff","vida_hoje","NS/NR*",0
+"1364","2014-07-21","intencao_estimulada","Eduardo Campos","vida_hoje","NS/NR*",17
+"1365","2014-07-21","intencao_estimulada","NS/NR*","vida_hoje","NS/NR*",17
+"1366","2014-07-21","intencao_estimulada","Outros","vida_hoje","NS/NR*",33
+"1367","2014-07-21","intencao_estimulada","Pastor Everaldo","vida_hoje","NS/NR*",0
+"1368","2014-07-21","avaliacao_governo","Ótimo e bom","vida_hoje","Satisfeito",35
+"1369","2014-07-21","avaliacao_governo","Regular","vida_hoje","Satisfeito",36
+"1370","2014-07-21","avaliacao_governo","Ruim e péssimo","vida_hoje","Satisfeito",29
+"1371","2014-07-21","avaliacao_governo","NS/NR*","vida_hoje","Satisfeito",1
+"1372","2014-07-21","avaliacao_governo","Ótimo e bom","vida_hoje","Insatisfeito",17
+"1373","2014-07-21","avaliacao_governo","Regular","vida_hoje","Insatisfeito",34
+"1374","2014-07-21","avaliacao_governo","Ruim e péssimo","vida_hoje","Insatisfeito",48
+"1375","2014-07-21","avaliacao_governo","NS/NR*","vida_hoje","Insatisfeito",1
+"1376","2014-07-21","avaliacao_governo","Ótimo e bom","vida_hoje","NS/NR*",0
+"1377","2014-07-21","avaliacao_governo","Regular","vida_hoje","NS/NR*",33
+"1378","2014-07-21","avaliacao_governo","Ruim e péssimo","vida_hoje","NS/NR*",67
+"1379","2014-07-21","avaliacao_governo","NS/NR*","vida_hoje","NS/NR*",0
+"1380","2014-07-21","aprova_dilma","Aprova","vida_hoje","Satisfeito",49
+"1381","2014-07-21","aprova_dilma","Desaprova","vida_hoje","Satisfeito",45
+"1382","2014-07-21","aprova_dilma","NS/NR*","vida_hoje","Satisfeito",5
+"1383","2014-07-21","aprova_dilma","Aprova","vida_hoje","Insatisfeito",25
+"1384","2014-07-21","aprova_dilma","Desaprova","vida_hoje","Insatisfeito",68
+"1385","2014-07-21","aprova_dilma","NS/NR*","vida_hoje","Insatisfeito",7
+"1386","2014-07-21","aprova_dilma","Aprova","vida_hoje","NS/NR*",0
+"1387","2014-07-21","aprova_dilma","Desaprova","vida_hoje","NS/NR*",100
+"1388","2014-07-21","aprova_dilma","NS/NR*","vida_hoje","NS/NR*",0
+"1389","2014-07-21","desejo_mudanca","Quer mudança","vida_hoje","Satisfeito",68
+"1390","2014-07-21","desejo_mudanca","Quer continuidade","vida_hoje","Satisfeito",30
+"1391","2014-07-21","desejo_mudanca","NS/NR*","vida_hoje","Satisfeito",2
+"1392","2014-07-21","desejo_mudanca","Quer mudança","vida_hoje","Insatisfeito",81
+"1393","2014-07-21","desejo_mudanca","Quer continuidade","vida_hoje","Insatisfeito",17
+"1394","2014-07-21","desejo_mudanca","NS/NR*","vida_hoje","Insatisfeito",2
+"1395","2014-07-21","desejo_mudanca","Quer mudança","vida_hoje","NS/NR*",100
+"1396","2014-07-21","desejo_mudanca","Quer continuidade","vida_hoje","NS/NR*",0
+"1397","2014-07-21","desejo_mudanca","NS/NR*","vida_hoje","NS/NR*",0
+"1398","2014-07-21","rejeicao","Dilma Rousseff","vida_hoje","Satisfeito",34
+"1399","2014-07-21","rejeicao","Aécio Neves","vida_hoje","Satisfeito",17
+"1400","2014-07-21","rejeicao","Pastor Everaldo","vida_hoje","Satisfeito",10
+"1401","2014-07-21","rejeicao","Eduardo Campos","vida_hoje","Satisfeito",8
+"1402","2014-07-21","rejeicao","Dilma Rousseff","vida_hoje","Insatisfeito",45
+"1403","2014-07-21","rejeicao","Aécio Neves","vida_hoje","Insatisfeito",14
+"1404","2014-07-21","rejeicao","Pastor Everaldo","vida_hoje","Insatisfeito",12
+"1405","2014-07-21","rejeicao","Eduardo Campos","vida_hoje","Insatisfeito",9
+"1406","2014-07-21","rejeicao","Dilma Rousseff","vida_hoje","NS/NR*",83
+"1407","2014-07-21","rejeicao","Aécio Neves","vida_hoje","NS/NR*",0
+"1408","2014-07-21","rejeicao","Pastor Everaldo","vida_hoje","NS/NR*",0
+"1409","2014-07-21","rejeicao","Eduardo Campos","vida_hoje","NS/NR*",0
+"1410","2014-07-21","2turno_aecio","Aécio Neves","vida_hoje","Satisfeito",32
+"1411","2014-07-21","2turno_aecio","Branco e Nulo","vida_hoje","Satisfeito",15
+"1412","2014-07-21","2turno_aecio","Dilma Rousseff","vida_hoje","Satisfeito",44
+"1413","2014-07-21","2turno_aecio","NS/NR*","vida_hoje","Satisfeito",8
+"1414","2014-07-21","2turno_aecio","Aécio Neves","vida_hoje","Insatisfeito",38
+"1415","2014-07-21","2turno_aecio","Branco e Nulo","vida_hoje","Insatisfeito",27
+"1416","2014-07-21","2turno_aecio","Dilma Rousseff","vida_hoje","Insatisfeito",27
+"1417","2014-07-21","2turno_aecio","NS/NR*","vida_hoje","Insatisfeito",8
+"1418","2014-07-21","2turno_aecio","Aécio Neves","vida_hoje","NS/NR*",67
+"1419","2014-07-21","2turno_aecio","Branco e Nulo","vida_hoje","NS/NR*",33
+"1420","2014-07-21","2turno_aecio","Dilma Rousseff","vida_hoje","NS/NR*",0
+"1421","2014-07-21","2turno_aecio","NS/NR*","vida_hoje","NS/NR*",0
+"1422","2014-07-21","2turno_campos","Branco e Nulo","vida_hoje","Satisfeito",17
+"1423","2014-07-21","2turno_campos","Dilma Rousseff","vida_hoje","Satisfeito",44
+"1424","2014-07-21","2turno_campos","Eduardo Campos","vida_hoje","Satisfeito",29
+"1425","2014-07-21","2turno_campos","NS/NR*","vida_hoje","Satisfeito",10
+"1426","2014-07-21","2turno_campos","Branco e Nulo","vida_hoje","Insatisfeito",30
+"1427","2014-07-21","2turno_campos","Dilma Rousseff","vida_hoje","Insatisfeito",29
+"1428","2014-07-21","2turno_campos","Eduardo Campos","vida_hoje","Insatisfeito",30
+"1429","2014-07-21","2turno_campos","NS/NR*","vida_hoje","Insatisfeito",11
+"1430","2014-07-21","2turno_campos","Branco e Nulo","vida_hoje","NS/NR*",33
+"1431","2014-07-21","2turno_campos","Dilma Rousseff","vida_hoje","NS/NR*",0
+"1432","2014-07-21","2turno_campos","Eduardo Campos","vida_hoje","NS/NR*",67
+"1433","2014-07-21","2turno_campos","NS/NR*","vida_hoje","NS/NR*",0
+"1434","2014-07-21","favorito","Aécio Neves","vida_hoje","Satisfeito",15
+"1435","2014-07-21","favorito","Dilma Rousseff","vida_hoje","Satisfeito",57
+"1436","2014-07-21","favorito","Eduardo Campos","vida_hoje","Satisfeito",4
+"1437","2014-07-21","favorito","NS/NR*","vida_hoje","Satisfeito",22
+"1438","2014-07-21","favorito","Outros","vida_hoje","Satisfeito",1
+"1439","2014-07-21","favorito","Aécio Neves","vida_hoje","Insatisfeito",18
+"1440","2014-07-21","favorito","Dilma Rousseff","vida_hoje","Insatisfeito",44
+"1441","2014-07-21","favorito","Eduardo Campos","vida_hoje","Insatisfeito",6
+"1442","2014-07-21","favorito","NS/NR*","vida_hoje","Insatisfeito",29
+"1443","2014-07-21","favorito","Outros","vida_hoje","Insatisfeito",3
+"1444","2014-07-21","favorito","Aécio Neves","vida_hoje","NS/NR*",17
+"1445","2014-07-21","favorito","Dilma Rousseff","vida_hoje","NS/NR*",17
+"1446","2014-07-21","favorito","Eduardo Campos","vida_hoje","NS/NR*",0
+"1447","2014-07-21","favorito","NS/NR*","vida_hoje","NS/NR*",67
+"1448","2014-07-21","favorito","Outros","vida_hoje","NS/NR*",0
+"1449","2014-07-21","vida_hoje","Satisfeito","interesse","Tem muito interesse",80
+"1450","2014-07-21","vida_hoje","Insatisfeito","interesse","Tem muito interesse",20
+"1451","2014-07-21","vida_hoje","NS/NR*","interesse","Tem muito interesse",0
+"1452","2014-07-21","vida_hoje","Satisfeito","interesse","Tem médio interesse",87
+"1453","2014-07-21","vida_hoje","Insatisfeito","interesse","Tem médio interesse",13
+"1454","2014-07-21","vida_hoje","NS/NR*","interesse","Tem médio interesse",0
+"1455","2014-07-21","vida_hoje","Satisfeito","interesse","Não tem interesse",74
+"1456","2014-07-21","vida_hoje","Insatisfeito","interesse","Não tem interesse",26
+"1457","2014-07-21","vida_hoje","NS/NR*","interesse","Não tem interesse",0
+"1458","2014-07-21","vida_hoje","Satisfeito","interesse","NS/NR*",43
+"1459","2014-07-21","vida_hoje","Insatisfeito","interesse","NS/NR*",57
+"1460","2014-07-21","vida_hoje","NS/NR*","interesse","NS/NR*",0
+"1461","2014-07-21","intencao_espontanea","Aécio Neves","interesse","Tem muito interesse",18
+"1462","2014-07-21","intencao_espontanea","Branco e Nulo","interesse","Tem muito interesse",5
+"1463","2014-07-21","intencao_espontanea","Dilma Rousseff","interesse","Tem muito interesse",38
+"1464","2014-07-21","intencao_espontanea","Eduardo Campos","interesse","Tem muito interesse",6
+"1465","2014-07-21","intencao_espontanea","NS/NR*","interesse","Tem muito interesse",29
+"1466","2014-07-21","intencao_espontanea","Outros","interesse","Tem muito interesse",4
+"1467","2014-07-21","intencao_espontanea","Aécio Neves","interesse","Tem médio interesse",14
+"1468","2014-07-21","intencao_espontanea","Branco e Nulo","interesse","Tem médio interesse",7
+"1469","2014-07-21","intencao_espontanea","Dilma Rousseff","interesse","Tem médio interesse",35
+"1470","2014-07-21","intencao_espontanea","Eduardo Campos","interesse","Tem médio interesse",6
+"1471","2014-07-21","intencao_espontanea","NS/NR*","interesse","Tem médio interesse",38
+"1472","2014-07-21","intencao_espontanea","Outros","interesse","Tem médio interesse",1
+"1473","2014-07-21","intencao_espontanea","Aécio Neves","interesse","Não tem interesse",10
+"1474","2014-07-21","intencao_espontanea","Branco e Nulo","interesse","Não tem interesse",25
+"1475","2014-07-21","intencao_espontanea","Dilma Rousseff","interesse","Não tem interesse",18
+"1476","2014-07-21","intencao_espontanea","Eduardo Campos","interesse","Não tem interesse",3
+"1477","2014-07-21","intencao_espontanea","NS/NR*","interesse","Não tem interesse",42
+"1478","2014-07-21","intencao_espontanea","Outros","interesse","Não tem interesse",2
+"1479","2014-07-21","intencao_espontanea","Aécio Neves","interesse","NS/NR*",0
+"1480","2014-07-21","intencao_espontanea","Branco e Nulo","interesse","NS/NR*",14
+"1481","2014-07-21","intencao_espontanea","Dilma Rousseff","interesse","NS/NR*",43
+"1482","2014-07-21","intencao_espontanea","Eduardo Campos","interesse","NS/NR*",0
+"1483","2014-07-21","intencao_espontanea","NS/NR*","interesse","NS/NR*",43
+"1484","2014-07-21","intencao_espontanea","Outros","interesse","NS/NR*",0
+"1485","2014-07-21","intencao_estimulada","Aécio Neves","interesse","Tem muito interesse",26
+"1486","2014-07-21","intencao_estimulada","Branco e Nulo","interesse","Tem muito interesse",3
+"1487","2014-07-21","intencao_estimulada","Dilma Rousseff","interesse","Tem muito interesse",48
+"1488","2014-07-21","intencao_estimulada","Eduardo Campos","interesse","Tem muito interesse",8
+"1489","2014-07-21","intencao_estimulada","NS/NR*","interesse","Tem muito interesse",6
+"1490","2014-07-21","intencao_estimulada","Outros","interesse","Tem muito interesse",4
+"1491","2014-07-21","intencao_estimulada","Pastor Everaldo","interesse","Tem muito interesse",3
+"1492","2014-07-21","intencao_estimulada","Aécio Neves","interesse","Tem médio interesse",22
+"1493","2014-07-21","intencao_estimulada","Branco e Nulo","interesse","Tem médio interesse",7
+"1494","2014-07-21","intencao_estimulada","Dilma Rousseff","interesse","Tem médio interesse",47
+"1495","2014-07-21","intencao_estimulada","Eduardo Campos","interesse","Tem médio interesse",10
+"1496","2014-07-21","intencao_estimulada","NS/NR*","interesse","Tem médio interesse",7
+"1497","2014-07-21","intencao_estimulada","Outros","interesse","Tem médio interesse",5
+"1498","2014-07-21","intencao_estimulada","Pastor Everaldo","interesse","Tem médio interesse",2
+"1499","2014-07-21","intencao_estimulada","Aécio Neves","interesse","Não tem interesse",21
+"1500","2014-07-21","intencao_estimulada","Branco e Nulo","interesse","Não tem interesse",24
+"1501","2014-07-21","intencao_estimulada","Dilma Rousseff","interesse","Não tem interesse",31
+"1502","2014-07-21","intencao_estimulada","Eduardo Campos","interesse","Não tem interesse",8
+"1503","2014-07-21","intencao_estimulada","NS/NR*","interesse","Não tem interesse",10
+"1504","2014-07-21","intencao_estimulada","Outros","interesse","Não tem interesse",4
+"1505","2014-07-21","intencao_estimulada","Pastor Everaldo","interesse","Não tem interesse",3
+"1506","2014-07-21","intencao_estimulada","Aécio Neves","interesse","NS/NR*",14
+"1507","2014-07-21","intencao_estimulada","Branco e Nulo","interesse","NS/NR*",14
+"1508","2014-07-21","intencao_estimulada","Dilma Rousseff","interesse","NS/NR*",43
+"1509","2014-07-21","intencao_estimulada","Eduardo Campos","interesse","NS/NR*",0
+"1510","2014-07-21","intencao_estimulada","NS/NR*","interesse","NS/NR*",29
+"1511","2014-07-21","intencao_estimulada","Outros","interesse","NS/NR*",0
+"1512","2014-07-21","intencao_estimulada","Pastor Everaldo","interesse","NS/NR*",0
+"1513","2014-07-21","avaliacao_governo","Ótimo e bom","interesse","Tem muito interesse",41
+"1514","2014-07-21","avaliacao_governo","Regular","interesse","Tem muito interesse",30
+"1515","2014-07-21","avaliacao_governo","Ruim e péssimo","interesse","Tem muito interesse",29
+"1516","2014-07-21","avaliacao_governo","NS/NR*","interesse","Tem muito interesse",0
+"1517","2014-07-21","avaliacao_governo","Ótimo e bom","interesse","Tem médio interesse",41
+"1518","2014-07-21","avaliacao_governo","Regular","interesse","Tem médio interesse",35
+"1519","2014-07-21","avaliacao_governo","Ruim e péssimo","interesse","Tem médio interesse",24
+"1520","2014-07-21","avaliacao_governo","NS/NR*","interesse","Tem médio interesse",0
+"1521","2014-07-21","avaliacao_governo","Ótimo e bom","interesse","Não tem interesse",23
+"1522","2014-07-21","avaliacao_governo","Regular","interesse","Não tem interesse",38
+"1523","2014-07-21","avaliacao_governo","Ruim e péssimo","interesse","Não tem interesse",39
+"1524","2014-07-21","avaliacao_governo","NS/NR*","interesse","Não tem interesse",1
+"1525","2014-07-21","avaliacao_governo","Ótimo e bom","interesse","NS/NR*",29
+"1526","2014-07-21","avaliacao_governo","Regular","interesse","NS/NR*",29
+"1527","2014-07-21","avaliacao_governo","Ruim e péssimo","interesse","NS/NR*",29
+"1528","2014-07-21","avaliacao_governo","NS/NR*","interesse","NS/NR*",14
+"1529","2014-07-21","aprova_dilma","Aprova","interesse","Tem muito interesse",53
+"1530","2014-07-21","aprova_dilma","Desaprova","interesse","Tem muito interesse",45
+"1531","2014-07-21","aprova_dilma","NS/NR*","interesse","Tem muito interesse",2
+"1532","2014-07-21","aprova_dilma","Aprova","interesse","Tem médio interesse",55
+"1533","2014-07-21","aprova_dilma","Desaprova","interesse","Tem médio interesse",40
+"1534","2014-07-21","aprova_dilma","NS/NR*","interesse","Tem médio interesse",5
+"1535","2014-07-21","aprova_dilma","Aprova","interesse","Não tem interesse",36
+"1536","2014-07-21","aprova_dilma","Desaprova","interesse","Não tem interesse",57
+"1537","2014-07-21","aprova_dilma","NS/NR*","interesse","Não tem interesse",7
+"1538","2014-07-21","aprova_dilma","Aprova","interesse","NS/NR*",43
+"1539","2014-07-21","aprova_dilma","Desaprova","interesse","NS/NR*",43
+"1540","2014-07-21","aprova_dilma","NS/NR*","interesse","NS/NR*",14
+"1541","2014-07-21","desejo_mudanca","Quer mudança","interesse","Tem muito interesse",68
+"1542","2014-07-21","desejo_mudanca","Quer continuidade","interesse","Tem muito interesse",32
+"1543","2014-07-21","desejo_mudanca","NS/NR*","interesse","Tem muito interesse",0
+"1544","2014-07-21","desejo_mudanca","Quer mudança","interesse","Tem médio interesse",67
+"1545","2014-07-21","desejo_mudanca","Quer continuidade","interesse","Tem médio interesse",32
+"1546","2014-07-21","desejo_mudanca","NS/NR*","interesse","Tem médio interesse",1
+"1547","2014-07-21","desejo_mudanca","Quer mudança","interesse","Não tem interesse",73
+"1548","2014-07-21","desejo_mudanca","Quer continuidade","interesse","Não tem interesse",24
+"1549","2014-07-21","desejo_mudanca","NS/NR*","interesse","Não tem interesse",3
+"1550","2014-07-21","desejo_mudanca","Quer mudança","interesse","NS/NR*",43
+"1551","2014-07-21","desejo_mudanca","Quer continuidade","interesse","NS/NR*",43
+"1552","2014-07-21","desejo_mudanca","NS/NR*","interesse","NS/NR*",14
+"1553","2014-07-21","rejeicao","Dilma Rousseff","interesse","Tem muito interesse",35
+"1554","2014-07-21","rejeicao","Aécio Neves","interesse","Tem muito interesse",20
+"1555","2014-07-21","rejeicao","Pastor Everaldo","interesse","Tem muito interesse",13
+"1556","2014-07-21","rejeicao","Eduardo Campos","interesse","Tem muito interesse",12
+"1557","2014-07-21","rejeicao","Dilma Rousseff","interesse","Tem médio interesse",31
+"1558","2014-07-21","rejeicao","Aécio Neves","interesse","Tem médio interesse",16
+"1559","2014-07-21","rejeicao","Pastor Everaldo","interesse","Tem médio interesse",9
+"1560","2014-07-21","rejeicao","Eduardo Campos","interesse","Tem médio interesse",7
+"1561","2014-07-21","rejeicao","Dilma Rousseff","interesse","Não tem interesse",39
+"1562","2014-07-21","rejeicao","Aécio Neves","interesse","Não tem interesse",14
+"1563","2014-07-21","rejeicao","Pastor Everaldo","interesse","Não tem interesse",11
+"1564","2014-07-21","rejeicao","Eduardo Campos","interesse","Não tem interesse",8
+"1565","2014-07-21","rejeicao","Dilma Rousseff","interesse","NS/NR*",43
+"1566","2014-07-21","rejeicao","Aécio Neves","interesse","NS/NR*",29
+"1567","2014-07-21","rejeicao","Pastor Everaldo","interesse","NS/NR*",14
+"1568","2014-07-21","rejeicao","Eduardo Campos","interesse","NS/NR*",29
+"1569","2014-07-21","2turno_aecio","Aécio Neves","interesse","Tem muito interesse",39
+"1570","2014-07-21","2turno_aecio","Branco e Nulo","interesse","Tem muito interesse",6
+"1571","2014-07-21","2turno_aecio","Dilma Rousseff","interesse","Tem muito interesse",52
+"1572","2014-07-21","2turno_aecio","NS/NR*","interesse","Tem muito interesse",3
+"1573","2014-07-21","2turno_aecio","Aécio Neves","interesse","Tem médio interesse",33
+"1574","2014-07-21","2turno_aecio","Branco e Nulo","interesse","Tem médio interesse",11
+"1575","2014-07-21","2turno_aecio","Dilma Rousseff","interesse","Tem médio interesse",49
+"1576","2014-07-21","2turno_aecio","NS/NR*","interesse","Tem médio interesse",8
+"1577","2014-07-21","2turno_aecio","Aécio Neves","interesse","Não tem interesse",32
+"1578","2014-07-21","2turno_aecio","Branco e Nulo","interesse","Não tem interesse",24
+"1579","2014-07-21","2turno_aecio","Dilma Rousseff","interesse","Não tem interesse",33
+"1580","2014-07-21","2turno_aecio","NS/NR*","interesse","Não tem interesse",10
+"1581","2014-07-21","2turno_aecio","Aécio Neves","interesse","NS/NR*",14
+"1582","2014-07-21","2turno_aecio","Branco e Nulo","interesse","NS/NR*",14
+"1583","2014-07-21","2turno_aecio","Dilma Rousseff","interesse","NS/NR*",43
+"1584","2014-07-21","2turno_aecio","NS/NR*","interesse","NS/NR*",29
+"1585","2014-07-21","2turno_campos","Branco e Nulo","interesse","Tem muito interesse",10
+"1586","2014-07-21","2turno_campos","Dilma Rousseff","interesse","Tem muito interesse",51
+"1587","2014-07-21","2turno_campos","Eduardo Campos","interesse","Tem muito interesse",35
+"1588","2014-07-21","2turno_campos","NS/NR*","interesse","Tem muito interesse",4
+"1589","2014-07-21","2turno_campos","Branco e Nulo","interesse","Tem médio interesse",13
+"1590","2014-07-21","2turno_campos","Dilma Rousseff","interesse","Tem médio interesse",50
+"1591","2014-07-21","2turno_campos","Eduardo Campos","interesse","Tem médio interesse",29
+"1592","2014-07-21","2turno_campos","NS/NR*","interesse","Tem médio interesse",9
+"1593","2014-07-21","2turno_campos","Branco e Nulo","interesse","Não tem interesse",27
+"1594","2014-07-21","2turno_campos","Dilma Rousseff","interesse","Não tem interesse",34
+"1595","2014-07-21","2turno_campos","Eduardo Campos","interesse","Não tem interesse",28
+"1596","2014-07-21","2turno_campos","NS/NR*","interesse","Não tem interesse",12
+"1597","2014-07-21","2turno_campos","Branco e Nulo","interesse","NS/NR*",14
+"1598","2014-07-21","2turno_campos","Dilma Rousseff","interesse","NS/NR*",43
+"1599","2014-07-21","2turno_campos","Eduardo Campos","interesse","NS/NR*",14
+"1600","2014-07-21","2turno_campos","NS/NR*","interesse","NS/NR*",29
+"1601","2014-07-21","favorito","Aécio Neves","interesse","Tem muito interesse",20
+"1602","2014-07-21","favorito","Dilma Rousseff","interesse","Tem muito interesse",62
+"1603","2014-07-21","favorito","Eduardo Campos","interesse","Tem muito interesse",4
+"1604","2014-07-21","favorito","NS/NR*","interesse","Tem muito interesse",12
+"1605","2014-07-21","favorito","Outros","interesse","Tem muito interesse",1
+"1606","2014-07-21","favorito","Aécio Neves","interesse","Tem médio interesse",17
+"1607","2014-07-21","favorito","Dilma Rousseff","interesse","Tem médio interesse",60
+"1608","2014-07-21","favorito","Eduardo Campos","interesse","Tem médio interesse",4
+"1609","2014-07-21","favorito","NS/NR*","interesse","Tem médio interesse",17
+"1610","2014-07-21","favorito","Outros","interesse","Tem médio interesse",1
+"1611","2014-07-21","favorito","Aécio Neves","interesse","Não tem interesse",14
+"1612","2014-07-21","favorito","Dilma Rousseff","interesse","Não tem interesse",48
+"1613","2014-07-21","favorito","Eduardo Campos","interesse","Não tem interesse",5
+"1614","2014-07-21","favorito","NS/NR*","interesse","Não tem interesse",31
+"1615","2014-07-21","favorito","Outros","interesse","Não tem interesse",2
+"1616","2014-07-21","favorito","Aécio Neves","interesse","NS/NR*",14
+"1617","2014-07-21","favorito","Dilma Rousseff","interesse","NS/NR*",43
+"1618","2014-07-21","favorito","Eduardo Campos","interesse","NS/NR*",0
+"1619","2014-07-21","favorito","NS/NR*","interesse","NS/NR*",43
+"1620","2014-07-21","favorito","Outros","interesse","NS/NR*",0
+"1621","2014-07-21","vida_hoje","Satisfeito","desejo_mudanca","Quer mudança",75
+"1622","2014-07-21","vida_hoje","Insatisfeito","desejo_mudanca","Quer mudança",24
+"1623","2014-07-21","vida_hoje","NS/NR*","desejo_mudanca","Quer mudança",0
+"1624","2014-07-21","vida_hoje","Satisfeito","desejo_mudanca","Quer continuidade",87
+"1625","2014-07-21","vida_hoje","Insatisfeito","desejo_mudanca","Quer continuidade",13
+"1626","2014-07-21","vida_hoje","NS/NR*","desejo_mudanca","Quer continuidade",0
+"1627","2014-07-21","vida_hoje","Satisfeito","desejo_mudanca","NS/NR*",79
+"1628","2014-07-21","vida_hoje","Insatisfeito","desejo_mudanca","NS/NR*",21
+"1629","2014-07-21","vida_hoje","NS/NR*","desejo_mudanca","NS/NR*",0
+"1630","2014-07-21","interesse","Tem muito interesse","desejo_mudanca","Quer mudança",17
+"1631","2014-07-21","interesse","Tem médio interesse","desejo_mudanca","Quer mudança",25
+"1632","2014-07-21","interesse","Não tem interesse","desejo_mudanca","Quer mudança",58
+"1633","2014-07-21","interesse","NS/NR*","desejo_mudanca","Quer mudança",0
+"1634","2014-07-21","interesse","Tem muito interesse","desejo_mudanca","Quer continuidade",20
+"1635","2014-07-21","interesse","Tem médio interesse","desejo_mudanca","Quer continuidade",32
+"1636","2014-07-21","interesse","Não tem interesse","desejo_mudanca","Quer continuidade",48
+"1637","2014-07-21","interesse","NS/NR*","desejo_mudanca","Quer continuidade",1
+"1638","2014-07-21","interesse","Tem muito interesse","desejo_mudanca","NS/NR*",3
+"1639","2014-07-21","interesse","Tem médio interesse","desejo_mudanca","NS/NR*",13
+"1640","2014-07-21","interesse","Não tem interesse","desejo_mudanca","NS/NR*",82
+"1641","2014-07-21","interesse","NS/NR*","desejo_mudanca","NS/NR*",3
+"1642","2014-07-21","intencao_espontanea","Aécio Neves","desejo_mudanca","Quer mudança",15
+"1643","2014-07-21","intencao_espontanea","Branco e Nulo","desejo_mudanca","Quer mudança",20
+"1644","2014-07-21","intencao_espontanea","Dilma Rousseff","desejo_mudanca","Quer mudança",18
+"1645","2014-07-21","intencao_espontanea","Eduardo Campos","desejo_mudanca","Quer mudança",5
+"1646","2014-07-21","intencao_espontanea","NS/NR*","desejo_mudanca","Quer mudança",40
+"1647","2014-07-21","intencao_espontanea","Outros","desejo_mudanca","Quer mudança",2
+"1648","2014-07-21","intencao_espontanea","Aécio Neves","desejo_mudanca","Quer continuidade",5
+"1649","2014-07-21","intencao_espontanea","Branco e Nulo","desejo_mudanca","Quer continuidade",8
+"1650","2014-07-21","intencao_espontanea","Dilma Rousseff","desejo_mudanca","Quer continuidade",47
+"1651","2014-07-21","intencao_espontanea","Eduardo Campos","desejo_mudanca","Quer continuidade",3
+"1652","2014-07-21","intencao_espontanea","NS/NR*","desejo_mudanca","Quer continuidade",35
+"1653","2014-07-21","intencao_espontanea","Outros","desejo_mudanca","Quer continuidade",2
+"1654","2014-07-21","intencao_espontanea","Aécio Neves","desejo_mudanca","NS/NR*",5
+"1655","2014-07-21","intencao_espontanea","Branco e Nulo","desejo_mudanca","NS/NR*",26
+"1656","2014-07-21","intencao_espontanea","Dilma Rousseff","desejo_mudanca","NS/NR*",13
+"1657","2014-07-21","intencao_espontanea","Eduardo Campos","desejo_mudanca","NS/NR*",0
+"1658","2014-07-21","intencao_espontanea","NS/NR*","desejo_mudanca","NS/NR*",54
+"1659","2014-07-21","intencao_espontanea","Outros","desejo_mudanca","NS/NR*",3
+"1660","2014-07-21","intencao_estimulada","Aécio Neves","desejo_mudanca","Quer mudança",27
+"1661","2014-07-21","intencao_estimulada","Branco e Nulo","desejo_mudanca","Quer mudança",19
+"1662","2014-07-21","intencao_estimulada","Dilma Rousseff","desejo_mudanca","Quer mudança",27
+"1663","2014-07-21","intencao_estimulada","Eduardo Campos","desejo_mudanca","Quer mudança",10
+"1664","2014-07-21","intencao_estimulada","NS/NR*","desejo_mudanca","Quer mudança",10
+"1665","2014-07-21","intencao_estimulada","Outros","desejo_mudanca","Quer mudança",5
+"1666","2014-07-21","intencao_estimulada","Pastor Everaldo","desejo_mudanca","Quer mudança",3
+"1667","2014-07-21","intencao_estimulada","Aécio Neves","desejo_mudanca","Quer continuidade",11
+"1668","2014-07-21","intencao_estimulada","Branco e Nulo","desejo_mudanca","Quer continuidade",6
+"1669","2014-07-21","intencao_estimulada","Dilma Rousseff","desejo_mudanca","Quer continuidade",67
+"1670","2014-07-21","intencao_estimulada","Eduardo Campos","desejo_mudanca","Quer continuidade",5
+"1671","2014-07-21","intencao_estimulada","NS/NR*","desejo_mudanca","Quer continuidade",6
+"1672","2014-07-21","intencao_estimulada","Outros","desejo_mudanca","Quer continuidade",3
+"1673","2014-07-21","intencao_estimulada","Pastor Everaldo","desejo_mudanca","Quer continuidade",2
+"1674","2014-07-21","intencao_estimulada","Aécio Neves","desejo_mudanca","NS/NR*",13
+"1675","2014-07-21","intencao_estimulada","Branco e Nulo","desejo_mudanca","NS/NR*",31
+"1676","2014-07-21","intencao_estimulada","Dilma Rousseff","desejo_mudanca","NS/NR*",23
+"1677","2014-07-21","intencao_estimulada","Eduardo Campos","desejo_mudanca","NS/NR*",3
+"1678","2014-07-21","intencao_estimulada","NS/NR*","desejo_mudanca","NS/NR*",21
+"1679","2014-07-21","intencao_estimulada","Outros","desejo_mudanca","NS/NR*",3
+"1680","2014-07-21","intencao_estimulada","Pastor Everaldo","desejo_mudanca","NS/NR*",8
+"1681","2014-07-21","avaliacao_governo","Ótimo e bom","desejo_mudanca","Quer mudança",21
+"1682","2014-07-21","avaliacao_governo","Regular","desejo_mudanca","Quer mudança",38
+"1683","2014-07-21","avaliacao_governo","Ruim e péssimo","desejo_mudanca","Quer mudança",41
+"1684","2014-07-21","avaliacao_governo","NS/NR*","desejo_mudanca","Quer mudança",1
+"1685","2014-07-21","avaliacao_governo","Ótimo e bom","desejo_mudanca","Quer continuidade",57
+"1686","2014-07-21","avaliacao_governo","Regular","desejo_mudanca","Quer continuidade",31
+"1687","2014-07-21","avaliacao_governo","Ruim e péssimo","desejo_mudanca","Quer continuidade",11
+"1688","2014-07-21","avaliacao_governo","NS/NR*","desejo_mudanca","Quer continuidade",0
+"1689","2014-07-21","avaliacao_governo","Ótimo e bom","desejo_mudanca","NS/NR*",23
+"1690","2014-07-21","avaliacao_governo","Regular","desejo_mudanca","NS/NR*",31
+"1691","2014-07-21","avaliacao_governo","Ruim e péssimo","desejo_mudanca","NS/NR*",38
+"1692","2014-07-21","avaliacao_governo","NS/NR*","desejo_mudanca","NS/NR*",8
+"1693","2014-07-21","aprova_dilma","Aprova","desejo_mudanca","Quer mudança",32
+"1694","2014-07-21","aprova_dilma","Desaprova","desejo_mudanca","Quer mudança",62
+"1695","2014-07-21","aprova_dilma","NS/NR*","desejo_mudanca","Quer mudança",6
+"1696","2014-07-21","aprova_dilma","Aprova","desejo_mudanca","Quer continuidade",74
+"1697","2014-07-21","aprova_dilma","Desaprova","desejo_mudanca","Quer continuidade",21
+"1698","2014-07-21","aprova_dilma","NS/NR*","desejo_mudanca","Quer continuidade",4
+"1699","2014-07-21","aprova_dilma","Aprova","desejo_mudanca","NS/NR*",31
+"1700","2014-07-21","aprova_dilma","Desaprova","desejo_mudanca","NS/NR*",46
+"1701","2014-07-21","aprova_dilma","NS/NR*","desejo_mudanca","NS/NR*",23
+"1702","2014-07-21","rejeicao","Dilma Rousseff","desejo_mudanca","Quer mudança",46
+"1703","2014-07-21","rejeicao","Aécio Neves","desejo_mudanca","Quer mudança",13
+"1704","2014-07-21","rejeicao","Pastor Everaldo","desejo_mudanca","Quer mudança",11
+"1705","2014-07-21","rejeicao","Eduardo Campos","desejo_mudanca","Quer mudança",8
+"1706","2014-07-21","rejeicao","Dilma Rousseff","desejo_mudanca","Quer continuidade",14
+"1707","2014-07-21","rejeicao","Aécio Neves","desejo_mudanca","Quer continuidade",25
+"1708","2014-07-21","rejeicao","Pastor Everaldo","desejo_mudanca","Quer continuidade",10
+"1709","2014-07-21","rejeicao","Eduardo Campos","desejo_mudanca","Quer continuidade",9
+"1710","2014-07-21","rejeicao","Dilma Rousseff","desejo_mudanca","NS/NR*",10
+"1711","2014-07-21","rejeicao","Aécio Neves","desejo_mudanca","NS/NR*",3
+"1712","2014-07-21","rejeicao","Pastor Everaldo","desejo_mudanca","NS/NR*",5
+"1713","2014-07-21","rejeicao","Eduardo Campos","desejo_mudanca","NS/NR*",0
+"1714","2014-07-21","2turno_aecio","Aécio Neves","desejo_mudanca","Quer mudança",40
+"1715","2014-07-21","2turno_aecio","Branco e Nulo","desejo_mudanca","Quer mudança",21
+"1716","2014-07-21","2turno_aecio","Dilma Rousseff","desejo_mudanca","Quer mudança",29
+"1717","2014-07-21","2turno_aecio","NS/NR*","desejo_mudanca","Quer mudança",9
+"1718","2014-07-21","2turno_aecio","Aécio Neves","desejo_mudanca","Quer continuidade",17
+"1719","2014-07-21","2turno_aecio","Branco e Nulo","desejo_mudanca","Quer continuidade",7
+"1720","2014-07-21","2turno_aecio","Dilma Rousseff","desejo_mudanca","Quer continuidade",71
+"1721","2014-07-21","2turno_aecio","NS/NR*","desejo_mudanca","Quer continuidade",5
+"1722","2014-07-21","2turno_aecio","Aécio Neves","desejo_mudanca","NS/NR*",15
+"1723","2014-07-21","2turno_aecio","Branco e Nulo","desejo_mudanca","NS/NR*",33
+"1724","2014-07-21","2turno_aecio","Dilma Rousseff","desejo_mudanca","NS/NR*",31
+"1725","2014-07-21","2turno_aecio","NS/NR*","desejo_mudanca","NS/NR*",21
+"1726","2014-07-21","2turno_campos","Branco e Nulo","desejo_mudanca","Quer mudança",24
+"1727","2014-07-21","2turno_campos","Dilma Rousseff","desejo_mudanca","Quer mudança",30
+"1728","2014-07-21","2turno_campos","Eduardo Campos","desejo_mudanca","Quer mudança",35
+"1729","2014-07-21","2turno_campos","NS/NR*","desejo_mudanca","Quer mudança",11
+"1730","2014-07-21","2turno_campos","Branco e Nulo","desejo_mudanca","Quer continuidade",8
+"1731","2014-07-21","2turno_campos","Dilma Rousseff","desejo_mudanca","Quer continuidade",70
+"1732","2014-07-21","2turno_campos","Eduardo Campos","desejo_mudanca","Quer continuidade",15
+"1733","2014-07-21","2turno_campos","NS/NR*","desejo_mudanca","Quer continuidade",7
+"1734","2014-07-21","2turno_campos","Branco e Nulo","desejo_mudanca","NS/NR*",33
+"1735","2014-07-21","2turno_campos","Dilma Rousseff","desejo_mudanca","NS/NR*",33
+"1736","2014-07-21","2turno_campos","Eduardo Campos","desejo_mudanca","NS/NR*",8
+"1737","2014-07-21","2turno_campos","NS/NR*","desejo_mudanca","NS/NR*",26
+"1738","2014-07-21","favorito","Aécio Neves","desejo_mudanca","Quer mudança",19
+"1739","2014-07-21","favorito","Dilma Rousseff","desejo_mudanca","Quer mudança",47
+"1740","2014-07-21","favorito","Eduardo Campos","desejo_mudanca","Quer mudança",5
+"1741","2014-07-21","favorito","NS/NR*","desejo_mudanca","Quer mudança",27
+"1742","2014-07-21","favorito","Outros","desejo_mudanca","Quer mudança",2
+"1743","2014-07-21","favorito","Aécio Neves","desejo_mudanca","Quer continuidade",9
+"1744","2014-07-21","favorito","Dilma Rousseff","desejo_mudanca","Quer continuidade",72
+"1745","2014-07-21","favorito","Eduardo Campos","desejo_mudanca","Quer continuidade",3
+"1746","2014-07-21","favorito","NS/NR*","desejo_mudanca","Quer continuidade",15
+"1747","2014-07-21","favorito","Outros","desejo_mudanca","Quer continuidade",1
+"1748","2014-07-21","favorito","Aécio Neves","desejo_mudanca","NS/NR*",3
+"1749","2014-07-21","favorito","Dilma Rousseff","desejo_mudanca","NS/NR*",33
+"1750","2014-07-21","favorito","Eduardo Campos","desejo_mudanca","NS/NR*",5
+"1751","2014-07-21","favorito","NS/NR*","desejo_mudanca","NS/NR*",54
+"1752","2014-07-21","favorito","Outros","desejo_mudanca","NS/NR*",5
+"1753","2014-07-21","vida_hoje","Satisfeito","avaliacao_governo","Ótimo e bom",88
+"1754","2014-07-21","vida_hoje","Insatisfeito","avaliacao_governo","Ótimo e bom",12
+"1755","2014-07-21","vida_hoje","NS/NR*","avaliacao_governo","Ótimo e bom",0
+"1756","2014-07-21","vida_hoje","Satisfeito","avaliacao_governo","Regular",79
+"1757","2014-07-21","vida_hoje","Insatisfeito","avaliacao_governo","Regular",20
+"1758","2014-07-21","vida_hoje","NS/NR*","avaliacao_governo","Regular",0
+"1759","2014-07-21","vida_hoje","Satisfeito","avaliacao_governo","Ruim e péssimo",68
+"1760","2014-07-21","vida_hoje","Insatisfeito","avaliacao_governo","Ruim e péssimo",31
+"1761","2014-07-21","vida_hoje","NS/NR*","avaliacao_governo","Ruim e péssimo",1
+"1762","2014-07-21","vida_hoje","Satisfeito","avaliacao_governo","NS/NR*",79
+"1763","2014-07-21","vida_hoje","Insatisfeito","avaliacao_governo","NS/NR*",21
+"1764","2014-07-21","vida_hoje","NS/NR*","avaliacao_governo","NS/NR*",0
+"1765","2014-07-21","interesse","Tem muito interesse","avaliacao_governo","Ótimo e bom",23
+"1766","2014-07-21","interesse","Tem médio interesse","avaliacao_governo","Ótimo e bom",36
+"1767","2014-07-21","interesse","Não tem interesse","avaliacao_governo","Ótimo e bom",41
+"1768","2014-07-21","interesse","NS/NR*","avaliacao_governo","Ótimo e bom",0
+"1769","2014-07-21","interesse","Tem muito interesse","avaliacao_governo","Regular",14
+"1770","2014-07-21","interesse","Tem médio interesse","avaliacao_governo","Regular",26
+"1771","2014-07-21","interesse","Não tem interesse","avaliacao_governo","Regular",59
+"1772","2014-07-21","interesse","NS/NR*","avaliacao_governo","Regular",0
+"1773","2014-07-21","interesse","Tem muito interesse","avaliacao_governo","Ruim e péssimo",15
+"1774","2014-07-21","interesse","Tem médio interesse","avaliacao_governo","Ruim e péssimo",20
+"1775","2014-07-21","interesse","Não tem interesse","avaliacao_governo","Ruim e péssimo",65
+"1776","2014-07-21","interesse","NS/NR*","avaliacao_governo","Ruim e péssimo",0
+"1777","2014-07-21","interesse","Tem muito interesse","avaliacao_governo","NS/NR*",7
+"1778","2014-07-21","interesse","Tem médio interesse","avaliacao_governo","NS/NR*",14
+"1779","2014-07-21","interesse","Não tem interesse","avaliacao_governo","NS/NR*",71
+"1780","2014-07-21","interesse","NS/NR*","avaliacao_governo","NS/NR*",7
+"1781","2014-07-21","intencao_espontanea","Aécio Neves","avaliacao_governo","Ótimo e bom",2
+"1782","2014-07-21","intencao_espontanea","Branco e Nulo","avaliacao_governo","Ótimo e bom",5
+"1783","2014-07-21","intencao_espontanea","Dilma Rousseff","avaliacao_governo","Ótimo e bom",61
+"1784","2014-07-21","intencao_espontanea","Eduardo Campos","avaliacao_governo","Ótimo e bom",1
+"1785","2014-07-21","intencao_espontanea","NS/NR*","avaliacao_governo","Ótimo e bom",30
+"1786","2014-07-21","intencao_espontanea","Outros","avaliacao_governo","Ótimo e bom",1
+"1787","2014-07-21","intencao_espontanea","Aécio Neves","avaliacao_governo","Regular",13
+"1788","2014-07-21","intencao_espontanea","Branco e Nulo","avaliacao_governo","Regular",15
+"1789","2014-07-21","intencao_espontanea","Dilma Rousseff","avaliacao_governo","Regular",18
+"1790","2014-07-21","intencao_espontanea","Eduardo Campos","avaliacao_governo","Regular",5
+"1791","2014-07-21","intencao_espontanea","NS/NR*","avaliacao_governo","Regular",47
+"1792","2014-07-21","intencao_espontanea","Outros","avaliacao_governo","Regular",2
+"1793","2014-07-21","intencao_espontanea","Aécio Neves","avaliacao_governo","Ruim e péssimo",21
+"1794","2014-07-21","intencao_espontanea","Branco e Nulo","avaliacao_governo","Ruim e péssimo",29
+"1795","2014-07-21","intencao_espontanea","Dilma Rousseff","avaliacao_governo","Ruim e péssimo",2
+"1796","2014-07-21","intencao_espontanea","Eduardo Campos","avaliacao_governo","Ruim e péssimo",6
+"1797","2014-07-21","intencao_espontanea","NS/NR*","avaliacao_governo","Ruim e péssimo",39
+"1798","2014-07-21","intencao_espontanea","Outros","avaliacao_governo","Ruim e péssimo",3
+"1799","2014-07-21","intencao_espontanea","Aécio Neves","avaliacao_governo","NS/NR*",7
+"1800","2014-07-21","intencao_espontanea","Branco e Nulo","avaliacao_governo","NS/NR*",36
+"1801","2014-07-21","intencao_espontanea","Dilma Rousseff","avaliacao_governo","NS/NR*",7
+"1802","2014-07-21","intencao_espontanea","Eduardo Campos","avaliacao_governo","NS/NR*",7
+"1803","2014-07-21","intencao_espontanea","NS/NR*","avaliacao_governo","NS/NR*",43
+"1804","2014-07-21","intencao_espontanea","Outros","avaliacao_governo","NS/NR*",0
+"1805","2014-07-21","intencao_estimulada","Aécio Neves","avaliacao_governo","Ótimo e bom",6
+"1806","2014-07-21","intencao_estimulada","Branco e Nulo","avaliacao_governo","Ótimo e bom",3
+"1807","2014-07-21","intencao_estimulada","Dilma Rousseff","avaliacao_governo","Ótimo e bom",81
+"1808","2014-07-21","intencao_estimulada","Eduardo Campos","avaliacao_governo","Ótimo e bom",3
+"1809","2014-07-21","intencao_estimulada","NS/NR*","avaliacao_governo","Ótimo e bom",3
+"1810","2014-07-21","intencao_estimulada","Outros","avaliacao_governo","Ótimo e bom",2
+"1811","2014-07-21","intencao_estimulada","Pastor Everaldo","avaliacao_governo","Ótimo e bom",1
+"1812","2014-07-21","intencao_estimulada","Aécio Neves","avaliacao_governo","Regular",23
+"1813","2014-07-21","intencao_estimulada","Branco e Nulo","avaliacao_governo","Regular",15
+"1814","2014-07-21","intencao_estimulada","Dilma Rousseff","avaliacao_governo","Regular",32
+"1815","2014-07-21","intencao_estimulada","Eduardo Campos","avaliacao_governo","Regular",9
+"1816","2014-07-21","intencao_estimulada","NS/NR*","avaliacao_governo","Regular",13
+"1817","2014-07-21","intencao_estimulada","Outros","avaliacao_governo","Regular",5
+"1818","2014-07-21","intencao_estimulada","Pastor Everaldo","avaliacao_governo","Regular",4
+"1819","2014-07-21","intencao_estimulada","Aécio Neves","avaliacao_governo","Ruim e péssimo",36
+"1820","2014-07-21","intencao_estimulada","Branco e Nulo","avaliacao_governo","Ruim e péssimo",28
+"1821","2014-07-21","intencao_estimulada","Dilma Rousseff","avaliacao_governo","Ruim e péssimo",5
+"1822","2014-07-21","intencao_estimulada","Eduardo Campos","avaliacao_governo","Ruim e péssimo",12
+"1823","2014-07-21","intencao_estimulada","NS/NR*","avaliacao_governo","Ruim e péssimo",9
+"1824","2014-07-21","intencao_estimulada","Outros","avaliacao_governo","Ruim e péssimo",7
+"1825","2014-07-21","intencao_estimulada","Pastor Everaldo","avaliacao_governo","Ruim e péssimo",3
+"1826","2014-07-21","intencao_estimulada","Aécio Neves","avaliacao_governo","NS/NR*",7
+"1827","2014-07-21","intencao_estimulada","Branco e Nulo","avaliacao_governo","NS/NR*",36
+"1828","2014-07-21","intencao_estimulada","Dilma Rousseff","avaliacao_governo","NS/NR*",36
+"1829","2014-07-21","intencao_estimulada","Eduardo Campos","avaliacao_governo","NS/NR*",0
+"1830","2014-07-21","intencao_estimulada","NS/NR*","avaliacao_governo","NS/NR*",14
+"1831","2014-07-21","intencao_estimulada","Outros","avaliacao_governo","NS/NR*",7
+"1832","2014-07-21","intencao_estimulada","Pastor Everaldo","avaliacao_governo","NS/NR*",0
+"1833","2014-07-21","aprova_dilma","Aprova","avaliacao_governo","Ótimo e bom",94
+"1834","2014-07-21","aprova_dilma","Desaprova","avaliacao_governo","Ótimo e bom",5
+"1835","2014-07-21","aprova_dilma","NS/NR*","avaliacao_governo","Ótimo e bom",1
+"1836","2014-07-21","aprova_dilma","Aprova","avaliacao_governo","Regular",41
+"1837","2014-07-21","aprova_dilma","Desaprova","avaliacao_governo","Regular",46
+"1838","2014-07-21","aprova_dilma","NS/NR*","avaliacao_governo","Regular",13
+"1839","2014-07-21","aprova_dilma","Aprova","avaliacao_governo","Ruim e péssimo",1
+"1840","2014-07-21","aprova_dilma","Desaprova","avaliacao_governo","Ruim e péssimo",98
+"1841","2014-07-21","aprova_dilma","NS/NR*","avaliacao_governo","Ruim e péssimo",2
+"1842","2014-07-21","aprova_dilma","Aprova","avaliacao_governo","NS/NR*",29
+"1843","2014-07-21","aprova_dilma","Desaprova","avaliacao_governo","NS/NR*",7
+"1844","2014-07-21","aprova_dilma","NS/NR*","avaliacao_governo","NS/NR*",64
+"1845","2014-07-21","desejo_mudanca","Quer mudança","avaliacao_governo","Ótimo e bom",47
+"1846","2014-07-21","desejo_mudanca","Quer continuidade","avaliacao_governo","Ótimo e bom",51
+"1847","2014-07-21","desejo_mudanca","NS/NR*","avaliacao_governo","Ótimo e bom",1
+"1848","2014-07-21","desejo_mudanca","Quer mudança","avaliacao_governo","Regular",74
+"1849","2014-07-21","desejo_mudanca","Quer continuidade","avaliacao_governo","Regular",24
+"1850","2014-07-21","desejo_mudanca","NS/NR*","avaliacao_governo","Regular",2
+"1851","2014-07-21","desejo_mudanca","Quer mudança","avaliacao_governo","Ruim e péssimo",88
+"1852","2014-07-21","desejo_mudanca","Quer continuidade","avaliacao_governo","Ruim e péssimo",9
+"1853","2014-07-21","desejo_mudanca","NS/NR*","avaliacao_governo","Ruim e péssimo",2
+"1854","2014-07-21","desejo_mudanca","Quer mudança","avaliacao_governo","NS/NR*",64
+"1855","2014-07-21","desejo_mudanca","Quer continuidade","avaliacao_governo","NS/NR*",14
+"1856","2014-07-21","desejo_mudanca","NS/NR*","avaliacao_governo","NS/NR*",21
+"1857","2014-07-21","rejeicao","Dilma Rousseff","avaliacao_governo","Ótimo e bom",5
+"1858","2014-07-21","rejeicao","Aécio Neves","avaliacao_governo","Ótimo e bom",27
+"1859","2014-07-21","rejeicao","Pastor Everaldo","avaliacao_governo","Ótimo e bom",13
+"1860","2014-07-21","rejeicao","Eduardo Campos","avaliacao_governo","Ótimo e bom",10
+"1861","2014-07-21","rejeicao","Dilma Rousseff","avaliacao_governo","Regular",28
+"1862","2014-07-21","rejeicao","Aécio Neves","avaliacao_governo","Regular",12
+"1863","2014-07-21","rejeicao","Pastor Everaldo","avaliacao_governo","Regular",11
+"1864","2014-07-21","rejeicao","Eduardo Campos","avaliacao_governo","Regular",8
+"1865","2014-07-21","rejeicao","Dilma Rousseff","avaliacao_governo","Ruim e péssimo",74
+"1866","2014-07-21","rejeicao","Aécio Neves","avaliacao_governo","Ruim e péssimo",10
+"1867","2014-07-21","rejeicao","Pastor Everaldo","avaliacao_governo","Ruim e péssimo",9
+"1868","2014-07-21","rejeicao","Eduardo Campos","avaliacao_governo","Ruim e péssimo",7
+"1869","2014-07-21","rejeicao","Dilma Rousseff","avaliacao_governo","NS/NR*",0
+"1870","2014-07-21","rejeicao","Aécio Neves","avaliacao_governo","NS/NR*",7
+"1871","2014-07-21","rejeicao","Pastor Everaldo","avaliacao_governo","NS/NR*",0
+"1872","2014-07-21","rejeicao","Eduardo Campos","avaliacao_governo","NS/NR*",0
+"1873","2014-07-21","2turno_aecio","Aécio Neves","avaliacao_governo","Ótimo e bom",9
+"1874","2014-07-21","2turno_aecio","Branco e Nulo","avaliacao_governo","Ótimo e bom",4
+"1875","2014-07-21","2turno_aecio","Dilma Rousseff","avaliacao_governo","Ótimo e bom",85
+"1876","2014-07-21","2turno_aecio","NS/NR*","avaliacao_governo","Ótimo e bom",3
+"1877","2014-07-21","2turno_aecio","Aécio Neves","avaliacao_governo","Regular",34
+"1878","2014-07-21","2turno_aecio","Branco e Nulo","avaliacao_governo","Regular",16
+"1879","2014-07-21","2turno_aecio","Dilma Rousseff","avaliacao_governo","Regular",37
+"1880","2014-07-21","2turno_aecio","NS/NR*","avaliacao_governo","Regular",13
+"1881","2014-07-21","2turno_aecio","Aécio Neves","avaliacao_governo","Ruim e péssimo",56
+"1882","2014-07-21","2turno_aecio","Branco e Nulo","avaliacao_governo","Ruim e péssimo",32
+"1883","2014-07-21","2turno_aecio","Dilma Rousseff","avaliacao_governo","Ruim e péssimo",5
+"1884","2014-07-21","2turno_aecio","NS/NR*","avaliacao_governo","Ruim e péssimo",8
+"1885","2014-07-21","2turno_aecio","Aécio Neves","avaliacao_governo","NS/NR*",7
+"1886","2014-07-21","2turno_aecio","Branco e Nulo","avaliacao_governo","NS/NR*",29
+"1887","2014-07-21","2turno_aecio","Dilma Rousseff","avaliacao_governo","NS/NR*",36
+"1888","2014-07-21","2turno_aecio","NS/NR*","avaliacao_governo","NS/NR*",29
+"1889","2014-07-21","2turno_campos","Branco e Nulo","avaliacao_governo","Ótimo e bom",5
+"1890","2014-07-21","2turno_campos","Dilma Rousseff","avaliacao_governo","Ótimo e bom",83
+"1891","2014-07-21","2turno_campos","Eduardo Campos","avaliacao_governo","Ótimo e bom",9
+"1892","2014-07-21","2turno_campos","NS/NR*","avaliacao_governo","Ótimo e bom",3
+"1893","2014-07-21","2turno_campos","Branco e Nulo","avaliacao_governo","Regular",18
+"1894","2014-07-21","2turno_campos","Dilma Rousseff","avaliacao_governo","Regular",38
+"1895","2014-07-21","2turno_campos","Eduardo Campos","avaliacao_governo","Regular",28
+"1896","2014-07-21","2turno_campos","NS/NR*","avaliacao_governo","Regular",15
+"1897","2014-07-21","2turno_campos","Branco e Nulo","avaliacao_governo","Ruim e péssimo",36
+"1898","2014-07-21","2turno_campos","Dilma Rousseff","avaliacao_governo","Ruim e péssimo",6
+"1899","2014-07-21","2turno_campos","Eduardo Campos","avaliacao_governo","Ruim e péssimo",48
+"1900","2014-07-21","2turno_campos","NS/NR*","avaliacao_governo","Ruim e péssimo",10
+"1901","2014-07-21","2turno_campos","Branco e Nulo","avaliacao_governo","NS/NR*",43
+"1902","2014-07-21","2turno_campos","Dilma Rousseff","avaliacao_governo","NS/NR*",29
+"1903","2014-07-21","2turno_campos","Eduardo Campos","avaliacao_governo","NS/NR*",7
+"1904","2014-07-21","2turno_campos","NS/NR*","avaliacao_governo","NS/NR*",21
+"1905","2014-07-21","favorito","Aécio Neves","avaliacao_governo","Ótimo e bom",5
+"1906","2014-07-21","favorito","Dilma Rousseff","avaliacao_governo","Ótimo e bom",84
+"1907","2014-07-21","favorito","Eduardo Campos","avaliacao_governo","Ótimo e bom",3
+"1908","2014-07-21","favorito","NS/NR*","avaliacao_governo","Ótimo e bom",8
+"1909","2014-07-21","favorito","Outros","avaliacao_governo","Ótimo e bom",1
+"1910","2014-07-21","favorito","Aécio Neves","avaliacao_governo","Regular",15
+"1911","2014-07-21","favorito","Dilma Rousseff","avaliacao_governo","Regular",52
+"1912","2014-07-21","favorito","Eduardo Campos","avaliacao_governo","Regular",4
+"1913","2014-07-21","favorito","NS/NR*","avaliacao_governo","Regular",28
+"1914","2014-07-21","favorito","Outros","avaliacao_governo","Regular",2
+"1915","2014-07-21","favorito","Aécio Neves","avaliacao_governo","Ruim e péssimo",28
+"1916","2014-07-21","favorito","Dilma Rousseff","avaliacao_governo","Ruim e péssimo",29
+"1917","2014-07-21","favorito","Eduardo Campos","avaliacao_governo","Ruim e péssimo",7
+"1918","2014-07-21","favorito","NS/NR*","avaliacao_governo","Ruim e péssimo",34
+"1919","2014-07-21","favorito","Outros","avaliacao_governo","Ruim e péssimo",2
+"1920","2014-07-21","favorito","Aécio Neves","avaliacao_governo","NS/NR*",7
+"1921","2014-07-21","favorito","Dilma Rousseff","avaliacao_governo","NS/NR*",36
+"1922","2014-07-21","favorito","Eduardo Campos","avaliacao_governo","NS/NR*",7
+"1923","2014-07-21","favorito","NS/NR*","avaliacao_governo","NS/NR*",43
+"1924","2014-07-21","favorito","Outros","avaliacao_governo","NS/NR*",7
+"1925","2014-07-21","vida_hoje","Satisfeito","total","total",78
+"1926","2014-07-21","vida_hoje","Insatisfeito","total","total",21
+"1927","2014-07-21","vida_hoje","NS/NR*","total","total",0
+"1928","2014-07-21","interesse","Tem muito interesse","total","total",17
+"1929","2014-07-21","interesse","Tem médio interesse","total","total",27
+"1930","2014-07-21","interesse","Não tem interesse","total","total",56
+"1931","2014-07-21","interesse","NS/NR*","total","total",0
+"1932","2014-07-21","intencao_espontanea","Aécio Neves","total","total",12
+"1933","2014-07-21","intencao_espontanea","Branco e Nulo","total","total",17
+"1934","2014-07-21","intencao_espontanea","Dilma Rousseff","total","total",26
+"1935","2014-07-21","intencao_espontanea","Eduardo Campos","total","total",4
+"1936","2014-07-21","intencao_espontanea","NS/NR*","total","total",39
+"1937","2014-07-21","intencao_espontanea","Outros","total","total",2
+"1938","2014-07-21","intencao_estimulada","Aécio Neves","total","total",22
+"1939","2014-07-21","intencao_estimulada","Branco e Nulo","total","total",16
+"1940","2014-07-21","intencao_estimulada","Dilma Rousseff","total","total",38
+"1941","2014-07-21","intencao_estimulada","Eduardo Campos","total","total",8
+"1942","2014-07-21","intencao_estimulada","NS/NR*","total","total",9
+"1943","2014-07-21","intencao_estimulada","Outros","total","total",4
+"1944","2014-07-21","intencao_estimulada","Pastor Everaldo","total","total",3
+"1945","2014-07-21","avaliacao_governo","Ótimo e bom","total","total",31
+"1946","2014-07-21","avaliacao_governo","Regular","total","total",36
+"1947","2014-07-21","avaliacao_governo","Ruim e péssimo","total","total",33
+"1948","2014-07-21","avaliacao_governo","NS/NR*","total","total",1
+"1949","2014-07-21","aprova_dilma","Aprova","total","total",44
+"1950","2014-07-21","aprova_dilma","Desaprova","total","total",50
+"1951","2014-07-21","aprova_dilma","NS/NR*","total","total",6
+"1952","2014-07-21","desejo_mudanca","Quer mudança","total","total",71
+"1953","2014-07-21","desejo_mudanca","Quer continuidade","total","total",27
+"1954","2014-07-21","desejo_mudanca","NS/NR*","total","total",2
+"1955","2014-07-21","rejeicao","Dilma Rousseff","total","total",36
+"1956","2014-07-21","rejeicao","Aécio Neves","total","total",16
+"1957","2014-07-21","rejeicao","Pastor Everaldo","total","total",11
+"1958","2014-07-21","rejeicao","Eduardo Campos","total","total",8
+"1959","2014-07-21","2turno_aecio","Aécio Neves","total","total",33
+"1960","2014-07-21","2turno_aecio","Branco e Nulo","total","total",18
+"1961","2014-07-21","2turno_aecio","Dilma Rousseff","total","total",41
+"1962","2014-07-21","2turno_aecio","NS/NR*","total","total",8
+"1963","2014-07-21","2turno_campos","Branco e Nulo","total","total",20
+"1964","2014-07-21","2turno_campos","Dilma Rousseff","total","total",41
+"1965","2014-07-21","2turno_campos","Eduardo Campos","total","total",29
+"1966","2014-07-21","2turno_campos","NS/NR*","total","total",10
+"1967","2014-07-21","favorito","Aécio Neves","total","total",16
+"1968","2014-07-21","favorito","Dilma Rousseff","total","total",54
+"1969","2014-07-21","favorito","Eduardo Campos","total","total",5
+"1970","2014-07-21","favorito","NS/NR*","total","total",24
+"1971","2014-07-21","favorito","Outros","total","total",2
+"1972","2014-07-21","vida_hoje","Satisfeito","intencao_estimulada","Aécio Neves",76
+"1973","2014-07-21","vida_hoje","Insatisfeito","intencao_estimulada","Aécio Neves",24
+"1974","2014-07-21","vida_hoje","NS/NR*","intencao_estimulada","Aécio Neves",0
+"1975","2014-07-21","vida_hoje","Satisfeito","intencao_estimulada","Branco e Nulo",67
+"1976","2014-07-21","vida_hoje","Insatisfeito","intencao_estimulada","Branco e Nulo",32
+"1977","2014-07-21","vida_hoje","NS/NR*","intencao_estimulada","Branco e Nulo",0
+"1978","2014-07-21","vida_hoje","Satisfeito","intencao_estimulada","Dilma Rousseff",86
+"1979","2014-07-21","vida_hoje","Insatisfeito","intencao_estimulada","Dilma Rousseff",14
+"1980","2014-07-21","vida_hoje","NS/NR*","intencao_estimulada","Dilma Rousseff",0
+"1981","2014-07-21","vida_hoje","Satisfeito","intencao_estimulada","Eduardo Campos",81
+"1982","2014-07-21","vida_hoje","Insatisfeito","intencao_estimulada","Eduardo Campos",19
+"1983","2014-07-21","vida_hoje","NS/NR*","intencao_estimulada","Eduardo Campos",1
+"1984","2014-07-21","vida_hoje","Satisfeito","intencao_estimulada","NS/NR*",74
+"1985","2014-07-21","vida_hoje","Insatisfeito","intencao_estimulada","NS/NR*",25
+"1986","2014-07-21","vida_hoje","NS/NR*","intencao_estimulada","NS/NR*",1
+"1987","2014-07-21","vida_hoje","Satisfeito","intencao_estimulada","Outros",76
+"1988","2014-07-21","vida_hoje","Insatisfeito","intencao_estimulada","Outros",22
+"1989","2014-07-21","vida_hoje","NS/NR*","intencao_estimulada","Outros",2
+"1993","2014-07-21","interesse","Tem muito interesse","intencao_estimulada","Aécio Neves",20
+"1994","2014-07-21","interesse","Tem médio interesse","intencao_estimulada","Aécio Neves",27
+"1995","2014-07-21","interesse","Não tem interesse","intencao_estimulada","Aécio Neves",52
+"1996","2014-07-21","interesse","NS/NR*","intencao_estimulada","Aécio Neves",0
+"1997","2014-07-21","interesse","Tem muito interesse","intencao_estimulada","Branco e Nulo",4
+"1998","2014-07-21","interesse","Tem médio interesse","intencao_estimulada","Branco e Nulo",13
+"1999","2014-07-21","interesse","Não tem interesse","intencao_estimulada","Branco e Nulo",83
+"2000","2014-07-21","interesse","NS/NR*","intencao_estimulada","Branco e Nulo",0
+"2001","2014-07-21","interesse","Tem muito interesse","intencao_estimulada","Dilma Rousseff",22
+"2002","2014-07-21","interesse","Tem médio interesse","intencao_estimulada","Dilma Rousseff",33
+"2003","2014-07-21","interesse","Não tem interesse","intencao_estimulada","Dilma Rousseff",45
+"2004","2014-07-21","interesse","NS/NR*","intencao_estimulada","Dilma Rousseff",0
+"2005","2014-07-21","interesse","Tem muito interesse","intencao_estimulada","Eduardo Campos",17
+"2006","2014-07-21","interesse","Tem médio interesse","intencao_estimulada","Eduardo Campos",32
+"2007","2014-07-21","interesse","Não tem interesse","intencao_estimulada","Eduardo Campos",51
+"2008","2014-07-21","interesse","NS/NR*","intencao_estimulada","Eduardo Campos",0
+"2009","2014-07-21","interesse","Tem muito interesse","intencao_estimulada","NS/NR*",13
+"2010","2014-07-21","interesse","Tem médio interesse","intencao_estimulada","NS/NR*",21
+"2011","2014-07-21","interesse","Não tem interesse","intencao_estimulada","NS/NR*",66
+"2012","2014-07-21","interesse","NS/NR*","intencao_estimulada","NS/NR*",1
+"2013","2014-07-21","interesse","Tem muito interesse","intencao_estimulada","Outros",16
+"2014","2014-07-21","interesse","Tem médio interesse","intencao_estimulada","Outros",31
+"2015","2014-07-21","interesse","Não tem interesse","intencao_estimulada","Outros",53
+"2016","2014-07-21","interesse","NS/NR*","intencao_estimulada","Outros",0
+"2021","2014-07-21","intencao_espontanea","Aécio Neves","intencao_estimulada","Aécio Neves",54
+"2022","2014-07-21","intencao_espontanea","Branco e Nulo","intencao_estimulada","Aécio Neves",6
+"2023","2014-07-21","intencao_espontanea","Dilma Rousseff","intencao_estimulada","Aécio Neves",1
+"2024","2014-07-21","intencao_espontanea","Eduardo Campos","intencao_estimulada","Aécio Neves",1
+"2025","2014-07-21","intencao_espontanea","NS/NR*","intencao_estimulada","Aécio Neves",36
+"2026","2014-07-21","intencao_espontanea","Outros","intencao_estimulada","Aécio Neves",2
+"2027","2014-07-21","intencao_espontanea","Aécio Neves","intencao_estimulada","Branco e Nulo",0
+"2028","2014-07-21","intencao_espontanea","Branco e Nulo","intencao_estimulada","Branco e Nulo",70
+"2029","2014-07-21","intencao_espontanea","Dilma Rousseff","intencao_estimulada","Branco e Nulo",0
+"2030","2014-07-21","intencao_espontanea","Eduardo Campos","intencao_estimulada","Branco e Nulo",0
+"2031","2014-07-21","intencao_espontanea","NS/NR*","intencao_estimulada","Branco e Nulo",30
+"2032","2014-07-21","intencao_espontanea","Outros","intencao_estimulada","Branco e Nulo",1
+"2033","2014-07-21","intencao_espontanea","Aécio Neves","intencao_estimulada","Dilma Rousseff",0
+"2034","2014-07-21","intencao_espontanea","Branco e Nulo","intencao_estimulada","Dilma Rousseff",5
+"2035","2014-07-21","intencao_espontanea","Dilma Rousseff","intencao_estimulada","Dilma Rousseff",64
+"2036","2014-07-21","intencao_espontanea","Eduardo Campos","intencao_estimulada","Dilma Rousseff",1
+"2037","2014-07-21","intencao_espontanea","NS/NR*","intencao_estimulada","Dilma Rousseff",29
+"2038","2014-07-21","intencao_espontanea","Outros","intencao_estimulada","Dilma Rousseff",1
+"2039","2014-07-21","intencao_espontanea","Aécio Neves","intencao_estimulada","Eduardo Campos",1
+"2040","2014-07-21","intencao_espontanea","Branco e Nulo","intencao_estimulada","Eduardo Campos",11
+"2041","2014-07-21","intencao_espontanea","Dilma Rousseff","intencao_estimulada","Eduardo Campos",4
+"2042","2014-07-21","intencao_espontanea","Eduardo Campos","intencao_estimulada","Eduardo Campos",40
+"2043","2014-07-21","intencao_espontanea","NS/NR*","intencao_estimulada","Eduardo Campos",42
+"2044","2014-07-21","intencao_espontanea","Outros","intencao_estimulada","Eduardo Campos",2
+"2045","2014-07-21","intencao_espontanea","Aécio Neves","intencao_estimulada","NS/NR*",2
+"2046","2014-07-21","intencao_espontanea","Branco e Nulo","intencao_estimulada","NS/NR*",6
+"2047","2014-07-21","intencao_espontanea","Dilma Rousseff","intencao_estimulada","NS/NR*",5
+"2048","2014-07-21","intencao_espontanea","Eduardo Campos","intencao_estimulada","NS/NR*",1
+"2049","2014-07-21","intencao_espontanea","NS/NR*","intencao_estimulada","NS/NR*",87
+"2050","2014-07-21","intencao_espontanea","Outros","intencao_estimulada","NS/NR*",0
+"2051","2014-07-21","intencao_espontanea","Aécio Neves","intencao_estimulada","Outros",5
+"2052","2014-07-21","intencao_espontanea","Branco e Nulo","intencao_estimulada","Outros",20
+"2053","2014-07-21","intencao_espontanea","Dilma Rousseff","intencao_estimulada","Outros",5
+"2054","2014-07-21","intencao_espontanea","Eduardo Campos","intencao_estimulada","Outros",5
+"2055","2014-07-21","intencao_espontanea","NS/NR*","intencao_estimulada","Outros",57
+"2056","2014-07-21","intencao_espontanea","Outros","intencao_estimulada","Outros",9
+"2063","2014-07-21","avaliacao_governo","Ótimo e bom","intencao_estimulada","Aécio Neves",8
+"2064","2014-07-21","avaliacao_governo","Regular","intencao_estimulada","Aécio Neves",37
+"2065","2014-07-21","avaliacao_governo","Ruim e péssimo","intencao_estimulada","Aécio Neves",55
+"2066","2014-07-21","avaliacao_governo","NS/NR*","intencao_estimulada","Aécio Neves",0
+"2067","2014-07-21","avaliacao_governo","Ótimo e bom","intencao_estimulada","Branco e Nulo",6
+"2068","2014-07-21","avaliacao_governo","Regular","intencao_estimulada","Branco e Nulo",33
+"2069","2014-07-21","avaliacao_governo","Ruim e péssimo","intencao_estimulada","Branco e Nulo",59
+"2070","2014-07-21","avaliacao_governo","NS/NR*","intencao_estimulada","Branco e Nulo",2
+"2071","2014-07-21","avaliacao_governo","Ótimo e bom","intencao_estimulada","Dilma Rousseff",65
+"2072","2014-07-21","avaliacao_governo","Regular","intencao_estimulada","Dilma Rousseff",30
+"2073","2014-07-21","avaliacao_governo","Ruim e péssimo","intencao_estimulada","Dilma Rousseff",4
+"2074","2014-07-21","avaliacao_governo","NS/NR*","intencao_estimulada","Dilma Rousseff",1
+"2075","2014-07-21","avaliacao_governo","Ótimo e bom","intencao_estimulada","Eduardo Campos",13
+"2076","2014-07-21","avaliacao_governo","Regular","intencao_estimulada","Eduardo Campos",39
+"2077","2014-07-21","avaliacao_governo","Ruim e péssimo","intencao_estimulada","Eduardo Campos",49
+"2078","2014-07-21","avaliacao_governo","NS/NR*","intencao_estimulada","Eduardo Campos",0
+"2079","2014-07-21","avaliacao_governo","Ótimo e bom","intencao_estimulada","NS/NR*",11
+"2080","2014-07-21","avaliacao_governo","Regular","intencao_estimulada","NS/NR*",54
+"2081","2014-07-21","avaliacao_governo","Ruim e péssimo","intencao_estimulada","NS/NR*",33
+"2082","2014-07-21","avaliacao_governo","NS/NR*","intencao_estimulada","NS/NR*",1
+"2083","2014-07-21","avaliacao_governo","Ótimo e bom","intencao_estimulada","Outros",13
+"2084","2014-07-21","avaliacao_governo","Regular","intencao_estimulada","Outros",38
+"2085","2014-07-21","avaliacao_governo","Ruim e péssimo","intencao_estimulada","Outros",49
+"2086","2014-07-21","avaliacao_governo","NS/NR*","intencao_estimulada","Outros",1
+"2091","2014-07-21","aprova_dilma","Aprova","intencao_estimulada","Aécio Neves",13
+"2092","2014-07-21","aprova_dilma","Desaprova","intencao_estimulada","Aécio Neves",83
+"2093","2014-07-21","aprova_dilma","NS/NR*","intencao_estimulada","Aécio Neves",4
+"2094","2014-07-21","aprova_dilma","Aprova","intencao_estimulada","Branco e Nulo",10
+"2095","2014-07-21","aprova_dilma","Desaprova","intencao_estimulada","Branco e Nulo",81
+"2096","2014-07-21","aprova_dilma","NS/NR*","intencao_estimulada","Branco e Nulo",9
+"2097","2014-07-21","aprova_dilma","Aprova","intencao_estimulada","Dilma Rousseff",87
+"2098","2014-07-21","aprova_dilma","Desaprova","intencao_estimulada","Dilma Rousseff",10
+"2099","2014-07-21","aprova_dilma","NS/NR*","intencao_estimulada","Dilma Rousseff",3
+"2100","2014-07-21","aprova_dilma","Aprova","intencao_estimulada","Eduardo Campos",23
+"2101","2014-07-21","aprova_dilma","Desaprova","intencao_estimulada","Eduardo Campos",73
+"2102","2014-07-21","aprova_dilma","NS/NR*","intencao_estimulada","Eduardo Campos",4
+"2103","2014-07-21","aprova_dilma","Aprova","intencao_estimulada","NS/NR*",27
+"2104","2014-07-21","aprova_dilma","Desaprova","intencao_estimulada","NS/NR*",58
+"2105","2014-07-21","aprova_dilma","NS/NR*","intencao_estimulada","NS/NR*",15
+"2106","2014-07-21","aprova_dilma","Aprova","intencao_estimulada","Outros",26
+"2107","2014-07-21","aprova_dilma","Desaprova","intencao_estimulada","Outros",68
+"2108","2014-07-21","aprova_dilma","NS/NR*","intencao_estimulada","Outros",6
+"2112","2014-07-21","desejo_mudanca","Quer mudança","intencao_estimulada","Aécio Neves",85
+"2113","2014-07-21","desejo_mudanca","Quer continuidade","intencao_estimulada","Aécio Neves",14
+"2114","2014-07-21","desejo_mudanca","NS/NR*","intencao_estimulada","Aécio Neves",1
+"2115","2014-07-21","desejo_mudanca","Quer mudança","intencao_estimulada","Branco e Nulo",85
+"2116","2014-07-21","desejo_mudanca","Quer continuidade","intencao_estimulada","Branco e Nulo",11
+"2117","2014-07-21","desejo_mudanca","NS/NR*","intencao_estimulada","Branco e Nulo",4
+"2118","2014-07-21","desejo_mudanca","Quer mudança","intencao_estimulada","Dilma Rousseff",50
+"2119","2014-07-21","desejo_mudanca","Quer continuidade","intencao_estimulada","Dilma Rousseff",49
+"2120","2014-07-21","desejo_mudanca","NS/NR*","intencao_estimulada","Dilma Rousseff",1
+"2121","2014-07-21","desejo_mudanca","Quer mudança","intencao_estimulada","Eduardo Campos",81
+"2122","2014-07-21","desejo_mudanca","Quer continuidade","intencao_estimulada","Eduardo Campos",18
+"2123","2014-07-21","desejo_mudanca","NS/NR*","intencao_estimulada","Eduardo Campos",1
+"2124","2014-07-21","desejo_mudanca","Quer mudança","intencao_estimulada","NS/NR*",77
+"2125","2014-07-21","desejo_mudanca","Quer continuidade","intencao_estimulada","NS/NR*",18
+"2126","2014-07-21","desejo_mudanca","NS/NR*","intencao_estimulada","NS/NR*",5
+"2127","2014-07-21","desejo_mudanca","Quer mudança","intencao_estimulada","Outros",83
+"2128","2014-07-21","desejo_mudanca","Quer continuidade","intencao_estimulada","Outros",16
+"2129","2014-07-21","desejo_mudanca","NS/NR*","intencao_estimulada","Outros",1
+"2133","2014-07-21","rejeicao","Dilma Rousseff","intencao_estimulada","Aécio Neves",70
+"2134","2014-07-21","rejeicao","Aécio Neves","intencao_estimulada","Aécio Neves",0
+"2135","2014-07-21","rejeicao","Pastor Everaldo","intencao_estimulada","Aécio Neves",8
+"2136","2014-07-21","rejeicao","Eduardo Campos","intencao_estimulada","Aécio Neves",4
+"2137","2014-07-21","rejeicao","Dilma Rousseff","intencao_estimulada","Branco e Nulo",55
+"2138","2014-07-21","rejeicao","Aécio Neves","intencao_estimulada","Branco e Nulo",19
+"2139","2014-07-21","rejeicao","Pastor Everaldo","intencao_estimulada","Branco e Nulo",14
+"2140","2014-07-21","rejeicao","Eduardo Campos","intencao_estimulada","Branco e Nulo",14
+"2141","2014-07-21","rejeicao","Dilma Rousseff","intencao_estimulada","Dilma Rousseff",1
+"2142","2014-07-21","rejeicao","Aécio Neves","intencao_estimulada","Dilma Rousseff",28
+"2143","2014-07-21","rejeicao","Pastor Everaldo","intencao_estimulada","Dilma Rousseff",14
+"2144","2014-07-21","rejeicao","Eduardo Campos","intencao_estimulada","Dilma Rousseff",12
+"2145","2014-07-21","rejeicao","Dilma Rousseff","intencao_estimulada","Eduardo Campos",63
+"2146","2014-07-21","rejeicao","Aécio Neves","intencao_estimulada","Eduardo Campos",13
+"2147","2014-07-21","rejeicao","Pastor Everaldo","intencao_estimulada","Eduardo Campos",10
+"2148","2014-07-21","rejeicao","Eduardo Campos","intencao_estimulada","Eduardo Campos",0
+"2149","2014-07-21","rejeicao","Dilma Rousseff","intencao_estimulada","NS/NR*",26
+"2150","2014-07-21","rejeicao","Aécio Neves","intencao_estimulada","NS/NR*",4
+"2151","2014-07-21","rejeicao","Pastor Everaldo","intencao_estimulada","NS/NR*",4
+"2152","2014-07-21","rejeicao","Eduardo Campos","intencao_estimulada","NS/NR*",1
+"2153","2014-07-21","rejeicao","Dilma Rousseff","intencao_estimulada","Outros",60
+"2154","2014-07-21","rejeicao","Aécio Neves","intencao_estimulada","Outros",10
+"2155","2014-07-21","rejeicao","Pastor Everaldo","intencao_estimulada","Outros",7
+"2156","2014-07-21","rejeicao","Eduardo Campos","intencao_estimulada","Outros",9
+"2161","2014-07-21","2turno_aecio","Aécio Neves","intencao_estimulada","Aécio Neves",95
+"2162","2014-07-21","2turno_aecio","Branco e Nulo","intencao_estimulada","Aécio Neves",2
+"2163","2014-07-21","2turno_aecio","Dilma Rousseff","intencao_estimulada","Aécio Neves",2
+"2164","2014-07-21","2turno_aecio","NS/NR*","intencao_estimulada","Aécio Neves",2
+"2165","2014-07-21","2turno_aecio","Aécio Neves","intencao_estimulada","Branco e Nulo",15
+"2166","2014-07-21","2turno_aecio","Branco e Nulo","intencao_estimulada","Branco e Nulo",76
+"2167","2014-07-21","2turno_aecio","Dilma Rousseff","intencao_estimulada","Branco e Nulo",4
+"2168","2014-07-21","2turno_aecio","NS/NR*","intencao_estimulada","Branco e Nulo",5
+"2169","2014-07-21","2turno_aecio","Aécio Neves","intencao_estimulada","Dilma Rousseff",2
+"2170","2014-07-21","2turno_aecio","Branco e Nulo","intencao_estimulada","Dilma Rousseff",1
+"2171","2014-07-21","2turno_aecio","Dilma Rousseff","intencao_estimulada","Dilma Rousseff",94
+"2172","2014-07-21","2turno_aecio","NS/NR*","intencao_estimulada","Dilma Rousseff",2
+"2173","2014-07-21","2turno_aecio","Aécio Neves","intencao_estimulada","Eduardo Campos",49
+"2174","2014-07-21","2turno_aecio","Branco e Nulo","intencao_estimulada","Eduardo Campos",30
+"2175","2014-07-21","2turno_aecio","Dilma Rousseff","intencao_estimulada","Eduardo Campos",15
+"2176","2014-07-21","2turno_aecio","NS/NR*","intencao_estimulada","Eduardo Campos",6
+"2177","2014-07-21","2turno_aecio","Aécio Neves","intencao_estimulada","NS/NR*",21
+"2178","2014-07-21","2turno_aecio","Branco e Nulo","intencao_estimulada","NS/NR*",7
+"2179","2014-07-21","2turno_aecio","Dilma Rousseff","intencao_estimulada","NS/NR*",13
+"2180","2014-07-21","2turno_aecio","NS/NR*","intencao_estimulada","NS/NR*",59
+"2181","2014-07-21","2turno_aecio","Aécio Neves","intencao_estimulada","Outros",48
+"2182","2014-07-21","2turno_aecio","Branco e Nulo","intencao_estimulada","Outros",26
+"2183","2014-07-21","2turno_aecio","Dilma Rousseff","intencao_estimulada","Outros",16
+"2184","2014-07-21","2turno_aecio","NS/NR*","intencao_estimulada","Outros",10
+"2189","2014-07-21","2turno_campos","Branco e Nulo","intencao_estimulada","Aécio Neves",23
+"2190","2014-07-21","2turno_campos","Dilma Rousseff","intencao_estimulada","Aécio Neves",9
+"2191","2014-07-21","2turno_campos","Eduardo Campos","intencao_estimulada","Aécio Neves",58
+"2192","2014-07-21","2turno_campos","NS/NR*","intencao_estimulada","Aécio Neves",10
+"2193","2014-07-21","2turno_campos","Branco e Nulo","intencao_estimulada","Branco e Nulo",77
+"2194","2014-07-21","2turno_campos","Dilma Rousseff","intencao_estimulada","Branco e Nulo",4
+"2195","2014-07-21","2turno_campos","Eduardo Campos","intencao_estimulada","Branco e Nulo",12
+"2196","2014-07-21","2turno_campos","NS/NR*","intencao_estimulada","Branco e Nulo",6
+"2197","2014-07-21","2turno_campos","Branco e Nulo","intencao_estimulada","Dilma Rousseff",1
+"2198","2014-07-21","2turno_campos","Dilma Rousseff","intencao_estimulada","Dilma Rousseff",92
+"2199","2014-07-21","2turno_campos","Eduardo Campos","intencao_estimulada","Dilma Rousseff",4
+"2200","2014-07-21","2turno_campos","NS/NR*","intencao_estimulada","Dilma Rousseff",2
+"2201","2014-07-21","2turno_campos","Branco e Nulo","intencao_estimulada","Eduardo Campos",2
+"2202","2014-07-21","2turno_campos","Dilma Rousseff","intencao_estimulada","Eduardo Campos",6
+"2203","2014-07-21","2turno_campos","Eduardo Campos","intencao_estimulada","Eduardo Campos",89
+"2204","2014-07-21","2turno_campos","NS/NR*","intencao_estimulada","Eduardo Campos",3
+"2205","2014-07-21","2turno_campos","Branco e Nulo","intencao_estimulada","NS/NR*",9
+"2206","2014-07-21","2turno_campos","Dilma Rousseff","intencao_estimulada","NS/NR*",12
+"2207","2014-07-21","2turno_campos","Eduardo Campos","intencao_estimulada","NS/NR*",19
+"2208","2014-07-21","2turno_campos","NS/NR*","intencao_estimulada","NS/NR*",60
+"2209","2014-07-21","2turno_campos","Branco e Nulo","intencao_estimulada","Outros",19
+"2210","2014-07-21","2turno_campos","Dilma Rousseff","intencao_estimulada","Outros",17
+"2211","2014-07-21","2turno_campos","Eduardo Campos","intencao_estimulada","Outros",55
+"2212","2014-07-21","2turno_campos","NS/NR*","intencao_estimulada","Outros",9
+"2217","2014-07-21","favorito","Aécio Neves","intencao_estimulada","Aécio Neves",55
+"2218","2014-07-21","favorito","Dilma Rousseff","intencao_estimulada","Aécio Neves",29
+"2219","2014-07-21","favorito","Eduardo Campos","intencao_estimulada","Aécio Neves",1
+"2220","2014-07-21","favorito","NS/NR*","intencao_estimulada","Aécio Neves",14
+"2221","2014-07-21","favorito","Outros","intencao_estimulada","Aécio Neves",1
+"2222","2014-07-21","favorito","Aécio Neves","intencao_estimulada","Branco e Nulo",9
+"2223","2014-07-21","favorito","Dilma Rousseff","intencao_estimulada","Branco e Nulo",38
+"2224","2014-07-21","favorito","Eduardo Campos","intencao_estimulada","Branco e Nulo",4
+"2225","2014-07-21","favorito","NS/NR*","intencao_estimulada","Branco e Nulo",49
+"2226","2014-07-21","favorito","Outros","intencao_estimulada","Branco e Nulo",1
+"2227","2014-07-21","favorito","Aécio Neves","intencao_estimulada","Dilma Rousseff",3
+"2228","2014-07-21","favorito","Dilma Rousseff","intencao_estimulada","Dilma Rousseff",86
+"2229","2014-07-21","favorito","Eduardo Campos","intencao_estimulada","Dilma Rousseff",1
+"2230","2014-07-21","favorito","NS/NR*","intencao_estimulada","Dilma Rousseff",9
+"2231","2014-07-21","favorito","Outros","intencao_estimulada","Dilma Rousseff",1
+"2232","2014-07-21","favorito","Aécio Neves","intencao_estimulada","Eduardo Campos",7
+"2233","2014-07-21","favorito","Dilma Rousseff","intencao_estimulada","Eduardo Campos",34
+"2234","2014-07-21","favorito","Eduardo Campos","intencao_estimulada","Eduardo Campos",33
+"2235","2014-07-21","favorito","NS/NR*","intencao_estimulada","Eduardo Campos",26
+"2236","2014-07-21","favorito","Outros","intencao_estimulada","Eduardo Campos",1
+"2237","2014-07-21","favorito","Aécio Neves","intencao_estimulada","NS/NR*",3
+"2238","2014-07-21","favorito","Dilma Rousseff","intencao_estimulada","NS/NR*",31
+"2239","2014-07-21","favorito","Eduardo Campos","intencao_estimulada","NS/NR*",1
+"2240","2014-07-21","favorito","NS/NR*","intencao_estimulada","NS/NR*",63
+"2241","2014-07-21","favorito","Outros","intencao_estimulada","NS/NR*",2
+"2242","2014-07-21","favorito","Aécio Neves","intencao_estimulada","Outros",10
+"2243","2014-07-21","favorito","Dilma Rousseff","intencao_estimulada","Outros",44
+"2244","2014-07-21","favorito","Eduardo Campos","intencao_estimulada","Outros",5
+"2245","2014-07-21","favorito","NS/NR*","intencao_estimulada","Outros",33
+"2246","2014-07-21","favorito","Outros","intencao_estimulada","Outros",8
+"2252","2014-07-21","vida_hoje","Satisfeito","favorito","Aécio Neves",75
+"2253","2014-07-21","vida_hoje","Insatisfeito","favorito","Aécio Neves",24
+"2254","2014-07-21","vida_hoje","NS/NR*","favorito","Aécio Neves",0
+"2255","2014-07-21","vida_hoje","Satisfeito","favorito","Dilma Rousseff",83
+"2256","2014-07-21","vida_hoje","Insatisfeito","favorito","Dilma Rousseff",17
+"2257","2014-07-21","vida_hoje","NS/NR*","favorito","Dilma Rousseff",0
+"2258","2014-07-21","vida_hoje","Satisfeito","favorito","Eduardo Campos",74
+"2259","2014-07-21","vida_hoje","Insatisfeito","favorito","Eduardo Campos",26
+"2260","2014-07-21","vida_hoje","NS/NR*","favorito","Eduardo Campos",0
+"2261","2014-07-21","vida_hoje","Satisfeito","favorito","NS/NR*",73
+"2262","2014-07-21","vida_hoje","Insatisfeito","favorito","NS/NR*",26
+"2263","2014-07-21","vida_hoje","NS/NR*","favorito","NS/NR*",1
+"2264","2014-07-21","vida_hoje","Satisfeito","favorito","Outros",65
+"2265","2014-07-21","vida_hoje","Insatisfeito","favorito","Outros",35
+"2266","2014-07-21","vida_hoje","NS/NR*","favorito","Outros",0
+"2267","2014-07-21","interesse","Tem muito interesse","favorito","Aécio Neves",21
+"2268","2014-07-21","interesse","Tem médio interesse","favorito","Aécio Neves",28
+"2269","2014-07-21","interesse","Não tem interesse","favorito","Aécio Neves",50
+"2270","2014-07-21","interesse","NS/NR*","favorito","Aécio Neves",0
+"2271","2014-07-21","interesse","Tem muito interesse","favorito","Dilma Rousseff",20
+"2272","2014-07-21","interesse","Tem médio interesse","favorito","Dilma Rousseff",30
+"2273","2014-07-21","interesse","Não tem interesse","favorito","Dilma Rousseff",50
+"2274","2014-07-21","interesse","NS/NR*","favorito","Dilma Rousseff",0
+"2275","2014-07-21","interesse","Tem muito interesse","favorito","Eduardo Campos",14
+"2276","2014-07-21","interesse","Tem médio interesse","favorito","Eduardo Campos",26
+"2277","2014-07-21","interesse","Não tem interesse","favorito","Eduardo Campos",60
+"2278","2014-07-21","interesse","NS/NR*","favorito","Eduardo Campos",0
+"2279","2014-07-21","interesse","Tem muito interesse","favorito","NS/NR*",9
+"2280","2014-07-21","interesse","Tem médio interesse","favorito","NS/NR*",19
+"2281","2014-07-21","interesse","Não tem interesse","favorito","NS/NR*",71
+"2282","2014-07-21","interesse","NS/NR*","favorito","NS/NR*",1
+"2283","2014-07-21","interesse","Tem muito interesse","favorito","Outros",15
+"2284","2014-07-21","interesse","Tem médio interesse","favorito","Outros",21
+"2285","2014-07-21","interesse","Não tem interesse","favorito","Outros",65
+"2286","2014-07-21","interesse","NS/NR*","favorito","Outros",0
+"2287","2014-07-21","intencao_espontanea","Aécio Neves","favorito","Aécio Neves",49
+"2288","2014-07-21","intencao_espontanea","Branco e Nulo","favorito","Aécio Neves",10
+"2289","2014-07-21","intencao_espontanea","Dilma Rousseff","favorito","Aécio Neves",4
+"2290","2014-07-21","intencao_espontanea","Eduardo Campos","favorito","Aécio Neves",2
+"2291","2014-07-21","intencao_espontanea","NS/NR*","favorito","Aécio Neves",32
+"2292","2014-07-21","intencao_espontanea","Outros","favorito","Aécio Neves",2
+"2293","2014-07-21","intencao_espontanea","Aécio Neves","favorito","Dilma Rousseff",7
+"2294","2014-07-21","intencao_espontanea","Branco e Nulo","favorito","Dilma Rousseff",13
+"2295","2014-07-21","intencao_espontanea","Dilma Rousseff","favorito","Dilma Rousseff",43
+"2296","2014-07-21","intencao_espontanea","Eduardo Campos","favorito","Dilma Rousseff",3
+"2297","2014-07-21","intencao_espontanea","NS/NR*","favorito","Dilma Rousseff",32
+"2298","2014-07-21","intencao_espontanea","Outros","favorito","Dilma Rousseff",1
+"2299","2014-07-21","intencao_espontanea","Aécio Neves","favorito","Eduardo Campos",1
+"2300","2014-07-21","intencao_espontanea","Branco e Nulo","favorito","Eduardo Campos",12
+"2301","2014-07-21","intencao_espontanea","Dilma Rousseff","favorito","Eduardo Campos",5
+"2302","2014-07-21","intencao_espontanea","Eduardo Campos","favorito","Eduardo Campos",34
+"2303","2014-07-21","intencao_espontanea","NS/NR*","favorito","Eduardo Campos",45
+"2304","2014-07-21","intencao_espontanea","Outros","favorito","Eduardo Campos",3
+"2305","2014-07-21","intencao_espontanea","Aécio Neves","favorito","NS/NR*",3
+"2306","2014-07-21","intencao_espontanea","Branco e Nulo","favorito","NS/NR*",29
+"2307","2014-07-21","intencao_espontanea","Dilma Rousseff","favorito","NS/NR*",5
+"2308","2014-07-21","intencao_espontanea","Eduardo Campos","favorito","NS/NR*",2
+"2309","2014-07-21","intencao_espontanea","NS/NR*","favorito","NS/NR*",59
+"2310","2014-07-21","intencao_espontanea","Outros","favorito","NS/NR*",2
+"2311","2014-07-21","intencao_espontanea","Aécio Neves","favorito","Outros",0
+"2312","2014-07-21","intencao_espontanea","Branco e Nulo","favorito","Outros",29
+"2313","2014-07-21","intencao_espontanea","Dilma Rousseff","favorito","Outros",12
+"2314","2014-07-21","intencao_espontanea","Eduardo Campos","favorito","Outros",3
+"2315","2014-07-21","intencao_espontanea","NS/NR*","favorito","Outros",38
+"2316","2014-07-21","intencao_espontanea","Outros","favorito","Outros",18
+"2317","2014-07-21","intencao_estimulada","Aécio Neves","favorito","Aécio Neves",75
+"2318","2014-07-21","intencao_estimulada","Branco e Nulo","favorito","Aécio Neves",9
+"2319","2014-07-21","intencao_estimulada","Dilma Rousseff","favorito","Aécio Neves",7
+"2320","2014-07-21","intencao_estimulada","Eduardo Campos","favorito","Aécio Neves",3
+"2321","2014-07-21","intencao_estimulada","NS/NR*","favorito","Aécio Neves",2
+"2322","2014-07-21","intencao_estimulada","Outros","favorito","Aécio Neves",3
+"2323","2014-07-21","intencao_estimulada","Pastor Everaldo","favorito","Aécio Neves",2
+"2324","2014-07-21","intencao_estimulada","Aécio Neves","favorito","Dilma Rousseff",12
+"2325","2014-07-21","intencao_estimulada","Branco e Nulo","favorito","Dilma Rousseff",11
+"2326","2014-07-21","intencao_estimulada","Dilma Rousseff","favorito","Dilma Rousseff",61
+"2327","2014-07-21","intencao_estimulada","Eduardo Campos","favorito","Dilma Rousseff",5
+"2328","2014-07-21","intencao_estimulada","NS/NR*","favorito","Dilma Rousseff",5
+"2329","2014-07-21","intencao_estimulada","Outros","favorito","Dilma Rousseff",4
+"2330","2014-07-21","intencao_estimulada","Pastor Everaldo","favorito","Dilma Rousseff",2
+"2331","2014-07-21","intencao_estimulada","Aécio Neves","favorito","Eduardo Campos",5
+"2332","2014-07-21","intencao_estimulada","Branco e Nulo","favorito","Eduardo Campos",13
+"2333","2014-07-21","intencao_estimulada","Dilma Rousseff","favorito","Eduardo Campos",12
+"2334","2014-07-21","intencao_estimulada","Eduardo Campos","favorito","Eduardo Campos",60
+"2335","2014-07-21","intencao_estimulada","NS/NR*","favorito","Eduardo Campos",2
+"2336","2014-07-21","intencao_estimulada","Outros","favorito","Eduardo Campos",4
+"2337","2014-07-21","intencao_estimulada","Pastor Everaldo","favorito","Eduardo Campos",3
+"2338","2014-07-21","intencao_estimulada","Aécio Neves","favorito","NS/NR*",13
+"2339","2014-07-21","intencao_estimulada","Branco e Nulo","favorito","NS/NR*",32
+"2340","2014-07-21","intencao_estimulada","Dilma Rousseff","favorito","NS/NR*",14
+"2341","2014-07-21","intencao_estimulada","Eduardo Campos","favorito","NS/NR*",9
+"2342","2014-07-21","intencao_estimulada","NS/NR*","favorito","NS/NR*",23
+"2343","2014-07-21","intencao_estimulada","Outros","favorito","NS/NR*",6
+"2344","2014-07-21","intencao_estimulada","Pastor Everaldo","favorito","NS/NR*",4
+"2345","2014-07-21","intencao_estimulada","Aécio Neves","favorito","Outros",9
+"2346","2014-07-21","intencao_estimulada","Branco e Nulo","favorito","Outros",6
+"2347","2014-07-21","intencao_estimulada","Dilma Rousseff","favorito","Outros",24
+"2348","2014-07-21","intencao_estimulada","Eduardo Campos","favorito","Outros",3
+"2349","2014-07-21","intencao_estimulada","NS/NR*","favorito","Outros",9
+"2350","2014-07-21","intencao_estimulada","Outros","favorito","Outros",21
+"2351","2014-07-21","intencao_estimulada","Pastor Everaldo","favorito","Outros",29
+"2352","2014-07-21","avaliacao_governo","Ótimo e bom","favorito","Aécio Neves",9
+"2353","2014-07-21","avaliacao_governo","Regular","favorito","Aécio Neves",33
+"2354","2014-07-21","avaliacao_governo","Ruim e péssimo","favorito","Aécio Neves",58
+"2355","2014-07-21","avaliacao_governo","NS/NR*","favorito","Aécio Neves",0
+"2356","2014-07-21","avaliacao_governo","Ótimo e bom","favorito","Dilma Rousseff",48
+"2357","2014-07-21","avaliacao_governo","Regular","favorito","Dilma Rousseff",34
+"2358","2014-07-21","avaliacao_governo","Ruim e péssimo","favorito","Dilma Rousseff",18
+"2359","2014-07-21","avaliacao_governo","NS/NR*","favorito","Dilma Rousseff",0
+"2360","2014-07-21","avaliacao_governo","Ótimo e bom","favorito","Eduardo Campos",17
+"2361","2014-07-21","avaliacao_governo","Regular","favorito","Eduardo Campos",33
+"2362","2014-07-21","avaliacao_governo","Ruim e péssimo","favorito","Eduardo Campos",49
+"2363","2014-07-21","avaliacao_governo","NS/NR*","favorito","Eduardo Campos",1
+"2364","2014-07-21","avaliacao_governo","Ótimo e bom","favorito","NS/NR*",11
+"2365","2014-07-21","avaliacao_governo","Regular","favorito","NS/NR*",41
+"2366","2014-07-21","avaliacao_governo","Ruim e péssimo","favorito","NS/NR*",47
+"2367","2014-07-21","avaliacao_governo","NS/NR*","favorito","NS/NR*",1
+"2368","2014-07-21","avaliacao_governo","Ótimo e bom","favorito","Outros",18
+"2369","2014-07-21","avaliacao_governo","Regular","favorito","Outros",35
+"2370","2014-07-21","avaliacao_governo","Ruim e péssimo","favorito","Outros",44
+"2371","2014-07-21","avaliacao_governo","NS/NR*","favorito","Outros",3
+"2372","2014-07-21","aprova_dilma","Aprova","favorito","Aécio Neves",15
+"2373","2014-07-21","aprova_dilma","Desaprova","favorito","Aécio Neves",84
+"2374","2014-07-21","aprova_dilma","NS/NR*","favorito","Aécio Neves",1
+"2375","2014-07-21","aprova_dilma","Aprova","favorito","Dilma Rousseff",64
+"2376","2014-07-21","aprova_dilma","Desaprova","favorito","Dilma Rousseff",31
+"2377","2014-07-21","aprova_dilma","NS/NR*","favorito","Dilma Rousseff",4
+"2378","2014-07-21","aprova_dilma","Aprova","favorito","Eduardo Campos",29
+"2379","2014-07-21","aprova_dilma","Desaprova","favorito","Eduardo Campos",64
+"2380","2014-07-21","aprova_dilma","NS/NR*","favorito","Eduardo Campos",7
+"2381","2014-07-21","aprova_dilma","Aprova","favorito","NS/NR*",22
+"2382","2014-07-21","aprova_dilma","Desaprova","favorito","NS/NR*",66
+"2383","2014-07-21","aprova_dilma","NS/NR*","favorito","NS/NR*",12
+"2384","2014-07-21","aprova_dilma","Aprova","favorito","Outros",21
+"2385","2014-07-21","aprova_dilma","Desaprova","favorito","Outros",71
+"2386","2014-07-21","aprova_dilma","NS/NR*","favorito","Outros",9
+"2387","2014-07-21","desejo_mudanca","Quer mudança","favorito","Aécio Neves",84
+"2388","2014-07-21","desejo_mudanca","Quer continuidade","favorito","Aécio Neves",15
+"2389","2014-07-21","desejo_mudanca","NS/NR*","favorito","Aécio Neves",0
+"2390","2014-07-21","desejo_mudanca","Quer mudança","favorito","Dilma Rousseff",62
+"2391","2014-07-21","desejo_mudanca","Quer continuidade","favorito","Dilma Rousseff",37
+"2392","2014-07-21","desejo_mudanca","NS/NR*","favorito","Dilma Rousseff",1
+"2393","2014-07-21","desejo_mudanca","Quer mudança","favorito","Eduardo Campos",78
+"2394","2014-07-21","desejo_mudanca","Quer continuidade","favorito","Eduardo Campos",20
+"2395","2014-07-21","desejo_mudanca","NS/NR*","favorito","Eduardo Campos",2
+"2396","2014-07-21","desejo_mudanca","Quer mudança","favorito","NS/NR*",79
+"2397","2014-07-21","desejo_mudanca","Quer continuidade","favorito","NS/NR*",17
+"2398","2014-07-21","desejo_mudanca","NS/NR*","favorito","NS/NR*",4
+"2399","2014-07-21","desejo_mudanca","Quer mudança","favorito","Outros",74
+"2400","2014-07-21","desejo_mudanca","Quer continuidade","favorito","Outros",21
+"2401","2014-07-21","desejo_mudanca","NS/NR*","favorito","Outros",6
+"2402","2014-07-21","rejeicao","Dilma Rousseff","favorito","Aécio Neves",74
+"2403","2014-07-21","rejeicao","Aécio Neves","favorito","Aécio Neves",2
+"2404","2014-07-21","rejeicao","Pastor Everaldo","favorito","Aécio Neves",8
+"2405","2014-07-21","rejeicao","Eduardo Campos","favorito","Aécio Neves",3
+"2406","2014-07-21","rejeicao","Dilma Rousseff","favorito","Dilma Rousseff",20
+"2407","2014-07-21","rejeicao","Aécio Neves","favorito","Dilma Rousseff",24
+"2408","2014-07-21","rejeicao","Pastor Everaldo","favorito","Dilma Rousseff",12
+"2409","2014-07-21","rejeicao","Eduardo Campos","favorito","Dilma Rousseff",11
+"2410","2014-07-21","rejeicao","Dilma Rousseff","favorito","Eduardo Campos",59
+"2411","2014-07-21","rejeicao","Aécio Neves","favorito","Eduardo Campos",12
+"2412","2014-07-21","rejeicao","Pastor Everaldo","favorito","Eduardo Campos",16
+"2413","2014-07-21","rejeicao","Eduardo Campos","favorito","Eduardo Campos",3
+"2414","2014-07-21","rejeicao","Dilma Rousseff","favorito","NS/NR*",42
+"2415","2014-07-21","rejeicao","Aécio Neves","favorito","NS/NR*",9
+"2416","2014-07-21","rejeicao","Pastor Everaldo","favorito","NS/NR*",8
+"2417","2014-07-21","rejeicao","Eduardo Campos","favorito","NS/NR*",7
+"2418","2014-07-21","rejeicao","Dilma Rousseff","favorito","Outros",50
+"2419","2014-07-21","rejeicao","Aécio Neves","favorito","Outros",0
+"2420","2014-07-21","rejeicao","Pastor Everaldo","favorito","Outros",12
+"2421","2014-07-21","rejeicao","Eduardo Campos","favorito","Outros",12
+"2422","2014-07-21","2turno_aecio","Aécio Neves","favorito","Aécio Neves",85
+"2423","2014-07-21","2turno_aecio","Branco e Nulo","favorito","Aécio Neves",7
+"2424","2014-07-21","2turno_aecio","Dilma Rousseff","favorito","Aécio Neves",6
+"2425","2014-07-21","2turno_aecio","NS/NR*","favorito","Aécio Neves",2
+"2426","2014-07-21","2turno_aecio","Aécio Neves","favorito","Dilma Rousseff",18
+"2427","2014-07-21","2turno_aecio","Branco e Nulo","favorito","Dilma Rousseff",13
+"2428","2014-07-21","2turno_aecio","Dilma Rousseff","favorito","Dilma Rousseff",65
+"2429","2014-07-21","2turno_aecio","NS/NR*","favorito","Dilma Rousseff",4
+"2430","2014-07-21","2turno_aecio","Aécio Neves","favorito","Eduardo Campos",40
+"2431","2014-07-21","2turno_aecio","Branco e Nulo","favorito","Eduardo Campos",35
+"2432","2014-07-21","2turno_aecio","Dilma Rousseff","favorito","Eduardo Campos",22
+"2433","2014-07-21","2turno_aecio","NS/NR*","favorito","Eduardo Campos",3
+"2434","2014-07-21","2turno_aecio","Aécio Neves","favorito","NS/NR*",32
+"2435","2014-07-21","2turno_aecio","Branco e Nulo","favorito","NS/NR*",32
+"2436","2014-07-21","2turno_aecio","Dilma Rousseff","favorito","NS/NR*",14
+"2437","2014-07-21","2turno_aecio","NS/NR*","favorito","NS/NR*",22
+"2438","2014-07-21","2turno_aecio","Aécio Neves","favorito","Outros",56
+"2439","2014-07-21","2turno_aecio","Branco e Nulo","favorito","Outros",6
+"2440","2014-07-21","2turno_aecio","Dilma Rousseff","favorito","Outros",26
+"2441","2014-07-21","2turno_aecio","NS/NR*","favorito","Outros",12
+"2442","2014-07-21","2turno_campos","Branco e Nulo","favorito","Aécio Neves",28
+"2443","2014-07-21","2turno_campos","Dilma Rousseff","favorito","Aécio Neves",11
+"2444","2014-07-21","2turno_campos","Eduardo Campos","favorito","Aécio Neves",54
+"2445","2014-07-21","2turno_campos","NS/NR*","favorito","Aécio Neves",7
+"2446","2014-07-21","2turno_campos","Branco e Nulo","favorito","Dilma Rousseff",13
+"2447","2014-07-21","2turno_campos","Dilma Rousseff","favorito","Dilma Rousseff",65
+"2448","2014-07-21","2turno_campos","Eduardo Campos","favorito","Dilma Rousseff",17
+"2449","2014-07-21","2turno_campos","NS/NR*","favorito","Dilma Rousseff",5
+"2450","2014-07-21","2turno_campos","Branco e Nulo","favorito","Eduardo Campos",11
+"2451","2014-07-21","2turno_campos","Dilma Rousseff","favorito","Eduardo Campos",9
+"2452","2014-07-21","2turno_campos","Eduardo Campos","favorito","Eduardo Campos",75
+"2453","2014-07-21","2turno_campos","NS/NR*","favorito","Eduardo Campos",5
+"2454","2014-07-21","2turno_campos","Branco e Nulo","favorito","NS/NR*",33
+"2455","2014-07-21","2turno_campos","Dilma Rousseff","favorito","NS/NR*",14
+"2456","2014-07-21","2turno_campos","Eduardo Campos","favorito","NS/NR*",28
+"2457","2014-07-21","2turno_campos","NS/NR*","favorito","NS/NR*",25
+"2458","2014-07-21","2turno_campos","Branco e Nulo","favorito","Outros",9
+"2459","2014-07-21","2turno_campos","Dilma Rousseff","favorito","Outros",24
+"2460","2014-07-21","2turno_campos","Eduardo Campos","favorito","Outros",59
+"2461","2014-07-21","2turno_campos","NS/NR*","favorito","Outros",9
