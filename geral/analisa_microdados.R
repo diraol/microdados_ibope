@@ -51,7 +51,7 @@ uma_pergunta = function (bd, pergunta) {
 #ATENÇÃO: nome da variável deve ser a data da pesquisa
 calcula_tudo = function (final,data_pesquisa) {
   final$total = "total"
-  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo","total","intencao_estimulada","favorito")
+  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo","total","intencao_estimulada","favorito","nota_recorte")
   perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota")
   saida = data.frame(data=character(0),cat_pergunta=character(0),dado=character(0),cat_recorte=character(0),recorte=character(0),valor=numeric(0))
   for (r in recortes) {
@@ -68,15 +68,17 @@ calcula_tudo = function (final,data_pesquisa) {
                 saida = rbind(saida,norm2(temp,"rejeicao",r))  
               }
             } else if (p == "nota") {
-              p
+              #tira os NAs pra nota
               temp = final[complete.cases(final$nota),]
+              #faz a agregação da nota pela variável r (recorte)
               eval(parse(text = paste0("temp2 = ddply(temp,~",r,",summarise,nota=mean(nota))")))
-              print(r)
-              print(temp2)
+              #se houver NA no recorte, tiramos
               temp2 = na.omit(temp2)
+              #arrumamos os nomes e retiramos a coluna com eles
               names(temp2)[1] = r
               row.names(temp2) = temp2[[r]]
               temp2[[r]] = NULL
+              #arredondamos, fazemos o transpose e mandamos para o norm2
               temp2 = round(temp2,1)
               temp2 = as.data.frame(t(temp2))
               saida = rbind(saida,norm2(temp2,"nota",r))
@@ -91,6 +93,11 @@ calcula_tudo = function (final,data_pesquisa) {
   
   #agora vamos consertar alguns campos que não precisamos ou que têm de ser mostrados de maneira diferente
   saida[saida$cat_recorte == "intencao_estimulada" & saida$recorte == "Pastor Everaldo",] = NA
+  saida = na.omit(saida)
+  if ("nota" %in% names(final)) {
+    print(saida[saida$dado == "nota" & saida$cat_recorte == "nota_recorte",])
+    saida[saida$dado == "nota" & saida$cat_recorte == "nota_recorte",] = NA    
+  } 
   
   saida = na.omit(saida)
   return(saida)
@@ -286,9 +293,11 @@ reagrega_perguntas = function(arquivo) {
     arquivo$regiao[arquivo$regiao =="NORTE/ CENTRO OESTE"]='NORTE-CENTRO-OESTE'
   }
   
-  #transforma as notas em inteiros
+  #transforma as notas em inteiros e cria coluna para nota_recorte
   if ("nota" %in% names(arquivo)) {
     arquivo$nota = as.integer(gsub("^Nota ","",arquivo$nota))
+    arquivo = within(arquivo, { nota_recorte = ifelse(nota < 4, "3 ou menos", ifelse(nota <7,"Entre 4 e 6","7 ou mais")) } )
+      
   }
   return(arquivo)
 }
