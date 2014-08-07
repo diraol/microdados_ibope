@@ -1,2 +1,6 @@
 .DS_Store
 .Rproj.user
+*_cache
+*_files
+relatorio.pdf
+relatorio.html
