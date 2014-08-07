@@ -449,3 +449,27 @@ calcula_rejeicao = function (arquivo,recorte) {
 cruza <- function (arquivo,perg1,perg2) {
   return(round(normaliza(cruza_respostas(arquivo,perg1,perg2)),0))
 }
+
+#analisa uma amostra e dá o perfil do entrevistado
+analise_amostra <- function (arquivo) {
+  recortes = c("sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor")
+  saida = list()
+  
+  #calcula os recortes tradicionais
+  for (r in recortes) {
+    if (r %in% names(arquivo)) {
+      d = round(normaliza(uma_pergunta(arquivo,r)),1)
+      names(d) = r
+      saida[[r]] = d
+    }
+  }  
+  
+  #calcula as médias
+  idade = saida$idade["16 a 24",] * 20 + saida$idade["25 a 34",] * 29.5 + saida$idade["35 a 44",] * 39.5 + saida$idade["45 a 54",] * 49.5 + saida$idade["55 ou mais",] *60
+  saida$idade_media = round(idade/100,1)
+  renda = saida$renda_familiar["Ate 1",] * 362 + saida$renda_familiar["1 a 2",] * 1086 + saida$renda_familiar["2 a 5",] * 2534 + saida$renda_familiar["Mais de 5",] * 4334
+  saida$renda_media = round(renda/100,1)
+  anos_estudo = saida$escolaridade["Fundamental 1",]*5 + saida$escolaridade["Fundamental 2",]*9 + saida$escolaridade["Medio",]*13 + saida$escolaridade["Superior",]*17
+  saida$anos_estudo = round(anos_estudo/100,1)
+  return(saida)
+}
