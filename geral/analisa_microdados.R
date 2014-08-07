@@ -21,9 +21,6 @@ cruza_respostas = function (bd,pergunta,pergunta2) {
   #acha a porcentagem correspondente a cada opção
   final = final*100/length(bd[[pergunta]])
 
-  if(pergunta == "desejo_mudanca" & pergunta2 =="cor") {
-    print(final)
-  }
   return(final)
 }
 
