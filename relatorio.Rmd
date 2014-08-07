@@ -1,8 +1,9 @@
 ---
 title: "Relatório Estadão Dados"
+output: pdf_document
 ---
 
-```{r , cache=TRUE, echo=FALSE}
+```{r , cache=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
 library(memisc)
 setwd("./arquivos_originais")
 source("../analisa_microdados.R")
@@ -20,7 +21,7 @@ teste_amostra_maio = analise_amostra(maio)
 teste_amostra_abril = analise_amostra(abril)
 ```
 
-```{r loop, result='asis', fig.cap=rep('',5), cache=TRUE, echo=FALSE }
+```{r loop, result='asis', fig.cap=rep('',5), cache=TRUE, echo=FALSE, message=FALSE}
 library(memisc)
 library(ggplot2)
 library(reshape2)
@@ -39,7 +40,6 @@ for (perg in names(teste_amostra_abril)) {
   text(cex=.5,x=barX,y=tab+par("cxy")[2]/2, round(tab,2), xpd=TRUE)
   plot.new()
   legend("center", "groups", colnames(imprimir), fill=colors)
-  cat("\n!")
 }
 
 ```
