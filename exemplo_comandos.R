@@ -1,9 +1,16 @@
+source('~/github/microdados_ibope/analisa_microdados.R')
 options(stringsAsFactors = FALSE) 
 
+#DF de JULHO
 perg = c("p1","p2","p3","p4","p501","p502","p8","p10","p11","p21a01","p21b01","p7","p12","p1501","p1503","p1504","p1506","p20")
 trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","desejo_mudanca","avaliacao_governo","aprova_dilma","bolsa1","bolsa2","favorito","nota","poder_compra","saude","emprego","educacao","partido")
 jul = cria_arquivo("ibopejul2014.sav",perg,trad,TRUE)
+resultado = calcula_tudo(jul,"2014-07-21")
 
+#DF de AGOSTO
+perg = c("p1","p2","p3","p4","p501","p502","p8","p10","p11","p21a01","p21b01","p7","p12","p1501","p1503","p1504","p1506","p20")
+trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","desejo_mudanca","avaliacao_governo","aprova_dilma","bolsa1","bolsa2","favorito","nota","poder_compra","saude","emprego","educacao","partido")
+jul = cria_arquivo("ibopejul2014.sav",perg,trad,TRUE)
 resultado = calcula_tudo(jul,"2014-07-21")
 
 perg_maio = c("p1","p2","p3","p4","p7a","p7b","p10","p11","p13")

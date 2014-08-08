@@ -1,5 +1,5 @@
 options(stringsAsFactors = FALSE) 
-
+print("hey")
 cruza_respostas = function (bd,pergunta,pergunta2) {
   #faz o cruzamento das colunas
   cruzamento = as.data.frame(table(bd[[pergunta]],bd[[pergunta2]]))
