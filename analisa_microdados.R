@@ -1,5 +1,8 @@
 options(stringsAsFactors = FALSE) 
-print("hey")
+library("plyr", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
+library("memisc", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
+
+
 cruza_respostas = function (bd,pergunta,pergunta2) {
   #faz o cruzamento das colunas
   cruzamento = as.data.frame(table(bd[[pergunta]],bd[[pergunta2]]))
@@ -92,7 +95,6 @@ calcula_tudo = function (final,data_pesquisa) {
   saida[saida$cat_recorte == "intencao_estimulada" & saida$recorte == "Pastor Everaldo",] = NA
   saida = na.omit(saida)
   if ("nota" %in% names(final)) {
-    print(saida[saida$dado == "nota" & saida$cat_recorte == "nota_recorte",])
     saida[saida$dado == "nota" & saida$cat_recorte == "nota_recorte",] = NA    
   } 
   
@@ -314,9 +316,7 @@ norm2 = function (final,p,r) {
 #função para criar aquivo a partir do .sav do Ibope
 #ATENÇÃO: deve ser criado um vector - c() - com o nome das perguntas do .sav (só as p1,p2,etc, sem as variáveis já com nome) e outro com a tradução deles
 #O nome do arquivo resultado dessa função deve ser o mês ou algum outro indicador da pesquisa - isso será necessário para a função calcula_tudo
-#O último argumento é se há pergunta sobre rejeicao (boolean)
-cria_arquivo = function(arquivo,perg,trad,rejeicao) {
-  library("memisc", lib.loc="/Library/Frameworks/R.framework/Versions/3.0/Resources/library")
+cria_arquivo = function(arquivo,perg,trad) {
   data <- as.data.frame(as.data.set(spss.system.file(arquivo)))
   
   #retira fatores
@@ -330,8 +330,11 @@ cria_arquivo = function(arquivo,perg,trad,rejeicao) {
   data = reagrega_nomes(data)
   
   #cria rejeicao
-  if (rejeicao) {
-    data = cria_rejeicao(data)  
+  if ("rejeicao" %in% trad) {
+    #acha o index da rejeição na tradução e pega qual é a pergunta correspondente no arquivo
+    i = grep("rejeicao",trad)
+    perg_rejeicao = perg[i]
+    data = cria_rejeicao(data,perg_rejeicao)  
     pergs = append(c("sexo", "escolaridade","renda","idad2","cor","religiao","cond","reg","rejeicaoDilma","rejeicaoAecio","rejeicaoPastor","rejeicaoCampos"),perg)
     trads = append(c("sexo","escolaridade","renda_familiar","idade","cor","religiao","condicao_municipio","regiao","rejeicaoDilma","rejeicaoAecio","rejeicaoPastor","rejeicaoCampos"),trad)
   } else {
@@ -340,35 +343,25 @@ cria_arquivo = function(arquivo,perg,trad,rejeicao) {
   }
   
   #retira as perguntas desnecessárias e coloca o nome certo
+  pergs = pergs[pergs != perg_rejeicao]
+  trads = trads[trads != "rejeicao"]
   saida = data[,pergs]
   names(saida) = trads
   saida = reagrega_perguntas(saida)
-  saida$rejeicao = rejeicao
+  
+  #cria variável para cálculo da rejeição
+  if ("rejeicao" %in% trad) {
+    saida$rejeicao = TRUE
+  } else {
+    saida$rejeicao = FALSE
+  }
   
   return(saida)
 }
 
 #função para calcular a rejeição a cada um dos 4 principais candidatos
-cria_rejeicao = function(arquivo) {
+cria_rejeicao = function(arquivo,perg_rejeicao) {
   #acha a pergunta da rejeição
-  for (n in names(arquivo)) { 
-    nomes = names(arquivo)
-    nomes = nomes [! nomes %in% c(n)]
-    comeco = substring(n,0,nchar(n)-2)
-    if (paste(comeco,"02",sep="") %in% nomes &
-          paste(comeco,"03",sep="") %in% nomes &
-          paste(comeco,"04",sep="") %in% nomes &
-          paste(comeco,"05",sep="") %in% nomes &
-          paste(comeco,"06",sep="") %in% nomes &
-          paste(comeco,"07",sep="") %in% nomes &
-          paste(comeco,"08",sep="") %in% nomes &
-          paste(comeco,"09",sep="") %in% nomes &
-          paste(comeco,"10",sep="") %in% nomes &
-          paste(comeco,"11",sep="") %in% nomes) {
-            perg_rejeicao = comeco
-      }
-  }
-
   arquivo = within(arquivo, {
     rejeicaoDilma = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Dilma Rousseff" |
                              eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Dilma Rousseff" |
@@ -380,7 +373,7 @@ cria_rejeicao = function(arquivo) {
                              eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Dilma Rousseff" |
                              eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Dilma Rousseff" |
                              eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Dilma Rousseff" |
-                             eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Dilma", "Sim", "Não")
+                             eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Dilma Rousseff", "Sim", "Não")
     rejeicaoAecio = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Aécio Neves" |
                              eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Aécio Neves" |
                              eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Aécio Neves" |
