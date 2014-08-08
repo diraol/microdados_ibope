@@ -8,10 +8,10 @@ jul = cria_arquivo("ibopejul2014.sav",perg,trad,TRUE)
 resultado = calcula_tudo(jul,"2014-07-21")
 
 #DF de AGOSTO
-perg = c("p1","p2","p3","p4","p501","p502","p8","p10","p11","p21a01","p21b01","p7","p12","p1501","p1503","p1504","p1506","p20")
-trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","desejo_mudanca","avaliacao_governo","aprova_dilma","bolsa1","bolsa2","favorito","nota","poder_compra","saude","emprego","educacao","partido")
-jul = cria_arquivo("ibopejul2014.sav",perg,trad,TRUE)
-resultado = calcula_tudo(jul,"2014-07-21")
+perg = c("p1","p2","p3","p4","p501","p502","p7","p8","p9","p10","p11","p12","p13a01","p13b01")
+trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","favorito","desejo_mudanca","avaliacao_governo","aprova_dilma","nota","partido","bolsa1","bolsa2")
+ago = cria_arquivo("ibopeago2014.sav",perg,trad,TRUE)
+resultado = calcula_tudo(ago,"2014-08-06")
 
 perg_maio = c("p1","p2","p3","p4","p7a","p7b","p10","p11","p13")
 trad_maio = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","avaliacao_governo","aprova_dilma","desejo_mudanca")
@@ -40,5 +40,5 @@ resultado_out = calcula_tudo(out,"2013-10-21")
 resultado_nov = calcula_tudo(nov,"2013-11-11")
 
 ###############
-teste <- as.data.frame(as.data.set(spss.system.file("ibopejul2014.sav")))
+teste <- as.data.frame(as.data.set(spss.system.file("ibopeago2014.sav")))
 round(normaliza(cruza_respostas(data,"P1","reg")),1)
