@@ -327,6 +327,7 @@ cria_arquivo = function(arquivo,perg,trad) {
   #arruma nome das colunas
   names(data) = tolower(names(data))
   data = reagrega_nomes(data)
+  perg_rejeicao = NULL
   
   #cria rejeicao
   if ("rejeicao" %in% trad) {
@@ -455,11 +456,20 @@ analise_amostra <- function (arquivo) {
   
   #calcula as médias
   idade = saida$idade["16 a 24",] * 20 + saida$idade["25 a 34",] * 29.5 + saida$idade["35 a 44",] * 39.5 + saida$idade["45 a 54",] * 49.5 + saida$idade["55 ou mais",] *60
-  saida$idade_media = round(idade/100,1)
+  idade_media = as.data.frame(round(idade/100,1))
+  names(idade_media) = "idade_media"
+  row.names(idade_media) = "idade_media"
+  saida$idade_media = idade_media
   renda = saida$renda_familiar["Ate 1",] * 362 + saida$renda_familiar["1 a 2",] * 1086 + saida$renda_familiar["2 a 5",] * 2534 + saida$renda_familiar["Mais de 5",] * 4334
-  saida$renda_media = round(renda/100,1)
+  renda_media = as.data.frame(round(renda/100,1))
+  names(renda_media) = "renda_media"
+  row.names(renda_media) = "renda_media"
+  saida$renda_media = renda_media
   anos_estudo = saida$escolaridade["Fundamental 1",]*5 + saida$escolaridade["Fundamental 2",]*9 + saida$escolaridade["Medio",]*13 + saida$escolaridade["Superior",]*17
-  saida$anos_estudo = round(anos_estudo/100,1)
+  anos_estudo = as.data.frame(round(anos_estudo/100,1))
+  names(anos_estudo) = "anos_estudo"
+  row.names(anos_estudo) = "anos_estudo"
+  saida$anos_estudo = anos_estudo
   return(saida)
 }
 
@@ -469,10 +479,10 @@ analise_comparativa_dois_recortes = function(recorte01, recorte02) {
   library(reshape2)
 
   for (perg in names(recorte01)) {
-    d1 = teste_amostra_abril[[perg]]
-    d2 = teste_amostra_maio[[perg]]
-    names(d1) = paste(names(teste_amostra_abril[[perg]]),deparse(substitute(abril)),sep='_')
-    names(d2) = paste(names(teste_amostra_maio[[perg]]),deparse(substitute(maio)),sep='_')
+    d1 = recorte01[[perg]]
+    d2 = recorte02[[perg]]
+    names(d1) = paste(names(recorte01[[perg]]),deparse(substitute(abril)),sep='_')
+    names(d2) = paste(names(recorte02[[perg]]),deparse(substitute(maio)),sep='_')
     imprimir = cbind(d1,d2)
     print(imprimir)
     tab = t(as.matrix(imprimir))
@@ -489,26 +499,24 @@ analise_comparativa_lista_recortes = function(lista_de_recortes) {
   library(ggplot2)
   library(reshape2)
   quantidade_recortes = length(lista_de_recortes)
-  variaveis = names(lista_de_recortes[1])
+  variaveis = names(lista_de_recortes[[1]])
 
   for (perg in variaveis) {
-    lista_temporaria = #Lista vazia a ser preenchida
-    for (i_recorte in 1:quantidade_recortes){
-
+    lista = list()
+    i = 1
+    for (recorte in names(lista_de_recortes)) {
+      df = lista_de_recortes[[recorte]]
+      d1 = df[[perg]]
+      names(d1) = paste(perg,recorte,sep='_')
+      lista[[i]] = d1
+      i = i + 1
     }
-
-    d1 = teste_amostra_abril[[perg]]
-    d2 = teste_amostra_maio[[perg]]
-    names(d1) = paste(names(teste_amostra_abril[[perg]]),deparse(substitute(abril)),sep='_')
-    names(d2) = paste(names(teste_amostra_maio[[perg]]),deparse(substitute(maio)),sep='_')
-
-
-
-    for item in lista_temporaria
-    imprimir = cbind(d1,d2)
-
-
-
+    imprimir = lista[[1]]
+    for (df in lista) {
+      if (names(df) != names(imprimir)) {
+        imprimir = cbind(imprimir,df)
+      }
+    }
     print(imprimir)
     tab = t(as.matrix(imprimir))
     barX = barplot(tab, beside=TRUE, axis.lty=1, col=colors(2))
