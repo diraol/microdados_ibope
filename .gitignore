@@ -4,3 +4,5 @@
 *_files
 relatorio.pdf
 relatorio.html
+.RData
+.Rhistory

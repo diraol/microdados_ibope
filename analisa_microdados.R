@@ -1,4 +1,5 @@
-options(stringsAsFactors = FALSE) 
+library(memisc)
+options(stringsAsFactors = FALSE)
 
 cruza_respostas = function (bd,pergunta,pergunta2) {
   #faz o cruzamento das colunas
@@ -470,3 +471,59 @@ analise_amostra <- function (arquivo) {
   saida$anos_estudo = round(anos_estudo/100,1)
   return(saida)
 }
+
+#analise comparativa de dois recortes
+analise_comparativa_dois_recortes = function(recorte01, recorte02) {
+  library(ggplot2)
+  library(reshape2)
+
+  for (perg in names(recorte01)) {
+    d1 = teste_amostra_abril[[perg]]
+    d2 = teste_amostra_maio[[perg]]
+    names(d1) = paste(names(teste_amostra_abril[[perg]]),deparse(substitute(abril)),sep='_')
+    names(d2) = paste(names(teste_amostra_maio[[perg]]),deparse(substitute(maio)),sep='_')
+    imprimir = cbind(d1,d2)
+    print(imprimir)
+    tab = t(as.matrix(imprimir))
+    barX = barplot(tab, beside=TRUE, axis.lty=1, col=colors(2))
+    text(cex=.5,x=barX,y=tab+par("cxy")[2]/2, round(tab,2), xpd=TRUE)
+    plot.new()
+    legend("center", "groups", colnames(imprimir), fill=colors(2))
+  }
+}
+
+#analise comparativa de vários recortes
+analise_comparativa_lista_recortes = function(lista_de_recortes) {
+  #Assume-se que todos os recortes possuem a mesma quantidade de 'itens de perfil'
+  library(ggplot2)
+  library(reshape2)
+  quantidade_recortes = length(lista_de_recortes)
+  variaveis = names(lista_de_recortes[1])
+
+  for (perg in variaveis) {
+    lista_temporaria = #Lista vazia a ser preenchida
+    for (i_recorte in 1:quantidade_recortes){
+
+    }
+
+    d1 = teste_amostra_abril[[perg]]
+    d2 = teste_amostra_maio[[perg]]
+    names(d1) = paste(names(teste_amostra_abril[[perg]]),deparse(substitute(abril)),sep='_')
+    names(d2) = paste(names(teste_amostra_maio[[perg]]),deparse(substitute(maio)),sep='_')
+
+
+
+    for item in lista_temporaria
+    imprimir = cbind(d1,d2)
+
+
+
+    print(imprimir)
+    tab = t(as.matrix(imprimir))
+    barX = barplot(tab, beside=TRUE, axis.lty=1, col=colors(2))
+    text(cex=.5,x=barX,y=tab+par("cxy")[2]/2, round(tab,2), xpd=TRUE)
+    plot.new()
+    legend("center", "groups", colnames(imprimir), fill=colors(2))
+  }
+}
+
