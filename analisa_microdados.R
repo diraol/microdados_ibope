@@ -50,8 +50,8 @@ uma_pergunta = function (bd, pergunta) {
 #ATENÇÃO: nome da variável deve ser a data da pesquisa
 calcula_tudo = function (final,data_pesquisa) {
   final$total = "total"
-  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo","total","intencao_estimulada","favorito","nota_recorte")
-  perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota")
+  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo","total","intencao_estimulada","favorito","nota_recorte","poder_compra","saude","emprego","educacao","partido")
+  perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota","poder_compra","saude","emprego","educacao")
   saida = data.frame(data=character(0),cat_pergunta=character(0),dado=character(0),cat_recorte=character(0),recorte=character(0),valor=numeric(0))
   for (r in recortes) {
     if (r  %in% names(final)) {
@@ -170,7 +170,7 @@ reagrega_nomes = function(arquivo) {
   arquivo$cor[arquivo$raca==cor[4]]='Outras'
   arquivo$cor[arquivo$raca==cor[5]]='Outras'
   arquivo$cor[arquivo$raca==cor[6]]='Outras'
-                             
+
   return(arquivo)
 }
 
@@ -297,6 +297,46 @@ reagrega_perguntas = function(arquivo) {
     arquivo = within(arquivo, { nota_recorte = ifelse(nota < 4, "3 ou menos", ifelse(nota <7,"Entre 4 e 6","7 ou mais")) } )
       
   }
+  
+  # Reagrega as variáveis de melhora ou piora
+  if ("poder_compra" %in% names(arquivo)) {
+    arquivo[arquivo$poder_compra == "Melhorou muito",][["poder_compra"]] = "Melhorou"
+    arquivo[arquivo$poder_compra == "Melhorou um pouco",][["poder_compra"]] = "Melhorou"
+    arquivo[arquivo$poder_compra == "Ficou igual",][["poder_compra"]] = "Igual"
+    arquivo[arquivo$poder_compra == "Piorou um pouco",][["poder_compra"]] = "Piorou"
+    arquivo[arquivo$poder_compra == "Piorou muito",][["poder_compra"]] = "Piorou"
+    arquivo[arquivo$poder_compra == "Não sabe/ Não respondeu",][["poder_compra"]] = NA
+  }
+  if ("saude" %in% names(arquivo)) {
+    arquivo[arquivo$saude == "Melhorou muito",][["saude"]] = "Melhorou"
+    arquivo[arquivo$saude == "Melhorou um pouco",][["saude"]] = "Melhorou"
+    arquivo[arquivo$saude == "Ficou igual",][["saude"]] = "Igual"
+    arquivo[arquivo$saude == "Piorou um pouco",][["saude"]] = "Piorou"
+    arquivo[arquivo$saude == "Piorou muito",][["saude"]] = "Piorou"
+    arquivo[arquivo$saude == "Não sabe/ Não respondeu",][["saude"]] = NA
+  }
+  if ("emprego" %in% names(arquivo)) {
+    arquivo[arquivo$emprego == "Melhorou muito",][["emprego"]] = "Melhorou"
+    arquivo[arquivo$emprego == "Melhorou um pouco",][["emprego"]] = "Melhorou"
+    arquivo[arquivo$emprego == "Ficou igual",][["emprego"]] = "Igual"
+    arquivo[arquivo$emprego == "Piorou um pouco",][["emprego"]] = "Piorou"
+    arquivo[arquivo$emprego == "Piorou muito",][["emprego"]] = "Piorou"
+    arquivo[arquivo$emprego == "Não sabe/ Não respondeu",][["emprego"]] = NA
+  }
+  if ("educacao" %in% names(arquivo)) {
+    arquivo[arquivo$educacao == "Melhorou muito",][["educacao"]] = "Melhorou"
+    arquivo[arquivo$educacao == "Melhorou um pouco",][["educacao"]] = "Melhorou"
+    arquivo[arquivo$educacao == "Ficou igual",][["educacao"]] = "Igual"
+    arquivo[arquivo$educacao == "Piorou um pouco",][["educacao"]] = "Piorou"
+    arquivo[arquivo$educacao == "Piorou muito",][["educacao"]] = "Piorou"
+    arquivo[arquivo$educacao == "Não sabe/ Não respondeu",][["educacao"]] = NA
+  }
+  
+  #Partido favorito
+  if ("partido" %in% names(arquivo)) {
+    arquivo[arquivo$partido == "Nenhum/ Não tem preferência",][["partido"]] = "Nenhum"
+  }
+  
   return(arquivo)
 }
 
@@ -342,6 +382,16 @@ cria_arquivo = function(arquivo,perg,trad) {
     trads = append(c("sexo","escolaridade","cor","renda_familiar","idade","religiao","condicao_municipio","regiao"),trad)
   }
   
+  #cria bolsa família
+  if ("bolsa1" %in% trad) {
+    j = grep("bolsa1",trad)
+    perg_bolsa = perg[j]
+    perg_bolsa = substr(perg_bolsa,1,3)
+    data = cria_bolsa(data,perg_bolsa)
+    pergs = append(pergs,"bolsa_familia")
+    trads = append(trads,"bolsa_familia")    
+  }
+  
   #retira as perguntas desnecessárias e coloca o nome certo
   pergs = pergs[pergs != perg_rejeicao]
   trads = trads[trads != "rejeicao"]
@@ -359,9 +409,33 @@ cria_arquivo = function(arquivo,perg,trad) {
   return(saida)
 }
 
+#função para ver se há alguma bolsa ou Bolsa família
+cria_bolsa = function(arquivo, perg_bolsa) {
+  arquivo = within(arquivo, {
+    bolsa_familia = ifelse(eval(parse(text=paste(perg_bolsa,"a01",sep=""))) == "Bolsa Família" |
+                             eval(parse(text=paste(perg_bolsa,"a02",sep=""))) == "Bolsa Família" |
+                             eval(parse(text=paste(perg_bolsa,"a03",sep=""))) == "Bolsa Família" |
+                             eval(parse(text=paste(perg_bolsa,"a04",sep=""))) == "Bolsa Família" |
+                             eval(parse(text=paste(perg_bolsa,"a05",sep=""))) == "Bolsa Família" |
+                             eval(parse(text=paste(perg_bolsa,"a06",sep=""))) == "Bolsa Família" |
+                             eval(parse(text=paste(perg_bolsa,"a07",sep=""))) == "Bolsa Família" |
+                             eval(parse(text=paste(perg_bolsa,"a08",sep=""))) == "Bolsa Família" |
+                             eval(parse(text=paste(perg_bolsa,"a09",sep=""))) == "Bolsa Família" |
+                            eval(parse(text=paste(perg_bolsa,"b01",sep=""))) == "Bolsa Família" |
+                            eval(parse(text=paste(perg_bolsa,"b02",sep=""))) == "Bolsa Família" |
+                            eval(parse(text=paste(perg_bolsa,"b03",sep=""))) == "Bolsa Família" |
+                            eval(parse(text=paste(perg_bolsa,"b04",sep=""))) == "Bolsa Família" |
+                            eval(parse(text=paste(perg_bolsa,"b05",sep=""))) == "Bolsa Família" |
+                            eval(parse(text=paste(perg_bolsa,"b06",sep=""))) == "Bolsa Família" |
+                            eval(parse(text=paste(perg_bolsa,"b07",sep=""))) == "Bolsa Família" |
+                            eval(parse(text=paste(perg_bolsa,"b08",sep=""))) == "Bolsa Família" |
+                            eval(parse(text=paste(perg_bolsa,"b09",sep=""))) == "Bolsa Família" |
+                            eval(parse(text=paste(perg_bolsa,"b10",sep=""))) == "Bolsa Família","Sim", "Não")})
+  return(arquivo)
+}
+
 #função para calcular a rejeição a cada um dos 4 principais candidatos
 cria_rejeicao = function(arquivo,perg_rejeicao) {
-  #acha a pergunta da rejeição
   arquivo = within(arquivo, {
     rejeicaoDilma = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Dilma Rousseff" |
                              eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Dilma Rousseff" |
