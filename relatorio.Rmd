@@ -29,7 +29,6 @@ c = list()
 c$sem_bolsa = a
 c$com_bolsa = b
 
-setwd("./arquivos_originais")
 colors <- colorRampPalette(c("black", "cornsilk3"))
 analise_comparativa_lista_recortes(c)
 ```
