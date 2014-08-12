@@ -50,7 +50,7 @@ uma_pergunta = function (bd, pergunta) {
 #ATENÇÃO: nome da variável deve ser a data da pesquisa
 calcula_tudo = function (final,data_pesquisa) {
   final$total = "total"
-  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo","total","intencao_estimulada","favorito","nota_recorte","poder_compra","saude","emprego","educacao","partido")
+  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo","total","intencao_estimulada","favorito","nota_recorte","poder_compra","saude","emprego","educacao","partido","bolsa_familia","bolsa")
   perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota","poder_compra","saude","emprego","educacao")
   saida = data.frame(data=character(0),cat_pergunta=character(0),dado=character(0),cat_recorte=character(0),recorte=character(0),valor=numeric(0))
   for (r in recortes) {
@@ -337,6 +337,11 @@ reagrega_perguntas = function(arquivo) {
     arquivo[arquivo$partido == "Nenhum/ Não tem preferência",][["partido"]] = "Nenhum"
   }
   
+  #Tem bolsa
+  if ("bolsa1" %in% names(arquivo) & "bolsa2" %in% names(arquivo)) {
+    arquivo = within(arquivo, {bolsa = ifelse(bolsa1 == "Não participa de nenhum" & bolsa2 == "Ninguém da sua família", "Não","Sim")})    
+  }  
+    
   return(arquivo)
 }
 
@@ -431,6 +436,8 @@ cria_bolsa = function(arquivo, perg_bolsa) {
                             eval(parse(text=paste(perg_bolsa,"b08",sep=""))) == "Bolsa Família" |
                             eval(parse(text=paste(perg_bolsa,"b09",sep=""))) == "Bolsa Família" |
                             eval(parse(text=paste(perg_bolsa,"b10",sep=""))) == "Bolsa Família","Sim", "Não")})
+  
+  
   return(arquivo)
 }
 

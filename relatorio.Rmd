@@ -17,8 +17,8 @@ trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2t
 ago = cria_arquivo("ibopeago2014.sav",perg,trad)
 tudo_total = rbind.fill(jul,ago)
 tudo = tudo_total[tudo_total$intencao_estimulada == "Dilma Rousseff",]
-sem_bolsa = tudo[tudo$bolsa1 == "Não participa de nenhum" & tudo$bolsa2 == "Ninguém da sua família",]
-com_bolsa = tudo[tudo$bolsa1 != "Não participa de nenhum" | tudo$bolsa2 != "Ninguém da sua família",]
+sem_bolsa = tudo[tudo$bolsa1 == "Não participa de nenhum",]
+com_bolsa = tudo[tudo$bolsa1 != "Não participa de nenhum",]
 print("Tamanho da amostra com bolsa:")
 print(nrow(com_bolsa))
 print("Tamanho da amostra sem bolsa:")
