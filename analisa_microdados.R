@@ -98,6 +98,7 @@ calcula_tudo = function (final,data_pesquisa) {
   } 
   
   saida = na.omit(saida)
+  saida[saida$cat_recorte == "nota_recorte",][["cat_recorte"]] = "nota"
   return(saida)
 }
 
@@ -194,20 +195,18 @@ reagrega_perguntas = function(arquivo) {
   
   # Reagrega a variável avaliacao do governo (aval)
   if("avaliacao_governo" %in% names(arquivo)) {
-  arquivo$temp=factor(NA,levels=c('Ótimo e bom','Regular','Ruim e péssimo','NS/NR*'))
-  aval=c("Ótima",
-         "Boa",
-         "Regular",
-         "Ruim",
-         "Péssima")
-  arquivo$temp[arquivo$avaliacao_governo==aval[1]]='Ótimo e bom'
-  arquivo$temp[arquivo$avaliacao_governo==aval[2]]='Ótimo e bom'
-  arquivo$temp[arquivo$avaliacao_governo==aval[3]]='Regular'
-  arquivo$temp[arquivo$avaliacao_governo==aval[4]]='Ruim e péssimo'
-  arquivo$temp[arquivo$avaliacao_governo==aval[5]]='Ruim e péssimo'
-  arquivo$temp[arquivo$avaliacao_governo =="Não sabe/ Não respondeu"]='NS/NR*'
-  arquivo$avaliacao_governo = NULL
-  names(arquivo)[names(arquivo)=="temp"] = "avaliacao_governo"
+    aval=c("Ótima","Boa","Regular","Ruim","Péssima")
+    #necessária para se a palavra estiver no masculino
+    aval2=c("Ótimo","Bom","Péssimo")
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[1]]='Ótimo e bom'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[2]]='Ótimo e bom'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[3]]='Regular'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[4]]='Ruim e péssimo'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[5]]='Ruim e péssimo'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo =="Não sabe/ Não respondeu"]='NS/NR*'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval2[1]]='Ótimo e bom'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval2[2]]='Ótimo e bom'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval2[3]]='Ruim e péssimo'
   }
   
   # Reagrega a variável mudanca
@@ -305,7 +304,7 @@ reagrega_perguntas = function(arquivo) {
     arquivo[arquivo$poder_compra == "Ficou igual",][["poder_compra"]] = "Igual"
     arquivo[arquivo$poder_compra == "Piorou um pouco",][["poder_compra"]] = "Piorou"
     arquivo[arquivo$poder_compra == "Piorou muito",][["poder_compra"]] = "Piorou"
-    arquivo[arquivo$poder_compra == "Não sabe/ Não respondeu",][["poder_compra"]] = NA
+    arquivo[arquivo$poder_compra == "Não sabe/ Não respondeu",][["poder_compra"]] = "NS/NR*"
   }
   if ("saude" %in% names(arquivo)) {
     arquivo[arquivo$saude == "Melhorou muito",][["saude"]] = "Melhorou"
@@ -313,7 +312,7 @@ reagrega_perguntas = function(arquivo) {
     arquivo[arquivo$saude == "Ficou igual",][["saude"]] = "Igual"
     arquivo[arquivo$saude == "Piorou um pouco",][["saude"]] = "Piorou"
     arquivo[arquivo$saude == "Piorou muito",][["saude"]] = "Piorou"
-    arquivo[arquivo$saude == "Não sabe/ Não respondeu",][["saude"]] = NA
+    arquivo[arquivo$saude == "Não sabe/ Não respondeu",][["saude"]] = "NS/NR*"
   }
   if ("emprego" %in% names(arquivo)) {
     arquivo[arquivo$emprego == "Melhorou muito",][["emprego"]] = "Melhorou"
@@ -321,7 +320,7 @@ reagrega_perguntas = function(arquivo) {
     arquivo[arquivo$emprego == "Ficou igual",][["emprego"]] = "Igual"
     arquivo[arquivo$emprego == "Piorou um pouco",][["emprego"]] = "Piorou"
     arquivo[arquivo$emprego == "Piorou muito",][["emprego"]] = "Piorou"
-    arquivo[arquivo$emprego == "Não sabe/ Não respondeu",][["emprego"]] = NA
+    arquivo[arquivo$emprego == "Não sabe/ Não respondeu",][["emprego"]] = "NS/NR*"
   }
   if ("educacao" %in% names(arquivo)) {
     arquivo[arquivo$educacao == "Melhorou muito",][["educacao"]] = "Melhorou"
@@ -329,7 +328,7 @@ reagrega_perguntas = function(arquivo) {
     arquivo[arquivo$educacao == "Ficou igual",][["educacao"]] = "Igual"
     arquivo[arquivo$educacao == "Piorou um pouco",][["educacao"]] = "Piorou"
     arquivo[arquivo$educacao == "Piorou muito",][["educacao"]] = "Piorou"
-    arquivo[arquivo$educacao == "Não sabe/ Não respondeu",][["educacao"]] = NA
+    arquivo[arquivo$educacao == "Não sabe/ Não respondeu",][["educacao"]] = "NS/NR*"
   }
   
   #Partido favorito
@@ -523,7 +522,8 @@ cruza <- function (arquivo,perg1,perg2) {
 
 #analisa uma amostra e dá o perfil do entrevistado
 analise_amostra <- function (arquivo) {
-  recortes = c("sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor")
+  recortes = c("sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","rejeicaoDilma","rejeicaoAecio","2turno_aecio",
+               "favorito","avaliacao_governo","aprova_dilma","partido","vida_hoje","desejo_mudanca","interesse")
   saida = list()
   
   #calcula os recortes tradicionais
@@ -551,6 +551,23 @@ analise_amostra <- function (arquivo) {
   names(anos_estudo) = "anos_estudo"
   row.names(anos_estudo) = "anos_estudo"
   saida$anos_estudo = anos_estudo
+  
+  #retira itens que não precisamos
+  if ("avaliacao_governo" %in% names(saida)) {
+    nomes_linha = rownames(saida$avaliacao_governo)
+    nomes_linha = nomes_linha[nomes_linha != "NS/NR*"]
+    aval = as.data.frame(saida$avaliacao_governo[!(rownames(saida$avaliacao_governo) == "NS/NR*"),])
+    rownames(aval) = nomes_linha
+    names(aval) = c("avaliacao_governo")
+    saida$avaliacao_governo = aval
+  }
+  if ("partido" %in% names(saida)) {
+    nomes_linha = c("PT","PSDB","Nenhum")
+    partido = as.data.frame(saida$partido[(rownames(saida$partido) %in% nomes_linha),])
+    rownames(partido) = nomes_linha
+    names(partido) = c("partido")
+    saida$partido = partido
+  }
   return(saida)
 }
 
@@ -600,10 +617,10 @@ analise_comparativa_lista_recortes = function(lista_de_recortes) {
     }
     print(imprimir)
     tab = t(as.matrix(imprimir))
-    barX = barplot(tab, beside=TRUE, axis.lty=1, col=colors(2))
+    barX = barplot(tab, beside=TRUE, axis.lty=1, col=colors(7))
     text(cex=.5,x=barX,y=tab+par("cxy")[2]/2, round(tab,2), xpd=TRUE)
     plot.new()
-    legend("center", "groups", colnames(imprimir), fill=colors(2))
+    legend("center", "groups", colnames(imprimir), fill=colors(7))
   }
 }
 

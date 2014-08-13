@@ -44,11 +44,7 @@ ago = cria_arquivo("ibopeago2014.sav",perg,trad)
 resultado_ago = calcula_tudo(ago,"2014-08-06")
 
 
-
-
-
-
-resultado=rbind(resultado_marco,resultado_abril,resultado_maio)
+resultado=rbind(resultado_marco,resultado_abril,resultado_maio,resultado_junho,resultado_junho2,resultado_jul,resultado_ago)
 resultado = resultado[complete.cases(resultado),]
 write.csv(resultado,"resultado.csv", row.names=FALSE)
 
@@ -63,6 +59,7 @@ resultado_out = calcula_tudo(out,"2013-10-21")
 resultado_nov = calcula_tudo(nov,"2013-11-11")
 
 ###############
+maio2 <- as.data.frame(as.data.set(spss.system.file("ibopemai2014.sav")))
 jul2 <- as.data.frame(as.data.set(spss.system.file("ibopejul2014.sav")))
 ago2 <- as.data.frame(as.data.set(spss.system.file("ibopeago2014.sav")))
 round(normaliza(cruza_respostas(data,"P1","reg")),1)
