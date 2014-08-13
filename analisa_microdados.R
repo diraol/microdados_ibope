@@ -372,7 +372,7 @@ cria_arquivo = function(arquivo,perg,trad) {
   #arruma nome das colunas
   names(data) = tolower(names(data))
   data = reagrega_nomes(data)
-  perg_rejeicao = NULL
+  perg_rejeicao = "não há"
   
   #cria rejeicao
   if ("rejeicao" %in% trad) {
