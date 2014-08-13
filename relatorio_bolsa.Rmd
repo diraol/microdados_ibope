@@ -1,0 +1,38 @@
+---
+title: "Relatório Estadão Dados"
+output: pdf_document
+---
+
+```{r , cache=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
+library(memisc)
+setwd("./arquivos_originais")
+source("../analisa_microdados.R")
+options(stringsAsFactors = FALSE)
+library(plyr)
+perg = c("p1","p2","p3","p4","p501","p502","p8","p10","p11","p21a01","p21b01","p7","p12","p1501","p1503","p1504","p1506","p20","p6")
+trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","desejo_mudanca","avaliacao_governo","aprova_dilma","bolsa1","bolsa2","favorito","nota","poder_compra","saude","emprego","educacao","partido","rejeicao")
+jul = cria_arquivo("ibopejul2014.sav",perg,trad)
+perg = c("p1","p2","p3","p4","p501","p502","p7","p8","p9","p10","p11","p12","p13a01","p13b01","p6")
+trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","favorito","desejo_mudanca","avaliacao_governo","aprova_dilma","nota","partido","bolsa1","bolsa2","rejeicao")
+ago = cria_arquivo("ibopeago2014.sav",perg,trad)
+tudo_total = rbind.fill(jul,ago)
+tudo = tudo_total[tudo_total$intencao_estimulada == "Dilma Rousseff",]
+tudo[(tudo$bolsa1 == "Não sabe/ Não respondeu" & tudo$bolsa2 == "Não sabe/ Não respondeu"),][["bolsa1"]] = "Não participa de nenhum"
+tudo[(tudo$bolsa1 == "Não participa de nenhum" & tudo$bolsa2 == "Não sabe/ Não respondeu"),][["bolsa2"]] = "Ninguém da sua família"
+tudo[(tudo$bolsa1 == "Não sabe/ Não respondeu" & tudo$bolsa2 == "Ninguém da sua família"),][["bolsa1"]] = "Não participa de nenhum"
+
+sem_bolsa = tudo[tudo$bolsa1 == "Não participa de nenhum" & tudo$bolsa2 == "Ninguém da sua família",]
+com_bolsa = tudo[tudo$bolsa1 != "Não participa de nenhum" | tudo$bolsa2 != "Ninguém da sua família",]
+print("Tamanho da amostra com bolsa:")
+print(nrow(com_bolsa))
+print("Tamanho da amostra sem bolsa:")
+print(nrow(sem_bolsa))
+a = analise_amostra(sem_bolsa)
+b = analise_amostra(com_bolsa)
+c = list()
+c$sem_bolsa = a
+c$com_bolsa = b
+
+colors <- colorRampPalette(c("black", "cornsilk3"))
+analise_comparativa_lista_recortes(c)
+```

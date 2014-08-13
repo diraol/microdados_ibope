@@ -1,0 +1,44 @@
+---
+title: "Relatório Estadão Dados"
+output: pdf_document
+---
+
+```{r , cache=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
+library(memisc)
+setwd("./arquivos_originais")
+source("../analisa_microdados.R")
+options(stringsAsFactors = FALSE)
+library(plyr)
+perg = c("p1","p2","p3","p4","p501","p502","p8","p10","p11","p21a01","p21b01","p7","p12","p1501","p1503","p1504","p1506","p20","p6")
+trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","desejo_mudanca","avaliacao_governo","aprova_dilma","bolsa1","bolsa2","favorito","nota","poder_compra","saude","emprego","educacao","partido","rejeicao")
+jul = cria_arquivo("ibopejul2014.sav",perg,trad)
+perg = c("p1","p2","p3","p4","p501","p502","p7","p8","p9","p10","p11","p12","p13a01","p13b01","p6")
+trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","favorito","desejo_mudanca","avaliacao_governo","aprova_dilma","nota","partido","bolsa1","bolsa2","rejeicao")
+ago = cria_arquivo("ibopeago2014.sav",perg,trad)
+total = rbind.fill(jul,ago)
+dilma = total[total$intencao_estimulada == "Dilma Rousseff",]
+aecio = total[total$intencao_estimulada == "Aécio Neves",]
+campos = total[total$intencao_estimulada == "Eduardo Campos",]
+pastor = total[total$intencao_estimulada == "Pastor Everaldo",]
+outros = total[total$intencao_estimulada == "Outros",]
+indecisos = total[total$intencao_estimulada == "NS/NR*" | total$intencao_estimulada == "Branco e Nulo",]
+
+a = analise_amostra(total)
+b = analise_amostra(dilma)
+c = analise_amostra(aecio)
+d = analise_amostra(campos)
+e = analise_amostra(pastor)
+f = analise_amostra(outros)
+g = analise_amostra(indecisos)
+h = list()
+h$total = a
+h$dilma = b
+h$aecio = c
+h$campos = d
+h$pastor = e
+h$outros = f
+h$indecisos = g
+
+colors <- colorRampPalette(c("black", "cornsilk3"))
+analise_comparativa_lista_recortes(h)
+```
