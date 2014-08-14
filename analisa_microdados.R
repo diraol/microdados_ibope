@@ -554,19 +554,13 @@ analise_amostra <- function (arquivo) {
   
   #retira itens que não precisamos
   if ("avaliacao_governo" %in% names(saida)) {
-    nomes_linha = rownames(saida$avaliacao_governo)
-    nomes_linha = nomes_linha[nomes_linha != "NS/NR*"]
-    aval = as.data.frame(saida$avaliacao_governo[!(rownames(saida$avaliacao_governo) == "NS/NR*"),])
-    rownames(aval) = nomes_linha
-    names(aval) = c("avaliacao_governo")
+    aval = as.data.frame(saida$avaliacao_governo[!(rownames(saida$avaliacao_governo) == "NS/NR*"),,drop=FALSE])
     saida$avaliacao_governo = aval
   }
   if ("partido" %in% names(saida)) {
     nomes_linha = c("PT","PSDB","Nenhum")
-    partido = as.data.frame(saida$partido[(rownames(saida$partido) %in% nomes_linha),])
-    rownames(partido) = nomes_linha
-    names(partido) = c("partido")
-    saida$partido = partido
+    partido = as.data.frame(saida$partido[(rownames(saida$partido) %in% nomes_linha),,drop=FALSE])
+    saida$partido = partido 
   }
   return(saida)
 }
