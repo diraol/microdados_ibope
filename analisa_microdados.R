@@ -98,8 +98,46 @@ calcula_tudo = function (final,data_pesquisa) {
   } 
   
   saida = na.omit(saida)
+  #troca o nome da nota recorte para nota
   saida[saida$cat_recorte == "nota_recorte",][["cat_recorte"]] = "nota"
+  
+  #soma as possibilidades de avaliação de governo
+  saida = arruma_avaliacao(saida)
   return(saida)
+}
+
+arruma_avaliacao = function(arquivo) {
+  #pega só as avaliações em um novo objeto
+  aval = arquivo[arquivo$cat_pergunta == "avaliacao_governo",]
+  dia = unique(aval$data)  
+  #para cada recorte, soma otima e boa e ruim e pésisma e adiciona novas linhas com esses valores
+  for (cat_recorte in unique(aval$cat_recorte)) {
+    temp2 = aval[aval$cat_recorte == cat_recorte,]
+    for (recorte in unique(temp2$recorte)){
+      temp = temp2[temp2$recorte == recorte,]
+      otima = temp[temp$dado == "Ótima",][["valor"]]
+      boa = temp[temp$dado == "Boa",][["valor"]]
+      ruim = temp[temp$dado == "Ruim",][["valor"]]
+      pessima = temp[temp$dado == "Péssima",][["valor"]]
+      nova_linha = data.frame(data=dia,cat_pergunta="avaliacao_governo",dado="Ótimo e bom",cat_recorte=cat_recorte,recorte=recorte,valor=otima+boa)
+      aval = rbind(aval,nova_linha)
+      nova_linha = data.frame(data=dia,cat_pergunta="avaliacao_governo",dado="Ruim e péssimo",cat_recorte=cat_recorte,recorte=recorte,valor=ruim+pessima)
+      aval = rbind(aval,nova_linha)
+    }    
+  }
+  
+  #retira os valores de ótima, boa, ruim e péssima do nosso arquivo temporário
+  aval[aval$dado == "Ótima",][["valor"]] = NA
+  aval[aval$dado == "Boa",][["valor"]] = NA
+  aval[aval$dado == "Ruim",][["valor"]] = NA
+  aval[aval$dado == "Péssima",][["valor"]] = NA
+  aval = na.omit(aval)
+  
+  #retira as avaliações de governo antigas e adiciona as da variável "aval"
+  arquivo[arquivo$cat_pergunta == "avaliacao_governo",][["valor"]] = NA
+  arquivo = na.omit(arquivo)
+  arquivo = rbind(arquivo,aval)
+  return(arquivo)
 }
 
 
@@ -193,22 +231,6 @@ reagrega_perguntas = function(arquivo) {
     names(arquivo)[names(arquivo)=="temp"] = "vida_hoje"
   }
   
-  # Reagrega a variável avaliacao do governo (aval)
-  if("avaliacao_governo" %in% names(arquivo)) {
-    aval=c("Ótima","Boa","Regular","Ruim","Péssima")
-    #necessária para se a palavra estiver no masculino
-    aval2=c("Ótimo","Bom","Péssimo")
-    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[1]]='Ótimo e bom'
-    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[2]]='Ótimo e bom'
-    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[3]]='Regular'
-    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[4]]='Ruim e péssimo'
-    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[5]]='Ruim e péssimo'
-    arquivo$avaliacao_governo[arquivo$avaliacao_governo =="Não sabe/ Não respondeu"]='NS/NR*'
-    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval2[1]]='Ótimo e bom'
-    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval2[2]]='Ótimo e bom'
-    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval2[3]]='Ruim e péssimo'
-  }
-  
   # Reagrega a variável mudanca
   if ("desejo_mudanca" %in% names(arquivo)) {
     arquivo$temp=factor(NA,levels=c('Quer mudança','Quer continuidade','NS/NR*'))
@@ -239,6 +261,16 @@ reagrega_perguntas = function(arquivo) {
     arquivo$temp[arquivo$interesse =="Não sabe/ Não respondeu"]='NS/NR*'
     arquivo$interesse = NULL
     names(arquivo)[names(arquivo)=="temp"] = "interesse"
+  }
+  # Reagrega a variável avaliação do governo
+  if ("avaliacao_governo" %in% names(arquivo)) {
+    aval=c("'Otimo",'Bom','Regular','Ruim',"Péssimo",'Não sabe/ Não respondeu')
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[1]]='Ótima'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[2]]='Boa'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[3]]='Regular'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[4]]='Ruim'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[5]]='Péssima'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[6]]='NS/NR*'
   }
   
   # Reagrega os nanicos nas votações espontaneas
@@ -522,8 +554,9 @@ cruza <- function (arquivo,perg1,perg2) {
 
 #analisa uma amostra e dá o perfil do entrevistado
 analise_amostra <- function (arquivo) {
-  recortes = c("sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","rejeicaoDilma","rejeicaoAecio","2turno_aecio",
-               "favorito","avaliacao_governo","aprova_dilma","partido","vida_hoje","desejo_mudanca","interesse")
+ # recortes = c("sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","rejeicaoDilma","rejeicaoAecio","2turno_aecio",
+#               "favorito","avaliacao_governo","aprova_dilma","partido","vida_hoje","desejo_mudanca","interesse")
+  recortes = c("idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio")
   saida = list()
   
   #calcula os recortes tradicionais
@@ -618,3 +651,46 @@ analise_comparativa_lista_recortes = function(lista_de_recortes) {
   }
 }
 
+perfil_candidatos = function() {
+  library(plyr)
+  perg = c("p1","p2","p3","p4","p501","p502","p8","p10","p11","p21a01","p21b01","p7","p12","p1501","p1503","p1504","p1506","p20","p6")
+  trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","desejo_mudanca","avaliacao_governo","aprova_dilma","bolsa1","bolsa2","favorito","nota","poder_compra","saude","emprego","educacao","partido","rejeicao")
+  jul = cria_arquivo("ibopejul2014.sav",perg,trad)
+  perg = c("p1","p2","p3","p4","p501","p502","p7","p8","p9","p10","p11","p12","p13a01","p13b01","p6")
+  trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","favorito","desejo_mudanca","avaliacao_governo","aprova_dilma","nota","partido","bolsa1","bolsa2","rejeicao")
+  ago = cria_arquivo("ibopeago2014.sav",perg,trad)
+  total = rbind.fill(jul,ago)
+  dilma = total[total$intencao_estimulada == "Dilma Rousseff",]
+  aecio = total[total$intencao_estimulada == "Aécio Neves",]
+  campos = total[total$intencao_estimulada == "Eduardo Campos",]
+  pastor = total[total$intencao_estimulada == "Pastor Everaldo",]
+  outros = total[total$intencao_estimulada == "Outros",]
+  branco = total[total$intencao_estimulada == "Branco e Nulo",]
+  indeciso = total[total$intencao_estimulada == "NS/NR*",]
+  
+  a = analise_amostra(total)
+  b = analise_amostra(dilma)
+  c = analise_amostra(aecio)
+  d = analise_amostra(campos)
+  e = analise_amostra(pastor)
+  f = analise_amostra(outros)
+  g = analise_amostra(indeciso)
+  i = analise_amostra(branco)
+  h = list()
+  h$total = a
+  h$dilma = b
+  h$aecio = c
+  h$campos = d
+  h$pastor = e
+  h$outros = f
+  h$indeciso = g
+  h$branco = i
+  
+  saida = data.frame(data=character(0),cat_pergunta=character(0),dado=character(0),cat_recorte=character(0),recorte=character(0),valor=numeric(0))
+  for (i in names(h)) {  
+    for (j in h[[i]]) {
+      saida = rbind(saida,norm2(j,i,"tanto_faz"))
+    }
+  }
+  return(saida)
+}
