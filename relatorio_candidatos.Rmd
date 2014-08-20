@@ -21,7 +21,8 @@ aecio = total[total$intencao_estimulada == "Aécio Neves",]
 campos = total[total$intencao_estimulada == "Eduardo Campos",]
 pastor = total[total$intencao_estimulada == "Pastor Everaldo",]
 outros = total[total$intencao_estimulada == "Outros",]
-indecisos = total[total$intencao_estimulada == "NS/NR*" | total$intencao_estimulada == "Branco e Nulo",]
+branco = total[total$intencao_estimulada == "Branco e Nulo",]
+indeciso = total[total$intencao_estimulada == "NS/NR*",]
 
 a = analise_amostra(total)
 b = analise_amostra(dilma)
@@ -29,7 +30,8 @@ c = analise_amostra(aecio)
 d = analise_amostra(campos)
 e = analise_amostra(pastor)
 f = analise_amostra(outros)
-g = analise_amostra(indecisos)
+g = analise_amostra(indeciso)
+i = analise_amostra(branco)
 h = list()
 h$total = a
 h$dilma = b
@@ -37,7 +39,8 @@ h$aecio = c
 h$campos = d
 h$pastor = e
 h$outros = f
-h$indecisos = g
+h$indeciso = g
+h$branco = i
 
 colors <- colorRampPalette(c("black", "cornsilk3"))
 analise_comparativa_lista_recortes(h)
