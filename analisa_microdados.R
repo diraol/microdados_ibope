@@ -556,13 +556,13 @@ cruza <- function (arquivo,perg1,perg2) {
 analise_amostra <- function (arquivo) {
  # recortes = c("sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","rejeicaoDilma","rejeicaoAecio","2turno_aecio",
 #               "favorito","avaliacao_governo","aprova_dilma","partido","vida_hoje","desejo_mudanca","interesse")
-  recortes = c("idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio")
+  recortes = c("idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio","sexo")
   saida = list()
   
   #calcula os recortes tradicionais
   for (r in recortes) {
     if (r %in% names(arquivo)) {
-      d = round(normaliza(uma_pergunta(arquivo,r)),1)
+      d = round(normaliza(uma_pergunta(arquivo,r)),0)
       names(d) = r
       saida[[r]] = d
     }
@@ -689,8 +689,28 @@ perfil_candidatos = function() {
   saida = data.frame(data=character(0),cat_pergunta=character(0),dado=character(0),cat_recorte=character(0),recorte=character(0),valor=numeric(0))
   for (i in names(h)) {  
     for (j in h[[i]]) {
-      saida = rbind(saida,norm2(j,i,"tanto_faz"))
+      saida = rbind(saida,norm2(j,i,i))
     }
   }
+  
+  #arruma arquivo de saída
+  names(saida) = c("data","cat_recorte","dado","recorte","cat_pergunta","valor")
+  saida = arruma_avaliacao(saida)
+  names(saida) = c("data","candidato","dado","cat_recorte","recorte","valor")
+  saida$data = NULL
+  saida$cat_recorte = NULL
+  saida[saida == "SUDESTE"] = "Sudeste"
+  saida[saida == "NORDESTE"] = "Sudeste"
+  saida[saida == "NORTE-CENTRO-OESTE"] = "Norte/CO"
+  saida[saida == "SUL"] = "Sul"
+  saida[saida == "CAPITAL"] = "Capital"
+  saida[saida == "INTERIOR"] = "Interior"
+  saida[saida == "PERIFERIA"] = "Periferia"
+  saida[saida == "Fundamental 1"] = "Fund. 1"
+  saida[saida == "Fundamental 2"] = "Fund. 2"
+  saida[saida == "MAS"] = "Homens"
+  saida[saida == "FEM"] = "Mulheres"
+  saida[saida == "NS/NR*"] = NA
+  saida = na.omit(saida)
   return(saida)
 }
