@@ -700,7 +700,7 @@ perfil_candidatos = function() {
   saida$data = NULL
   saida$cat_recorte = NULL
   saida[saida == "SUDESTE"] = "Sudeste"
-  saida[saida == "NORDESTE"] = "Sudeste"
+  saida[saida == "NORDESTE"] = "Nordeste"
   saida[saida == "NORTE-CENTRO-OESTE"] = "Norte/CO"
   saida[saida == "SUL"] = "Sul"
   saida[saida == "CAPITAL"] = "Capital"
