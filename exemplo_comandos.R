@@ -43,6 +43,12 @@ trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2t
 ago = cria_arquivo("ibopeago2014.sav",perg,trad)
 resultado_ago = calcula_tudo(ago,"2014-08-06")
 
+#DF de AGOSTO_2
+perg = c("p1","p2","p3","p4","p601","p602","p7","p9","p10","p11","p12","p13","p21","p22a01","p22b01")
+trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_marina","rejeicao","favorito","desejo_mudanca","avaliacao_governo","aprova_dilma","nota","partido","bolsa1","bolsa2")
+ago2 = cria_arquivo("ago2014_2.sav",perg,trad)
+resultado_ago2 = calcula_tudo(ago2,"2014-08-25")
+
 
 resultado=rbind(resultado_marco,resultado_abril,resultado_maio,resultado_junho,resultado_junho2,resultado_jul,resultado_ago)
 resultado = resultado[complete.cases(resultado),]
@@ -61,5 +67,5 @@ resultado_nov = calcula_tudo(nov,"2013-11-11")
 ###############
 maio2 <- as.data.frame(as.data.set(spss.system.file("ibopemai2014.sav")))
 jul2 <- as.data.frame(as.data.set(spss.system.file("ibopejul2014.sav")))
-ago2 <- as.data.frame(as.data.set(spss.system.file("ibopeago2014.sav")))
+ago2 <- as.data.frame(as.data.set(spss.system.file("ago2014_2.sav")))
 round(normaliza(cruza_respostas(data,"P1","reg")),1)

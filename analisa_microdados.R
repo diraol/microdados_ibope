@@ -50,8 +50,8 @@ uma_pergunta = function (bd, pergunta) {
 #ATENÇÃO: nome da variável deve ser a data da pesquisa
 calcula_tudo = function (final,data_pesquisa) {
   final$total = "total"
-  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo","total","intencao_estimulada","favorito","nota_recorte","poder_compra","saude","emprego","educacao","partido","bolsa_familia","bolsa")
-  perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota","poder_compra","saude","emprego","educacao")
+  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo2","total","intencao_estimulada","favorito","nota_recorte","poder_compra","saude","emprego","educacao","partido","bolsa_familia","bolsa")
+  perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota","poder_compra","saude","emprego","educacao","2turno_marina")
   saida = data.frame(data=character(0),cat_pergunta=character(0),dado=character(0),cat_recorte=character(0),recorte=character(0),valor=numeric(0))
   for (r in recortes) {
     if (r  %in% names(final)) {
@@ -101,6 +101,9 @@ calcula_tudo = function (final,data_pesquisa) {
   #troca o nome da nota recorte para nota
   saida[saida$cat_recorte == "nota_recorte",][["cat_recorte"]] = "nota"
   
+  #troca o nome da avaliação governo 2 e tira o 2
+  saida[saida$cat_recorte == "avaliacao_governo2",][["cat_recorte"]] = "avaliacao_governo"
+  
   #soma as possibilidades de avaliação de governo
   saida = arruma_avaliacao(saida)
   return(saida)
@@ -137,6 +140,7 @@ arruma_avaliacao = function(arquivo) {
   arquivo[arquivo$cat_pergunta == "avaliacao_governo",][["valor"]] = NA
   arquivo = na.omit(arquivo)
   arquivo = rbind(arquivo,aval)
+  
   return(arquivo)
 }
 
@@ -264,13 +268,25 @@ reagrega_perguntas = function(arquivo) {
   }
   # Reagrega a variável avaliação do governo
   if ("avaliacao_governo" %in% names(arquivo)) {
-    aval=c("'Otimo",'Bom','Regular','Ruim',"Péssimo",'Não sabe/ Não respondeu')
+    #cria uma segunda coluna só por causa do recorte de avaliação
+    arquivo$avaliacao_governo2 = "a"
+    aval=c("Ótimo",'Bom','Regular','Ruim',"Péssimo",'Não sabe/ Não respondeu')
+    aval2=c("Ótima",'Boa','Regular','Ruim',"Péssima",'Não sabe/ Não respondeu')
     arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[1]]='Ótima'
+    arquivo$avaliacao_governo2[arquivo$avaliacao_governo==aval[1]]='Ótimo e bom'
+    arquivo$avaliacao_governo2[arquivo$avaliacao_governo==aval2[1]]='Ótimo e bom'
     arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[2]]='Boa'
+    arquivo$avaliacao_governo2[arquivo$avaliacao_governo==aval[2]]='Ótimo e bom'
+    arquivo$avaliacao_governo2[arquivo$avaliacao_governo==aval2[2]]='Ótimo e bom'
     arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[3]]='Regular'
+    arquivo$avaliacao_governo2[arquivo$avaliacao_governo==aval[3]]='Regular'    
     arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[4]]='Ruim'
+    arquivo$avaliacao_governo2[arquivo$avaliacao_governo==aval[4]]='Ruim e péssimo'
     arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[5]]='Péssima'
+    arquivo$avaliacao_governo2[arquivo$avaliacao_governo==aval[5]]='Ruim e péssimo'
+    arquivo$avaliacao_governo2[arquivo$avaliacao_governo==aval2[5]]='Ruim e péssimo'
     arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[6]]='NS/NR*'
+    arquivo$avaliacao_governo2[arquivo$avaliacao_governo==aval[6]]='NS/NR*'
   }
   
   # Reagrega os nanicos nas votações espontaneas
@@ -292,7 +308,7 @@ reagrega_perguntas = function(arquivo) {
   
   # Reagrega os nanicos no favoritismo
   if ("favorito" %in% names(arquivo)) {
-    candidatos = c('Aécio Neves','Dilma Rousseff','Eduardo Campos','NS/NR*')
+    candidatos = c('Aécio Neves','Dilma Rousseff','Eduardo Campos','Marina Silva','NS/NR*')
     arquivo$favorito <- as.character(arquivo$favorito)
     arquivo$favorito[arquivo$favorito =="Não sabe/ Não respondeu"]='NS/NR*'
     arquivo$favorito[!(arquivo$favorito %in% candidatos)]='Outros'
@@ -309,6 +325,13 @@ reagrega_perguntas = function(arquivo) {
     arquivo[["2turno_campos"]] <- as.character(arquivo[["2turno_campos"]])
     arquivo[["2turno_campos"]][arquivo[["2turno_campos"]] =="Não sabe/ Não respondeu"]='NS/NR*'
     arquivo[["2turno_campos"]][arquivo[["2turno_campos"]] =="Branco/ Nulo"]='Branco e Nulo'
+  }
+  
+  # Muda o nome do 2turno_marina
+  if ("2turno_marina" %in% names(arquivo)) {
+    arquivo[["2turno_marina"]] <- as.character(arquivo[["2turno_marina"]])
+    arquivo[["2turno_marina"]][arquivo[["2turno_marina"]] =="Não sabe/ Não respondeu"]='NS/NR*'
+    arquivo[["2turno_marina"]][arquivo[["2turno_marina"]] =="Branco/ Nulo"]='Branco e Nulo'
   }
   
   # Muda o nome do avalia_dilma
@@ -411,8 +434,8 @@ cria_arquivo = function(arquivo,perg,trad) {
     i = grep("rejeicao",trad)
     perg_rejeicao = perg[i]
     data = cria_rejeicao(data,perg_rejeicao)  
-    pergs = append(c("sexo", "escolaridade","renda","idad2","cor","religiao","cond","reg","rejeicaoDilma","rejeicaoAecio","rejeicaoPastor","rejeicaoCampos"),perg)
-    trads = append(c("sexo","escolaridade","renda_familiar","idade","cor","religiao","condicao_municipio","regiao","rejeicaoDilma","rejeicaoAecio","rejeicaoPastor","rejeicaoCampos"),trad)
+    pergs = append(c("sexo", "escolaridade","renda","idad2","cor","religiao","cond","reg","rejeicaoDilma","rejeicaoAecio","rejeicaoMarina","rejeicaoPastor","rejeicaoCampos"),perg)
+    trads = append(c("sexo","escolaridade","renda_familiar","idade","cor","religiao","condicao_municipio","regiao","rejeicaoDilma","rejeicaoAecio","rejeicaoMarina","rejeicaoPastor","rejeicaoCampos"),trad)
   } else {
     pergs = append(c("sexo", "escolaridade","cor","renda","idad2","religiao","cond","reg"),perg)
     trads = append(c("sexo","escolaridade","cor","renda_familiar","idade","religiao","condicao_municipio","regiao"),trad)
@@ -440,6 +463,13 @@ cria_arquivo = function(arquivo,perg,trad) {
     saida$rejeicao = TRUE
   } else {
     saida$rejeicao = FALSE
+  }
+  
+  #retira a rejeição que não existe (Campos ou Marina)
+  if ("Marina Silva" %in% unique(saida$intencao_estimulada)) {
+    saida$rejeicaoCampos = NULL
+  } else if ("Eduardo Campos" %in% unique(saida$intencao_estimulada)) {
+    saida$rejeicaoMarina = NULL
   }
   
   return(saida)
@@ -518,7 +548,19 @@ cria_rejeicao = function(arquivo,perg_rejeicao) {
                               eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Eduardo Campos" |
                               eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Eduardo Campos" |
                               eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Eduardo Campos" |
-                              eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Eduardo Campos", "Sim","Não")})
+                              eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Eduardo Campos", "Sim","Não")
+  rejeicaoMarina = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Marina Silva" |
+                            eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Marina Silva" |
+                            eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Marina Silva" |
+                            eval(parse(text=paste(perg_rejeicao,"04",sep=""))) == "Marina Silva" |
+                            eval(parse(text=paste(perg_rejeicao,"05",sep=""))) == "Marina Silva" |
+                            eval(parse(text=paste(perg_rejeicao,"06",sep=""))) == "Marina Silva" |
+                            eval(parse(text=paste(perg_rejeicao,"07",sep=""))) == "Marina Silva" |
+                            eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Marina Silva" |
+                            eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Marina Silva" |
+                            eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Marina Silva" |
+                            eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Marina Silva", "Sim","Não")})
+  
   arquivo[is.na(arquivo)] = "Não"
   return(arquivo)
 }
@@ -535,12 +577,20 @@ calcula_rejeicao = function (arquivo,recorte) {
   temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoPastor",recorte)),0)
   rownames(temp)[2] = "Pastor Everaldo"
   saida = rbind(saida,temp)
-  temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoCampos",recorte)),0)
-  rownames(temp)[2] = "Eduardo Campos"
-  saida = rbind(saida,temp)
+  #if para descobrir se há rejeição do Campos ou da Marina
+  if ("rejeicaoCampos" %in% names(arquivo)) {
+    temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoCampos",recorte)),0)
+    rownames(temp)[2] = "Eduardo Campos"
+    saida = rbind(saida,temp)    
+  } 
+  if ("rejeicaoMarina" %in% names(arquivo)) {
+    temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoMarina",recorte)),0)
+    rownames(temp)[2] = "Marina Silva"
+    saida = rbind(saida,temp)    
+  }  
   
   #retira as linhas que não dizem nada
-  deixar = c("Dilma Rousseff","Aécio Neves","Pastor Everaldo","Eduardo Campos")
+  deixar = c("Dilma Rousseff","Aécio Neves","Pastor Everaldo","Eduardo Campos","Marina Silva")
   saida$fake = 1
   saida = saida[rownames(saida) %in% deixar,]
   saida$fake = NULL
@@ -556,7 +606,7 @@ cruza <- function (arquivo,perg1,perg2) {
 analise_amostra <- function (arquivo) {
  # recortes = c("sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","rejeicaoDilma","rejeicaoAecio","2turno_aecio",
 #               "favorito","avaliacao_governo","aprova_dilma","partido","vida_hoje","desejo_mudanca","interesse")
-  recortes = c("idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio","sexo")
+  recortes = c("idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio","sexo","2turno_marina")
   saida = list()
   
   #calcula os recortes tradicionais
@@ -651,18 +701,11 @@ analise_comparativa_lista_recortes = function(lista_de_recortes) {
   }
 }
 
-perfil_candidatos = function() {
+perfil_candidatos = function(total) {
   library(plyr)
-  perg = c("p1","p2","p3","p4","p501","p502","p8","p10","p11","p21a01","p21b01","p7","p12","p1501","p1503","p1504","p1506","p20","p6")
-  trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","desejo_mudanca","avaliacao_governo","aprova_dilma","bolsa1","bolsa2","favorito","nota","poder_compra","saude","emprego","educacao","partido","rejeicao")
-  jul = cria_arquivo("ibopejul2014.sav",perg,trad)
-  perg = c("p1","p2","p3","p4","p501","p502","p7","p8","p9","p10","p11","p12","p13a01","p13b01","p6")
-  trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_campos","favorito","desejo_mudanca","avaliacao_governo","aprova_dilma","nota","partido","bolsa1","bolsa2","rejeicao")
-  ago = cria_arquivo("ibopeago2014.sav",perg,trad)
-  total = rbind.fill(jul,ago)
   dilma = total[total$intencao_estimulada == "Dilma Rousseff",]
+  marina = total[total$intencao_estimulada == "Marina Silva",]  
   aecio = total[total$intencao_estimulada == "Aécio Neves",]
-  campos = total[total$intencao_estimulada == "Eduardo Campos",]
   pastor = total[total$intencao_estimulada == "Pastor Everaldo",]
   outros = total[total$intencao_estimulada == "Outros",]
   branco = total[total$intencao_estimulada == "Branco e Nulo",]
@@ -671,7 +714,7 @@ perfil_candidatos = function() {
   a = analise_amostra(total)
   b = analise_amostra(dilma)
   c = analise_amostra(aecio)
-  d = analise_amostra(campos)
+  d = analise_amostra(marina)
   e = analise_amostra(pastor)
   f = analise_amostra(outros)
   g = analise_amostra(indeciso)
@@ -680,7 +723,7 @@ perfil_candidatos = function() {
   h$total = a
   h$dilma = b
   h$aecio = c
-  h$campos = d
+  h$marina = d
   h$pastor = e
   h$outros = f
   h$indeciso = g
@@ -708,6 +751,7 @@ perfil_candidatos = function() {
   saida[saida == "PERIFERIA"] = "Periferia"
   saida[saida == "Fundamental 1"] = "Fund. 1"
   saida[saida == "Fundamental 2"] = "Fund. 2"
+  saida[saida == "Médio"] = "Medio"
   saida[saida == "MAS"] = "Homens"
   saida[saida == "FEM"] = "Mulheres"
   saida[saida == "NS/NR*"] = NA
