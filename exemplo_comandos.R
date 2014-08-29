@@ -49,6 +49,11 @@ trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2t
 ago2 = cria_arquivo("ago2014_2.sav",perg,trad)
 resultado_ago2 = calcula_tudo(ago2,"2014-08-25")
 
+#DF de AGOSTO_2 - RINGUE
+perg = c("p801","p802","p803","porte")
+trad = c("aecio","dilma","marina","porte")
+ago2 = cria_arquivo("ago2014_2.sav",perg,trad)
+resultado_ago2 = calcula_tudo(ago2,"2014-08-25")
 
 resultado=rbind(resultado_marco,resultado_abril,resultado_maio,resultado_junho,resultado_junho2,resultado_jul,resultado_ago)
 resultado = resultado[complete.cases(resultado),]

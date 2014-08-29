@@ -50,8 +50,8 @@ uma_pergunta = function (bd, pergunta) {
 #ATENÇÃO: nome da variável deve ser a data da pesquisa
 calcula_tudo = function (final,data_pesquisa) {
   final$total = "total"
-  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo2","total","intencao_estimulada","favorito","nota_recorte","poder_compra","saude","emprego","educacao","partido","bolsa_familia","bolsa")
-  perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota","poder_compra","saude","emprego","educacao","2turno_marina")
+  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo2","total","intencao_estimulada","favorito","nota_recorte","poder_compra","saude","emprego","educacao","partido","bolsa_familia","bolsa","porte")
+  perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota","poder_compra","saude","emprego","educacao","2turno_marina","aecio","marina","dilma")
   saida = data.frame(data=character(0),cat_pergunta=character(0),dado=character(0),cat_recorte=character(0),recorte=character(0),valor=numeric(0))
   for (r in recortes) {
     if (r  %in% names(final)) {
@@ -91,22 +91,25 @@ calcula_tudo = function (final,data_pesquisa) {
   saida$data = data_pesquisa
   
   #agora vamos consertar alguns campos que não precisamos ou que têm de ser mostrados de maneira diferente
-  saida[saida$cat_recorte == "intencao_estimulada" & saida$recorte == "Pastor Everaldo",] = NA
-  saida = na.omit(saida)
+  if ("intencao_estimulada" %in% names(final)){
+    saida[saida$cat_recorte == "intencao_estimulada" & saida$recorte == "Pastor Everaldo",] = NA
+  }
+  if ("nota_recorte" %in% names(final)) {
+    saida[saida$cat_recorte == "nota_recorte",][["cat_recorte"]] = "nota"
+  }
+  if ("avaliacao_governo2" %in% names(final)) {
+    saida[saida$cat_recorte == "avaliacao_governo2",][["cat_recorte"]] = "avaliacao_governo"
+    #soma as possibilidades de avaliação de governo
+    saida = arruma_avaliacao(saida)
+    }
+  
   if ("nota" %in% names(final)) {
-    saida[saida$dado == "nota" & saida$cat_recorte == "nota_recorte",] = NA    
+    saida[saida$dado == "nota",] = NA    
   } 
   
   saida = na.omit(saida)
-  #troca o nome da nota recorte para nota
-  saida[saida$cat_recorte == "nota_recorte",][["cat_recorte"]] = "nota"
-  
-  #troca o nome da avaliação governo 2 e tira o 2
-  saida[saida$cat_recorte == "avaliacao_governo2",][["cat_recorte"]] = "avaliacao_governo"
-  
-  #soma as possibilidades de avaliação de governo
-  saida = arruma_avaliacao(saida)
-  return(saida)
+    
+    return(saida)
 }
 
 arruma_avaliacao = function(arquivo) {
@@ -214,6 +217,16 @@ reagrega_nomes = function(arquivo) {
   arquivo$cor[arquivo$raca==cor[5]]='Outras'
   arquivo$cor[arquivo$raca==cor[6]]='Outras'
 
+  if ("porte" %in% names(arquivo)) {
+    arquivo$porte[arquivo$porte == "ATÉ 5.000"] = "Cidades com até 20 mil"
+    arquivo$porte[arquivo$porte == "DE 5.001 A 10.000"] = "Cidades com até 20 mil"
+    arquivo$porte[arquivo$porte == "DE 10.001 A 20.000"] = "Cidades com até 20 mil"
+    arquivo$porte[arquivo$porte == "DE 20.001 A 50.000"] = "Cidades de 20 a 100 mil"
+    arquivo$porte[arquivo$porte == "DE 50.001 A 100.000"] = "Cidades de 20 a 100 mil"
+    arquivo$porte[arquivo$porte == "DE 100.001 A 500.000"] = "Cidades com mais de 100 mil"
+    arquivo$porte[arquivo$porte == "MAIS DE 500.000"] = "Cidades com mais de 100 mil"    
+  }
+  
   return(arquivo)
 }
 
@@ -395,7 +408,25 @@ reagrega_perguntas = function(arquivo) {
   if ("bolsa1" %in% names(arquivo) & "bolsa2" %in% names(arquivo)) {
     arquivo = within(arquivo, {bolsa = ifelse(bolsa1 == "Não participa de nenhum" & bolsa2 == "Ninguém da sua família", "Não","Sim")})    
   }  
-    
+  
+  #ringue
+  if ("aecio" %in% names(arquivo)) {
+    arquivo[arquivo$aecio == "Com certeza votaria nele para Presidente da República",][["aecio"]] = "Com certeza votaria nela para Presidente da República"
+    arquivo[arquivo$aecio == "Poderia votar nele para Presidente da República",][["aecio"]] = "Poderia votar nela para Presidente da República"
+    arquivo[arquivo$aecio == "Não votaria nele de jeito nenhum para Presidente da República",][["aecio"]] = "Não votaria nela de jeito nenhum para Presidente da República"
+    arquivo[arquivo$aecio == "Não o conhece o suficiente para opinar",][["aecio"]] = "Não sabe/Não conhece"
+    arquivo[arquivo$aecio == "Não sabe/ Não respondeu",][["aecio"]] = "Não sabe/Não conhece"
+  }
+  
+  if ("dilma" %in% names(arquivo)) {
+    arquivo[arquivo$dilma == "Não a conhece o suficiente para opinar",][["dilma"]] = "Não sabe/Não conhece"
+    arquivo[arquivo$dilma == "Não sabe/ Não respondeu",][["dilma"]] = "Não sabe/Não conhece"
+  }
+  
+  if ("marina" %in% names(arquivo)) {
+    arquivo[arquivo$marina == "Não a conhece o suficiente para opinar",][["marina"]] = "Não sabe/Não conhece"
+    arquivo[arquivo$marina == "Não sabe/ Não respondeu",][["marina"]] = "Não sabe/Não conhece"
+  }
   return(arquivo)
 }
 
