@@ -90,22 +90,22 @@ calcula_tudo = function (final,data_pesquisa) {
   
   saida$data = data_pesquisa
   
+  
   #agora vamos consertar alguns campos que não precisamos ou que têm de ser mostrados de maneira diferente
   if ("intencao_estimulada" %in% names(final)){
     saida[saida$cat_recorte == "intencao_estimulada" & saida$recorte == "Pastor Everaldo",] = NA
   }
+  saida = na.omit(saida)
+  
   if ("nota_recorte" %in% names(final)) {
     saida[saida$cat_recorte == "nota_recorte",][["cat_recorte"]] = "nota"
   }
+  
   if ("avaliacao_governo2" %in% names(final)) {
     saida[saida$cat_recorte == "avaliacao_governo2",][["cat_recorte"]] = "avaliacao_governo"
     #soma as possibilidades de avaliação de governo
     saida = arruma_avaliacao(saida)
     }
-  
-  if ("nota" %in% names(final)) {
-    saida[saida$dado == "nota",] = NA    
-  } 
   
   saida = na.omit(saida)
     
@@ -448,8 +448,9 @@ norm2 = function (final,p,r) {
 cria_arquivo = function(arquivo,perg,trad) {
   data <- as.data.frame(as.data.set(spss.system.file(arquivo)))
   
-  #retira fatores
+  #retira fatores e coloca tudo em minúscula
   data <- data.frame(lapply(data, as.character), stringsAsFactors=FALSE)
+  names(data) = tolower(names(data))
   
   #arruma nome da Dilma se for o caso
   data[data == "Dilma"] = "Dilma Rousseff"
