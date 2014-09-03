@@ -55,6 +55,14 @@ trad = c("aecio","dilma","marina","porte")
 ago2 = cria_arquivo("ago2014_2.sav",perg,trad)
 resultado_ago2 = calcula_tudo(ago2,"2014-08-25")
 
+#DF de SETEMBRO
+perg = c("p1","p2","p3","p4","p601","p602","p7","p8","p9","p10","p11","p12","p1301","p1303","p1304","p1306","p15","p16a01","p16b01")
+trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_marina","rejeicao","favorito","desejo_mudanca","avaliacao_governo","aprova_dilma","nota","poder_compra","saude","emprego","educacao","partido","bolsa1","bolsa2")
+set = cria_arquivo("set2014.sav",perg,trad)
+resultado_set = calcula_tudo(set,"2014-09-02")
+perfil = perfil_candidatos(set)
+write.csv(perfil,"perfil.csv",row.names=FALSE)
+
 resultado=rbind(resultado_marco,resultado_abril,resultado_maio,resultado_junho,resultado_junho2,resultado_jul,resultado_ago)
 resultado = resultado[complete.cases(resultado),]
 write.csv(resultado,"resultado.csv", row.names=FALSE)
@@ -72,5 +80,5 @@ resultado_nov = calcula_tudo(nov,"2013-11-11")
 ###############
 maio2 <- as.data.frame(as.data.set(spss.system.file("ibopemai2014.sav")))
 jul2 <- as.data.frame(as.data.set(spss.system.file("ibopejul2014.sav")))
-ago2 <- as.data.frame(as.data.set(spss.system.file("ago2014_2.sav")))
+set <- as.data.frame(as.data.set(spss.system.file("set2014.sav")))
 round(normaliza(cruza_respostas(data,"P1","reg")),1)

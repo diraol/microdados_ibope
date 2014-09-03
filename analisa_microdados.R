@@ -125,6 +125,8 @@ arruma_avaliacao = function(arquivo) {
       boa = temp[temp$dado == "Boa",][["valor"]]
       ruim = temp[temp$dado == "Ruim",][["valor"]]
       pessima = temp[temp$dado == "Péssima",][["valor"]]
+      #se ninguém achar que é ótima
+      if (length(otima) == 0) { otima = 0 }
       nova_linha = data.frame(data=dia,cat_pergunta="avaliacao_governo",dado="Ótimo e bom",cat_recorte=cat_recorte,recorte=recorte,valor=otima+boa)
       aval = rbind(aval,nova_linha)
       nova_linha = data.frame(data=dia,cat_pergunta="avaliacao_governo",dado="Ruim e péssimo",cat_recorte=cat_recorte,recorte=recorte,valor=ruim+pessima)
