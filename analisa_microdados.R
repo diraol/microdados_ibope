@@ -273,11 +273,15 @@ reagrega_perguntas = function(arquivo) {
                 "Interesse médio",
                 "Pouco interesse",
                 "Nenhum interesse")
+    interesse2=c("Nenhum interesse nas eleições que ocorrerão em outubro","Não sabe","Não respondeu")
     arquivo$temp[arquivo$interesse==interesse[1]]='Tem muito interesse'
     arquivo$temp[arquivo$interesse==interesse[2]]='Tem médio interesse'
-    arquivo$temp[arquivo$interesse==interesse[3]]='Não tem interesse'
+    arquivo$temp[arquivo$interesse==interesse[3]]='Não tem interesse'    
     arquivo$temp[arquivo$interesse==interesse[4]]='Não tem interesse'
+    arquivo$temp[arquivo$interesse==interesse2[1]]='Não tem interesse'
     arquivo$temp[arquivo$interesse =="Não sabe/ Não respondeu"]='NS/NR*'
+    arquivo$temp[arquivo$interesse ==interesse2[2]]='NS/NR*'
+    arquivo$temp[arquivo$interesse ==interesse2[3]]='NS/NR*'
     arquivo$interesse = NULL
     names(arquivo)[names(arquivo)=="temp"] = "interesse"
   }
@@ -302,6 +306,10 @@ reagrega_perguntas = function(arquivo) {
     arquivo$avaliacao_governo2[arquivo$avaliacao_governo==aval2[5]]='Ruim e péssimo'
     arquivo$avaliacao_governo[arquivo$avaliacao_governo==aval[6]]='NS/NR*'
     arquivo$avaliacao_governo2[arquivo$avaliacao_governo==aval[6]]='NS/NR*'
+    arquivo$avaliacao_governo2[arquivo$avaliacao_governo2 =="Não sabe"]='NS/NR*'
+    arquivo$avaliacao_governo2[arquivo$avaliacao_governo2 =="Não respondeu"]='NS/NR*'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo =="Não sabe"]='NS/NR*'
+    arquivo$avaliacao_governo[arquivo$avaliacao_governo =="Não respondeu"]='NS/NR*'
   }
   
   # Reagrega os nanicos nas votações espontaneas
@@ -309,6 +317,8 @@ reagrega_perguntas = function(arquivo) {
     candidatos = c('Aécio Neves','Dilma Rousseff','Eduardo Campos','Marina Silva','Lula','Pastor Everaldo','Branco e Nulo','NS/NR*','Outros')
     arquivo$intencao_espontanea <- as.character(arquivo$intencao_espontanea)
     arquivo$intencao_espontanea[arquivo$intencao_espontanea =="Não sabe/ Não respondeu"]='NS/NR*'
+    arquivo$intencao_espontanea[arquivo$intencao_espontanea =="Não sabe"]='NS/NR*'
+    arquivo$intencao_espontanea[arquivo$intencao_espontanea =="Não respondeu"]='NS/NR*'
     arquivo$intencao_espontanea[arquivo$intencao_espontanea =="Branco/ Nulo"]='Branco e Nulo'
     arquivo$intencao_espontanea[!(arquivo$intencao_espontanea %in% candidatos)]='Outros'
   }
@@ -317,6 +327,8 @@ reagrega_perguntas = function(arquivo) {
   if ("intencao_estimulada" %in% names(arquivo)) {
     arquivo$intencao_estimulada <- as.character(arquivo$intencao_estimulada)
     arquivo$intencao_estimulada[arquivo$intencao_estimulada =="Não sabe/ Não respondeu"]='NS/NR*'
+    arquivo$intencao_estimulada[arquivo$intencao_estimulada =="Não respondeu"]='NS/NR*'
+    arquivo$intencao_estimulada[arquivo$intencao_estimulada =="Não sabe"]='NS/NR*'
     arquivo$intencao_estimulada[arquivo$intencao_estimulada =="Branco/ Nulo"]='Branco e Nulo'
     arquivo$intencao_estimulada[!(arquivo$intencao_estimulada %in% candidatos)]='Outros'
   }
@@ -333,6 +345,8 @@ reagrega_perguntas = function(arquivo) {
   if ("2turno_aecio" %in% names(arquivo)) {
     arquivo[["2turno_aecio"]] = as.character(arquivo[["2turno_aecio"]])
     arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Não sabe/ Não respondeu"]='NS/NR*'
+    arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Não sabe"]='NS/NR*'
+    arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Não respondeu"]='NS/NR*'
     arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Branco/ Nulo"]='Branco e Nulo'  }
   
   # Muda o nome do 2turno_campos
@@ -346,6 +360,8 @@ reagrega_perguntas = function(arquivo) {
   if ("2turno_marina" %in% names(arquivo)) {
     arquivo[["2turno_marina"]] <- as.character(arquivo[["2turno_marina"]])
     arquivo[["2turno_marina"]][arquivo[["2turno_marina"]] =="Não sabe/ Não respondeu"]='NS/NR*'
+    arquivo[["2turno_marina"]][arquivo[["2turno_marina"]] =="Não sabe"]='NS/NR*'
+    arquivo[["2turno_marina"]][arquivo[["2turno_marina"]] =="Não respondeu"]='NS/NR*'
     arquivo[["2turno_marina"]][arquivo[["2turno_marina"]] =="Branco/ Nulo"]='Branco e Nulo'
   }
   
@@ -353,6 +369,9 @@ reagrega_perguntas = function(arquivo) {
   if ("aprova_dilma" %in% names(arquivo)) {
     arquivo$aprova_dilma <- as.character(arquivo$aprova_dilma)
     arquivo$aprova_dilma[arquivo$aprova_dilma =="Não sabe/ Não respondeu"]='NS/NR*'
+    arquivo$aprova_dilma[arquivo$aprova_dilma =="Não sabe"]='NS/NR*'
+    arquivo$aprova_dilma[arquivo$aprova_dilma =="Não respondeu"]='NS/NR*'
+    
   }
   # Tira / do Norte/Centro-Oeste
   if ("regiao" %in% names(arquivo)) {

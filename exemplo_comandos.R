@@ -63,6 +63,24 @@ resultado_set = calcula_tudo(set,"2014-09-02")
 perfil = perfil_candidatos(set)
 write.csv(perfil,"perfil.csv",row.names=FALSE)
 
+#DF de SETEMBRO_2
+perg = c("p1","p2","p3","p4","p501","p502","p7","p8")
+trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_marina","avaliacao_governo","aprova_dilma")
+set2 = cria_arquivo("set2014_2.sav",perg,trad)
+resultado_set2 = calcula_tudo(set2,"2014-09-08")
+write.csv(resultado_set2,"resultado.csv", row.names=FALSE)
+perfil = perfil_candidatos(set2)
+write.csv(perfil,"perfil.csv",row.names=FALSE)
+
+#DF de SETEMBRO_3
+perg = c("p1","p2","p3","p4","p601","p602","p7","p9","p10","p11","p12","p13","p16","p17a01","p17b01")
+trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_marina","rejeicao","favorito","desejo_mudanca","avaliacao_governo","aprova_dilma","nota","partido","bolsa1","bolsa2")
+set3 = cria_arquivo("set_3.sav",perg,trad)
+resultado_set3 = calcula_tudo(set3,"2014-09-15")
+write.csv(resultado_set3,"resultado.csv", row.names=FALSE)
+perfil = perfil_candidatos(set3)
+write.csv(perfil,"perfil.csv",row.names=FALSE)
+
 resultado=rbind(resultado_marco,resultado_abril,resultado_maio,resultado_junho,resultado_junho2,resultado_jul,resultado_ago)
 resultado = resultado[complete.cases(resultado),]
 write.csv(resultado,"resultado.csv", row.names=FALSE)
@@ -80,5 +98,5 @@ resultado_nov = calcula_tudo(nov,"2013-11-11")
 ###############
 maio2 <- as.data.frame(as.data.set(spss.system.file("ibopemai2014.sav")))
 jul2 <- as.data.frame(as.data.set(spss.system.file("ibopejul2014.sav")))
-set <- as.data.frame(as.data.set(spss.system.file("set2014.sav")))
+set <- as.data.frame(as.data.set(spss.system.file("set2014_2.sav")))
 round(normaliza(cruza_respostas(data,"P1","reg")),1)
