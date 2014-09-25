@@ -50,7 +50,7 @@ uma_pergunta = function (bd, pergunta) {
 #ATENÇÃO: nome da variável deve ser a data da pesquisa
 calcula_tudo = function (final,data_pesquisa) {
   final$total = "total"
-  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo2","total","intencao_estimulada","favorito","nota_recorte","poder_compra","saude","emprego","educacao","partido","bolsa_familia","bolsa","porte")
+  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo2","total","intencao_estimulada","favorito","nota_recorte","poder_compra","saude","emprego","educacao","partido","bolsa_familia","bolsa","porte","aecio","dilma","marina")
   perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota","poder_compra","saude","emprego","educacao","2turno_marina","aecio","marina","dilma")
   saida = data.frame(data=character(0),cat_pergunta=character(0),dado=character(0),cat_recorte=character(0),recorte=character(0),valor=numeric(0))
   for (r in recortes) {
