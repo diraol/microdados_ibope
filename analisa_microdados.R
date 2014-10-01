@@ -51,7 +51,7 @@ uma_pergunta = function (bd, pergunta) {
 calcula_tudo = function (final,data_pesquisa) {
   final$total = "total"
   recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo2","total","intencao_estimulada","favorito","nota_recorte","poder_compra","saude","emprego","educacao","partido","bolsa_familia","bolsa","porte","aecio","dilma","marina")
-  perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota","poder_compra","saude","emprego","educacao","2turno_marina","aecio","marina","dilma")
+  perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota","poder_compra","saude","emprego","educacao","2turno_marina","aecio","marina","dilma","estimulada_validos","2marina_validos","2aecio_validos","espontanea_validos")
   saida = data.frame(data=character(0),cat_pergunta=character(0),dado=character(0),cat_recorte=character(0),recorte=character(0),valor=numeric(0))
   for (r in recortes) {
     if (r  %in% names(final)) {
@@ -312,7 +312,7 @@ reagrega_perguntas = function(arquivo) {
     arquivo$avaliacao_governo[arquivo$avaliacao_governo =="Não respondeu"]='NS/NR*'
   }
   
-  # Reagrega os nanicos nas votações espontaneas
+  # Reagrega os nanicos nas votações espontaneas e cria coluna de votos apenas válidos
   if ("intencao_espontanea" %in% names(arquivo)) {
     candidatos = c('Aécio Neves','Dilma Rousseff','Eduardo Campos','Marina Silva','Lula','Pastor Everaldo','Branco e Nulo','NS/NR*','Outros')
     arquivo$intencao_espontanea <- as.character(arquivo$intencao_espontanea)
@@ -321,9 +321,13 @@ reagrega_perguntas = function(arquivo) {
     arquivo$intencao_espontanea[arquivo$intencao_espontanea =="Não respondeu"]='NS/NR*'
     arquivo$intencao_espontanea[arquivo$intencao_espontanea =="Branco/ Nulo"]='Branco e Nulo'
     arquivo$intencao_espontanea[!(arquivo$intencao_espontanea %in% candidatos)]='Outros'
+    
+    arquivo$espontanea_validos = arquivo$intencao_espontanea
+    arquivo$espontanea_validos[arquivo$espontanea_validos == "NS/NR*"] = NA
+    arquivo$espontanea_validos[arquivo$espontanea_validos == "Branco e Nulo"] = NA
   }
   
-  # Reagrega os nanicos nas votações estimuladas
+  # Reagrega os nanicos nas votações estimuladas e cria a coluna de votos apenas válidos
   if ("intencao_estimulada" %in% names(arquivo)) {
     arquivo$intencao_estimulada <- as.character(arquivo$intencao_estimulada)
     arquivo$intencao_estimulada[arquivo$intencao_estimulada =="Não sabe/ Não respondeu"]='NS/NR*'
@@ -331,6 +335,10 @@ reagrega_perguntas = function(arquivo) {
     arquivo$intencao_estimulada[arquivo$intencao_estimulada =="Não sabe"]='NS/NR*'
     arquivo$intencao_estimulada[arquivo$intencao_estimulada =="Branco/ Nulo"]='Branco e Nulo'
     arquivo$intencao_estimulada[!(arquivo$intencao_estimulada %in% candidatos)]='Outros'
+    
+    arquivo$estimulada_validos = arquivo$intencao_estimulada
+    arquivo$estimulada_validos[arquivo$estimulada_validos == "NS/NR*"] = NA
+    arquivo$estimulada_validos[arquivo$estimulada_validos == "Branco e Nulo"] = NA
   }
   
   # Reagrega os nanicos no favoritismo
@@ -341,13 +349,18 @@ reagrega_perguntas = function(arquivo) {
     arquivo$favorito[!(arquivo$favorito %in% candidatos)]='Outros'
   }
   
-  # Muda o nome do 2turno_aecio
+  # Muda o nome do 2turno_aecio e cria coluna de válidos
   if ("2turno_aecio" %in% names(arquivo)) {
     arquivo[["2turno_aecio"]] = as.character(arquivo[["2turno_aecio"]])
     arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Não sabe/ Não respondeu"]='NS/NR*'
     arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Não sabe"]='NS/NR*'
     arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Não respondeu"]='NS/NR*'
-    arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Branco/ Nulo"]='Branco e Nulo'  }
+    arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Branco/ Nulo"]='Branco e Nulo'  
+    
+    arquivo[["2aecio_validos"]] = arquivo[["2turno_aecio"]]
+    arquivo[["2aecio_validos"]][arquivo[["2aecio_validos"]] == "NS/NR*"] = NA
+    arquivo[["2aecio_validos"]][arquivo[["2aecio_validos"]] == "Branco e Nulo"] = NA
+  }
   
   # Muda o nome do 2turno_campos
   if ("2turno_campos" %in% names(arquivo)) {
@@ -356,13 +369,17 @@ reagrega_perguntas = function(arquivo) {
     arquivo[["2turno_campos"]][arquivo[["2turno_campos"]] =="Branco/ Nulo"]='Branco e Nulo'
   }
   
-  # Muda o nome do 2turno_marina
+  # Muda o nome do 2turno_marina e cria coluna de válidos
   if ("2turno_marina" %in% names(arquivo)) {
     arquivo[["2turno_marina"]] <- as.character(arquivo[["2turno_marina"]])
     arquivo[["2turno_marina"]][arquivo[["2turno_marina"]] =="Não sabe/ Não respondeu"]='NS/NR*'
     arquivo[["2turno_marina"]][arquivo[["2turno_marina"]] =="Não sabe"]='NS/NR*'
     arquivo[["2turno_marina"]][arquivo[["2turno_marina"]] =="Não respondeu"]='NS/NR*'
     arquivo[["2turno_marina"]][arquivo[["2turno_marina"]] =="Branco/ Nulo"]='Branco e Nulo'
+    
+    arquivo[["2marina_validos"]] = arquivo[["2turno_marina"]]
+    arquivo[["2marina_validos"]][arquivo[["2marina_validos"]] == "NS/NR*"] = NA
+    arquivo[["2marina_validos"]][arquivo[["2marina_validos"]] == "Branco e Nulo"] = NA
   }
   
   # Muda o nome do avalia_dilma
@@ -659,7 +676,7 @@ cruza <- function (arquivo,perg1,perg2) {
 analise_amostra <- function (arquivo) {
  # recortes = c("sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","rejeicaoDilma","rejeicaoAecio","2turno_aecio",
 #               "favorito","avaliacao_governo","aprova_dilma","partido","vida_hoje","desejo_mudanca","interesse")
-  recortes = c("idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio","sexo","2turno_marina")
+  recortes = c("idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio","sexo","intencao_espontanea","bolsa1","bolsa2")
   saida = list()
   
   #calcula os recortes tradicionais

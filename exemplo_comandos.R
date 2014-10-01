@@ -104,6 +104,22 @@ set4 = cria_arquivo("set_4.sav",perg,trad)
 ringue = calcula_tudo(set4,"2014-09-22")
 write.csv(ringue,"ringue.csv") #- DEPOIS DELETAR DUAS PRIMERIAS COLUNAS
 
+#DF de SETEMBRO_5
+perg = c("p1","p2","p3","p4a","p601","p602","p7","p9","p10","p11","p12","p13","p19","p20a01","p20b01","p801","p802","p803")
+trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_marina","rejeicao","favorito","desejo_mudanca","avaliacao_governo","aprova_dilma","nota","partido","bolsa1","bolsa2","aecio","dilma","marina")
+set5 = cria_arquivo("set_5.sav",perg,trad)
+resultado_set5 = calcula_tudo(set5,"2014-09-29")
+write.csv(resultado_set5,"resultado.csv", row.names=FALSE)
+perfil = perfil_candidatos(set5)
+write.csv(perfil,"perfil.csv",row.names=FALSE)
+
+#DF de SET_5 - RINGUE
+perg = c("p801","p802","p803","porte")
+trad = c("aecio","dilma","marina","porte")
+set5 = cria_arquivo("set_5.sav",perg,trad)
+ringue = calcula_tudo(set4,"2014-09-29")
+write.csv(ringue,"ringue.csv") #- DEPOIS DELETAR DUAS PRIMERIAS COLUNAS ANTES DE PASSAR O PYTHON
+
 resultado=rbind(resultado_ago2,resultado_set3,resultado_set4)
 resultado = resultado[complete.cases(resultado),]
 write.csv(resultado,"resultado.csv", row.names=FALSE)
