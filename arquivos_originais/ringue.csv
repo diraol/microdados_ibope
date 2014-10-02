@@ -1,481 +1,481 @@
-"cat_pergunta","dado","cat_recorte","recorte","valor"
-"aecio","Com certeza votaria nela para Presidente da República","sexo","FEM",16
-"aecio","Não sabe/Não conhece","sexo","FEM",15
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","sexo","FEM",29
-"aecio","Poderia votar nela para Presidente da República","sexo","FEM",41
-"aecio","Com certeza votaria nela para Presidente da República","sexo","MAS",18
-"aecio","Não sabe/Não conhece","sexo","MAS",11
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","sexo","MAS",34
-"aecio","Poderia votar nela para Presidente da República","sexo","MAS",37
-"marina","Com certeza votaria nela para Presidente da República","sexo","FEM",22
-"marina","Não sabe/Não conhece","sexo","FEM",11
-"marina","Não votaria nela de jeito nenhum para Presidente da República","sexo","FEM",32
-"marina","Poderia votar nela para Presidente da República","sexo","FEM",35
-"marina","Com certeza votaria nela para Presidente da República","sexo","MAS",21
-"marina","Não sabe/Não conhece","sexo","MAS",9
-"marina","Não votaria nela de jeito nenhum para Presidente da República","sexo","MAS",33
-"marina","Poderia votar nela para Presidente da República","sexo","MAS",37
-"dilma","Com certeza votaria nela para Presidente da República","sexo","FEM",33
-"dilma","Não sabe/Não conhece","sexo","FEM",6
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","sexo","FEM",39
-"dilma","Poderia votar nela para Presidente da República","sexo","FEM",21
-"dilma","Com certeza votaria nela para Presidente da República","sexo","MAS",35
-"dilma","Não sabe/Não conhece","sexo","MAS",4
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","sexo","MAS",40
-"dilma","Poderia votar nela para Presidente da República","sexo","MAS",20
-"aecio","Com certeza votaria nela para Presidente da República","idade","16 a 24",19
-"aecio","Não sabe/Não conhece","idade","16 a 24",13
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","idade","16 a 24",29
-"aecio","Poderia votar nela para Presidente da República","idade","16 a 24",39
-"aecio","Com certeza votaria nela para Presidente da República","idade","25 a 34",17
-"aecio","Não sabe/Não conhece","idade","25 a 34",14
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","idade","25 a 34",31
-"aecio","Poderia votar nela para Presidente da República","idade","25 a 34",39
-"aecio","Com certeza votaria nela para Presidente da República","idade","35 a 44",19
-"aecio","Não sabe/Não conhece","idade","35 a 44",12
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","idade","35 a 44",32
-"aecio","Poderia votar nela para Presidente da República","idade","35 a 44",37
-"aecio","Com certeza votaria nela para Presidente da República","idade","45 a 54",14
-"aecio","Não sabe/Não conhece","idade","45 a 54",13
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","idade","45 a 54",35
-"aecio","Poderia votar nela para Presidente da República","idade","45 a 54",38
-"aecio","Com certeza votaria nela para Presidente da República","idade","55 ou mais",15
-"aecio","Não sabe/Não conhece","idade","55 ou mais",13
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","idade","55 ou mais",30
-"aecio","Poderia votar nela para Presidente da República","idade","55 ou mais",43
-"marina","Com certeza votaria nela para Presidente da República","idade","16 a 24",24
-"marina","Não sabe/Não conhece","idade","16 a 24",10
-"marina","Não votaria nela de jeito nenhum para Presidente da República","idade","16 a 24",32
-"marina","Poderia votar nela para Presidente da República","idade","16 a 24",34
-"marina","Com certeza votaria nela para Presidente da República","idade","25 a 34",25
-"marina","Não sabe/Não conhece","idade","25 a 34",10
-"marina","Não votaria nela de jeito nenhum para Presidente da República","idade","25 a 34",31
-"marina","Poderia votar nela para Presidente da República","idade","25 a 34",34
-"marina","Com certeza votaria nela para Presidente da República","idade","35 a 44",22
-"marina","Não sabe/Não conhece","idade","35 a 44",9
-"marina","Não votaria nela de jeito nenhum para Presidente da República","idade","35 a 44",33
-"marina","Poderia votar nela para Presidente da República","idade","35 a 44",37
-"marina","Com certeza votaria nela para Presidente da República","idade","45 a 54",17
-"marina","Não sabe/Não conhece","idade","45 a 54",8
-"marina","Não votaria nela de jeito nenhum para Presidente da República","idade","45 a 54",37
-"marina","Poderia votar nela para Presidente da República","idade","45 a 54",38
-"marina","Com certeza votaria nela para Presidente da República","idade","55 ou mais",18
-"marina","Não sabe/Não conhece","idade","55 ou mais",14
-"marina","Não votaria nela de jeito nenhum para Presidente da República","idade","55 ou mais",33
-"marina","Poderia votar nela para Presidente da República","idade","55 ou mais",35
-"dilma","Com certeza votaria nela para Presidente da República","idade","16 a 24",29
-"dilma","Não sabe/Não conhece","idade","16 a 24",6
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","idade","16 a 24",43
-"dilma","Poderia votar nela para Presidente da República","idade","16 a 24",23
-"dilma","Com certeza votaria nela para Presidente da República","idade","25 a 34",32
-"dilma","Não sabe/Não conhece","idade","25 a 34",5
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","idade","25 a 34",46
-"dilma","Poderia votar nela para Presidente da República","idade","25 a 34",17
-"dilma","Com certeza votaria nela para Presidente da República","idade","35 a 44",35
-"dilma","Não sabe/Não conhece","idade","35 a 44",4
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","idade","35 a 44",40
-"dilma","Poderia votar nela para Presidente da República","idade","35 a 44",22
-"dilma","Com certeza votaria nela para Presidente da República","idade","45 a 54",39
-"dilma","Não sabe/Não conhece","idade","45 a 54",4
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","idade","45 a 54",36
-"dilma","Poderia votar nela para Presidente da República","idade","45 a 54",21
-"dilma","Com certeza votaria nela para Presidente da República","idade","55 ou mais",38
-"dilma","Não sabe/Não conhece","idade","55 ou mais",7
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","idade","55 ou mais",31
-"dilma","Poderia votar nela para Presidente da República","idade","55 ou mais",23
-"aecio","Com certeza votaria nela para Presidente da República","escolaridade","Fundamental 1",11
-"aecio","Não sabe/Não conhece","escolaridade","Fundamental 1",15
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Fundamental 1",35
-"aecio","Poderia votar nela para Presidente da República","escolaridade","Fundamental 1",40
-"aecio","Com certeza votaria nela para Presidente da República","escolaridade","Fundamental 2",12
-"aecio","Não sabe/Não conhece","escolaridade","Fundamental 2",15
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Fundamental 2",33
-"aecio","Poderia votar nela para Presidente da República","escolaridade","Fundamental 2",40
-"aecio","Com certeza votaria nela para Presidente da República","escolaridade","Medio",19
-"aecio","Não sabe/Não conhece","escolaridade","Medio",12
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Medio",29
-"aecio","Poderia votar nela para Presidente da República","escolaridade","Medio",40
-"aecio","Com certeza votaria nela para Presidente da República","escolaridade","Superior",26
-"aecio","Não sabe/Não conhece","escolaridade","Superior",9
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Superior",31
-"aecio","Poderia votar nela para Presidente da República","escolaridade","Superior",34
-"marina","Com certeza votaria nela para Presidente da República","escolaridade","Fundamental 1",16
-"marina","Não sabe/Não conhece","escolaridade","Fundamental 1",14
-"marina","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Fundamental 1",37
-"marina","Poderia votar nela para Presidente da República","escolaridade","Fundamental 1",34
-"marina","Com certeza votaria nela para Presidente da República","escolaridade","Fundamental 2",21
-"marina","Não sabe/Não conhece","escolaridade","Fundamental 2",10
-"marina","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Fundamental 2",35
-"marina","Poderia votar nela para Presidente da República","escolaridade","Fundamental 2",34
-"marina","Com certeza votaria nela para Presidente da República","escolaridade","Medio",23
-"marina","Não sabe/Não conhece","escolaridade","Medio",9
-"marina","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Medio",32
-"marina","Poderia votar nela para Presidente da República","escolaridade","Medio",36
-"marina","Com certeza votaria nela para Presidente da República","escolaridade","Superior",25
-"marina","Não sabe/Não conhece","escolaridade","Superior",7
-"marina","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Superior",29
-"marina","Poderia votar nela para Presidente da República","escolaridade","Superior",39
-"dilma","Com certeza votaria nela para Presidente da República","escolaridade","Fundamental 1",44
-"dilma","Não sabe/Não conhece","escolaridade","Fundamental 1",7
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Fundamental 1",25
-"dilma","Poderia votar nela para Presidente da República","escolaridade","Fundamental 1",23
-"dilma","Com certeza votaria nela para Presidente da República","escolaridade","Fundamental 2",41
-"dilma","Não sabe/Não conhece","escolaridade","Fundamental 2",6
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Fundamental 2",33
-"dilma","Poderia votar nela para Presidente da República","escolaridade","Fundamental 2",20
-"dilma","Com certeza votaria nela para Presidente da República","escolaridade","Medio",31
-"dilma","Não sabe/Não conhece","escolaridade","Medio",4
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Medio",43
-"dilma","Poderia votar nela para Presidente da República","escolaridade","Medio",22
-"dilma","Com certeza votaria nela para Presidente da República","escolaridade","Superior",24
-"dilma","Não sabe/Não conhece","escolaridade","Superior",4
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Superior",54
-"dilma","Poderia votar nela para Presidente da República","escolaridade","Superior",18
-"aecio","Com certeza votaria nela para Presidente da República","renda_familiar","Mais de 5",27
-"aecio","Não sabe/Não conhece","renda_familiar","Mais de 5",10
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","Mais de 5",28
-"aecio","Poderia votar nela para Presidente da República","renda_familiar","Mais de 5",34
-"aecio","Com certeza votaria nela para Presidente da República","renda_familiar","2 a 5",18
-"aecio","Não sabe/Não conhece","renda_familiar","2 a 5",10
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","2 a 5",30
-"aecio","Poderia votar nela para Presidente da República","renda_familiar","2 a 5",42
-"aecio","Com certeza votaria nela para Presidente da República","renda_familiar","1 a 2",13
-"aecio","Não sabe/Não conhece","renda_familiar","1 a 2",13
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","1 a 2",35
-"aecio","Poderia votar nela para Presidente da República","renda_familiar","1 a 2",39
-"aecio","Com certeza votaria nela para Presidente da República","renda_familiar","Ate 1",7
-"aecio","Não sabe/Não conhece","renda_familiar","Ate 1",22
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","Ate 1",35
-"aecio","Poderia votar nela para Presidente da República","renda_familiar","Ate 1",36
-"marina","Com certeza votaria nela para Presidente da República","renda_familiar","Mais de 5",24
-"marina","Não sabe/Não conhece","renda_familiar","Mais de 5",7
-"marina","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","Mais de 5",29
-"marina","Poderia votar nela para Presidente da República","renda_familiar","Mais de 5",40
-"marina","Com certeza votaria nela para Presidente da República","renda_familiar","2 a 5",23
-"marina","Não sabe/Não conhece","renda_familiar","2 a 5",8
-"marina","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","2 a 5",31
-"marina","Poderia votar nela para Presidente da República","renda_familiar","2 a 5",38
-"marina","Com certeza votaria nela para Presidente da República","renda_familiar","1 a 2",21
-"marina","Não sabe/Não conhece","renda_familiar","1 a 2",10
-"marina","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","1 a 2",35
-"marina","Poderia votar nela para Presidente da República","renda_familiar","1 a 2",34
-"marina","Com certeza votaria nela para Presidente da República","renda_familiar","Ate 1",15
-"marina","Não sabe/Não conhece","renda_familiar","Ate 1",15
-"marina","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","Ate 1",39
-"marina","Poderia votar nela para Presidente da República","renda_familiar","Ate 1",30
-"dilma","Com certeza votaria nela para Presidente da República","renda_familiar","Mais de 5",21
-"dilma","Não sabe/Não conhece","renda_familiar","Mais de 5",4
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","Mais de 5",56
-"dilma","Poderia votar nela para Presidente da República","renda_familiar","Mais de 5",19
-"dilma","Com certeza votaria nela para Presidente da República","renda_familiar","2 a 5",34
-"dilma","Não sabe/Não conhece","renda_familiar","2 a 5",4
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","2 a 5",42
-"dilma","Poderia votar nela para Presidente da República","renda_familiar","2 a 5",20
-"dilma","Com certeza votaria nela para Presidente da República","renda_familiar","1 a 2",38
-"dilma","Não sabe/Não conhece","renda_familiar","1 a 2",5
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","1 a 2",35
-"dilma","Poderia votar nela para Presidente da República","renda_familiar","1 a 2",22
-"dilma","Com certeza votaria nela para Presidente da República","renda_familiar","Ate 1",47
-"dilma","Não sabe/Não conhece","renda_familiar","Ate 1",10
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","Ate 1",20
-"dilma","Poderia votar nela para Presidente da República","renda_familiar","Ate 1",22
-"aecio","Com certeza votaria nela para Presidente da República","condicao_municipio","CAPITAL",17
-"aecio","Não sabe/Não conhece","condicao_municipio","CAPITAL",11
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","CAPITAL",33
-"aecio","Poderia votar nela para Presidente da República","condicao_municipio","CAPITAL",40
-"aecio","Com certeza votaria nela para Presidente da República","condicao_municipio","INTERIOR",18
-"aecio","Não sabe/Não conhece","condicao_municipio","INTERIOR",13
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","INTERIOR",31
-"aecio","Poderia votar nela para Presidente da República","condicao_municipio","INTERIOR",38
-"aecio","Com certeza votaria nela para Presidente da República","condicao_municipio","PERIFERIA",11
-"aecio","Não sabe/Não conhece","condicao_municipio","PERIFERIA",17
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","PERIFERIA",28
-"aecio","Poderia votar nela para Presidente da República","condicao_municipio","PERIFERIA",44
-"marina","Com certeza votaria nela para Presidente da República","condicao_municipio","CAPITAL",24
-"marina","Não sabe/Não conhece","condicao_municipio","CAPITAL",6
-"marina","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","CAPITAL",29
-"marina","Poderia votar nela para Presidente da República","condicao_municipio","CAPITAL",41
-"marina","Com certeza votaria nela para Presidente da República","condicao_municipio","INTERIOR",19
-"marina","Não sabe/Não conhece","condicao_municipio","INTERIOR",11
-"marina","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","INTERIOR",35
-"marina","Poderia votar nela para Presidente da República","condicao_municipio","INTERIOR",34
-"marina","Com certeza votaria nela para Presidente da República","condicao_municipio","PERIFERIA",28
-"marina","Não sabe/Não conhece","condicao_municipio","PERIFERIA",10
-"marina","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","PERIFERIA",29
-"marina","Poderia votar nela para Presidente da República","condicao_municipio","PERIFERIA",33
-"dilma","Com certeza votaria nela para Presidente da República","condicao_municipio","CAPITAL",29
-"dilma","Não sabe/Não conhece","condicao_municipio","CAPITAL",4
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","CAPITAL",45
-"dilma","Poderia votar nela para Presidente da República","condicao_municipio","CAPITAL",21
-"dilma","Com certeza votaria nela para Presidente da República","condicao_municipio","INTERIOR",38
-"dilma","Não sabe/Não conhece","condicao_municipio","INTERIOR",6
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","INTERIOR",38
-"dilma","Poderia votar nela para Presidente da República","condicao_municipio","INTERIOR",19
-"dilma","Com certeza votaria nela para Presidente da República","condicao_municipio","PERIFERIA",28
-"dilma","Não sabe/Não conhece","condicao_municipio","PERIFERIA",4
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","PERIFERIA",39
-"dilma","Poderia votar nela para Presidente da República","condicao_municipio","PERIFERIA",29
-"aecio","Com certeza votaria nela para Presidente da República","regiao","NORDESTE",10
-"aecio","Não sabe/Não conhece","regiao","NORDESTE",13
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","regiao","NORDESTE",40
-"aecio","Poderia votar nela para Presidente da República","regiao","NORDESTE",37
-"aecio","Com certeza votaria nela para Presidente da República","regiao","NORTE-CENTRO-OESTE",15
-"aecio","Não sabe/Não conhece","regiao","NORTE-CENTRO-OESTE",17
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","regiao","NORTE-CENTRO-OESTE",31
-"aecio","Poderia votar nela para Presidente da República","regiao","NORTE-CENTRO-OESTE",37
-"aecio","Com certeza votaria nela para Presidente da República","regiao","SUDESTE",20
-"aecio","Não sabe/Não conhece","regiao","SUDESTE",10
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","regiao","SUDESTE",31
-"aecio","Poderia votar nela para Presidente da República","regiao","SUDESTE",39
-"aecio","Com certeza votaria nela para Presidente da República","regiao","SUL",21
-"aecio","Não sabe/Não conhece","regiao","SUL",17
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","regiao","SUL",18
-"aecio","Poderia votar nela para Presidente da República","regiao","SUL",44
-"marina","Com certeza votaria nela para Presidente da República","regiao","NORDESTE",24
-"marina","Não sabe/Não conhece","regiao","NORDESTE",9
-"marina","Não votaria nela de jeito nenhum para Presidente da República","regiao","NORDESTE",36
-"marina","Poderia votar nela para Presidente da República","regiao","NORDESTE",31
-"marina","Com certeza votaria nela para Presidente da República","regiao","NORTE-CENTRO-OESTE",25
-"marina","Não sabe/Não conhece","regiao","NORTE-CENTRO-OESTE",11
-"marina","Não votaria nela de jeito nenhum para Presidente da República","regiao","NORTE-CENTRO-OESTE",36
-"marina","Poderia votar nela para Presidente da República","regiao","NORTE-CENTRO-OESTE",29
-"marina","Com certeza votaria nela para Presidente da República","regiao","SUDESTE",22
-"marina","Não sabe/Não conhece","regiao","SUDESTE",8
-"marina","Não votaria nela de jeito nenhum para Presidente da República","regiao","SUDESTE",30
-"marina","Poderia votar nela para Presidente da República","regiao","SUDESTE",39
-"marina","Com certeza votaria nela para Presidente da República","regiao","SUL",12
-"marina","Não sabe/Não conhece","regiao","SUL",15
-"marina","Não votaria nela de jeito nenhum para Presidente da República","regiao","SUL",33
-"marina","Poderia votar nela para Presidente da República","regiao","SUL",40
-"dilma","Com certeza votaria nela para Presidente da República","regiao","NORDESTE",46
-"dilma","Não sabe/Não conhece","regiao","NORDESTE",5
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","regiao","NORDESTE",28
-"dilma","Poderia votar nela para Presidente da República","regiao","NORDESTE",21
-"dilma","Com certeza votaria nela para Presidente da República","regiao","NORTE-CENTRO-OESTE",41
-"dilma","Não sabe/Não conhece","regiao","NORTE-CENTRO-OESTE",7
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","regiao","NORTE-CENTRO-OESTE",37
-"dilma","Poderia votar nela para Presidente da República","regiao","NORTE-CENTRO-OESTE",15
-"dilma","Com certeza votaria nela para Presidente da República","regiao","SUDESTE",25
-"dilma","Não sabe/Não conhece","regiao","SUDESTE",4
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","regiao","SUDESTE",49
-"dilma","Poderia votar nela para Presidente da República","regiao","SUDESTE",22
-"dilma","Com certeza votaria nela para Presidente da República","regiao","SUL",34
-"dilma","Não sabe/Não conhece","regiao","SUL",7
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","regiao","SUL",36
-"dilma","Poderia votar nela para Presidente da República","regiao","SUL",23
-"aecio","Com certeza votaria nela para Presidente da República","cor","Branca",22
-"aecio","Não sabe/Não conhece","cor","Branca",11
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","cor","Branca",29
-"aecio","Poderia votar nela para Presidente da República","cor","Branca",39
-"aecio","Com certeza votaria nela para Presidente da República","cor","Preta ou parda",14
-"aecio","Não sabe/Não conhece","cor","Preta ou parda",14
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","cor","Preta ou parda",34
-"aecio","Poderia votar nela para Presidente da República","cor","Preta ou parda",39
-"aecio","Com certeza votaria nela para Presidente da República","cor","Outras",9
-"aecio","Não sabe/Não conhece","cor","Outras",22
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","cor","Outras",27
-"aecio","Poderia votar nela para Presidente da República","cor","Outras",42
-"marina","Com certeza votaria nela para Presidente da República","cor","Branca",20
-"marina","Não sabe/Não conhece","cor","Branca",10
-"marina","Não votaria nela de jeito nenhum para Presidente da República","cor","Branca",32
-"marina","Poderia votar nela para Presidente da República","cor","Branca",38
-"marina","Com certeza votaria nela para Presidente da República","cor","Preta ou parda",22
-"marina","Não sabe/Não conhece","cor","Preta ou parda",10
-"marina","Não votaria nela de jeito nenhum para Presidente da República","cor","Preta ou parda",34
-"marina","Poderia votar nela para Presidente da República","cor","Preta ou parda",35
-"marina","Com certeza votaria nela para Presidente da República","cor","Outras",28
-"marina","Não sabe/Não conhece","cor","Outras",15
-"marina","Não votaria nela de jeito nenhum para Presidente da República","cor","Outras",30
-"marina","Poderia votar nela para Presidente da República","cor","Outras",27
-"dilma","Com certeza votaria nela para Presidente da República","cor","Branca",31
-"dilma","Não sabe/Não conhece","cor","Branca",5
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","cor","Branca",44
-"dilma","Poderia votar nela para Presidente da República","cor","Branca",20
-"dilma","Com certeza votaria nela para Presidente da República","cor","Preta ou parda",37
-"dilma","Não sabe/Não conhece","cor","Preta ou parda",5
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","cor","Preta ou parda",36
-"dilma","Poderia votar nela para Presidente da República","cor","Preta ou parda",22
-"dilma","Com certeza votaria nela para Presidente da República","cor","Outras",30
-"dilma","Não sabe/Não conhece","cor","Outras",13
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","cor","Outras",43
-"dilma","Poderia votar nela para Presidente da República","cor","Outras",13
-"aecio","Com certeza votaria nela para Presidente da República","religiao","Catolica",19
-"aecio","Não sabe/Não conhece","religiao","Catolica",12
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","religiao","Catolica",30
-"aecio","Poderia votar nela para Presidente da República","religiao","Catolica",39
-"aecio","Com certeza votaria nela para Presidente da República","religiao","Evangelica",13
-"aecio","Não sabe/Não conhece","religiao","Evangelica",15
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","religiao","Evangelica",33
-"aecio","Poderia votar nela para Presidente da República","religiao","Evangelica",38
-"aecio","Com certeza votaria nela para Presidente da República","religiao","Outras",13
-"aecio","Não sabe/Não conhece","religiao","Outras",12
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","religiao","Outras",33
-"aecio","Poderia votar nela para Presidente da República","religiao","Outras",41
-"marina","Com certeza votaria nela para Presidente da República","religiao","Catolica",17
-"marina","Não sabe/Não conhece","religiao","Catolica",11
-"marina","Não votaria nela de jeito nenhum para Presidente da República","religiao","Catolica",36
-"marina","Poderia votar nela para Presidente da República","religiao","Catolica",36
-"marina","Com certeza votaria nela para Presidente da República","religiao","Evangelica",34
-"marina","Não sabe/Não conhece","religiao","Evangelica",9
-"marina","Não votaria nela de jeito nenhum para Presidente da República","religiao","Evangelica",24
-"marina","Poderia votar nela para Presidente da República","religiao","Evangelica",33
-"marina","Com certeza votaria nela para Presidente da República","religiao","Outras",20
-"marina","Não sabe/Não conhece","religiao","Outras",9
-"marina","Não votaria nela de jeito nenhum para Presidente da República","religiao","Outras",34
-"marina","Poderia votar nela para Presidente da República","religiao","Outras",37
-"dilma","Com certeza votaria nela para Presidente da República","religiao","Catolica",39
-"dilma","Não sabe/Não conhece","religiao","Catolica",5
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","religiao","Catolica",36
-"dilma","Poderia votar nela para Presidente da República","religiao","Catolica",20
-"dilma","Com certeza votaria nela para Presidente da República","religiao","Evangelica",26
-"dilma","Não sabe/Não conhece","religiao","Evangelica",5
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","religiao","Evangelica",47
-"dilma","Poderia votar nela para Presidente da República","religiao","Evangelica",22
-"dilma","Com certeza votaria nela para Presidente da República","religiao","Outras",25
-"dilma","Não sabe/Não conhece","religiao","Outras",6
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","religiao","Outras",46
-"dilma","Poderia votar nela para Presidente da República","religiao","Outras",23
-"aecio","Com certeza votaria nela para Presidente da República","total","total",17
-"aecio","Não sabe/Não conhece","total","total",13
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","total","total",31
-"aecio","Poderia votar nela para Presidente da República","total","total",39
-"marina","Com certeza votaria nela para Presidente da República","total","total",22
-"marina","Não sabe/Não conhece","total","total",10
-"marina","Não votaria nela de jeito nenhum para Presidente da República","total","total",33
-"marina","Poderia votar nela para Presidente da República","total","total",36
-"dilma","Com certeza votaria nela para Presidente da República","total","total",34
-"dilma","Não sabe/Não conhece","total","total",5
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","total","total",40
-"dilma","Poderia votar nela para Presidente da República","total","total",21
-"aecio","Com certeza votaria nela para Presidente da República","porte","Cidades com até 20 mil",15
-"aecio","Não sabe/Não conhece","porte","Cidades com até 20 mil",14
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades com até 20 mil",29
-"aecio","Poderia votar nela para Presidente da República","porte","Cidades com até 20 mil",43
-"aecio","Com certeza votaria nela para Presidente da República","porte","Cidades com mais de 100 mil",17
-"aecio","Não sabe/Não conhece","porte","Cidades com mais de 100 mil",12
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades com mais de 100 mil",32
-"aecio","Poderia votar nela para Presidente da República","porte","Cidades com mais de 100 mil",40
-"aecio","Com certeza votaria nela para Presidente da República","porte","Cidades de 20 a 100 mil",19
-"aecio","Não sabe/Não conhece","porte","Cidades de 20 a 100 mil",14
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades de 20 a 100 mil",33
-"aecio","Poderia votar nela para Presidente da República","porte","Cidades de 20 a 100 mil",35
-"marina","Com certeza votaria nela para Presidente da República","porte","Cidades com até 20 mil",18
-"marina","Não sabe/Não conhece","porte","Cidades com até 20 mil",14
-"marina","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades com até 20 mil",37
-"marina","Poderia votar nela para Presidente da República","porte","Cidades com até 20 mil",31
-"marina","Com certeza votaria nela para Presidente da República","porte","Cidades com mais de 100 mil",23
-"marina","Não sabe/Não conhece","porte","Cidades com mais de 100 mil",8
-"marina","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades com mais de 100 mil",30
-"marina","Poderia votar nela para Presidente da República","porte","Cidades com mais de 100 mil",38
-"marina","Com certeza votaria nela para Presidente da República","porte","Cidades de 20 a 100 mil",19
-"marina","Não sabe/Não conhece","porte","Cidades de 20 a 100 mil",11
-"marina","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades de 20 a 100 mil",36
-"marina","Poderia votar nela para Presidente da República","porte","Cidades de 20 a 100 mil",34
-"dilma","Com certeza votaria nela para Presidente da República","porte","Cidades com até 20 mil",45
-"dilma","Não sabe/Não conhece","porte","Cidades com até 20 mil",7
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades com até 20 mil",26
-"dilma","Poderia votar nela para Presidente da República","porte","Cidades com até 20 mil",22
-"dilma","Com certeza votaria nela para Presidente da República","porte","Cidades com mais de 100 mil",30
-"dilma","Não sabe/Não conhece","porte","Cidades com mais de 100 mil",4
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades com mais de 100 mil",44
-"dilma","Poderia votar nela para Presidente da República","porte","Cidades com mais de 100 mil",22
-"dilma","Com certeza votaria nela para Presidente da República","porte","Cidades de 20 a 100 mil",38
-"dilma","Não sabe/Não conhece","porte","Cidades de 20 a 100 mil",6
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades de 20 a 100 mil",40
-"dilma","Poderia votar nela para Presidente da República","porte","Cidades de 20 a 100 mil",17
-"marina","Com certeza votaria nela para Presidente da República","aecio","Com certeza votaria nela para Presidente da República",5
-"marina","Não sabe/Não conhece","aecio","Com certeza votaria nela para Presidente da República",8
-"marina","Não votaria nela de jeito nenhum para Presidente da República","aecio","Com certeza votaria nela para Presidente da República",33
-"marina","Poderia votar nela para Presidente da República","aecio","Com certeza votaria nela para Presidente da República",53
-"marina","Com certeza votaria nela para Presidente da República","aecio","Não sabe/Não conhece",18
-"marina","Não sabe/Não conhece","aecio","Não sabe/Não conhece",47
-"marina","Não votaria nela de jeito nenhum para Presidente da República","aecio","Não sabe/Não conhece",13
-"marina","Poderia votar nela para Presidente da República","aecio","Não sabe/Não conhece",22
-"marina","Com certeza votaria nela para Presidente da República","aecio","Não votaria nela de jeito nenhum para Presidente da República",21
-"marina","Não sabe/Não conhece","aecio","Não votaria nela de jeito nenhum para Presidente da República",3
-"marina","Não votaria nela de jeito nenhum para Presidente da República","aecio","Não votaria nela de jeito nenhum para Presidente da República",47
-"marina","Poderia votar nela para Presidente da República","aecio","Não votaria nela de jeito nenhum para Presidente da República",29
-"marina","Com certeza votaria nela para Presidente da República","aecio","Poderia votar nela para Presidente da República",30
-"marina","Não sabe/Não conhece","aecio","Poderia votar nela para Presidente da República",4
-"marina","Não votaria nela de jeito nenhum para Presidente da República","aecio","Poderia votar nela para Presidente da República",28
-"marina","Poderia votar nela para Presidente da República","aecio","Poderia votar nela para Presidente da República",38
-"dilma","Com certeza votaria nela para Presidente da República","aecio","Com certeza votaria nela para Presidente da República",4
-"dilma","Não sabe/Não conhece","aecio","Com certeza votaria nela para Presidente da República",3
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","aecio","Com certeza votaria nela para Presidente da República",74
-"dilma","Poderia votar nela para Presidente da República","aecio","Com certeza votaria nela para Presidente da República",19
-"dilma","Com certeza votaria nela para Presidente da República","aecio","Não sabe/Não conhece",30
-"dilma","Não sabe/Não conhece","aecio","Não sabe/Não conhece",29
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","aecio","Não sabe/Não conhece",20
-"dilma","Poderia votar nela para Presidente da República","aecio","Não sabe/Não conhece",21
-"dilma","Com certeza votaria nela para Presidente da República","aecio","Não votaria nela de jeito nenhum para Presidente da República",50
-"dilma","Não sabe/Não conhece","aecio","Não votaria nela de jeito nenhum para Presidente da República",1
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","aecio","Não votaria nela de jeito nenhum para Presidente da República",31
-"dilma","Poderia votar nela para Presidente da República","aecio","Não votaria nela de jeito nenhum para Presidente da República",18
-"dilma","Com certeza votaria nela para Presidente da República","aecio","Poderia votar nela para Presidente da República",37
-"dilma","Não sabe/Não conhece","aecio","Poderia votar nela para Presidente da República",1
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","aecio","Poderia votar nela para Presidente da República",38
-"dilma","Poderia votar nela para Presidente da República","aecio","Poderia votar nela para Presidente da República",24
-"aecio","Com certeza votaria nela para Presidente da República","dilma","Com certeza votaria nela para Presidente da República",2
-"aecio","Não sabe/Não conhece","dilma","Com certeza votaria nela para Presidente da República",11
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","dilma","Com certeza votaria nela para Presidente da República",45
-"aecio","Poderia votar nela para Presidente da República","dilma","Com certeza votaria nela para Presidente da República",42
-"aecio","Com certeza votaria nela para Presidente da República","dilma","Não sabe/Não conhece",11
-"aecio","Não sabe/Não conhece","dilma","Não sabe/Não conhece",72
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","dilma","Não sabe/Não conhece",6
-"aecio","Poderia votar nela para Presidente da República","dilma","Não sabe/Não conhece",11
-"aecio","Com certeza votaria nela para Presidente da República","dilma","Não votaria nela de jeito nenhum para Presidente da República",32
-"aecio","Não sabe/Não conhece","dilma","Não votaria nela de jeito nenhum para Presidente da República",7
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","dilma","Não votaria nela de jeito nenhum para Presidente da República",25
-"aecio","Poderia votar nela para Presidente da República","dilma","Não votaria nela de jeito nenhum para Presidente da República",37
-"aecio","Com certeza votaria nela para Presidente da República","dilma","Poderia votar nela para Presidente da República",15
-"aecio","Não sabe/Não conhece","dilma","Poderia votar nela para Presidente da República",13
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","dilma","Poderia votar nela para Presidente da República",27
-"aecio","Poderia votar nela para Presidente da República","dilma","Poderia votar nela para Presidente da República",45
-"marina","Com certeza votaria nela para Presidente da República","dilma","Com certeza votaria nela para Presidente da República",3
-"marina","Não sabe/Não conhece","dilma","Com certeza votaria nela para Presidente da República",9
-"marina","Não votaria nela de jeito nenhum para Presidente da República","dilma","Com certeza votaria nela para Presidente da República",53
-"marina","Poderia votar nela para Presidente da República","dilma","Com certeza votaria nela para Presidente da República",35
-"marina","Com certeza votaria nela para Presidente da República","dilma","Não sabe/Não conhece",10
-"marina","Não sabe/Não conhece","dilma","Não sabe/Não conhece",74
-"marina","Não votaria nela de jeito nenhum para Presidente da República","dilma","Não sabe/Não conhece",6
-"marina","Poderia votar nela para Presidente da República","dilma","Não sabe/Não conhece",11
-"marina","Com certeza votaria nela para Presidente da República","dilma","Não votaria nela de jeito nenhum para Presidente da República",37
-"marina","Não sabe/Não conhece","dilma","Não votaria nela de jeito nenhum para Presidente da República",3
-"marina","Não votaria nela de jeito nenhum para Presidente da República","dilma","Não votaria nela de jeito nenhum para Presidente da República",25
-"marina","Poderia votar nela para Presidente da República","dilma","Não votaria nela de jeito nenhum para Presidente da República",35
-"marina","Com certeza votaria nela para Presidente da República","dilma","Poderia votar nela para Presidente da República",26
-"marina","Não sabe/Não conhece","dilma","Poderia votar nela para Presidente da República",8
-"marina","Não votaria nela de jeito nenhum para Presidente da República","dilma","Poderia votar nela para Presidente da República",22
-"marina","Poderia votar nela para Presidente da República","dilma","Poderia votar nela para Presidente da República",44
-"aecio","Com certeza votaria nela para Presidente da República","marina","Com certeza votaria nela para Presidente da República",4
-"aecio","Não sabe/Não conhece","marina","Com certeza votaria nela para Presidente da República",11
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","marina","Com certeza votaria nela para Presidente da República",31
-"aecio","Poderia votar nela para Presidente da República","marina","Com certeza votaria nela para Presidente da República",54
-"aecio","Com certeza votaria nela para Presidente da República","marina","Não sabe/Não conhece",13
-"aecio","Não sabe/Não conhece","marina","Não sabe/Não conhece",60
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","marina","Não sabe/Não conhece",9
-"aecio","Poderia votar nela para Presidente da República","marina","Não sabe/Não conhece",17
-"aecio","Com certeza votaria nela para Presidente da República","marina","Não votaria nela de jeito nenhum para Presidente da República",17
-"aecio","Não sabe/Não conhece","marina","Não votaria nela de jeito nenhum para Presidente da República",5
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","marina","Não votaria nela de jeito nenhum para Presidente da República",45
-"aecio","Poderia votar nela para Presidente da República","marina","Não votaria nela de jeito nenhum para Presidente da República",33
-"aecio","Com certeza votaria nela para Presidente da República","marina","Poderia votar nela para Presidente da República",25
-"aecio","Não sabe/Não conhece","marina","Poderia votar nela para Presidente da República",8
-"aecio","Não votaria nela de jeito nenhum para Presidente da República","marina","Poderia votar nela para Presidente da República",25
-"aecio","Poderia votar nela para Presidente da República","marina","Poderia votar nela para Presidente da República",42
-"dilma","Com certeza votaria nela para Presidente da República","marina","Com certeza votaria nela para Presidente da República",4
-"dilma","Não sabe/Não conhece","marina","Com certeza votaria nela para Presidente da República",2
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","marina","Com certeza votaria nela para Presidente da República",68
-"dilma","Poderia votar nela para Presidente da República","marina","Com certeza votaria nela para Presidente da República",25
-"dilma","Com certeza votaria nela para Presidente da República","marina","Não sabe/Não conhece",32
-"dilma","Não sabe/Não conhece","marina","Não sabe/Não conhece",39
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","marina","Não sabe/Não conhece",13
-"dilma","Poderia votar nela para Presidente da República","marina","Não sabe/Não conhece",17
-"dilma","Com certeza votaria nela para Presidente da República","marina","Não votaria nela de jeito nenhum para Presidente da República",55
-"dilma","Não sabe/Não conhece","marina","Não votaria nela de jeito nenhum para Presidente da República",1
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","marina","Não votaria nela de jeito nenhum para Presidente da República",30
-"dilma","Poderia votar nela para Presidente da República","marina","Não votaria nela de jeito nenhum para Presidente da República",14
-"dilma","Com certeza votaria nela para Presidente da República","marina","Poderia votar nela para Presidente da República",34
-"dilma","Não sabe/Não conhece","marina","Poderia votar nela para Presidente da República",2
-"dilma","Não votaria nela de jeito nenhum para Presidente da República","marina","Poderia votar nela para Presidente da República",39
-"dilma","Poderia votar nela para Presidente da República","marina","Poderia votar nela para Presidente da República",26
+"","data","cat_pergunta","dado","cat_recorte","recorte","valor"
+"1","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","sexo","FEM",15
+"2","2014-10-01","aecio","Não sabe/Não conhece","sexo","FEM",16
+"3","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","sexo","FEM",30
+"4","2014-10-01","aecio","Poderia votar nela para Presidente da República","sexo","FEM",39
+"5","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","sexo","MAS",19
+"6","2014-10-01","aecio","Não sabe/Não conhece","sexo","MAS",11
+"7","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","sexo","MAS",33
+"8","2014-10-01","aecio","Poderia votar nela para Presidente da República","sexo","MAS",37
+"9","2014-10-01","marina","Com certeza votaria nela para Presidente da República","sexo","FEM",20
+"10","2014-10-01","marina","Não sabe/Não conhece","sexo","FEM",13
+"11","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","sexo","FEM",31
+"12","2014-10-01","marina","Poderia votar nela para Presidente da República","sexo","FEM",36
+"13","2014-10-01","marina","Com certeza votaria nela para Presidente da República","sexo","MAS",21
+"14","2014-10-01","marina","Não sabe/Não conhece","sexo","MAS",11
+"15","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","sexo","MAS",32
+"16","2014-10-01","marina","Poderia votar nela para Presidente da República","sexo","MAS",37
+"17","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","sexo","FEM",34
+"18","2014-10-01","dilma","Não sabe/Não conhece","sexo","FEM",7
+"19","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","sexo","FEM",37
+"20","2014-10-01","dilma","Poderia votar nela para Presidente da República","sexo","FEM",22
+"21","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","sexo","MAS",34
+"22","2014-10-01","dilma","Não sabe/Não conhece","sexo","MAS",7
+"23","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","sexo","MAS",37
+"24","2014-10-01","dilma","Poderia votar nela para Presidente da República","sexo","MAS",22
+"25","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","idade","16 a 24",16
+"26","2014-10-01","aecio","Não sabe/Não conhece","idade","16 a 24",14
+"27","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","idade","16 a 24",28
+"28","2014-10-01","aecio","Poderia votar nela para Presidente da República","idade","16 a 24",42
+"29","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","idade","25 a 34",17
+"30","2014-10-01","aecio","Não sabe/Não conhece","idade","25 a 34",12
+"31","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","idade","25 a 34",35
+"32","2014-10-01","aecio","Poderia votar nela para Presidente da República","idade","25 a 34",36
+"33","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","idade","35 a 44",17
+"34","2014-10-01","aecio","Não sabe/Não conhece","idade","35 a 44",12
+"35","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","idade","35 a 44",35
+"36","2014-10-01","aecio","Poderia votar nela para Presidente da República","idade","35 a 44",36
+"37","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","idade","45 a 54",17
+"38","2014-10-01","aecio","Não sabe/Não conhece","idade","45 a 54",13
+"39","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","idade","45 a 54",32
+"40","2014-10-01","aecio","Poderia votar nela para Presidente da República","idade","45 a 54",37
+"41","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","idade","55 ou mais",17
+"42","2014-10-01","aecio","Não sabe/Não conhece","idade","55 ou mais",17
+"43","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","idade","55 ou mais",28
+"44","2014-10-01","aecio","Poderia votar nela para Presidente da República","idade","55 ou mais",38
+"45","2014-10-01","marina","Com certeza votaria nela para Presidente da República","idade","16 a 24",27
+"46","2014-10-01","marina","Não sabe/Não conhece","idade","16 a 24",11
+"47","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","idade","16 a 24",27
+"48","2014-10-01","marina","Poderia votar nela para Presidente da República","idade","16 a 24",35
+"49","2014-10-01","marina","Com certeza votaria nela para Presidente da República","idade","25 a 34",21
+"50","2014-10-01","marina","Não sabe/Não conhece","idade","25 a 34",10
+"51","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","idade","25 a 34",32
+"52","2014-10-01","marina","Poderia votar nela para Presidente da República","idade","25 a 34",38
+"53","2014-10-01","marina","Com certeza votaria nela para Presidente da República","idade","35 a 44",20
+"54","2014-10-01","marina","Não sabe/Não conhece","idade","35 a 44",11
+"55","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","idade","35 a 44",34
+"56","2014-10-01","marina","Poderia votar nela para Presidente da República","idade","35 a 44",35
+"57","2014-10-01","marina","Com certeza votaria nela para Presidente da República","idade","45 a 54",18
+"58","2014-10-01","marina","Não sabe/Não conhece","idade","45 a 54",13
+"59","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","idade","45 a 54",32
+"60","2014-10-01","marina","Poderia votar nela para Presidente da República","idade","45 a 54",37
+"61","2014-10-01","marina","Com certeza votaria nela para Presidente da República","idade","55 ou mais",17
+"62","2014-10-01","marina","Não sabe/Não conhece","idade","55 ou mais",16
+"63","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","idade","55 ou mais",31
+"64","2014-10-01","marina","Poderia votar nela para Presidente da República","idade","55 ou mais",36
+"65","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","idade","16 a 24",28
+"66","2014-10-01","dilma","Não sabe/Não conhece","idade","16 a 24",8
+"67","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","idade","16 a 24",41
+"68","2014-10-01","dilma","Poderia votar nela para Presidente da República","idade","16 a 24",22
+"69","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","idade","25 a 34",33
+"70","2014-10-01","dilma","Não sabe/Não conhece","idade","25 a 34",5
+"71","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","idade","25 a 34",39
+"72","2014-10-01","dilma","Poderia votar nela para Presidente da República","idade","25 a 34",23
+"73","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","idade","35 a 44",35
+"74","2014-10-01","dilma","Não sabe/Não conhece","idade","35 a 44",6
+"75","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","idade","35 a 44",37
+"76","2014-10-01","dilma","Poderia votar nela para Presidente da República","idade","35 a 44",22
+"77","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","idade","45 a 54",34
+"78","2014-10-01","dilma","Não sabe/Não conhece","idade","45 a 54",8
+"79","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","idade","45 a 54",36
+"80","2014-10-01","dilma","Poderia votar nela para Presidente da República","idade","45 a 54",22
+"81","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","idade","55 ou mais",38
+"82","2014-10-01","dilma","Não sabe/Não conhece","idade","55 ou mais",9
+"83","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","idade","55 ou mais",32
+"84","2014-10-01","dilma","Poderia votar nela para Presidente da República","idade","55 ou mais",21
+"85","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","escolaridade","Fundamental 1",12
+"86","2014-10-01","aecio","Não sabe/Não conhece","escolaridade","Fundamental 1",15
+"87","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Fundamental 1",34
+"88","2014-10-01","aecio","Poderia votar nela para Presidente da República","escolaridade","Fundamental 1",39
+"89","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","escolaridade","Fundamental 2",14
+"90","2014-10-01","aecio","Não sabe/Não conhece","escolaridade","Fundamental 2",15
+"91","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Fundamental 2",32
+"92","2014-10-01","aecio","Poderia votar nela para Presidente da República","escolaridade","Fundamental 2",39
+"93","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","escolaridade","Medio",16
+"94","2014-10-01","aecio","Não sabe/Não conhece","escolaridade","Medio",13
+"95","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Medio",31
+"96","2014-10-01","aecio","Poderia votar nela para Presidente da República","escolaridade","Medio",39
+"97","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","escolaridade","Superior",27
+"98","2014-10-01","aecio","Não sabe/Não conhece","escolaridade","Superior",9
+"99","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Superior",31
+"100","2014-10-01","aecio","Poderia votar nela para Presidente da República","escolaridade","Superior",33
+"101","2014-10-01","marina","Com certeza votaria nela para Presidente da República","escolaridade","Fundamental 1",15
+"102","2014-10-01","marina","Não sabe/Não conhece","escolaridade","Fundamental 1",14
+"103","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Fundamental 1",31
+"104","2014-10-01","marina","Poderia votar nela para Presidente da República","escolaridade","Fundamental 1",39
+"105","2014-10-01","marina","Com certeza votaria nela para Presidente da República","escolaridade","Fundamental 2",18
+"106","2014-10-01","marina","Não sabe/Não conhece","escolaridade","Fundamental 2",13
+"107","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Fundamental 2",35
+"108","2014-10-01","marina","Poderia votar nela para Presidente da República","escolaridade","Fundamental 2",34
+"109","2014-10-01","marina","Com certeza votaria nela para Presidente da República","escolaridade","Medio",22
+"110","2014-10-01","marina","Não sabe/Não conhece","escolaridade","Medio",12
+"111","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Medio",31
+"112","2014-10-01","marina","Poderia votar nela para Presidente da República","escolaridade","Medio",35
+"113","2014-10-01","marina","Com certeza votaria nela para Presidente da República","escolaridade","Superior",25
+"114","2014-10-01","marina","Não sabe/Não conhece","escolaridade","Superior",9
+"115","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Superior",27
+"116","2014-10-01","marina","Poderia votar nela para Presidente da República","escolaridade","Superior",39
+"117","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","escolaridade","Fundamental 1",43
+"118","2014-10-01","dilma","Não sabe/Não conhece","escolaridade","Fundamental 1",6
+"119","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Fundamental 1",27
+"120","2014-10-01","dilma","Poderia votar nela para Presidente da República","escolaridade","Fundamental 1",23
+"121","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","escolaridade","Fundamental 2",39
+"122","2014-10-01","dilma","Não sabe/Não conhece","escolaridade","Fundamental 2",9
+"123","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Fundamental 2",28
+"124","2014-10-01","dilma","Poderia votar nela para Presidente da República","escolaridade","Fundamental 2",24
+"125","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","escolaridade","Medio",32
+"126","2014-10-01","dilma","Não sabe/Não conhece","escolaridade","Medio",7
+"127","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Medio",40
+"128","2014-10-01","dilma","Poderia votar nela para Presidente da República","escolaridade","Medio",21
+"129","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","escolaridade","Superior",23
+"130","2014-10-01","dilma","Não sabe/Não conhece","escolaridade","Superior",5
+"131","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","escolaridade","Superior",51
+"132","2014-10-01","dilma","Poderia votar nela para Presidente da República","escolaridade","Superior",21
+"133","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","renda_familiar","Mais de 5",29
+"134","2014-10-01","aecio","Não sabe/Não conhece","renda_familiar","Mais de 5",8
+"135","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","Mais de 5",30
+"136","2014-10-01","aecio","Poderia votar nela para Presidente da República","renda_familiar","Mais de 5",34
+"137","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","renda_familiar","2 a 5",18
+"138","2014-10-01","aecio","Não sabe/Não conhece","renda_familiar","2 a 5",9
+"139","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","2 a 5",31
+"140","2014-10-01","aecio","Poderia votar nela para Presidente da República","renda_familiar","2 a 5",41
+"141","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","renda_familiar","1 a 2",13
+"142","2014-10-01","aecio","Não sabe/Não conhece","renda_familiar","1 a 2",15
+"143","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","1 a 2",34
+"144","2014-10-01","aecio","Poderia votar nela para Presidente da República","renda_familiar","1 a 2",37
+"145","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","renda_familiar","Ate 1",10
+"146","2014-10-01","aecio","Não sabe/Não conhece","renda_familiar","Ate 1",19
+"147","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","Ate 1",36
+"148","2014-10-01","aecio","Poderia votar nela para Presidente da República","renda_familiar","Ate 1",34
+"149","2014-10-01","marina","Com certeza votaria nela para Presidente da República","renda_familiar","Mais de 5",20
+"150","2014-10-01","marina","Não sabe/Não conhece","renda_familiar","Mais de 5",8
+"151","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","Mais de 5",34
+"152","2014-10-01","marina","Poderia votar nela para Presidente da República","renda_familiar","Mais de 5",38
+"153","2014-10-01","marina","Com certeza votaria nela para Presidente da República","renda_familiar","2 a 5",24
+"154","2014-10-01","marina","Não sabe/Não conhece","renda_familiar","2 a 5",8
+"155","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","2 a 5",30
+"156","2014-10-01","marina","Poderia votar nela para Presidente da República","renda_familiar","2 a 5",38
+"157","2014-10-01","marina","Com certeza votaria nela para Presidente da República","renda_familiar","1 a 2",18
+"158","2014-10-01","marina","Não sabe/Não conhece","renda_familiar","1 a 2",13
+"159","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","1 a 2",31
+"160","2014-10-01","marina","Poderia votar nela para Presidente da República","renda_familiar","1 a 2",37
+"161","2014-10-01","marina","Com certeza votaria nela para Presidente da República","renda_familiar","Ate 1",16
+"162","2014-10-01","marina","Não sabe/Não conhece","renda_familiar","Ate 1",15
+"163","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","Ate 1",36
+"164","2014-10-01","marina","Poderia votar nela para Presidente da República","renda_familiar","Ate 1",33
+"165","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","renda_familiar","Mais de 5",24
+"166","2014-10-01","dilma","Não sabe/Não conhece","renda_familiar","Mais de 5",4
+"167","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","Mais de 5",52
+"168","2014-10-01","dilma","Poderia votar nela para Presidente da República","renda_familiar","Mais de 5",20
+"169","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","renda_familiar","2 a 5",31
+"170","2014-10-01","dilma","Não sabe/Não conhece","renda_familiar","2 a 5",4
+"171","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","2 a 5",41
+"172","2014-10-01","dilma","Poderia votar nela para Presidente da República","renda_familiar","2 a 5",24
+"173","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","renda_familiar","1 a 2",38
+"174","2014-10-01","dilma","Não sabe/Não conhece","renda_familiar","1 a 2",9
+"175","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","1 a 2",31
+"176","2014-10-01","dilma","Poderia votar nela para Presidente da República","renda_familiar","1 a 2",23
+"177","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","renda_familiar","Ate 1",48
+"178","2014-10-01","dilma","Não sabe/Não conhece","renda_familiar","Ate 1",11
+"179","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","renda_familiar","Ate 1",22
+"180","2014-10-01","dilma","Poderia votar nela para Presidente da República","renda_familiar","Ate 1",19
+"181","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","condicao_municipio","CAPITAL",15
+"182","2014-10-01","aecio","Não sabe/Não conhece","condicao_municipio","CAPITAL",13
+"183","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","CAPITAL",35
+"184","2014-10-01","aecio","Poderia votar nela para Presidente da República","condicao_municipio","CAPITAL",37
+"185","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","condicao_municipio","INTERIOR",18
+"186","2014-10-01","aecio","Não sabe/Não conhece","condicao_municipio","INTERIOR",13
+"187","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","INTERIOR",30
+"188","2014-10-01","aecio","Poderia votar nela para Presidente da República","condicao_municipio","INTERIOR",38
+"189","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","condicao_municipio","PERIFERIA",15
+"190","2014-10-01","aecio","Não sabe/Não conhece","condicao_municipio","PERIFERIA",15
+"191","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","PERIFERIA",32
+"192","2014-10-01","aecio","Poderia votar nela para Presidente da República","condicao_municipio","PERIFERIA",38
+"193","2014-10-01","marina","Com certeza votaria nela para Presidente da República","condicao_municipio","CAPITAL",22
+"194","2014-10-01","marina","Não sabe/Não conhece","condicao_municipio","CAPITAL",12
+"195","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","CAPITAL",33
+"196","2014-10-01","marina","Poderia votar nela para Presidente da República","condicao_municipio","CAPITAL",34
+"197","2014-10-01","marina","Com certeza votaria nela para Presidente da República","condicao_municipio","INTERIOR",19
+"198","2014-10-01","marina","Não sabe/Não conhece","condicao_municipio","INTERIOR",12
+"199","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","INTERIOR",31
+"200","2014-10-01","marina","Poderia votar nela para Presidente da República","condicao_municipio","INTERIOR",38
+"201","2014-10-01","marina","Com certeza votaria nela para Presidente da República","condicao_municipio","PERIFERIA",25
+"202","2014-10-01","marina","Não sabe/Não conhece","condicao_municipio","PERIFERIA",10
+"203","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","PERIFERIA",30
+"204","2014-10-01","marina","Poderia votar nela para Presidente da República","condicao_municipio","PERIFERIA",34
+"205","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","condicao_municipio","CAPITAL",30
+"206","2014-10-01","dilma","Não sabe/Não conhece","condicao_municipio","CAPITAL",8
+"207","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","CAPITAL",43
+"208","2014-10-01","dilma","Poderia votar nela para Presidente da República","condicao_municipio","CAPITAL",20
+"209","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","condicao_municipio","INTERIOR",36
+"210","2014-10-01","dilma","Não sabe/Não conhece","condicao_municipio","INTERIOR",7
+"211","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","INTERIOR",34
+"212","2014-10-01","dilma","Poderia votar nela para Presidente da República","condicao_municipio","INTERIOR",22
+"213","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","condicao_municipio","PERIFERIA",30
+"214","2014-10-01","dilma","Não sabe/Não conhece","condicao_municipio","PERIFERIA",5
+"215","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","condicao_municipio","PERIFERIA",40
+"216","2014-10-01","dilma","Poderia votar nela para Presidente da República","condicao_municipio","PERIFERIA",24
+"217","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","regiao","NORDESTE",8
+"218","2014-10-01","aecio","Não sabe/Não conhece","regiao","NORDESTE",18
+"219","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","regiao","NORDESTE",36
+"220","2014-10-01","aecio","Poderia votar nela para Presidente da República","regiao","NORDESTE",38
+"221","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","regiao","NORTE-CENTRO-OESTE",19
+"222","2014-10-01","aecio","Não sabe/Não conhece","regiao","NORTE-CENTRO-OESTE",10
+"223","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","regiao","NORTE-CENTRO-OESTE",30
+"224","2014-10-01","aecio","Poderia votar nela para Presidente da República","regiao","NORTE-CENTRO-OESTE",42
+"225","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","regiao","SUDESTE",20
+"226","2014-10-01","aecio","Não sabe/Não conhece","regiao","SUDESTE",11
+"227","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","regiao","SUDESTE",33
+"228","2014-10-01","aecio","Poderia votar nela para Presidente da República","regiao","SUDESTE",37
+"229","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","regiao","SUL",23
+"230","2014-10-01","aecio","Não sabe/Não conhece","regiao","SUL",17
+"231","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","regiao","SUL",23
+"232","2014-10-01","aecio","Poderia votar nela para Presidente da República","regiao","SUL",37
+"233","2014-10-01","marina","Com certeza votaria nela para Presidente da República","regiao","NORDESTE",20
+"234","2014-10-01","marina","Não sabe/Não conhece","regiao","NORDESTE",14
+"235","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","regiao","NORDESTE",32
+"236","2014-10-01","marina","Poderia votar nela para Presidente da República","regiao","NORDESTE",34
+"237","2014-10-01","marina","Com certeza votaria nela para Presidente da República","regiao","NORTE-CENTRO-OESTE",25
+"238","2014-10-01","marina","Não sabe/Não conhece","regiao","NORTE-CENTRO-OESTE",9
+"239","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","regiao","NORTE-CENTRO-OESTE",31
+"240","2014-10-01","marina","Poderia votar nela para Presidente da República","regiao","NORTE-CENTRO-OESTE",34
+"241","2014-10-01","marina","Com certeza votaria nela para Presidente da República","regiao","SUDESTE",22
+"242","2014-10-01","marina","Não sabe/Não conhece","regiao","SUDESTE",11
+"243","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","regiao","SUDESTE",31
+"244","2014-10-01","marina","Poderia votar nela para Presidente da República","regiao","SUDESTE",36
+"245","2014-10-01","marina","Com certeza votaria nela para Presidente da República","regiao","SUL",12
+"246","2014-10-01","marina","Não sabe/Não conhece","regiao","SUL",14
+"247","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","regiao","SUL",32
+"248","2014-10-01","marina","Poderia votar nela para Presidente da República","regiao","SUL",42
+"249","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","regiao","NORDESTE",46
+"250","2014-10-01","dilma","Não sabe/Não conhece","regiao","NORDESTE",11
+"251","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","regiao","NORDESTE",24
+"252","2014-10-01","dilma","Poderia votar nela para Presidente da República","regiao","NORDESTE",19
+"253","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","regiao","NORTE-CENTRO-OESTE",34
+"254","2014-10-01","dilma","Não sabe/Não conhece","regiao","NORTE-CENTRO-OESTE",4
+"255","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","regiao","NORTE-CENTRO-OESTE",38
+"256","2014-10-01","dilma","Poderia votar nela para Presidente da República","regiao","NORTE-CENTRO-OESTE",24
+"257","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","regiao","SUDESTE",27
+"258","2014-10-01","dilma","Não sabe/Não conhece","regiao","SUDESTE",5
+"259","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","regiao","SUDESTE",46
+"260","2014-10-01","dilma","Poderia votar nela para Presidente da República","regiao","SUDESTE",22
+"261","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","regiao","SUL",32
+"262","2014-10-01","dilma","Não sabe/Não conhece","regiao","SUL",10
+"263","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","regiao","SUL",33
+"264","2014-10-01","dilma","Poderia votar nela para Presidente da República","regiao","SUL",25
+"265","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","cor","Branca",23
+"266","2014-10-01","aecio","Não sabe/Não conhece","cor","Branca",11
+"267","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","cor","Branca",27
+"268","2014-10-01","aecio","Poderia votar nela para Presidente da República","cor","Branca",39
+"269","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","cor","Preta ou parda",13
+"270","2014-10-01","aecio","Não sabe/Não conhece","cor","Preta ou parda",14
+"271","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","cor","Preta ou parda",36
+"272","2014-10-01","aecio","Poderia votar nela para Presidente da República","cor","Preta ou parda",37
+"273","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","cor","Outras",13
+"274","2014-10-01","aecio","Não sabe/Não conhece","cor","Outras",24
+"275","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","cor","Outras",33
+"276","2014-10-01","aecio","Poderia votar nela para Presidente da República","cor","Outras",31
+"277","2014-10-01","marina","Com certeza votaria nela para Presidente da República","cor","Branca",20
+"278","2014-10-01","marina","Não sabe/Não conhece","cor","Branca",10
+"279","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","cor","Branca",31
+"280","2014-10-01","marina","Poderia votar nela para Presidente da República","cor","Branca",39
+"281","2014-10-01","marina","Com certeza votaria nela para Presidente da República","cor","Preta ou parda",21
+"282","2014-10-01","marina","Não sabe/Não conhece","cor","Preta ou parda",13
+"283","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","cor","Preta ou parda",32
+"284","2014-10-01","marina","Poderia votar nela para Presidente da República","cor","Preta ou parda",34
+"285","2014-10-01","marina","Com certeza votaria nela para Presidente da República","cor","Outras",15
+"286","2014-10-01","marina","Não sabe/Não conhece","cor","Outras",19
+"287","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","cor","Outras",25
+"288","2014-10-01","marina","Poderia votar nela para Presidente da República","cor","Outras",41
+"289","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","cor","Branca",29
+"290","2014-10-01","dilma","Não sabe/Não conhece","cor","Branca",6
+"291","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","cor","Branca",43
+"292","2014-10-01","dilma","Poderia votar nela para Presidente da República","cor","Branca",22
+"293","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","cor","Preta ou parda",37
+"294","2014-10-01","dilma","Não sabe/Não conhece","cor","Preta ou parda",8
+"295","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","cor","Preta ou parda",32
+"296","2014-10-01","dilma","Poderia votar nela para Presidente da República","cor","Preta ou parda",22
+"297","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","cor","Outras",34
+"298","2014-10-01","dilma","Não sabe/Não conhece","cor","Outras",11
+"299","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","cor","Outras",34
+"300","2014-10-01","dilma","Poderia votar nela para Presidente da República","cor","Outras",20
+"301","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","religiao","Catolica",18
+"302","2014-10-01","aecio","Não sabe/Não conhece","religiao","Catolica",13
+"303","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","religiao","Catolica",31
+"304","2014-10-01","aecio","Poderia votar nela para Presidente da República","religiao","Catolica",37
+"305","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","religiao","Evangelica",15
+"306","2014-10-01","aecio","Não sabe/Não conhece","religiao","Evangelica",13
+"307","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","religiao","Evangelica",31
+"308","2014-10-01","aecio","Poderia votar nela para Presidente da República","religiao","Evangelica",40
+"309","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","religiao","Outras",15
+"310","2014-10-01","aecio","Não sabe/Não conhece","religiao","Outras",15
+"311","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","religiao","Outras",35
+"312","2014-10-01","aecio","Poderia votar nela para Presidente da República","religiao","Outras",35
+"313","2014-10-01","marina","Com certeza votaria nela para Presidente da República","religiao","Catolica",18
+"314","2014-10-01","marina","Não sabe/Não conhece","religiao","Catolica",12
+"315","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","religiao","Catolica",34
+"316","2014-10-01","marina","Poderia votar nela para Presidente da República","religiao","Catolica",37
+"317","2014-10-01","marina","Com certeza votaria nela para Presidente da República","religiao","Evangelica",29
+"318","2014-10-01","marina","Não sabe/Não conhece","religiao","Evangelica",11
+"319","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","religiao","Evangelica",24
+"320","2014-10-01","marina","Poderia votar nela para Presidente da República","religiao","Evangelica",36
+"321","2014-10-01","marina","Com certeza votaria nela para Presidente da República","religiao","Outras",17
+"322","2014-10-01","marina","Não sabe/Não conhece","religiao","Outras",15
+"323","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","religiao","Outras",32
+"324","2014-10-01","marina","Poderia votar nela para Presidente da República","religiao","Outras",36
+"325","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","religiao","Catolica",38
+"326","2014-10-01","dilma","Não sabe/Não conhece","religiao","Catolica",7
+"327","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","religiao","Catolica",34
+"328","2014-10-01","dilma","Poderia votar nela para Presidente da República","religiao","Catolica",21
+"329","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","religiao","Evangelica",27
+"330","2014-10-01","dilma","Não sabe/Não conhece","religiao","Evangelica",6
+"331","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","religiao","Evangelica",42
+"332","2014-10-01","dilma","Poderia votar nela para Presidente da República","religiao","Evangelica",25
+"333","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","religiao","Outras",27
+"334","2014-10-01","dilma","Não sabe/Não conhece","religiao","Outras",10
+"335","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","religiao","Outras",41
+"336","2014-10-01","dilma","Poderia votar nela para Presidente da República","religiao","Outras",22
+"337","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","total","total",17
+"338","2014-10-01","aecio","Não sabe/Não conhece","total","total",13
+"339","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","total","total",32
+"340","2014-10-01","aecio","Poderia votar nela para Presidente da República","total","total",38
+"341","2014-10-01","marina","Com certeza votaria nela para Presidente da República","total","total",20
+"342","2014-10-01","marina","Não sabe/Não conhece","total","total",12
+"343","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","total","total",31
+"344","2014-10-01","marina","Poderia votar nela para Presidente da República","total","total",36
+"345","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","total","total",34
+"346","2014-10-01","dilma","Não sabe/Não conhece","total","total",7
+"347","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","total","total",37
+"348","2014-10-01","dilma","Poderia votar nela para Presidente da República","total","total",22
+"349","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","porte","Cidades com até 20 mil",16
+"350","2014-10-01","aecio","Não sabe/Não conhece","porte","Cidades com até 20 mil",14
+"351","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades com até 20 mil",33
+"352","2014-10-01","aecio","Poderia votar nela para Presidente da República","porte","Cidades com até 20 mil",36
+"353","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","porte","Cidades com mais de 100 mil",17
+"354","2014-10-01","aecio","Não sabe/Não conhece","porte","Cidades com mais de 100 mil",13
+"355","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades com mais de 100 mil",33
+"356","2014-10-01","aecio","Poderia votar nela para Presidente da República","porte","Cidades com mais de 100 mil",37
+"357","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","porte","Cidades de 20 a 100 mil",18
+"358","2014-10-01","aecio","Não sabe/Não conhece","porte","Cidades de 20 a 100 mil",13
+"359","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades de 20 a 100 mil",28
+"360","2014-10-01","aecio","Poderia votar nela para Presidente da República","porte","Cidades de 20 a 100 mil",41
+"361","2014-10-01","marina","Com certeza votaria nela para Presidente da República","porte","Cidades com até 20 mil",17
+"362","2014-10-01","marina","Não sabe/Não conhece","porte","Cidades com até 20 mil",12
+"363","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades com até 20 mil",33
+"364","2014-10-01","marina","Poderia votar nela para Presidente da República","porte","Cidades com até 20 mil",37
+"365","2014-10-01","marina","Com certeza votaria nela para Presidente da República","porte","Cidades com mais de 100 mil",23
+"366","2014-10-01","marina","Não sabe/Não conhece","porte","Cidades com mais de 100 mil",12
+"367","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades com mais de 100 mil",32
+"368","2014-10-01","marina","Poderia votar nela para Presidente da República","porte","Cidades com mais de 100 mil",33
+"369","2014-10-01","marina","Com certeza votaria nela para Presidente da República","porte","Cidades de 20 a 100 mil",18
+"370","2014-10-01","marina","Não sabe/Não conhece","porte","Cidades de 20 a 100 mil",12
+"371","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades de 20 a 100 mil",27
+"372","2014-10-01","marina","Poderia votar nela para Presidente da República","porte","Cidades de 20 a 100 mil",43
+"373","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","porte","Cidades com até 20 mil",47
+"374","2014-10-01","dilma","Não sabe/Não conhece","porte","Cidades com até 20 mil",7
+"375","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades com até 20 mil",25
+"376","2014-10-01","dilma","Poderia votar nela para Presidente da República","porte","Cidades com até 20 mil",20
+"377","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","porte","Cidades com mais de 100 mil",29
+"378","2014-10-01","dilma","Não sabe/Não conhece","porte","Cidades com mais de 100 mil",7
+"379","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades com mais de 100 mil",44
+"380","2014-10-01","dilma","Poderia votar nela para Presidente da República","porte","Cidades com mais de 100 mil",21
+"381","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","porte","Cidades de 20 a 100 mil",33
+"382","2014-10-01","dilma","Não sabe/Não conhece","porte","Cidades de 20 a 100 mil",7
+"383","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","porte","Cidades de 20 a 100 mil",33
+"384","2014-10-01","dilma","Poderia votar nela para Presidente da República","porte","Cidades de 20 a 100 mil",27
+"385","2014-10-01","marina","Com certeza votaria nela para Presidente da República","aecio","Com certeza votaria nela para Presidente da República",7
+"386","2014-10-01","marina","Não sabe/Não conhece","aecio","Com certeza votaria nela para Presidente da República",8
+"387","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","aecio","Com certeza votaria nela para Presidente da República",35
+"388","2014-10-01","marina","Poderia votar nela para Presidente da República","aecio","Com certeza votaria nela para Presidente da República",51
+"389","2014-10-01","marina","Com certeza votaria nela para Presidente da República","aecio","Não sabe/Não conhece",13
+"390","2014-10-01","marina","Não sabe/Não conhece","aecio","Não sabe/Não conhece",62
+"391","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","aecio","Não sabe/Não conhece",9
+"392","2014-10-01","marina","Poderia votar nela para Presidente da República","aecio","Não sabe/Não conhece",16
+"393","2014-10-01","marina","Com certeza votaria nela para Presidente da República","aecio","Não votaria nela de jeito nenhum para Presidente da República",20
+"394","2014-10-01","marina","Não sabe/Não conhece","aecio","Não votaria nela de jeito nenhum para Presidente da República",3
+"395","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","aecio","Não votaria nela de jeito nenhum para Presidente da República",45
+"396","2014-10-01","marina","Poderia votar nela para Presidente da República","aecio","Não votaria nela de jeito nenhum para Presidente da República",32
+"397","2014-10-01","marina","Com certeza votaria nela para Presidente da República","aecio","Poderia votar nela para Presidente da República",29
+"398","2014-10-01","marina","Não sabe/Não conhece","aecio","Poderia votar nela para Presidente da República",4
+"399","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","aecio","Poderia votar nela para Presidente da República",26
+"400","2014-10-01","marina","Poderia votar nela para Presidente da República","aecio","Poderia votar nela para Presidente da República",41
+"401","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","aecio","Com certeza votaria nela para Presidente da República",5
+"402","2014-10-01","dilma","Não sabe/Não conhece","aecio","Com certeza votaria nela para Presidente da República",5
+"403","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","aecio","Com certeza votaria nela para Presidente da República",69
+"404","2014-10-01","dilma","Poderia votar nela para Presidente da República","aecio","Com certeza votaria nela para Presidente da República",21
+"405","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","aecio","Não sabe/Não conhece",29
+"406","2014-10-01","dilma","Não sabe/Não conhece","aecio","Não sabe/Não conhece",41
+"407","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","aecio","Não sabe/Não conhece",15
+"408","2014-10-01","dilma","Poderia votar nela para Presidente da República","aecio","Não sabe/Não conhece",15
+"409","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","aecio","Não votaria nela de jeito nenhum para Presidente da República",48
+"410","2014-10-01","dilma","Não sabe/Não conhece","aecio","Não votaria nela de jeito nenhum para Presidente da República",1
+"411","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","aecio","Não votaria nela de jeito nenhum para Presidente da República",32
+"412","2014-10-01","dilma","Poderia votar nela para Presidente da República","aecio","Não votaria nela de jeito nenhum para Presidente da República",19
+"413","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","aecio","Poderia votar nela para Presidente da República",36
+"414","2014-10-01","dilma","Não sabe/Não conhece","aecio","Poderia votar nela para Presidente da República",1
+"415","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","aecio","Poderia votar nela para Presidente da República",35
+"416","2014-10-01","dilma","Poderia votar nela para Presidente da República","aecio","Poderia votar nela para Presidente da República",28
+"417","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","dilma","Com certeza votaria nela para Presidente da República",2
+"418","2014-10-01","aecio","Não sabe/Não conhece","dilma","Com certeza votaria nela para Presidente da República",12
+"419","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","dilma","Com certeza votaria nela para Presidente da República",46
+"420","2014-10-01","aecio","Poderia votar nela para Presidente da República","dilma","Com certeza votaria nela para Presidente da República",40
+"421","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","dilma","Não sabe/Não conhece",13
+"422","2014-10-01","aecio","Não sabe/Não conhece","dilma","Não sabe/Não conhece",78
+"423","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","dilma","Não sabe/Não conhece",3
+"424","2014-10-01","aecio","Poderia votar nela para Presidente da República","dilma","Não sabe/Não conhece",6
+"425","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","dilma","Não votaria nela de jeito nenhum para Presidente da República",31
+"426","2014-10-01","aecio","Não sabe/Não conhece","dilma","Não votaria nela de jeito nenhum para Presidente da República",5
+"427","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","dilma","Não votaria nela de jeito nenhum para Presidente da República",27
+"428","2014-10-01","aecio","Poderia votar nela para Presidente da República","dilma","Não votaria nela de jeito nenhum para Presidente da República",36
+"429","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","dilma","Poderia votar nela para Presidente da República",16
+"430","2014-10-01","aecio","Não sabe/Não conhece","dilma","Poderia votar nela para Presidente da República",9
+"431","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","dilma","Poderia votar nela para Presidente da República",27
+"432","2014-10-01","aecio","Poderia votar nela para Presidente da República","dilma","Poderia votar nela para Presidente da República",48
+"433","2014-10-01","marina","Com certeza votaria nela para Presidente da República","dilma","Com certeza votaria nela para Presidente da República",4
+"434","2014-10-01","marina","Não sabe/Não conhece","dilma","Com certeza votaria nela para Presidente da República",11
+"435","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","dilma","Com certeza votaria nela para Presidente da República",49
+"436","2014-10-01","marina","Poderia votar nela para Presidente da República","dilma","Com certeza votaria nela para Presidente da República",36
+"437","2014-10-01","marina","Com certeza votaria nela para Presidente da República","dilma","Não sabe/Não conhece",7
+"438","2014-10-01","marina","Não sabe/Não conhece","dilma","Não sabe/Não conhece",77
+"439","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","dilma","Não sabe/Não conhece",7
+"440","2014-10-01","marina","Poderia votar nela para Presidente da República","dilma","Não sabe/Não conhece",9
+"441","2014-10-01","marina","Com certeza votaria nela para Presidente da República","dilma","Não votaria nela de jeito nenhum para Presidente da República",36
+"442","2014-10-01","marina","Não sabe/Não conhece","dilma","Não votaria nela de jeito nenhum para Presidente da República",5
+"443","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","dilma","Não votaria nela de jeito nenhum para Presidente da República",27
+"444","2014-10-01","marina","Poderia votar nela para Presidente da República","dilma","Não votaria nela de jeito nenhum para Presidente da República",33
+"445","2014-10-01","marina","Com certeza votaria nela para Presidente da República","dilma","Poderia votar nela para Presidente da República",23
+"446","2014-10-01","marina","Não sabe/Não conhece","dilma","Poderia votar nela para Presidente da República",6
+"447","2014-10-01","marina","Não votaria nela de jeito nenhum para Presidente da República","dilma","Poderia votar nela para Presidente da República",20
+"448","2014-10-01","marina","Poderia votar nela para Presidente da República","dilma","Poderia votar nela para Presidente da República",51
+"449","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","marina","Com certeza votaria nela para Presidente da República",6
+"450","2014-10-01","aecio","Não sabe/Não conhece","marina","Com certeza votaria nela para Presidente da República",8
+"451","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","marina","Com certeza votaria nela para Presidente da República",31
+"452","2014-10-01","aecio","Poderia votar nela para Presidente da República","marina","Com certeza votaria nela para Presidente da República",55
+"453","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","marina","Não sabe/Não conhece",11
+"454","2014-10-01","aecio","Não sabe/Não conhece","marina","Não sabe/Não conhece",69
+"455","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","marina","Não sabe/Não conhece",8
+"456","2014-10-01","aecio","Poderia votar nela para Presidente da República","marina","Não sabe/Não conhece",12
+"457","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","marina","Não votaria nela de jeito nenhum para Presidente da República",19
+"458","2014-10-01","aecio","Não sabe/Não conhece","marina","Não votaria nela de jeito nenhum para Presidente da República",4
+"459","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","marina","Não votaria nela de jeito nenhum para Presidente da República",46
+"460","2014-10-01","aecio","Poderia votar nela para Presidente da República","marina","Não votaria nela de jeito nenhum para Presidente da República",31
+"461","2014-10-01","aecio","Com certeza votaria nela para Presidente da República","marina","Poderia votar nela para Presidente da República",24
+"462","2014-10-01","aecio","Não sabe/Não conhece","marina","Poderia votar nela para Presidente da República",6
+"463","2014-10-01","aecio","Não votaria nela de jeito nenhum para Presidente da República","marina","Poderia votar nela para Presidente da República",28
+"464","2014-10-01","aecio","Poderia votar nela para Presidente da República","marina","Poderia votar nela para Presidente da República",43
+"465","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","marina","Com certeza votaria nela para Presidente da República",7
+"466","2014-10-01","dilma","Não sabe/Não conhece","marina","Com certeza votaria nela para Presidente da República",2
+"467","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","marina","Com certeza votaria nela para Presidente da República",66
+"468","2014-10-01","dilma","Poderia votar nela para Presidente da República","marina","Com certeza votaria nela para Presidente da República",25
+"469","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","marina","Não sabe/Não conhece",30
+"470","2014-10-01","dilma","Não sabe/Não conhece","marina","Não sabe/Não conhece",45
+"471","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","marina","Não sabe/Não conhece",14
+"472","2014-10-01","dilma","Poderia votar nela para Presidente da República","marina","Não sabe/Não conhece",10
+"473","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","marina","Não votaria nela de jeito nenhum para Presidente da República",53
+"474","2014-10-01","dilma","Não sabe/Não conhece","marina","Não votaria nela de jeito nenhum para Presidente da República",1
+"475","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","marina","Não votaria nela de jeito nenhum para Presidente da República",31
+"476","2014-10-01","dilma","Poderia votar nela para Presidente da República","marina","Não votaria nela de jeito nenhum para Presidente da República",14
+"477","2014-10-01","dilma","Com certeza votaria nela para Presidente da República","marina","Poderia votar nela para Presidente da República",34
+"478","2014-10-01","dilma","Não sabe/Não conhece","marina","Poderia votar nela para Presidente da República",2
+"479","2014-10-01","dilma","Não votaria nela de jeito nenhum para Presidente da República","marina","Poderia votar nela para Presidente da República",33
+"480","2014-10-01","dilma","Poderia votar nela para Presidente da República","marina","Poderia votar nela para Presidente da República",31

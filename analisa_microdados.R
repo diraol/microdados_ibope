@@ -107,6 +107,13 @@ calcula_tudo = function (final,data_pesquisa) {
     saida = arruma_avaliacao(saida)
     }
   
+  if ("dilma" %in% names(final)) {
+    saida[saida$dado == "Poderia votar nela para Presidente da República",][["dado"]] = "Poderia votar"
+    saida[saida$dado == "Não votaria nela de jeito nenhum para Presidente da República",][["dado"]] = "Não votaria de jeito nenhum"
+    saida[saida$dado == "Com certeza votaria nela para Presidente da República",][["dado"]] = "Votaria com certeza"
+    saida[saida$dado == "Não sabe/Não conhece",][["dado"]] = "NS/NR*"
+  }
+  
   saida = na.omit(saida)
     
     return(saida)
