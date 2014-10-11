@@ -136,6 +136,27 @@ out1 = cria_arquivo("out_1.sav",perg,trad)
 ringue = calcula_tudo(out1,"2014-10-01")
 write.csv(ringue,"ringue.csv") #- DEPOIS DELETAR DUAS PRIMERIAS COLUNAS ANTES DE PASSAR O PYTHON
 
+#DF de OUTUBRO_2
+perg = c("p1","p2","p3","p4a","p501","p502","p6","p7","p8","p9","p10")
+trad = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","2turno_aecio","2turno_marina","rejeicao","favorito","avaliacao_governo","aprova_dilma","partido")
+out2 = cria_arquivo("out_2.sav",perg,trad)
+resultado_out2 = calcula_tudo(out2,"2014-10-04")
+write.csv(resultado_out2,"resultado.csv", row.names=FALSE)
+perfil = perfil_candidatos(out2)
+write.csv(perfil,"perfil.csv",row.names=FALSE)
+
+
+#DF de OUTUBRO_3 -- PRIMEIRO DO SEGUNDO TURNO
+perg = c("p1","p2","p3","p4","p5","p6","p7","p10","p11","p12","p13","p15","p16a01","p16b01")
+trad = c("vida_hoje","interesse","intencao_espontanea","2turno_aecio","certeza_voto","rejeicao","favorito","voto_1turno","avaliacao_governo","aprova_dilma","nota","partido","bolsa1","bolsa2")
+out3 = cria_arquivo("out_3.sav",perg,trad)
+resultado_out3 = calcula_tudo(out3,"2014-10-08")
+write.csv(resultado_out3,"resultado.csv", row.names=FALSE)
+perfil = perfil_candidatos(out2)
+write.csv(perfil,"perfil.csv",row.names=FALSE)
+
+
+
 resultado=rbind(resultado_ago2,resultado_set3,resultado_set4)
 resultado = resultado[complete.cases(resultado),]
 write.csv(resultado,"resultado.csv", row.names=FALSE)

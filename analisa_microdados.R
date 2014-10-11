@@ -50,8 +50,8 @@ uma_pergunta = function (bd, pergunta) {
 #ATENÇÃO: nome da variável deve ser a data da pesquisa
 calcula_tudo = function (final,data_pesquisa) {
   final$total = "total"
-  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo2","total","intencao_estimulada","favorito","nota_recorte","poder_compra","saude","emprego","educacao","partido","bolsa_familia","bolsa","porte","aecio","dilma","marina")
-  perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","2turno_aecio","2turno_campos","favorito","nota","poder_compra","saude","emprego","educacao","2turno_marina","aecio","marina","dilma","estimulada_validos","2marina_validos","2aecio_validos","espontanea_validos")
+  recortes = c("sexo","idade","escolaridade","renda_familiar","condicao_municipio","regiao","cor","religiao","vida_hoje","interesse","desejo_mudanca","avaliacao_governo2","total","intencao_estimulada","favorito","nota_recorte","poder_compra","saude","emprego","educacao","partido","bolsa_familia","bolsa","porte","aecio","dilma","marina","voto_1turno","certeza_voto","segundo_turno_aecio")
+  perguntas = c("vida_hoje","interesse","intencao_espontanea","intencao_estimulada","avaliacao_governo","aprova_dilma","desejo_mudanca","rejeicao","segundo_turno_aecio","2turno_campos","favorito","nota","poder_compra","saude","emprego","educacao","2turno_marina","aecio","marina","dilma","estimulada_validos","2marina_validos","segundo_aecio_validos","espontanea_validos","voto_1turno","certeza_voto")
   saida = data.frame(data=character(0),cat_pergunta=character(0),dado=character(0),cat_recorte=character(0),recorte=character(0),valor=numeric(0))
   for (r in recortes) {
     if (r  %in% names(final)) {
@@ -112,6 +112,14 @@ calcula_tudo = function (final,data_pesquisa) {
     saida[saida$dado == "Não votaria nela de jeito nenhum para Presidente da República",][["dado"]] = "Não votaria de jeito nenhum"
     saida[saida$dado == "Com certeza votaria nela para Presidente da República",][["dado"]] = "Votaria com certeza"
     saida[saida$dado == "Não sabe/Não conhece",][["dado"]] = "NS/NR*"
+  }
+  
+  #bota 2 no final das perguntas da lista se for o 2o turno
+  if (!("intencao_estimulada" %in% names(final))) {
+    perguntas_2turno = c("segundo_turno_aecio","intencao_espontanea","espontanea_validos","segundo_aecio_validos","rejeicao","favorito")
+    for (c in perguntas_2turno) {
+      saida[saida$cat_pergunta ==c,][["dado"]] = sub("$", "2", saida[saida$cat_pergunta ==c,][["dado"]] )
+    }
   }
   
   saida = na.omit(saida)
@@ -356,17 +364,17 @@ reagrega_perguntas = function(arquivo) {
     arquivo$favorito[!(arquivo$favorito %in% candidatos)]='Outros'
   }
   
-  # Muda o nome do 2turno_aecio e cria coluna de válidos
-  if ("2turno_aecio" %in% names(arquivo)) {
-    arquivo[["2turno_aecio"]] = as.character(arquivo[["2turno_aecio"]])
-    arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Não sabe/ Não respondeu"]='NS/NR*'
-    arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Não sabe"]='NS/NR*'
-    arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Não respondeu"]='NS/NR*'
-    arquivo[["2turno_aecio"]][arquivo[["2turno_aecio"]] =="Branco/ Nulo"]='Branco e Nulo'  
+  # Muda o nome do segundo_turno_aecio e cria coluna de válidos
+  if ("segundo_turno_aecio" %in% names(arquivo)) {
+    arquivo[["segundo_turno_aecio"]] = as.character(arquivo[["segundo_turno_aecio"]])
+    arquivo[["segundo_turno_aecio"]][arquivo[["segundo_turno_aecio"]] =="Não sabe/ Não respondeu"]='NS/NR*'
+    arquivo[["segundo_turno_aecio"]][arquivo[["segundo_turno_aecio"]] =="Não sabe"]='NS/NR*'
+    arquivo[["segundo_turno_aecio"]][arquivo[["segundo_turno_aecio"]] =="Não respondeu"]='NS/NR*'
+    arquivo[["segundo_turno_aecio"]][arquivo[["segundo_turno_aecio"]] =="Branco/ Nulo"]='Branco e Nulo'  
     
-    arquivo[["2aecio_validos"]] = arquivo[["2turno_aecio"]]
-    arquivo[["2aecio_validos"]][arquivo[["2aecio_validos"]] == "NS/NR*"] = NA
-    arquivo[["2aecio_validos"]][arquivo[["2aecio_validos"]] == "Branco e Nulo"] = NA
+    arquivo[["segundo_aecio_validos"]] = arquivo[["segundo_turno_aecio"]]
+    arquivo[["segundo_aecio_validos"]][arquivo[["segundo_aecio_validos"]] == "NS/NR*"] = NA
+    arquivo[["segundo_aecio_validos"]][arquivo[["segundo_aecio_validos"]] == "Branco e Nulo"] = NA
   }
   
   # Muda o nome do 2turno_campos
@@ -472,6 +480,21 @@ reagrega_perguntas = function(arquivo) {
     arquivo[arquivo$marina == "Não a conhece o suficiente para opinar",][["marina"]] = "Não sabe/Não conhece"
     arquivo[arquivo$marina == "Não sabe/ Não respondeu",][["marina"]] = "Não sabe/Não conhece"
   }
+  
+  if ("voto_1turno" %in% names(arquivo)) {
+    arquivo[arquivo$voto_1turno == "Branco/ Nulo",][["voto_1turno"]] = "Branco e Nulo"
+    arquivo[arquivo$voto_1turno == "Não sabe/ Não respondeu",][["voto_1turno"]] = "NS/NR*"
+    arquivo[arquivo$voto_1turno == "Luciana Genro",][["voto_1turno"]] = "Outros"
+    arquivo[arquivo$voto_1turno == "Outros com menos de 1%",][["voto_1turno"]] = "Outros"
+    arquivo[arquivo$voto_1turno == "Pastor Everaldo",][["voto_1turno"]] = "Outros"
+  }
+  
+  if ("certeza_voto" %in% names(arquivo)) {
+    arquivo[arquivo$certeza_voto == "Ainda pode mudar",][["certeza_voto"]] = "Pode mudar"
+    arquivo[arquivo$certeza_voto == "Não sabe/ Não respondeu",][["certeza_voto"]] = "NS/NR*"
+    arquivo[arquivo$certeza_voto == "Não",][["certeza_voto"]] = NA
+  }
+    
   return(arquivo)
 }
 
@@ -505,14 +528,23 @@ cria_arquivo = function(arquivo,perg,trad) {
   data = reagrega_nomes(data)
   perg_rejeicao = "não há"
   
+  
   #cria rejeicao
+  if ("intencao_estimulada" %in% trad) { #primeiro turno
+    nomes_rejeicao = c("rejeicaoDilma","rejeicaoAecio","rejeicaoMarina","rejeicaoPastor","rejeicaoCampos")
+  } else { #segundo turno
+    nomes_rejeicao = c("rejeicaoDilma","rejeicaoAecio")
+  }
+  
   if ("rejeicao" %in% trad) {
     #acha o index da rejeição na tradução e pega qual é a pergunta correspondente no arquivo
     i = grep("rejeicao",trad)
     perg_rejeicao = perg[i]
     data = cria_rejeicao(data,perg_rejeicao)  
-    pergs = append(c("sexo", "escolaridade","renda","idad2","cor","religiao","cond","reg","rejeicaoDilma","rejeicaoAecio","rejeicaoMarina","rejeicaoPastor","rejeicaoCampos"),perg)
-    trads = append(c("sexo","escolaridade","renda_familiar","idade","cor","religiao","condicao_municipio","regiao","rejeicaoDilma","rejeicaoAecio","rejeicaoMarina","rejeicaoPastor","rejeicaoCampos"),trad)
+    pergs = append(c("sexo", "escolaridade","renda","idad2","cor","religiao","cond","reg"),perg)
+    pergs = append(pergs,nomes_rejeicao)
+    trads = append(c("sexo","escolaridade","renda_familiar","idade","cor","religiao","condicao_municipio","regiao"),trad)
+    trads = append(trads,nomes_rejeicao)
   } else {
     pergs = append(c("sexo", "escolaridade","cor","renda","idad2","religiao","cond","reg"),perg)
     trads = append(c("sexo","escolaridade","cor","renda_familiar","idade","religiao","condicao_municipio","regiao"),trad)
@@ -581,96 +613,122 @@ cria_bolsa = function(arquivo, perg_bolsa) {
 
 #função para calcular a rejeição a cada um dos 4 principais candidatos
 cria_rejeicao = function(arquivo,perg_rejeicao) {
-  arquivo = within(arquivo, {
-    rejeicaoDilma = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Dilma Rousseff" |
-                             eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Dilma Rousseff" |
-                             eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Dilma Rousseff" |
-                             eval(parse(text=paste(perg_rejeicao,"04",sep=""))) == "Dilma Rousseff" |
-                             eval(parse(text=paste(perg_rejeicao,"05",sep=""))) == "Dilma Rousseff" |
-                             eval(parse(text=paste(perg_rejeicao,"06",sep=""))) == "Dilma Rousseff" |
-                             eval(parse(text=paste(perg_rejeicao,"07",sep=""))) == "Dilma Rousseff" |
-                             eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Dilma Rousseff" |
-                             eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Dilma Rousseff" |
-                             eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Dilma Rousseff" |
-                             eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Dilma Rousseff", "Sim", "Não")
-    rejeicaoAecio = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Aécio Neves" |
-                             eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Aécio Neves" |
-                             eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Aécio Neves" |
-                             eval(parse(text=paste(perg_rejeicao,"04",sep=""))) == "Aécio Neves" |
-                             eval(parse(text=paste(perg_rejeicao,"05",sep=""))) == "Aécio Neves" |
-                             eval(parse(text=paste(perg_rejeicao,"06",sep=""))) == "Aécio Neves" |
-                             eval(parse(text=paste(perg_rejeicao,"07",sep=""))) == "Aécio Neves" |
-                             eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Aécio Neves" |
-                             eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Aécio Neves" |
-                             eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Aécio Neves" |
-                             eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Aécio Neves", "Sim","Não")
-    rejeicaoPastor = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Pastor Everaldo" |
-                              eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Pastor Everaldo" |
-                              eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Pastor Everaldo" |
-                              eval(parse(text=paste(perg_rejeicao,"04",sep=""))) == "Pastor Everaldo" |
-                              eval(parse(text=paste(perg_rejeicao,"05",sep=""))) == "Pastor Everaldo" |
-                              eval(parse(text=paste(perg_rejeicao,"06",sep=""))) == "Pastor Everaldo" |
-                              eval(parse(text=paste(perg_rejeicao,"07",sep=""))) == "Pastor Everaldo" |
-                              eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Pastor Everaldo" |
-                              eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Pastor Everaldo" |
-                              eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Pastor Everaldo" |
-                              eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Pastor Everaldo", "Sim","Não")
-    rejeicaoCampos = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Eduardo Campos" |
-                              eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Eduardo Campos" |
-                              eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Eduardo Campos" |
-                              eval(parse(text=paste(perg_rejeicao,"04",sep=""))) == "Eduardo Campos" |
-                              eval(parse(text=paste(perg_rejeicao,"05",sep=""))) == "Eduardo Campos" |
-                              eval(parse(text=paste(perg_rejeicao,"06",sep=""))) == "Eduardo Campos" |
-                              eval(parse(text=paste(perg_rejeicao,"07",sep=""))) == "Eduardo Campos" |
-                              eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Eduardo Campos" |
-                              eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Eduardo Campos" |
-                              eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Eduardo Campos" |
-                              eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Eduardo Campos", "Sim","Não")
-  rejeicaoMarina = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Marina Silva" |
-                            eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Marina Silva" |
-                            eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Marina Silva" |
-                            eval(parse(text=paste(perg_rejeicao,"04",sep=""))) == "Marina Silva" |
-                            eval(parse(text=paste(perg_rejeicao,"05",sep=""))) == "Marina Silva" |
-                            eval(parse(text=paste(perg_rejeicao,"06",sep=""))) == "Marina Silva" |
-                            eval(parse(text=paste(perg_rejeicao,"07",sep=""))) == "Marina Silva" |
-                            eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Marina Silva" |
-                            eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Marina Silva" |
-                            eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Marina Silva" |
-                            eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Marina Silva", "Sim","Não")})
-  
+  #vê se está no 1o ou 2o turno. se estiver no segundo, calcula só dilma e aécio em duas perguntas apenas
+  if ("intencao_estimulada" %in% names(arquivo)) {
+    arquivo = within(arquivo, {
+      rejeicaoDilma = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Dilma Rousseff" |
+                               eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Dilma Rousseff" |
+                               eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Dilma Rousseff" |
+                               eval(parse(text=paste(perg_rejeicao,"04",sep=""))) == "Dilma Rousseff" |
+                               eval(parse(text=paste(perg_rejeicao,"05",sep=""))) == "Dilma Rousseff" |
+                               eval(parse(text=paste(perg_rejeicao,"06",sep=""))) == "Dilma Rousseff" |
+                               eval(parse(text=paste(perg_rejeicao,"07",sep=""))) == "Dilma Rousseff" |
+                               eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Dilma Rousseff" |
+                               eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Dilma Rousseff" |
+                               eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Dilma Rousseff" |
+                               eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Dilma Rousseff", "Sim", "Não")
+      rejeicaoAecio = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Aécio Neves" |
+                               eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Aécio Neves" |
+                               eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Aécio Neves" |
+                               eval(parse(text=paste(perg_rejeicao,"04",sep=""))) == "Aécio Neves" |
+                               eval(parse(text=paste(perg_rejeicao,"05",sep=""))) == "Aécio Neves" |
+                               eval(parse(text=paste(perg_rejeicao,"06",sep=""))) == "Aécio Neves" |
+                               eval(parse(text=paste(perg_rejeicao,"07",sep=""))) == "Aécio Neves" |
+                               eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Aécio Neves" |
+                               eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Aécio Neves" |
+                               eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Aécio Neves" |
+                               eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Aécio Neves", "Sim","Não")
+      rejeicaoPastor = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Pastor Everaldo" |
+                                eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Pastor Everaldo" |
+                                eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Pastor Everaldo" |
+                                eval(parse(text=paste(perg_rejeicao,"04",sep=""))) == "Pastor Everaldo" |
+                                eval(parse(text=paste(perg_rejeicao,"05",sep=""))) == "Pastor Everaldo" |
+                                eval(parse(text=paste(perg_rejeicao,"06",sep=""))) == "Pastor Everaldo" |
+                                eval(parse(text=paste(perg_rejeicao,"07",sep=""))) == "Pastor Everaldo" |
+                                eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Pastor Everaldo" |
+                                eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Pastor Everaldo" |
+                                eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Pastor Everaldo" |
+                                eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Pastor Everaldo", "Sim","Não")
+      rejeicaoCampos = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Eduardo Campos" |
+                                eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Eduardo Campos" |
+                                eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Eduardo Campos" |
+                                eval(parse(text=paste(perg_rejeicao,"04",sep=""))) == "Eduardo Campos" |
+                                eval(parse(text=paste(perg_rejeicao,"05",sep=""))) == "Eduardo Campos" |
+                                eval(parse(text=paste(perg_rejeicao,"06",sep=""))) == "Eduardo Campos" |
+                                eval(parse(text=paste(perg_rejeicao,"07",sep=""))) == "Eduardo Campos" |
+                                eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Eduardo Campos" |
+                                eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Eduardo Campos" |
+                                eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Eduardo Campos" |
+                                eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Eduardo Campos", "Sim","Não")
+      rejeicaoMarina = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Marina Silva" |
+                                eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Marina Silva" |
+                                eval(parse(text=paste(perg_rejeicao,"03",sep=""))) == "Marina Silva" |
+                                eval(parse(text=paste(perg_rejeicao,"04",sep=""))) == "Marina Silva" |
+                                eval(parse(text=paste(perg_rejeicao,"05",sep=""))) == "Marina Silva" |
+                                eval(parse(text=paste(perg_rejeicao,"06",sep=""))) == "Marina Silva" |
+                                eval(parse(text=paste(perg_rejeicao,"07",sep=""))) == "Marina Silva" |
+                                eval(parse(text=paste(perg_rejeicao,"08",sep=""))) == "Marina Silva" |
+                                eval(parse(text=paste(perg_rejeicao,"09",sep=""))) == "Marina Silva" |
+                                eval(parse(text=paste(perg_rejeicao,"10",sep=""))) == "Marina Silva" |
+                                eval(parse(text=paste(perg_rejeicao,"11",sep=""))) == "Marina Silva", "Sim","Não")})
+  } else { #segundo turno 
+    arquivo = within(arquivo, {        
+      rejeicaoDilma = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Dilma Rousseff" |
+                               eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Dilma Rousseff", "Sim", "Não")
+      rejeicaoAecio = ifelse(eval(parse(text=paste(perg_rejeicao,"01",sep=""))) == "Aécio Neves" |
+                             eval(parse(text=paste(perg_rejeicao,"02",sep=""))) == "Aécio Neves" , "Sim","Não")})
+    }
+
   arquivo[is.na(arquivo)] = "Não"
   return(arquivo)
 }
 
 #funcao para calcular a rejeicao para colocar no dataframe derretido final
 calcula_rejeicao = function (arquivo,recorte) {
-  #calcula a rejeicao para cada um dos 4 candidatos
-  temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoDilma",recorte)),0)
-  rownames(temp)[2] = "Dilma Rousseff"
-  saida = temp
-  temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoAecio",recorte)),0)
-  rownames(temp)[2] = "Aécio Neves"
-  saida = rbind(saida,temp)
-  temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoPastor",recorte)),0)
-  rownames(temp)[2] = "Pastor Everaldo"
-  saida = rbind(saida,temp)
-  #if para descobrir se há rejeição do Campos ou da Marina
-  if ("rejeicaoCampos" %in% names(arquivo)) {
-    temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoCampos",recorte)),0)
-    rownames(temp)[2] = "Eduardo Campos"
-    saida = rbind(saida,temp)    
-  } 
-  if ("rejeicaoMarina" %in% names(arquivo)) {
-    temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoMarina",recorte)),0)
-    rownames(temp)[2] = "Marina Silva"
-    saida = rbind(saida,temp)    
-  }  
-  
-  #retira as linhas que não dizem nada
-  deixar = c("Dilma Rousseff","Aécio Neves","Pastor Everaldo","Eduardo Campos","Marina Silva")
-  saida$fake = 1
-  saida = saida[rownames(saida) %in% deixar,]
-  saida$fake = NULL
+  #ve se está no 1o ou segundo turno
+  if ("intencao_estimulada" %in% names(arquivo)) {
+    #calcula a rejeicao para cada um dos 4 candidatos
+    temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoDilma",recorte)),0)
+    rownames(temp)[2] = "Dilma Rousseff"
+    saida = temp
+    temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoAecio",recorte)),0)
+    rownames(temp)[2] = "Aécio Neves"
+    saida = rbind(saida,temp)
+    temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoPastor",recorte)),0)
+    rownames(temp)[2] = "Pastor Everaldo"
+    saida = rbind(saida,temp)
+    #if para descobrir se há rejeição do Campos ou da Marina
+    if ("rejeicaoCampos" %in% names(arquivo)) {
+      temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoCampos",recorte)),0)
+      rownames(temp)[2] = "Eduardo Campos"
+      saida = rbind(saida,temp)    
+    } 
+    if ("rejeicaoMarina" %in% names(arquivo)) {
+      temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoMarina",recorte)),0)
+      rownames(temp)[2] = "Marina Silva"
+      saida = rbind(saida,temp)    
+    }  
+    
+    #retira as linhas que não dizem nada
+    deixar = c("Dilma Rousseff","Aécio Neves","Pastor Everaldo","Eduardo Campos","Marina Silva")
+    saida$fake = 1
+    saida = saida[rownames(saida) %in% deixar,]
+    saida$fake = NULL    
+  } else { #segundo turno
+    temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoDilma",recorte)),0)
+    rownames(temp)[2] = "Dilma Rousseff"
+    saida = temp
+    temp = round(normaliza(cruza_respostas(arquivo,"rejeicaoAecio",recorte)),0)
+    rownames(temp)[2] = "Aécio Neves"
+    saida = rbind(saida,temp)
+    
+    #retira as linhas que não dizem nada
+    deixar = c("Dilma Rousseff","Aécio Neves")
+    saida$fake = 1
+    saida = saida[rownames(saida) %in% deixar,]
+    saida$fake = NULL
+  }
+
   return(saida)
 }
 
@@ -681,9 +739,9 @@ cruza <- function (arquivo,perg1,perg2) {
 
 #analisa uma amostra e dá o perfil do entrevistado
 analise_amostra <- function (arquivo) {
- # recortes = c("sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","rejeicaoDilma","rejeicaoAecio","2turno_aecio",
+ # recortes = c("sexo","idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","rejeicaoDilma","rejeicaoAecio","segundo_turno_aecio",
 #               "favorito","avaliacao_governo","aprova_dilma","partido","vida_hoje","desejo_mudanca","interesse")
-  recortes = c("idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","2turno_aecio","sexo","intencao_espontanea","bolsa1","bolsa2")
+  recortes = c("idade","renda_familiar","escolaridade","regiao","condicao_municipio","religiao","cor","interesse","vida_hoje","avaliacao_governo","desejo_mudanca","segundo_turno_aecio","sexo","intencao_espontanea","bolsa1","bolsa2")
   saida = list()
   
   #calcula os recortes tradicionais
