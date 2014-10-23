@@ -156,6 +156,16 @@ perfil = perfil_candidatos(out2)
 write.csv(perfil,"perfil.csv",row.names=FALSE)
 
 
+#DF de OUTUBRO_4 -- SEGUNDO DO SEGUNDO TURNO
+perg = c("p1","p2","p3","p4","p5","p6","p7","p9","p10","p11","p12","p13","p21a01","p21b01")
+trad = c("vida_hoje","interesse","intencao_espontanea","2turno_aecio","certeza_voto","rejeicao","favorito","voto_1turno","avaliacao_governo","aprova_dilma","nota","partido","bolsa1","bolsa2")
+out4 = cria_arquivo("out4.sav",perg,trad)
+resultado_out4 = calcula_tudo(out4,"2014-10-22")
+write.csv(resultado_out4,"resultado.csv", row.names=FALSE)
+perfil = perfil_candidatos(out2)
+write.csv(perfil,"perfil.csv",row.names=FALSE)
+
+
 
 resultado=rbind(resultado_ago2,resultado_set3,resultado_set4)
 resultado = resultado[complete.cases(resultado),]
